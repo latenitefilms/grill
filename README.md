@@ -1,3 +1,3 @@
-# <<APPLICATION_FULL_NAME>>
+# Final Cut Grill
 
 Application description coming soon!

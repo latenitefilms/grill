@@ -1,5 +1,5 @@
-# <<APPLICATION_FULL_NAME>>
+# Final Cut Grill
 
-**<<APPLICATION_FULL_NAME>>** does something.
+**Final Cut Grill** does something.
 
 > [:icon-desktop-download: Click here to **buy** on the **Mac App Store**](/buy/)
