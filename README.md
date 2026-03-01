@@ -1,3 +1,3 @@
 # Final Cut Grill
 
-Application description coming soon!
+Website for Chris Fenwick's Podcast.

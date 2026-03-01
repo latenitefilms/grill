@@ -7,14 +7,9 @@ favicon: static/favicon.ico
 
 branding:
   title: Final Cut Grill
-  logo: static/logo-dark.png
-  logoDark: static/logo-light.png
+  logo: static/fcp-grill.png
 
 links:
-
-- text: Buy on Mac App Store
-  link: /buy/
-  icon: desktop-download
 
 - text: Issues
   link: https://github.com/latenitefilms/grill/issues
@@ -27,7 +22,7 @@ links:
   target: blank
 
 - text: Discord
-  link: https://ltnt.tv/discord
+  link: https://discord.gg/b2r27UtPJw
   icon: comment-discussion
   target: blank
 

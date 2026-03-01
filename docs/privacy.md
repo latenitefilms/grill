@@ -1,17 +1,40 @@
 # Privacy Policy
 
-This is the privacy policy for the **Final Cut Grill**, macOS Application that is available on the macOS App Store and TestFlight.
+This is the privacy policy for the **Final Cut Grill** podcast and related online services (such as our website and support channels).
 
-**Final Cut Grill** does not collect any user data. No personal information is transmitted, stored, or used by this application.
+---
 
-**Final Cut Grill** does not use any third-party analytics or tracking tools. It does not contain any in-app purchases or advertisements.
+## Data We Collect
 
-Apple may collect and use certain usage and performance data from the apps that are available on the App Store. This data is used to help improve the App Store and the overall user experience.
+**Final Cut Grill does not collect, transmit, store, or sell personal information from listeners.**
+We do not require accounts, and we do not use tracking pixels or third-party analytics on our website.
 
-This data collection is not specific to any individual user, and it is not possible for app developers to opt out of this data collection by Apple.
+---
 
-You can read Apple's App Store Privacy Policy [here](https://www.apple.com/legal/privacy/data/en/app-store/).
+## Podcast Platforms & Players
 
-We use this GitHub Repository for documentation hosting and technical support. You can read GitHub's Privacy Policy [here](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
+When you listen to **Final Cut Grill** using a podcast app or platform (for example Apple Podcasts, Spotify, or other podcast players), that service may collect usage and performance data according to its own privacy policy.
+This may include information such as device details, approximate location, and listening activity. We do not control what podcast platforms collect, and we generally only receive aggregated statistics (if any) from podcast distribution/hosting services.
 
-If you have any questions or concerns, you can [submit an issue](https://github.com/latenitefilms/grill/issues), or email us: support@latenitefilms.com
+For details, please review the privacy policy of the platform you use to listen.
+
+---
+
+## Podcast Hosting & Downloads
+
+Our podcast episodes are delivered through a podcast hosting provider and/or content delivery network. These services may process basic technical information (such as IP address and request logs) to deliver audio files reliably, prevent abuse, and maintain service performance. We do not use this information to identify listeners.
+
+---
+
+## Third-Party Services We Use
+
+- **GitHub** (documentation hosting and technical support):
+  GitHub’s privacy policy is available here: <https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement>
+
+---
+
+## Contact
+
+If you have any questions or concerns, you can:
+- Submit an issue: <https://github.com/latenitefilms/grill/issues>
+- Email us: support@latenitefilms.com
