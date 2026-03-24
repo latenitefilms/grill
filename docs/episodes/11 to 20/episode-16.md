@@ -25,1953 +25,1296 @@ Metadata has been a huge topic of discussion since day one of Final Cut Pro. Wha
 
 ## Transcription
 
-Okay, here we go.
-*00:01.920*
+`**00:01.920:**` Okay, here we go.
 
-Uh this is another episode of Funnel Click Grill.
-*00:03.360*
+`**00:03.360:**` Uh this is another episode of Funnel Click Grill.
 
-This is episode 016.
-*00:05.760*
+`**00:05.760:**` This is episode 016.
 
-Why is my level so low?
-*00:07.840*
+`**00:07.840:**` Why is my level so low?
 
-Check, check.
-*00:09.760*
+`**00:09.760:**` Check, check.
 
-There we go.
-*00:10.800*
+`**00:10.800:**` There we go.
 
-Oh, that's better.
-*00:14.200*
+`**00:14.200:**` Oh, that's better.
 
-Okay, another episode of Final Cut Grill 016 with
-*00:18.119*
+`**00:18.119:**` Okay, another episode of Final Cut Grill 016 with
 
-John Chappelle.
-*00:21.940*
+`**00:21.940:**` John Chappelle.
 
-Now, we're going to do something a little bit different today, our little family of learners here.
-*00:22.980*
+`**00:22.980:**` Now, we're going to do something a little bit different today, our little family of learners here.
 
-You know, the last couple episodes with um with Scott Simmons was were great.
-*00:29.720*
+`**00:29.720:**` You know, the last couple episodes with um with Scott Simmons was were great.
 
-I mean, they were very popular, uh very
-*00:34.760*
+`**00:34.760:**` I mean, they were very popular, uh very
 
-you know, I'll confess here when you do these podcasts, you're always like nerding out, looking at the download numbers.
-*00:38.200*
+`**00:38.200:**` you know, I'll confess here when you do these podcasts, you're always like nerding out, looking at the download numbers.
 
-And when a show resonates,
-*00:43.800*
+`**00:43.800:**` And when a show resonates,
 
-the numbers are better.
-*00:47.840*
+`**00:47.840:**` the numbers are better.
 
-And the last two shows with Scott were were great.
-*00:49.440*
+`**00:49.440:**` And the last two shows with Scott were were great.
 
-And they were picked up by Peter Wiggins at fcpco.
-*00:52.800*
+`**00:52.800:**` And they were picked up by Peter Wiggins at fcpco.
 
-co.
-*00:58.239*
+`**00:58.239:**` co.
 
-And thank you, Peter.
-*00:59.440*
+`**00:59.440:**` And thank you, Peter.
 
-That was great.
-*01:00.879*
+`**01:00.879:**` That was great.
 
-But today's going to be a little bit different.
-*01:03.220*
+`**01:03.220:**` But today's going to be a little bit different.
 
-So, one of the things that I've talked about, and I think I've talked about on the show in the last couple of months, is that I've gotten to the point where I understand
-Final Cut Pro 10.
-*01:04.900*
+`**01:04.900:**` So, one of the things that I've talked about, and I think I've talked about on the show in the last couple of months, is that I've gotten to the point where I understand Final Cut Pro 10.
 
-But I don't know it.
-*01:15.520*
+`**01:15.520:**` But I don't know it.
 
-And I'm drawing a distinction there.
-*01:17.280*
+`**01:17.280:**` And I'm drawing a distinction there.
 
-I'm getting to the point where I'm realizing that there is much more there.
-*01:20.640*
+`**01:20.640:**` I'm getting to the point where I'm realizing that there is much more there.
 
-You know, I've gotten to the point where I can do what I need to do, and I'm quite comfortable with that.
-*01:24.560*
+`**01:24.560:**` You know, I've gotten to the point where I can do what I need to do, and I'm quite comfortable with that.
 
-But I can see over the horizon and I can see that there's a whole lot more.
-*01:29.320*
+`**01:29.320:**` But I can see over the horizon and I can see that there's a whole lot more.
 
-And if you recall back when it was first released, you'll remember that.
-*01:34.520*
+`**01:34.520:**` And if you recall back when it was first released, you'll remember that.
 
-Philip Hodgetts was the first one to really get on the metadata bandwagon.
-*01:40.220*
+`**01:40.220:**` Philip Hodgetts was the first one to really get on the metadata bandwagon.
 
-And I think for a while he was writing on it by himself.
-*01:46.620*
+`**01:46.620:**` And I think for a while he was writing on it by himself.
 
-And he was saying, oh, it's the metadata, it's the metadata.
-*01:49.020*
+`**01:49.020:**` And he was saying, oh, it's the metadata, it's the metadata.
 
-You got to learn about the metadata.
-*01:51.260*
+`**01:51.260:**` You got to learn about the metadata.
 
-And
-*01:52.700*
+`**01:52.700:**` And
 
-And I was like, yeah, yeah, yeah.
-*01:53.420*
+`**01:53.420:**` And I was like, yeah, yeah, yeah.
 
-I mean, I'm a kind of a computer guy.
-*01:54.700*
+`**01:54.700:**` I mean, I'm a kind of a computer guy.
 
-I mean, I've certainly circled the computer industry for, you know, quite some time now.
-*01:57.259*
+`**01:57.259:**` I mean, I've certainly circled the computer industry for, you know, quite some time now.
 
-But and I understand what metadata is.
-*02:03.980*
+`**02:03.980:**` But and I understand what metadata is.
 
-It's data within your data, and it's how do you sort things and stuff like that.
-*02:06.540*
+`**02:06.540:**` It's data within your data, and it's how do you sort things and stuff like that.
 
-I get all that.
-*02:10.700*
+`**02:10.700:**` I get all that.
 
-But I haven't really understood, I haven't really explored the various ways that I can use that metadata and how can it help me and how can it
-*02:13.780*
+`**02:13.780:**` But I haven't really understood, I haven't really explored the various ways that I can use that metadata and how can it help me and how can it
 
-How will it change my workflow?
-*02:26.379*
+`**02:26.379:**` How will it change my workflow?
 
-So a while back, I was on the Google Plus, I think it was, and I heard, I saw a post about, hey, who's using cutnotes?
-*02:30.060*
+`**02:30.060:**` So a while back, I was on the Google Plus, I think it was, and I heard, I saw a post about, hey, who's using cutnotes?
 
-Anybody using up with Final Cut 10?
-*02:39.780*
+`**02:39.780:**` Anybody using up with Final Cut 10?
 
-I'm like, what's a CutNote?
-*02:41.300*
+`**02:41.300:**` I'm like, what's a CutNote?
 
-I didn't know what CutNotes was.
-*02:42.500*
+`**02:42.500:**` I didn't know what CutNotes was.
 
-So I started looking around.
-*02:43.940*
+`**02:43.940:**` So I started looking around.
 
-It turns out CutNotes is a very interesting little app, and it's made by
-*02:45.620*
+`**02:45.620:**` It turns out CutNotes is a very interesting little app, and it's made by
 
-A company called Digital Rebellion and John Chappelle runs Digital Rebellion.
-*02:49.960*
+`**02:49.960:**` A company called Digital Rebellion and John Chappelle runs Digital Rebellion.
 
-And actually, I don't know if John remembers this, but I came by the Digital Rebellion.
-*02:54.680*
+`**02:54.680:**` And actually, I don't know if John remembers this, but I came by the Digital Rebellion.
 
-website, and not website, NAB Booth last year.
-*03:01.459*
+`**03:01.459:**` website, and not website, NAB Booth last year.
 
-And I was like, so let's collaborate because one of their applications is Collaborate.
-*03:04.819*
+`**03:04.819:**` And I was like, so let's collaborate because one of their applications is Collaborate.
 
-And I would recommend looking into it.
-*03:08.420*
+`**03:08.420:**` And I would recommend looking into it.
 
-And he and I had a nice long talk about it because
-*03:10.099*
+`**03:10.099:**` And he and I had a nice long talk about it because
 
-what much of what collaborate is is very near and dear to my heart because we've here at our company, Sliced Editorial where I work
-*03:14.260*
+`**03:14.260:**` what much of what collaborate is is very near and dear to my heart because we've here at our company, Sliced Editorial where I work
 
-We have developed our own proprietary online distribution system that we use with our clients.
-*03:23.740*
+`**03:23.740:**` We have developed our own proprietary online distribution system that we use with our clients.
 
-So anyway, I wanted to talk to him about Collaborate.
-*03:30.620*
+`**03:30.620:**` So anyway, I wanted to talk to him about Collaborate.
 
-So, John, I don't know if you remember that.
-*03:33.020*
+`**03:33.020:**` So, John, I don't know if you remember that.
 
-And so anyway, I contacted John.
-*03:35.220*
+`**03:35.220:**` And so anyway, I contacted John.
 
-Now, I have always said we're not doing any vendors or any third-party developers because we really want to get down to the
-*03:37.379*
+`**03:37.379:**` Now, I have always said we're not doing any vendors or any third-party developers because we really want to get down to the
 
-heart and the nitty gritty of what final cut means to an actual cutter, an actual editor, somebody who sits at their application multiple out uh days a week.
-*03:45.540*
+`**03:45.540:**` heart and the nitty gritty of what final cut means to an actual cutter, an actual editor, somebody who sits at their application multiple out uh days a week.
 
-40, 50, 60 hours a week.
-*03:57.320*
+`**03:57.320:**` 40, 50, 60 hours a week.
 
-But I made an exception to that.
-*04:00.600*
+`**04:00.600:**` But I made an exception to that.
 
-And I want to be very clear that there was no
-*04:02.120*
+`**04:02.120:**` And I want to be very clear that there was no
 
-Financial arrangement between John and I.
-*04:05.560*
+`**04:05.560:**` Financial arrangement between John and I.
 
-He didn't offer to pay to, you know, sponsor the show, and therefore I'll let him come and talk about his stuff for, you know, forty-five minutes or whatever.
-*04:08.920*
+`**04:08.920:**` He didn't offer to pay to, you know, sponsor the show, and therefore I'll let him come and talk about his stuff for, you know, forty-five minutes or whatever.
 
-So there was none of that.
-*04:18.180*
+`**04:18.180:**` So there was none of that.
 
-I contacted him and I said, Cut notes interests me.
-*04:20.980*
+`**04:20.980:**` I contacted him and I said, Cut notes interests me.
 
-Come teach me about it.
-*04:26.580*
+`**04:26.580:**` Come teach me about it.
 
-That's what today is about.
-*04:28.820*
+`**04:28.820:**` That's what today is about.
 
-And I think that in subsequent episodes, I want to find other people that are really using.
-*04:31.220*
+`**04:31.220:**` And I think that in subsequent episodes, I want to find other people that are really using.
 
-Metadata, whether they're developing products or whatever, or I throw the invitation out to you, the listener.
-*04:39.940*
+`**04:39.940:**` Metadata, whether they're developing products or whatever, or I throw the invitation out to you, the listener.
 
-If you think that you are really
-*04:47.780*
+`**04:47.780:**` If you think that you are really
 
-exploring the whole metadata side of Final Cut 10 in a creative, interesting and unique way, by all means, let me know.
-*04:51.900*
+`**04:51.900:**` exploring the whole metadata side of Final Cut 10 in a creative, interesting and unique way, by all means, let me know.
 
-Contact me on the Twitter at Chris Fenwick.
-*05:01.099*
+`**05:01.099:**` Contact me on the Twitter at Chris Fenwick.
 
-And I'm curious.
-*05:05.020*
+`**05:05.020:**` And I'm curious.
 
-This is like, you know, I'll be honest with you, this much of what this show is about is my own personal learning curve.
-*05:06.460*
+`**05:06.460:**` This is like, you know, I'll be honest with you, this much of what this show is about is my own personal learning curve.
 
-I have I will say in the last 15 episodes, I've had the opportunity to talk some to some really interesting people, and I'm very thankful for
-*05:14.720*
+`**05:14.720:**` I have I will say in the last 15 episodes, I've had the opportunity to talk some to some really interesting people, and I'm very thankful for
 
-The opportunity to do that.
-*05:26.000*
+`**05:26.000:**` The opportunity to do that.
 
-I think you'll notice, you know, at the end of shows or at the end of interview today, I'm always thanking people for taking the time.
-*05:27.280*
+`**05:27.280:**` I think you'll notice, you know, at the end of shows or at the end of interview today, I'm always thanking people for taking the time.
 
-And it's genuine and sincere.
-*05:32.240*
+`**05:32.240:**` And it's genuine and sincere.
 
-I really, it's an honor to be able to sit down and chat with these people.
-*05:33.840*
+`**05:33.840:**` I really, it's an honor to be able to sit down and chat with these people.
 
-So, at any rate, let's go to the interview.
-*05:37.280*
+`**05:37.280:**` So, at any rate, let's go to the interview.
 
-With John Chappelle from Digital Rebellion.
-*05:40.520*
+`**05:40.520:**` With John Chappelle from Digital Rebellion.
 
-I actually, you know, I want to make sort of a little disclaimer here for the show.
-*05:45.080*
+`**05:45.080:**` I actually, you know, I want to make sort of a little disclaimer here for the show.
 
-That you are the very first, as far as I know, person that I've asked to be a part of the show who actually has a Final Cut 10 product to sell.
-*05:50.699*
+`**05:50.699:**` That you are the very first, as far as I know, person that I've asked to be a part of the show who actually has a Final Cut 10 product to sell.
 
-And that's sort of a big deal because in the first episodes and in the first several episodes, I said that, you know, I really just wanted to talk to editors because
-*06:02.500*
+`**06:02.500:**` And that's sort of a big deal because in the first episodes and in the first several episodes, I said that, you know, I really just wanted to talk to editors because
 
-By and large, in the product category, if you think about it, you have a vested interest in Final Cut doing well, although you make products for other applications as
-well.
-*06:11.199*
+`**06:11.199:**` By and large, in the product category, if you think about it, you have a vested interest in Final Cut doing well, although you make products for other applications as well.
 
-But the reason I wanted to talk to you, and I just want to be very upfront about that, that I asked you to come be on the show because
-*06:21.920*
+`**06:21.920:**` But the reason I wanted to talk to you, and I just want to be very upfront about that, that I asked you to come be on the show because
 
-Of some of the products that you make for Final Cut are very interesting and deal with some stuff that I want to talk about.
-*06:29.840*
+`**06:29.840:**` Of some of the products that you make for Final Cut are very interesting and deal with some stuff that I want to talk about.
 
-So you did not pay to be here.
-*06:37.620*
+`**06:37.620:**` So you did not pay to be here.
 
-I didn't ask you for any money to be on the show.
-*06:40.180*
+`**06:40.180:**` I didn't ask you for any money to be on the show.
 
-No such tomfoolery going on.
-*06:43.460*
+`**06:43.460:**` No such tomfoolery going on.
 
-Tell me a little bit about Digital Rebellion and what you guys do.
-*06:46.560*
+`**06:46.560:**` Tell me a little bit about Digital Rebellion and what you guys do.
 
-**Speaker 2**: Okay, well we've been around since 2007.
-*06:50.000*
+`**06:50.000:**` **Speaker 2**: Okay, well we've been around since 2007.
 
-**Speaker 2**: And what we're trying to do is just simplify editors' workflows.
-*06:54.800*
+`**06:54.800:**` **Speaker 2**: And what we're trying to do is just simplify editors' workflows.
 
-**Speaker 2**: And we've got a wide range of tools for doing that.
-*07:01.360*
+`**07:01.360:**` **Speaker 2**: And we've got a wide range of tools for doing that.
 
-**Speaker 2**: Our first product
-*07:06.159*
+`**07:06.159:**` **Speaker 2**: Our first product
 
-**Speaker 2**: WizProMaintence Tools, it's also our most popular product, and what that's all about is just fixing problems, really
-*07:10.560*
+`**07:10.560:**` **Speaker 2**: WizProMaintence Tools, it's also our most popular product, and what that's all about is just fixing problems, really
 
-**Speaker 2**: So if you're on a deadline and suddenly Final Kite is just crashing and you don't know what it is, then there are tools to help with that.
-*07:17.620*
+`**07:17.620:**` **Speaker 2**: So if you're on a deadline and suddenly Final Kite is just crashing and you don't know what it is, then there are tools to help with that.
 
-**Speaker 2**: And people seem to really like that.
-*07:27.300*
+`**07:27.300:**` **Speaker 2**: And people seem to really like that.
 
-Yeah, I think by and large editors are not really well, certainly in the olden days, editors were not computer people.
-*07:30.320*
+`**07:30.320:**` Yeah, I think by and large editors are not really well, certainly in the olden days, editors were not computer people.
 
-We just I mean, I have actually met people where
-*07:39.520*
+`**07:39.520:**` We just I mean, I have actually met people where
 
-If they sat down at the computer and it wasn't the avid interface, they thought the computer was broken.
-*07:42.440*
+`**07:42.440:**` If they sat down at the computer and it wasn't the avid interface, they thought the computer was broken.
 
-You know what I mean?
-*07:48.120*
+`**07:48.120:**` You know what I mean?
 
-It's like, oh, this system is totally busted.
-*07:49.320*
+`**07:49.320:**` It's like, oh, this system is totally busted.
 
-I need maintenance, maintenance.
-*07:51.240*
+`**07:51.240:**` I need maintenance, maintenance.
 
-**Speaker 2**: Yeah, I I think that nowadays editors are really forced to become text protect people, whether they want to or not, really.
-*07:54.520*
+`**07:54.520:**` **Speaker 2**: Yeah, I I think that nowadays editors are really forced to become text protect people, whether they want to or not, really.
 
-Yeah, and especially in you know increasingly as you know I mean you know I come at this from it from the days when there really was you know two or three people down the
-hall that were just charged with making everything work all the time
-*08:02.039*
+`**08:02.039:**` Yeah, and especially in you know increasingly as you know I mean you know I come at this from it from the days when there really was you know two or three people down the hall that were just charged with making everything work all the time
 
-And the you know, the technicians the engineers or the editors, they just they were storytellers, they were button pushers.
-*08:16.640*
+`**08:16.640:**` And the you know, the technicians the engineers or the editors, they just they were storytellers, they were button pushers.
 
-So um the product that I'm most interested in uh really encompasses a whole idea in Final Cut 10.
-*08:25.140*
+`**08:25.140:**` So um the product that I'm most interested in uh really encompasses a whole idea in Final Cut 10.
 
-And that is oh good grief.
-*08:34.200*
+`**08:34.200:**` And that is oh good grief.
 
-Now I'm forgetting the name.
-*08:37.000*
+`**08:37.000:**` Now I'm forgetting the name.
 
-Is it cut tools?
-*08:38.120*
+`**08:38.120:**` Is it cut tools?
 
-Cut notes.
-*08:39.800*
+`**08:39.800:**` Cut notes.
 
-Cut notes.
-*08:40.600*
+`**08:40.600:**` Cut notes.
 
-Very good.
-*08:41.320*
+`**08:41.320:**` Very good.
 
-So, so sorry.
-*08:41.719*
+`**08:41.719:**` So, so sorry.
 
-So, tell me a little bit of when did cut notes come in?
-*08:43.880*
+`**08:43.880:**` So, tell me a little bit of when did cut notes come in?
 
-**Speaker 2**: First of all, how long has CutNotes been around?
-*08:47.880*
+`**08:47.880:**` **Speaker 2**: First of all, how long has CutNotes been around?
 
-**Speaker 2**: It's been around since, I think, the beginning of 2011.
-*08:50.260*
+`**08:50.260:**` **Speaker 2**: It's been around since, I think, the beginning of 2011.
 
-So if it's been around since the beginning of the year,
-*08:54.340*
+`**08:54.340:**` So if it's been around since the beginning of the year,
 
-Uh okay that so was was cut notes inspired by final cut 10 or did you were you working on it before final cut 10
-*08:58.200*
+`**08:58.200:**` Uh okay that so was was cut notes inspired by final cut 10 or did you were you working on it before final cut 10
 
-**Speaker 2**: It was a pretty Funicut 10 product.
-*09:05.940*
+`**09:05.940:**` **Speaker 2**: It was a pretty Funicut 10 product.
 
-**Speaker 2**: Okay.
-*09:08.420*
+`**09:08.420:**` **Speaker 2**: Okay.
 
-**Speaker 2**: So I guess it must have been 2011 then.
-*09:08.740*
+`**09:08.740:**` **Speaker 2**: So I guess it must have been 2011 then.
 
-Okay, yeah.
-*09:11.140*
+`**09:11.140:**` Okay, yeah.
 
-So explain to me a little bit about what CutNotes is.
-*09:12.420*
+`**09:12.420:**` So explain to me a little bit about what CutNotes is.
 
-**Speaker 2**: Okay, well CutNotes is an iPad only app for simplifying note-taking during a screening.
-*09:16.540*
+`**09:16.540:**` **Speaker 2**: Okay, well CutNotes is an iPad only app for simplifying note-taking during a screening.
 
-**Speaker 2**: So if you
-*09:23.020*
+`**09:23.020:**` **Speaker 2**: So if you
 
-**Speaker 2**: I think we've all been in the situation where you're in a screening and you see a mistake or something, you want to write it down, and you've got the burnt in time code.
-*09:24.160*
+`**09:24.160:**` **Speaker 2**: I think we've all been in the situation where you're in a screening and you see a mistake or something, you want to write it down, and you've got the burnt in time code.
 
-**Speaker 2**: So you start writing out all the time code digits and then you wrote a note and then you look up and a minute's gone by and you didn't even see it.
-*09:32.800*
+`**09:32.800:**` **Speaker 2**: So you start writing out all the time code digits and then you wrote a note and then you look up and a minute's gone by and you didn't even see it.
 
-**Speaker 2**: Right.
-*09:40.160*
+`**09:40.160:**` **Speaker 2**: Right.
 
-**Speaker 2**: And so CutNotes tries to minimize the amount of time you spend looking down.
-*09:41.180*
+`**09:41.180:**` **Speaker 2**: And so CutNotes tries to minimize the amount of time you spend looking down.
 
-**Speaker 2**: The way it does that, in a big way, is by cutting out the necessity for you to worry about the time code.
-*09:47.340*
+`**09:47.340:**` **Speaker 2**: The way it does that, in a big way, is by cutting out the necessity for you to worry about the time code.
 
-**Speaker 2**: So the time code can either be free-run or it can be synced to a wide variety of apps, including Funacut Pro 10, but also Avid, Premiere, Funacut 7, and Pro Tools.
-*09:54.420*
+`**09:54.420:**` **Speaker 2**: So the time code can either be free-run or it can be synced to a wide variety of apps, including Funacut Pro 10, but also Avid, Premiere, Funacut 7, and Pro Tools.
 
-**Speaker 2**: And for Funocut Pro 10 in particular, there's a special plugin that you put on your timeline and that enables CutNotes to sync to it.
-*10:08.120*
+`**10:08.120:**` **Speaker 2**: And for Funocut Pro 10 in particular, there's a special plugin that you put on your timeline and that enables CutNotes to sync to it.
 
-So when you when you're sitting there tapping on cut notes while you're watching something, you're making a series of notes that are going to be turned into markers,
-correct?
-*10:17.920*
+`**10:17.920:**` So when you when you're sitting there tapping on cut notes while you're watching something, you're making a series of notes that are going to be turned into markers, correct?
 
-**Speaker 2**: Eventually, yes.
-*10:31.100*
+`**10:31.100:**` **Speaker 2**: Eventually, yes.
 
-**Speaker 2**: They just remain as notes in CutNotes, and then you from the app you export them to Final Cut Pro 7 markerlists.
-*10:32.780*
+`**10:32.780:**` **Speaker 2**: They just remain as notes in CutNotes, and then you from the app you export them to Final Cut Pro 7 markerlists.
 
-**Speaker 2**: And then we have a free app that you install on your Mac.
-*10:42.940*
+`**10:42.940:**` **Speaker 2**: And then we have a free app that you install on your Mac.
 
-**Speaker 2**: You bring the markerless and the Firecut Pro10 XML files, and it's a new XML file with the markers built in.
-*10:46.060*
+`**10:46.060:**` **Speaker 2**: You bring the markerless and the Firecut Pro10 XML files, and it's a new XML file with the markers built in.
 
-Ah, very interesting.
-*10:57.620*
+`**10:57.620:**` Ah, very interesting.
 
-So the app was originally written, as you mentioned, for a pre-final 10 world, but what you're going to do then is you're taking this additional data, dare I say,
-*10:58.899*
+`**10:58.899:**` So the app was originally written, as you mentioned, for a pre-final 10 world, but what you're going to do then is you're taking this additional data, dare I say,
 
-metadata, additional data, and you're folding it in with the final cut seven notes.
-*11:11.520*
+`**11:11.520:**` metadata, additional data, and you're folding it in with the final cut seven notes.
 
-What did you call it?
-*11:20.080*
+`**11:20.080:**` What did you call it?
 
-Uh the mongols.
-*11:21.720*
+`**11:21.720:**` Uh the mongols.
 
-Markerless, so that's a final cut ten uh seven rather.
-*11:22.840*
+`**11:22.840:**` Markerless, so that's a final cut ten uh seven rather.
 
-Um uh
-*11:26.760*
+`**11:26.760:**` Um uh
 
-**Speaker 2**: It doesn't really matter.
-*11:31.140*
+`**11:31.140:**` **Speaker 2**: It doesn't really matter.
 
-**Speaker 2**: I mean, we we use it for a debut premiere as well.
-*11:32.019*
+`**11:32.019:**` **Speaker 2**: I mean, we we use it for a debut premiere as well.
 
-**Speaker 2**: The reason we use it is the it's a standardized format.
-*11:34.820*
+`**11:34.820:**` **Speaker 2**: The reason we use it is the it's a standardized format.
 
-**Speaker 2**: And Funukut Pro10 and Adabi Premiere, they don't have their own mark list format.
-*11:38.420*
+`**11:38.420:**` **Speaker 2**: And Funukut Pro10 and Adabi Premiere, they don't have their own mark list format.
 
-**Speaker 2**: So we thought we'll just use Funicut Pro 7 for that because it already exists.
-*11:42.819*
+`**11:42.819:**` **Speaker 2**: So we thought we'll just use Funicut Pro 7 for that because it already exists.
 
-So then by taking an XML, by folding that together with an XML from the timeline, you're now when I open up my
-*11:46.240*
+`**11:46.240:**` So then by taking an XML, by folding that together with an XML from the timeline, you're now when I open up my
 
-Final Cut 10 library, I will see these these markers that were taken during the screening.
-*11:56.720*
+`**11:56.720:**` Final Cut 10 library, I will see these these markers that were taken during the screening.
 
-Yes, that's right.
-*12:04.920*
+`**12:04.920:**` Yes, that's right.
 
-All right.
-*12:05.959*
+`**12:05.959:**` All right.
 
-So now I have additional data, otherwise known as metadata, that came in from a viewing of a piece
-*12:06.360*
+`**12:06.360:**` So now I have additional data, otherwise known as metadata, that came in from a viewing of a piece
 
-And this now, if you're a new Final Cut 10 user, this gets folded into the markers.
-*12:14.920*
+`**12:14.920:**` And this now, if you're a new Final Cut 10 user, this gets folded into the markers.
 
-And that is all seen in the timeline index in the lower left-hand corner of your screen.
-*12:24.320*
+`**12:24.320:**` And that is all seen in the timeline index in the lower left-hand corner of your screen.
 
-That's correct, yes.
-*12:30.560*
+`**12:30.560:**` That's correct, yes.
 
-What are some ways that you're seeing people using this?
-*12:31.840*
+`**12:31.840:**` What are some ways that you're seeing people using this?
 
-**Speaker 2**: Well, we intended for it to be used in the edit bay or maybe in a screening room.
-*12:37.120*
+`**12:37.120:**` **Speaker 2**: Well, we intended for it to be used in the edit bay or maybe in a screening room.
 
-**Speaker 2**: But really, people have been using it out in the field as well because we have
-*12:42.880*
+`**12:42.880:**` **Speaker 2**: But really, people have been using it out in the field as well because we have
 
-**Speaker 2**: We support time of day time code as well.
-*12:48.740*
+`**12:48.740:**` **Speaker 2**: We support time of day time code as well.
 
-**Speaker 2**: So some people are even using it on set, just running it time of day and making the notes there, then bringing them back into the NLA.
-*12:51.540*
+`**12:51.540:**` **Speaker 2**: So some people are even using it on set, just running it time of day and making the notes there, then bringing them back into the NLA.
 
-That's very interesting that you say that.
-*13:01.020*
+`**13:01.020:**` That's very interesting that you say that.
 
-Because when I saw this product, I first heard about this on, I think it was like I want to say Google Plus, and somebody was asking a question.
-*13:03.180*
+`**13:03.180:**` Because when I saw this product, I first heard about this on, I think it was like I want to say Google Plus, and somebody was asking a question.
 
-Hey, blah, blah, blah, cut notes.
-*13:12.380*
+`**13:12.380:**` Hey, blah, blah, blah, cut notes.
 
-Who's using it with Final Cut 10?
-*13:14.940*
+`**13:14.940:**` Who's using it with Final Cut 10?
 
-And I was like, What's a cut note?
-*13:17.020*
+`**13:17.020:**` And I was like, What's a cut note?
 
-You know?
-*13:18.620*
+`**13:18.620:**` You know?
 
-And the first thing I thought of was
-*13:19.900*
+`**13:19.900:**` And the first thing I thought of was
 
-Time of day time code in the field, which frankly is my personal favorite when I'm directing, specifically for this reason, that it makes it very easy to take time code
-notes.
-*13:24.240*
+`**13:24.240:**` Time of day time code in the field, which frankly is my personal favorite when I'm directing, specifically for this reason, that it makes it very easy to take time code notes.
 
-And immediately I thought this would be perfect if you could say, oh, this was the take or use the close-up or whatever.
-*13:35.500*
+`**13:35.500:**` And immediately I thought this would be perfect if you could say, oh, this was the take or use the close-up or whatever.
 
-**Speaker 2**: Well, we're also seeing interesting use cases from our cloud features as well.
-*13:43.819*
+`**13:43.819:**` **Speaker 2**: Well, we're also seeing interesting use cases from our cloud features as well.
 
-**Speaker 2**: Because we have our own cloud service called Collaborate, and that allows us to do
-*13:50.079*
+`**13:50.079:**` **Speaker 2**: Because we have our own cloud service called Collaborate, and that allows us to do
 
-**Speaker 2**: Some of the things we've really wanted to do for a long time, but didn't have the technology to do.
-*13:57.860*
+`**13:57.860:**` **Speaker 2**: Some of the things we've really wanted to do for a long time, but didn't have the technology to do.
 
-**Speaker 2**: So for example, you can take in a group note-taking session.
-*14:02.500*
+`**14:02.500:**` **Speaker 2**: So for example, you can take in a group note-taking session.
 
-**Speaker 2**: So what you can do is you create what's called a comment stream in the cloud, and then you sync everyone syncs up to Final Cart or Pro Tools or whatever it is.
-*14:06.779*
+`**14:06.779:**` **Speaker 2**: So what you can do is you create what's called a comment stream in the cloud, and then you sync everyone syncs up to Final Cart or Pro Tools or whatever it is.
 
-**Speaker 2**: And then as you're taking the notes, you can see everyone else's notes and they're appearing in real time.
-*14:18.240*
+`**14:18.240:**` **Speaker 2**: And then as you're taking the notes, you can see everyone else's notes and they're appearing in real time.
 
-**Speaker 2**: So the advantage to that is that when I'm in a screening with other people,
-*14:24.240*
+`**14:24.240:**` **Speaker 2**: So the advantage to that is that when I'm in a screening with other people,
 
-**Speaker 2**: we always make the same notes.
-*14:29.440*
+`**14:29.440:**` **Speaker 2**: we always make the same notes.
 
-**Speaker 2**: And then we have to go through and filter out which ones are going to need to be.
-*14:31.120*
+`**14:31.120:**` **Speaker 2**: And then we have to go through and filter out which ones are going to need to be.
 
-Yes, we all know that shot is too dark.
-*14:34.880*
+`**14:34.880:**` Yes, we all know that shot is too dark.
 
-**Speaker 2**: Yes, yes.
-*14:37.440*
+`**14:37.440:**` **Speaker 2**: Yes, yes.
 
-**Speaker 2**: So that helps to minimize that.
-*14:39.040*
+`**14:39.040:**` **Speaker 2**: So that helps to minimize that.
 
-**Speaker 2**: And it's also a good way of sharing the notes with someone who isn't in the room or is far away or but
-*14:41.380*
+`**14:41.380:**` **Speaker 2**: And it's also a good way of sharing the notes with someone who isn't in the room or is far away or but
 
-**Speaker 2**: Still wants to know the progress?
-*14:49.140*
+`**14:49.140:**` **Speaker 2**: Still wants to know the progress?
 
-Generally, in the big picture, if you want to talk about the way people are adopting metadata and you were going to grade the current production community.
-*14:51.220*
+`**14:51.220:**` Generally, in the big picture, if you want to talk about the way people are adopting metadata and you were going to grade the current production community.
 
-Yes, you're using metadata at an A level or an F level.
-*15:01.140*
+`**15:01.140:**` Yes, you're using metadata at an A level or an F level.
 
-How would you grade people's adoption of metadata?
-*15:05.860*
+`**15:05.860:**` How would you grade people's adoption of metadata?
 
-**Speaker 2**: I would grade it quite low, actually.
-*15:09.220*
+`**15:09.220:**` **Speaker 2**: I would grade it quite low, actually.
 
-**Speaker 2**: I think that applications like Final Cut Pro X generally handle it a lot better than some of the other apps, but I think a lot of people don't really understand it and
-don't really know what to do with it.
-*15:11.800*
+`**15:11.800:**` **Speaker 2**: I think that applications like Final Cut Pro X generally handle it a lot better than some of the other apps, but I think a lot of people don't really understand it and don't really know what to do with it.
 
-Which is exactly why we're having this conversation today.
-*15:23.680*
+`**15:23.680:**` Which is exactly why we're having this conversation today.
 
-I sort of feel that I have gotten to the point in the last year and a half or two where I'm actually now very comfortable editing in Final Cut Pro 10.
-*15:27.200*
+`**15:27.200:**` I sort of feel that I have gotten to the point in the last year and a half or two where I'm actually now very comfortable editing in Final Cut Pro 10.
 
-So much so that I choose to use it on all projects.
-*15:37.160*
+`**15:37.160:**` So much so that I choose to use it on all projects.
 
-I don't ever want to start something somewhere else.
-*15:41.880*
+`**15:41.880:**` I don't ever want to start something somewhere else.
 
-But I also feel that I don't fully understand it.
-*15:46.020*
+`**15:46.020:**` But I also feel that I don't fully understand it.
 
-Right.
-*15:49.940*
+`**15:49.940:**` Right.
 
-It's like I bought a 10-speed bicycle and I haven't figured out how to get it out a second yet.
-*15:50.420*
+`**15:50.420:**` It's like I bought a 10-speed bicycle and I haven't figured out how to get it out a second yet.
 
-Right.
-*15:54.340*
+`**15:54.340:**` Right.
 
-You know?
-*15:54.900*
+`**15:54.900:**` You know?
 
-And I know that there's more there.
-*15:55.700*
+`**15:55.700:**` And I know that there's more there.
 
-And in this particular case, I think a lot of it lies in the metadata.
-*15:58.320*
+`**15:58.320:**` And in this particular case, I think a lot of it lies in the metadata.
 
-What would you say to people that are kind of on the verge of like trying to understand how they can use metadata more intelligently?
-*16:04.240*
+`**16:04.240:**` What would you say to people that are kind of on the verge of like trying to understand how they can use metadata more intelligently?
 
-**Speaker 2**: Well, I mean, that's the thing is that I I'm not sure the metadata by itself, just simply having it in the private is really useful for the average person.
-*16:12.800*
+`**16:12.800:**` **Speaker 2**: Well, I mean, that's the thing is that I I'm not sure the metadata by itself, just simply having it in the private is really useful for the average person.
 
-**Speaker 2**: I see it as being useful
-*16:24.400*
+`**16:24.400:**` **Speaker 2**: I see it as being useful
 
-**Speaker 2**: for automated purposes.
-*16:27.420*
+`**16:27.420:**` **Speaker 2**: for automated purposes.
 
-Okay.
-*16:29.420*
+`**16:29.420:**` Okay.
 
-**Speaker 2**: You know, for example, CutNotes doesn't do this, but if it did, you know, one way of doing that would be, you know, you could tag you could add additional tags to
-*16:29.980*
+`**16:29.980:**` **Speaker 2**: You know, for example, CutNotes doesn't do this, but if it did, you know, one way of doing that would be, you know, you could tag you could add additional tags to
 
-**Speaker 2**: a note.
-*16:41.759*
+`**16:41.759:**` **Speaker 2**: a note.
 
-**Speaker 2**: So you could say this is an ADR note.
-*16:42.319*
+`**16:42.319:**` **Speaker 2**: So you could say this is an ADR note.
 
-**Speaker 2**: And then via automation, you can pull out everything that's related to ADR and build up a queue sheet.
-*16:45.040*
+`**16:45.040:**` **Speaker 2**: And then via automation, you can pull out everything that's related to ADR and build up a queue sheet.
 
-**Speaker 2**: So it's just as an example.
-*16:54.160*
+`**16:54.160:**` **Speaker 2**: So it's just as an example.
 
-**Speaker 2**: But by itself, I don't know that, that tag is necessarily useful just for the average person.
-*16:57.020*
+`**16:57.020:**` **Speaker 2**: But by itself, I don't know that, that tag is necessarily useful just for the average person.
 
-**Speaker 2**: And so I think that's I think that's what people struggle with because they don't they don't have good examples of where it can be useful.
-*17:03.660*
+`**17:03.660:**` **Speaker 2**: And so I think that's I think that's what people struggle with because they don't they don't have good examples of where it can be useful.
 
-**Speaker 2**: Exactly.
-*17:10.819*
+`**17:10.819:**` **Speaker 2**: Exactly.
 
-And I think that's the point is that we have these pieces almost like a great
-*17:11.459*
+`**17:11.459:**` And I think that's the point is that we have these pieces almost like a great
 
-you know, box of Legos that's been dumped out on the table in front of us, and we don't yet recognize those angular clear pieces as being potentially windshields on cars.
-*17:19.140*
+`**17:19.140:**` you know, box of Legos that's been dumped out on the table in front of us, and we don't yet recognize those angular clear pieces as being potentially windshields on cars.
 
-Right.
-*17:30.440*
+`**17:30.440:**` Right.
 
-You know, until that gets it sort of explained to us, you know, it takes a while to understand it.
-*17:30.760*
+`**17:30.760:**` You know, until that gets it sort of explained to us, you know, it takes a while to understand it.
 
-In your experience, because you probably deal with more people than I do, how many people do you think actually shoot with time of day time code versus alternatives?
-*17:38.140*
+`**17:38.140:**` In your experience, because you probably deal with more people than I do, how many people do you think actually shoot with time of day time code versus alternatives?
 
-**Speaker 2**: I think it really depends on how many cameras you have.
-*17:49.340*
+`**17:49.340:**` **Speaker 2**: I think it really depends on how many cameras you have.
 
-**Speaker 2**: One camera, maybe there isn't an advantage, but if you have ten cameras, it's much easier to sync them up.
-*17:53.020*
+`**17:53.020:**` **Speaker 2**: One camera, maybe there isn't an advantage, but if you have ten cameras, it's much easier to sync them up.
 
-Oh, yeah, good point.
-*17:59.540*
+`**17:59.540:**` Oh, yeah, good point.
 
-**Speaker 2**: Most of the companies doing this are big companies that I know of.
-*18:01.060*
+`**18:01.060:**` **Speaker 2**: Most of the companies doing this are big companies that I know of.
 
-Are there companies that you can explain how they're using it?
-*18:05.140*
+`**18:05.140:**` Are there companies that you can explain how they're using it?
 
-**Speaker 2**: Yeah, well I I don't know I don't know um all the details of of their workflows, but um yeah, there I I know that there are big companies using some a
-*18:08.040*
+`**18:08.040:**` **Speaker 2**: Yeah, well I I don't know I don't know um all the details of of their workflows, but um yeah, there I I know that there are big companies using some a
 
-**Speaker 2**: And then I think importing it into Avid when they shoot.
-*18:17.500*
+`**18:17.500:**` **Speaker 2**: And then I think importing it into Avid when they shoot.
 
-**Speaker 2**: And then there are others using it the way that we intended, which is during a screening.
-*18:23.980*
+`**18:23.980:**` **Speaker 2**: And then there are others using it the way that we intended, which is during a screening.
 
-**Speaker 2**: Some people use it during editorial and they give it to their client.
-*18:30.419*
+`**18:30.419:**` **Speaker 2**: Some people use it during editorial and they give it to their client.
 
-**Speaker 2**: And I think their client makes notes on the fly, but I
-*18:35.539*
+`**18:35.539:**` **Speaker 2**: And I think their client makes notes on the fly, but I
 
-**Speaker 2**: I don't know that that's I don't know how useful that is, but I know that people do that.
-*18:40.220*
+`**18:40.220:**` **Speaker 2**: I don't know that that's I don't know how useful that is, but I know that people do that.
 
-So for example, they would just be sitting in a screening or actually in an edit suite?
-*18:44.540*
+`**18:44.540:**` So for example, they would just be sitting in a screening or actually in an edit suite?
 
-I would think it would be easier to go, hey, that shot's too dark.
-*18:51.480*
+`**18:51.480:**` I would think it would be easier to go, hey, that shot's too dark.
 
-**Speaker 2**: Yeah, yeah, that's why I don't really get that.
-*18:55.399*
+`**18:55.399:**` **Speaker 2**: Yeah, yeah, that's why I don't really get that.
 
-**Speaker 2**: But people are doing it.
-*18:58.120*
+`**18:58.120:**` **Speaker 2**: But people are doing it.
 
-**Speaker 2**: That's all I can see.
-*18:59.960*
+`**18:59.960:**` **Speaker 2**: That's all I can see.
 
-Oh, that's funny.
-*19:03.600*
+`**19:03.600:**` Oh, that's funny.
 
-So how is the um the product's been around now for a couple of years.
-*19:04.880*
+`**19:04.880:**` So how is the um the product's been around now for a couple of years.
 
-Have you noticed that a lot of Final Cut X users are buying the product?
-*19:09.760*
+`**19:09.760:**` Have you noticed that a lot of Final Cut X users are buying the product?
 
-**Speaker 2**: Well, that's the problem that we have is that
-*19:14.160*
+`**19:14.160:**` **Speaker 2**: Well, that's the problem that we have is that
 
-**Speaker 2**: we try to make our products as app agnostic as possible, which means that we don't necessarily know which apps people are using them with.
-*19:17.320*
+`**19:17.320:**` **Speaker 2**: we try to make our products as app agnostic as possible, which means that we don't necessarily know which apps people are using them with.
 
-I would think there'd be a perfect place for a little questionnaire as you're purchasing.
-*19:26.600*
+`**19:26.600:**` I would think there'd be a perfect place for a little questionnaire as you're purchasing.
 
-**Speaker 2**: Well, it's hard on the app store.
-*19:30.519*
+`**19:30.519:**` **Speaker 2**: Well, it's hard on the app store.
 
-Damn that app store
-*19:32.760*
+`**19:32.760:**` Damn that app store
 
-Yeah, that's a good point.
-*19:37.000*
+`**19:37.000:**` Yeah, that's a good point.
 
-There's a lot of downsides to selling through the App Store, isn't there?
-*19:38.919*
+`**19:38.919:**` There's a lot of downsides to selling through the App Store, isn't there?
 
-Yeah, well, we try to avoid it on the Mac.
-*19:42.120*
+`**19:42.120:**` Yeah, well, we try to avoid it on the Mac.
 
-You tr I'm sorry, you try to We try to avoid it on the Mac.
-*19:44.520*
+`**19:44.520:**` You tr I'm sorry, you try to We try to avoid it on the Mac.
 
-So actually, I'm just going to show my ignorance.
-*19:48.519*
+`**19:48.519:**` So actually, I'm just going to show my ignorance.
 
-So do you sell through your website directly?
-*19:51.559*
+`**19:51.559:**` So do you sell through your website directly?
 
-That's great, yeah.
-*19:54.440*
+`**19:54.440:**` That's great, yeah.
 
-**Speaker 2**: For the Mac products.
-*19:55.480*
+`**19:55.480:**` **Speaker 2**: For the Mac products.
 
-iOS, we we have mobile apps, right.
-*19:57.100*
+`**19:57.100:**` iOS, we we have mobile apps, right.
 
-Let me ask you about another app that you guys have.
-*20:02.059*
+`**20:02.059:**` Let me ask you about another app that you guys have.
 
-Okay.
-*20:06.220*
+`**20:06.220:**` Okay.
 
-So tell me, the other app that I have heard people mention time and time again, basically because I have been preaching this
-*20:09.000*
+`**20:09.000:**` So tell me, the other app that I have heard people mention time and time again, basically because I have been preaching this
 
-for a long time is post haste.
-*20:18.140*
+`**20:18.140:**` for a long time is post haste.
 
-How does post haste work?
-*20:21.180*
+`**20:21.180:**` How does post haste work?
 
-**Speaker 2**: Post haste is a project management app.
-*20:23.900*
+`**20:23.900:**` **Speaker 2**: Post haste is a project management app.
 
-**Speaker 2**: The idea is that
-*20:27.420*
+`**20:27.420:**` **Speaker 2**: The idea is that
 
-**Speaker 2**: it tries to encourage you to take part in good organizational practices.
-*20:30.620*
+`**20:30.620:**` **Speaker 2**: it tries to encourage you to take part in good organizational practices.
 
-**Speaker 2**: And the way it does that is you create project templates from it.
-*20:37.180*
+`**20:37.180:**` **Speaker 2**: And the way it does that is you create project templates from it.
 
-**Speaker 2**: So, you know, for example, you might have, you might create a dailies folder and then a titles folder and then
-*20:42.260*
+`**20:42.260:**` **Speaker 2**: So, you know, for example, you might have, you might create a dailies folder and then a titles folder and then
 
-**Speaker 2**: an output folder or whatever it is.
-*20:50.640*
+`**20:50.640:**` **Speaker 2**: an output folder or whatever it is.
 
-**Speaker 2**: And then every time you create a new project, you use that folder structure template.
-*20:53.760*
+`**20:53.760:**` **Speaker 2**: And then every time you create a new project, you use that folder structure template.
 
-**Speaker 2**: And obviously there's no way to enforce it, but the idea is that if you have folders for specific types of files, then you're more likely to use them and you're more
-likely to keep your project organized.
-*21:00.140*
+`**21:00.140:**` **Speaker 2**: And obviously there's no way to enforce it, but the idea is that if you have folders for specific types of files, then you're more likely to use them and you're more likely to keep your project organized.
 
-**Speaker 2**: And by the way, that's completely free and it's available for both Mac and PC.
-*21:14.480*
+`**21:14.480:**` **Speaker 2**: And by the way, that's completely free and it's available for both Mac and PC.
 
-Oh, that's very cool.
-*21:19.680*
+`**21:19.680:**` Oh, that's very cool.
 
-Yeah, actually this
-*21:20.800*
+`**21:20.800:**` Yeah, actually this
 
-you're speaking something that I've been preaching for a long time.
-*21:22.360*
+`**21:22.360:**` you're speaking something that I've been preaching for a long time.
 
-I just as a matter of fact, I've been using a unified folder structure since about, frankly, since mid 90s, like 95, 96.
-*21:25.320*
+`**21:25.320:**` I just as a matter of fact, I've been using a unified folder structure since about, frankly, since mid 90s, like 95, 96.
 
-And it was when I started playing with After Effects and I realized that if I jumbled up all of my referenced files in After Effects that After Effects would get broken.
-*21:36.040*
+`**21:36.040:**` And it was when I started playing with After Effects and I realized that if I jumbled up all of my referenced files in After Effects that After Effects would get broken.
 
-Like, uh you know, missing files, 'cause linking files was not as easy as it is today.
-*21:45.960*
+`**21:45.960:**` Like, uh you know, missing files, 'cause linking files was not as easy as it is today.
 
-And so that sort of necessitated me planning ahead.
-*21:51.220*
+`**21:51.220:**` And so that sort of necessitated me planning ahead.
 
-Oh boy, I'm going to have to plan ahead here.
-*21:57.300*
+`**21:57.300:**` Oh boy, I'm going to have to plan ahead here.
 
-And it turned out the easiest way to do that was to make a
-*22:00.340*
+`**22:00.340:**` And it turned out the easiest way to do that was to make a
 
-A folder with all my folders pre-built in it, and then just always start from there with every project.
-*22:03.540*
+`**22:03.540:**` A folder with all my folders pre-built in it, and then just always start from there with every project.
 
-**Speaker 2**: Well what's nice about PostSpace is that you can take that even further.
-*22:10.900*
+`**22:10.900:**` **Speaker 2**: Well what's nice about PostSpace is that you can take that even further.
 
-**Speaker 2**: And we do encourage people to pre-build their projects as well.
-*22:14.820*
+`**22:14.820:**` **Speaker 2**: And we do encourage people to pre-build their projects as well.
 
-**Speaker 2**: So you create the bin structure or whatever it is.
-*22:18.900*
+`**22:18.900:**` **Speaker 2**: So you create the bin structure or whatever it is.
 
-**Speaker 2**: within your project in advance, or you change the project sequence settings or whatever.
-*22:22.460*
+`**22:22.460:**` **Speaker 2**: within your project in advance, or you change the project sequence settings or whatever.
 
-**Speaker 2**: And we also support things like more advanced features like variables.
-*22:28.620*
+`**22:28.620:**` **Speaker 2**: And we also support things like more advanced features like variables.
 
-**Speaker 2**: So you can rename projects and folders based on the parameters you set.
-*22:33.419*
+`**22:33.419:**` **Speaker 2**: So you can rename projects and folders based on the parameters you set.
 
-**Speaker 2**: And there are quite a lot of complex things you can do.
-*22:38.380*
+`**22:38.380:**` **Speaker 2**: And there are quite a lot of complex things you can do.
 
-**Speaker 2**: And this is
-*22:41.820*
+`**22:41.820:**` **Speaker 2**: And this is
 
-**Speaker 2**: really quite popular with companies as well because there it's a good way of enforcing a common naming convention for everything.
-*22:42.860*
+`**22:42.860:**` **Speaker 2**: really quite popular with companies as well because there it's a good way of enforcing a common naming convention for everything.
 
-Right.
-*22:50.779*
+`**22:50.779:**` Right.
 
-I've always said it'd be cool if you could take a folder and write some sort of script on it that says, do not allow anything but this type of file to be put in here.
-*22:51.540*
+`**22:51.540:**` I've always said it'd be cool if you could take a folder and write some sort of script on it that says, do not allow anything but this type of file to be put in here.
 
-**Speaker 2**: Yeah, that's a bit more technically advanced, but
-*23:02.980*
+`**23:02.980:**` **Speaker 2**: Yeah, that's a bit more technically advanced, but
 
-**Speaker 2**: Our hope is that if you name it correctly, people will obey the rules.
-*23:09.240*
+`**23:09.240:**` **Speaker 2**: Our hope is that if you name it correctly, people will obey the rules.
 
-Yeah, no, and I will concur that at least having a starting point gets people
-*23:14.600*
+`**23:14.600:**` Yeah, no, and I will concur that at least having a starting point gets people
 
-better along the way.
-*23:22.240*
+`**23:22.240:**` better along the way.
 
-**Speaker 2**: Because really I I think that to an extent lack of organization is just maybe laziness.
-*23:24.480*
+`**23:24.480:**` **Speaker 2**: Because really I I think that to an extent lack of organization is just maybe laziness.
 
-**Speaker 2**: And so if you do all that in advance, then everything's there in front of you.
-*23:30.340*
+`**23:30.340:**` **Speaker 2**: And so if you do all that in advance, then everything's there in front of you.
 
-**Speaker 2**: You've really got no excuse not to organize.
-*23:34.580*
+`**23:34.580:**` **Speaker 2**: You've really got no excuse not to organize.
 
-Yeah.
-*23:37.299*
+`**23:37.299:**` Yeah.
 
-Oh, no, absolutely.
-*23:37.539*
+`**23:37.539:**` Oh, no, absolutely.
 
-And I think what it is is
-*23:38.660*
+`**23:38.660:**` And I think what it is is
 
-First of all, it's just so easy to dump something on the desktop, which drives me insane.
-*23:40.640*
+`**23:40.640:**` First of all, it's just so easy to dump something on the desktop, which drives me insane.
 
-Even to the point where I think a lot of people that once they're in a save dialog box
-*23:46.480*
+`**23:46.480:**` Even to the point where I think a lot of people that once they're in a save dialog box
 
-They don't realize that they could generate a folder right there.
-*23:51.919*
+`**23:51.919:**` They don't realize that they could generate a folder right there.
 
-So instead, they just dump it into a root folder or
-*23:55.760*
+`**23:55.760:**` So instead, they just dump it into a root folder or
 
-You know, I mean, I it is astonishing that when I have people send me projects that they've begun
-*23:59.900*
+`**23:59.900:**` You know, I mean, I it is astonishing that when I have people send me projects that they've begun
 
-It is a nightmare.
-*24:07.340*
+`**24:07.340:**` It is a nightmare.
 
-It's like, really?
-*24:08.460*
+`**24:08.460:**` It's like, really?
 
-Really?
-*24:09.580*
+`**24:09.580:**` Really?
 
-This is how somehow in your mind this seemed to make sense, right?
-*24:10.140*
+`**24:10.140:**` This is how somehow in your mind this seemed to make sense, right?
 
-I don't understand a world where this is a possibility.
-*24:15.260*
+`**24:15.260:**` I don't understand a world where this is a possibility.
 
-It hurts my head.
-*24:19.340*
+`**24:19.340:**` It hurts my head.
 
-**Speaker 2**: Yeah.
-*24:20.860*
+`**24:20.860:**` **Speaker 2**: Yeah.
 
-**Speaker 2**: But I wouldn't say I'd be lying if I said that I was organized 100% of the time.
-*24:21.720*
+`**24:21.720:**` **Speaker 2**: But I wouldn't say I'd be lying if I said that I was organized 100% of the time.
 
-**Speaker 2**: But I do try to at least tidy things up before giving them to someone else.
-*24:28.360*
+`**24:28.360:**` **Speaker 2**: But I do try to at least tidy things up before giving them to someone else.
 
-Let's go back to cut notes for a second because we touched on something earlier about syncing it with various applications.
-*24:35.520*
+`**24:35.520:**` Let's go back to cut notes for a second because we touched on something earlier about syncing it with various applications.
 
-I looked at one tutorial on
-*24:44.480*
+`**24:44.480:**` I looked at one tutorial on
 
-Your website about syncing it was something.
-*24:47.140*
+`**24:47.140:**` Your website about syncing it was something.
 
-I can't remember what it was now.
-*24:49.140*
+`**24:49.140:**` I can't remember what it was now.
 
-**Speaker 2**: Probably possibly.
-*24:50.580*
+`**24:50.580:**` **Speaker 2**: Probably possibly.
 
-So, how can you explain some of this?
-*24:52.740*
+`**24:52.740:**` So, how can you explain some of this?
 
-Because you were getting into like the MIDI, the MIDI utility and
-*24:55.220*
+`**24:55.220:**` Because you were getting into like the MIDI, the MIDI utility and
 
-How does that work?
-*25:00.120*
+`**25:00.120:**` How does that work?
 
-Yeah, I'd say.
-*25:02.520*
+`**25:02.520:**` Yeah, I'd say.
 
-And you're free to be as technical about it as you want.
-*25:03.640*
+`**25:03.640:**` And you're free to be as technical about it as you want.
 
-**Speaker 2**: Okay, yeah, I'd say it probably looks more complicated than it actually is.
-*25:07.560*
+`**25:07.560:**` **Speaker 2**: Okay, yeah, I'd say it probably looks more complicated than it actually is.
 
-**Speaker 2**: It's actually pretty easy.
-*25:11.720*
+`**25:11.720:**` **Speaker 2**: It's actually pretty easy.
 
-**Speaker 2**: With with Funacup Pro 7, it's uh you've got to sort of work around Funnacup Pro's quirks.
-*25:14.179*
+`**25:14.179:**` **Speaker 2**: With with Funacup Pro 7, it's uh you've got to sort of work around Funnacup Pro's quirks.
 
-**Speaker 2**: So for example, you've got to have the audio mixer open at all times, otherwise, Funocart will not send any MIDI data.
-*25:22.019*
+`**25:22.019:**` **Speaker 2**: So for example, you've got to have the audio mixer open at all times, otherwise, Funocart will not send any MIDI data.
 
-Interesting, okay.
-*25:32.220*
+`**25:32.220:**` Interesting, okay.
 
-**Speaker 2**: But that's that's a FinoCut Pro 7 quirk.
-*25:33.500*
+`**25:33.500:**` **Speaker 2**: But that's that's a FinoCut Pro 7 quirk.
 
-**Speaker 2**: If you're using the Final Cut Pro 10, we have a plugin, and what you have to do is
-*25:35.660*
+`**25:35.660:**` **Speaker 2**: If you're using the Final Cut Pro 10, we have a plugin, and what you have to do is
 
-**Speaker 2**: add that plug in to your timeline, make sure it's above all other tracks, make sure it starts at the very first frame, and then just drag it along the entire way.
-*25:42.560*
+`**25:42.560:**` **Speaker 2**: add that plug in to your timeline, make sure it's above all other tracks, make sure it starts at the very first frame, and then just drag it along the entire way.
 
-**Speaker 2**: And make sure you don't render.
-*25:54.020*
+`**25:54.020:**` **Speaker 2**: And make sure you don't render.
 
-So providing for make sure you don't render?
-*25:57.140*
+`**25:57.140:**` So providing for make sure you don't render?
 
-**Speaker 2**: Yes.
-*26:00.100*
+`**26:00.100:**` **Speaker 2**: Yes.
 
-Interesting.
-*26:00.900*
+`**26:00.900:**` Interesting.
 
-Okay.
-*26:01.460*
+`**26:01.460:**` Okay.
 
-**Speaker 2**: Well, the reason for that is it's an invisible plugin.
-*26:02.660*
+`**26:02.660:**` **Speaker 2**: Well, the reason for that is it's an invisible plugin.
 
-**Speaker 2**: So it lies on the top and shows everything that's beneath it.
-*26:06.940*
+`**26:06.940:**` **Speaker 2**: So it lies on the top and shows everything that's beneath it.
 
-**Speaker 2**: But if you render it, then Final Cut Pro says, oh, well no need to ask the plugin anything now.
-*26:12.380*
+`**26:12.380:**` **Speaker 2**: But if you render it, then Final Cut Pro says, oh, well no need to ask the plugin anything now.
 
-**Speaker 2**: I've just rendered it.
-*26:18.140*
+`**26:18.140:**` **Speaker 2**: I've just rendered it.
 
-**Speaker 2**: I'll just load the rendered file.
-*26:19.100*
+`**26:19.100:**` **Speaker 2**: I'll just load the rendered file.
 
-**Speaker 2**: And so if you render it, then nothing happens.
-*26:21.019*
+`**26:21.019:**` **Speaker 2**: And so if you render it, then nothing happens.
 
-Okay, so how do you deal with the fact that Final Cut 10 will always render in the background?
-*26:24.700*
+`**26:24.700:**` Okay, so how do you deal with the fact that Final Cut 10 will always render in the background?
 
-**Speaker 2**: You have to switch all to render off.
-*26:30.480*
+`**26:30.480:**` **Speaker 2**: You have to switch all to render off.
 
-Oh, okay.
-*26:32.080*
+`**26:32.080:**` Oh, okay.
 
-So could could the timeline be totally rendered, turn off the render function, then put your plug-in on?
-*26:33.040*
+`**26:33.040:**` So could could the timeline be totally rendered, turn off the render function, then put your plug-in on?
 
-**Speaker 2**: I think it wants to render again when you do that.
-*26:44.160*
+`**26:44.160:**` **Speaker 2**: I think it wants to render again when you do that.
 
-**Speaker 2**: But yes, needless to say, you need a fast computer.
-*26:47.600*
+`**26:47.600:**` **Speaker 2**: But yes, needless to say, you need a fast computer.
 
-**Speaker 2**: But yeah, that's really a FunoCut Pro ten thing.
-*26:53.160*
+`**26:53.160:**` **Speaker 2**: But yeah, that's really a FunoCut Pro ten thing.
 
-**Speaker 2**: It's not an issue with some of the other apps.
-*26:58.520*
+`**26:58.520:**` **Speaker 2**: It's not an issue with some of the other apps.
 
-**Speaker 2**: It's more
-*27:00.440*
+`**27:00.440:**` **Speaker 2**: It's more
 
-**Speaker 2**: Every app has its own set of technical limitations, and we have to try our best to work around them.
-*27:02.720*
+`**27:02.720:**` **Speaker 2**: Every app has its own set of technical limitations, and we have to try our best to work around them.
 
-Okay, so now you have this plug-in that's in your top layer that's always chugging along.
-*27:08.399*
+`**27:08.399:**` Okay, so now you have this plug-in that's in your top layer that's always chugging along.
 
-So when you hit play, somehow something gets sent somewhere?
-*27:14.360*
+`**27:14.360:**` So when you hit play, somehow something gets sent somewhere?
 
-**Speaker 2**: Yes, that's right.
-*27:18.919*
+`**27:18.919:**` **Speaker 2**: Yes, that's right.
 
-**Speaker 2**: What happens is you in CutNotes, there's a little sync icon next to the time code.
-*27:20.360*
+`**27:20.360:**` **Speaker 2**: What happens is you in CutNotes, there's a little sync icon next to the time code.
 
-**Speaker 2**: You tap that.
-*27:26.360*
+`**27:26.360:**` **Speaker 2**: You tap that.
 
-**Speaker 2**: And then you select MIDI and then you launch an app called Audio MIDI Setup, which is in your utilities folder and application.
-*27:27.540*
+`**27:27.540:**` **Speaker 2**: And then you select MIDI and then you launch an app called Audio MIDI Setup, which is in your utilities folder and application.
 
-**Speaker 2**: I've come across that guy.
-*27:39.140*
+`**27:39.140:**` **Speaker 2**: I've come across that guy.
 
-**Speaker 2**: And when you load it up, you double-click on the icon network, and then you'll see the iPad
-*27:41.520*
+`**27:41.520:**` **Speaker 2**: And when you load it up, you double-click on the icon network, and then you'll see the iPad
 
-**Speaker 2**: Listed with a sort of green circle next to it.
-*27:50.580*
+`**27:50.580:**` **Speaker 2**: Listed with a sort of green circle next to it.
 
-**Speaker 2**: And then you just are click that and then you click connect
-*27:53.620*
+`**27:53.620:**` **Speaker 2**: And then you just are click that and then you click connect
 
-**Speaker 2**: And once you've done that, then just scrub a little in Final Cup Row 10, and you'll see the time code.
-*27:58.460*
+`**27:58.460:**` **Speaker 2**: And once you've done that, then just scrub a little in Final Cup Row 10, and you'll see the time code.
 
-**Speaker 2**: Lidding up on the iPad.
-*28:06.080*
+`**28:06.080:**` **Speaker 2**: Lidding up on the iPad.
 
-Oh, that's crazy cool.
-*28:07.440*
+`**28:07.440:**` Oh, that's crazy cool.
 
-**Speaker 2**: And what's also cool is that we just released an update
-*28:09.520*
+`**28:09.520:**` **Speaker 2**: And what's also cool is that we just released an update
 
-**Speaker 2**: you can actually remotely control playback with the with the iPad using the uh buttons and cut notes.
-*28:13.620*
+`**28:13.620:**` **Speaker 2**: you can actually remotely control playback with the with the iPad using the uh buttons and cut notes.
 
-Oh well that's just now black magic.
-*28:20.260*
+`**28:20.260:**` Oh well that's just now black magic.
 
-So you could sit at the back of the room and shuttle back and forth and make notes.
-*28:24.260*
+`**28:24.260:**` So you could sit at the back of the room and shuttle back and forth and make notes.
 
-**Speaker 2**: Yeah, and if if it annoys you that your client keeps pausing things you could disable that
-*28:28.320*
+`**28:28.320:**` **Speaker 2**: Yeah, and if if it annoys you that your client keeps pausing things you could disable that
 
-Stop controlling my editor.
-*28:36.220*
+`**28:36.220:**` Stop controlling my editor.
 
-Give me that thing.
-*28:39.660*
+`**28:39.660:**` Give me that thing.
 
-I'm going to take away shuttle control from you.
-*28:41.740*
+`**28:41.740:**` I'm going to take away shuttle control from you.
 
-You're a bad client.
-*28:44.220*
+`**28:44.220:**` You're a bad client.
 
-Oh, that's actually kind of magical.
-*28:46.500*
+`**28:46.500:**` Oh, that's actually kind of magical.
 
-Yeah, I think I downloaded that plugin by accident the other night, and I wasn't sure what that was.
-*28:49.220*
+`**28:49.220:**` Yeah, I think I downloaded that plugin by accident the other night, and I wasn't sure what that was.
 
-And I'm just noticing now it's in my down it's still in my downloads folder.
-*28:56.419*
+`**28:56.419:**` And I'm just noticing now it's in my down it's still in my downloads folder.
 
-So that just shows up as one of my plugins.
-*29:00.519*
+`**29:00.519:**` So that just shows up as one of my plugins.
 
-Okay, so let me.
-*29:04.760*
+`**29:04.760:**` Okay, so let me.
 
-It's a generator.
-*29:06.919*
+`**29:06.919:**` It's a generator.
 
-Oh, gotcha, gotcha.
-*29:08.039*
+`**29:08.039:**` Oh, gotcha, gotcha.
 
-Yeah.
-*29:09.000*
+`**29:09.000:**` Yeah.
 
-This is interesting because you're actually making tools for a very agnostic usage pattern.
-*29:10.460*
+`**29:10.460:**` This is interesting because you're actually making tools for a very agnostic usage pattern.
 
-You don't really care who's
-*29:16.700*
+`**29:16.700:**` You don't really care who's
 
-Who's using them?
-*29:19.080*
+`**29:19.080:**` Who's using them?
 
-What do you just personally, as an edit system?
-*29:20.760*
+`**29:20.760:**` What do you just personally, as an edit system?
 
-And you can be honest, because believe me, we have guests that are comple amazingly honest.
-*29:23.480*
+`**29:23.480:**` And you can be honest, because believe me, we have guests that are comple amazingly honest.
 
-What do you think of Final Cut 10 as like the next generation edit system?
-*29:28.040*
+`**29:28.040:**` What do you think of Final Cut 10 as like the next generation edit system?
 
-**Speaker 2**: Well, the thing about Final Cut Pro 10 for me is that
-*29:34.840*
+`**29:34.840:**` **Speaker 2**: Well, the thing about Final Cut Pro 10 for me is that
 
-**Speaker 2**: I like the features, but I'm finding it difficult to find out figure out where I can actually fit it within my workflow.
-*29:40.320*
+`**29:40.320:**` **Speaker 2**: I like the features, but I'm finding it difficult to find out figure out where I can actually fit it within my workflow.
 
-**Speaker 2**: Okay.
-*29:49.280*
+`**29:49.280:**` **Speaker 2**: Okay.
 
-**Speaker 2**: Because right now, I mainly work on features.
-*29:50.340*
+`**29:50.340:**` **Speaker 2**: Because right now, I mainly work on features.
 
-**Speaker 2**: And so to me, the only choice really seems to be added.
-*29:53.299*
+`**29:53.299:**` **Speaker 2**: And so to me, the only choice really seems to be added.
 
-**Speaker 2**: Gotcha.
-*29:57.059*
+`**29:57.059:**` **Speaker 2**: Gotcha.
 
-**Speaker 2**: So that there's a problem
-*29:57.539*
+`**29:57.539:**` **Speaker 2**: So that there's a problem
 
-**Speaker 2**: for me, but I do think that Apple was looking very far into the future.
-*29:58.919*
+`**29:58.919:**` **Speaker 2**: for me, but I do think that Apple was looking very far into the future.
 
-**Speaker 2**: I think Funa Cup Pro is quite an interesting app because
-*30:03.960*
+`**30:03.960:**` **Speaker 2**: I think Funa Cup Pro is quite an interesting app because
 
-**Speaker 2**: On the one hand, there's the simplicity, there's the abstraction of certain features to make them less complicated.
-*30:07.160*
+`**30:07.160:**` **Speaker 2**: On the one hand, there's the simplicity, there's the abstraction of certain features to make them less complicated.
 
-**Speaker 2**: I like that terminology.
-*30:14.940*
+`**30:14.940:**` **Speaker 2**: I like that terminology.
 
-That's an interesting way of putting it.
-*30:16.299*
+`**30:16.299:**` That's an interesting way of putting it.
 
-Abstraction of it.
-*30:17.740*
+`**30:17.740:**` Abstraction of it.
 
-**Speaker 2**: Yeah, they're hiding things from you to make things simpler.
-*30:18.860*
+`**30:18.860:**` **Speaker 2**: Yeah, they're hiding things from you to make things simpler.
 
-**Speaker 2**: But on the other hand, it's got other features, like things like roles, for example.
-*30:22.779*
+`**30:22.779:**` **Speaker 2**: But on the other hand, it's got other features, like things like roles, for example.
 
-**Speaker 2**: are a lot more technical, I think.
-*30:29.400*
+`**30:29.400:**` **Speaker 2**: are a lot more technical, I think.
 
-**Speaker 2**: And those are the sorts of things that come from the mind of a programmer rather than
-*30:32.360*
+`**30:32.360:**` **Speaker 2**: And those are the sorts of things that come from the mind of a programmer rather than
 
-**Speaker 2**: A creative person.
-*30:39.360*
+`**30:39.360:**` **Speaker 2**: A creative person.
 
-**Speaker 2**: So I think that's why no product has really done that before.
-*30:40.559*
+`**30:40.559:**` **Speaker 2**: So I think that's why no product has really done that before.
 
-So you're mentioning something like roles.
-*30:44.320*
+`**30:44.320:**` So you're mentioning something like roles.
 
-Now, a few episodes ago, we did an episode with Alban Eger from Austria, and we talked extensively about roles and different ways that.
-*30:45.919*
+`**30:45.919:**` Now, a few episodes ago, we did an episode with Alban Eger from Austria, and we talked extensively about roles and different ways that.
 
-We can use it.
-*30:54.360*
+`**30:54.360:**` We can use it.
 
-So, what you're saying about roles is that roles is an interesting solution to a problem, but maybe ends up being more technical than it needs to be?
-*30:55.559*
+`**30:55.559:**` So, what you're saying about roles is that roles is an interesting solution to a problem, but maybe ends up being more technical than it needs to be?
 
-**Speaker 2**: No, no, I'm not saying it's it's more technical than it needs to be.
-*31:04.060*
+`**31:04.060:**` **Speaker 2**: No, no, I'm not saying it's it's more technical than it needs to be.
 
-**Speaker 2**: I just think that it's a solution that well when I say it came from a
-*31:06.780*
+`**31:06.780:**` **Speaker 2**: I just think that it's a solution that well when I say it came from a
 
-**Speaker 2**: a programmer.
-*31:12.340*
+`**31:12.340:**` **Speaker 2**: a programmer.
 
-**Speaker 2**: I I don't mean that in a disparaging way.
-*31:13.140*
+`**31:13.140:**` **Speaker 2**: I I don't mean that in a disparaging way.
 
-**Speaker 2**: I I just think that Apple very much thought outside the box.
-*31:15.299*
+`**31:15.299:**` **Speaker 2**: I I just think that Apple very much thought outside the box.
 
-Right.
-*31:19.220*
+`**31:19.220:**` Right.
 
-I totally get what you're saying.
-*31:19.780*
+`**31:19.780:**` I totally get what you're saying.
 
-I think that there is um uh there's an analogy or a
-*31:21.299*
+`**31:21.299:**` I think that there is um uh there's an analogy or a
 
-Parable or something about being able to design something as complicated as a submarine so that a sailor can run it and not sink it.
-*31:26.400*
+`**31:26.400:**` Parable or something about being able to design something as complicated as a submarine so that a sailor can run it and not sink it.
 
-You know, I mean, it's difficult to make something super simple.
-*31:33.679*
+`**31:33.679:**` You know, I mean, it's difficult to make something super simple.
 
-And we've all seen solutions that come from the mind of an engineer and not the mind of a creative.
-*31:38.440*
+`**31:38.440:**` And we've all seen solutions that come from the mind of an engineer and not the mind of a creative.
 
-Right.
-*31:47.040*
+`**31:47.040:**` Right.
 
-I think and this is completely unrelated to video production, but it's been very much a part of my life for the last six or seven months
-*31:47.600*
+`**31:47.600:**` I think and this is completely unrelated to video production, but it's been very much a part of my life for the last six or seven months
 
-In order to do all this podcasting stuff, I had to learn some WordPress.
-*31:56.860*
+`**31:56.860:**` In order to do all this podcasting stuff, I had to learn some WordPress.
 
-And I gotta say, WordPress is designed by geniuses so that simpletons can't figure it out.
-*32:00.780*
+`**32:00.780:**` And I gotta say, WordPress is designed by geniuses so that simpletons can't figure it out.
 
-I mean, it's an incredibly powerful thing.
-*32:07.420*
+`**32:07.420:**` I mean, it's an incredibly powerful thing.
 
-But it's not easy to learn.
-*32:10.620*
+`**32:10.620:**` But it's not easy to learn.
 
-At least it wasn't for me.
-*32:12.940*
+`**32:12.940:**` At least it wasn't for me.
 
-And maybe I'm just, you know, advertising how dense I am.
-*32:14.140*
+`**32:14.140:**` And maybe I'm just, you know, advertising how dense I am.
 
-I don't know.
-*32:17.660*
+`**32:17.660:**` I don't know.
 
-But I think that there are features, certainly in Final Cut, where you look at it and you go, okay, I don't know how that came about.
-*32:18.820*
+`**32:18.820:**` But I think that there are features, certainly in Final Cut, where you look at it and you go, okay, I don't know how that came about.
 
-But I will say that by and large,
-*32:28.100*
+`**32:28.100:**` But I will say that by and large,
 
-It is a very fluid, you know, friendly application.
-*32:30.400*
+`**32:30.400:**` It is a very fluid, you know, friendly application.
 
-It does not seem to fight me very often.
-*32:34.480*
+`**32:34.480:**` It does not seem to fight me very often.
 
-Yeah.
-*32:37.840*
+`**32:37.840:**` Yeah.
 
-One caveat.
-*32:40.160*
+`**32:40.160:**` One caveat.
 
-If you understand.
-*32:41.040*
+`**32:41.040:**` If you understand.
 
-some of the basic premise and what some of our guests have referred to or we've been calling the learning wall as opposed to a learning curve.
-*32:42.540*
+`**32:42.540:**` some of the basic premise and what some of our guests have referred to or we've been calling the learning wall as opposed to a learning curve.
 
-There is a wall you have to get over in that initial 24, 48 hours.
-*32:50.540*
+`**32:50.540:**` There is a wall you have to get over in that initial 24, 48 hours.
 
-**Speaker 2**: I've heard anecdotally that people with no prior editing experience pick it up a lot quicker than people.
-*32:55.580*
+`**32:55.580:**` **Speaker 2**: I've heard anecdotally that people with no prior editing experience pick it up a lot quicker than people.
 
-**Speaker 2**: So we used the old way of doing things.
-*33:03.260*
+`**33:03.260:**` **Speaker 2**: So we used the old way of doing things.
 
-Yeah, I mean, I will say, yeah, I will say more than anecdotally, I've seen it happen in, you know, firsthand with
-*33:05.500*
+`**33:05.500:**` Yeah, I mean, I will say, yeah, I will say more than anecdotally, I've seen it happen in, you know, firsthand with
 
-you know, we hired a um we brought in an intern a while back, about a year and a half ago.
-*33:14.900*
+`**33:14.900:**` you know, we hired a um we brought in an intern a while back, about a year and a half ago.
 
-And uh
-*33:20.740*
+`**33:20.740:**` And uh
 
-you know, plop them in front of Final Cut 10 and they're like, Okay, yeah, okay, oh, this is okay, I get it.
-*33:22.260*
+`**33:22.260:**` you know, plop them in front of Final Cut 10 and they're like, Okay, yeah, okay, oh, this is okay, I get it.
 
-It's like, hmm, interesting.
-*33:27.059*
+`**33:27.059:**` It's like, hmm, interesting.
 
-I don't hear the same screaming and table pounding.
-*33:28.660*
+`**33:28.660:**` I don't hear the same screaming and table pounding.
 
-that I do from the veterans down the hall, you know?
-*33:31.560*
+`**33:31.560:**` that I do from the veterans down the hall, you know?
 
-Yeah, I would say definitely.
-*33:34.680*
+`**33:34.680:**` Yeah, I would say definitely.
 
-If you if you don't bring a lot of baggage with you, it's actually easier to learn.
-*33:36.040*
+`**33:36.040:**` If you if you don't bring a lot of baggage with you, it's actually easier to learn.
 
-And yet you take something like roles and some of the ways that it can it can benefit you.
-*33:41.520*
+`**33:41.520:**` And yet you take something like roles and some of the ways that it can it can benefit you.
 
-And I gotta say, you know, until
-*33:47.280*
+`**33:47.280:**` And I gotta say, you know, until
 
-Speaking with Albin a couple episodes ago, I was like, Yeah, rolls, I guess so, yeah.
-*33:49.419*
+`**33:49.419:**` Speaking with Albin a couple episodes ago, I was like, Yeah, rolls, I guess so, yeah.
 
-And then he explained some of the ways he was using it.
-*33:55.900*
+`**33:55.900:**` And then he explained some of the ways he was using it.
 
-And I was like, wow, this is very interesting.
-*33:58.840*
+`**33:58.840:**` And I was like, wow, this is very interesting.
 
-They've solved a problem that I didn't know I had.
-*34:02.200*
+`**34:02.200:**` They've solved a problem that I didn't know I had.
 
-**Speaker 2**: Right.
-*34:04.280*
+`**34:04.280:**` **Speaker 2**: Right.
 
-**Speaker 2**: Yeah.
-*34:04.600*
+`**34:04.600:**` **Speaker 2**: Yeah.
 
-**Speaker 2**: I think roles are really a poster boy for metadata.
-*34:05.480*
+`**34:05.480:**` **Speaker 2**: I think roles are really a poster boy for metadata.
 
-**Speaker 2**: Because they're an example of the different variety of workflows you can create just by tagging clips.
-*34:10.540*
+`**34:10.540:**` **Speaker 2**: Because they're an example of the different variety of workflows you can create just by tagging clips.
 
-Very good point.
-*34:19.980*
+`**34:19.980:**` Very good point.
 
-I had not thought of that.
-*34:21.100*
+`**34:21.100:**` I had not thought of that.
 
-**Speaker 2**: So I guess going back to our previous discussion about metadata, that's a really good way of explaining it and demonstrating it.
-*34:23.760*
+`**34:23.760:**` **Speaker 2**: So I guess going back to our previous discussion about metadata, that's a really good way of explaining it and demonstrating it.
 
-Yeah, absolutely.
-*34:31.679*
+`**34:31.679:**` Yeah, absolutely.
 
-So again, if you're just picking up here.
-*34:33.119*
+`**34:33.119:**` So again, if you're just picking up here.
 
-As you're importing clips into your project to work, you can assign a role, which is just another way of tagging something.
-*34:36.720*
+`**34:36.720:**` As you're importing clips into your project to work, you can assign a role, which is just another way of tagging something.
 
-And typically, and actually it's very interesting, in the roles control panel, in the roles window, much like post taste or my folder structure.
-*34:48.320*
+`**34:48.320:**` And typically, and actually it's very interesting, in the roles control panel, in the roles window, much like post taste or my folder structure.
 
-It has sort of inspired you to say, Hey, look, this could be dialogue, this could be music, this is, you know, graphics.
-*34:57.980*
+`**34:57.980:**` It has sort of inspired you to say, Hey, look, this could be dialogue, this could be music, this is, you know, graphics.
 
-And so it's like
-*35:04.460*
+`**35:04.460:**` And so it's like
 
-you know, they've given you some ideas of ways that you can assign roles.
-*35:05.359*
+`**35:05.359:**` you know, they've given you some ideas of ways that you can assign roles.
 
-I think what most people, or probably what a lot of people don't realize, is you can create your own roles too.
-*35:09.680*
+`**35:09.680:**` I think what most people, or probably what a lot of people don't realize, is you can create your own roles too.
 
-Additional roles.
-*35:16.320*
+`**35:16.320:**` Additional roles.
 
-So you could, and this is what I spoke with Albin about a few episodes ago.
-*35:17.680*
+`**35:17.680:**` So you could, and this is what I spoke with Albin about a few episodes ago.
 
-What he does is he generates roles for various language localizations.
-*35:22.960*
+`**35:22.960:**` What he does is he generates roles for various language localizations.
 
-Or he'll generate a role that has like all the French graphics and then one role that has all of the English graphics.
-*35:29.140*
+`**35:29.140:**` Or he'll generate a role that has like all the French graphics and then one role that has all of the English graphics.
 
-And by exporting using those roles,
-*35:39.380*
+`**35:39.380:**` And by exporting using those roles,
 
-It's again, it's solving a problem that you didn't know you had because I would have just made two completely separate timelines in days gone by.
-*35:42.320*
+`**35:42.320:**` It's again, it's solving a problem that you didn't know you had because I would have just made two completely separate timelines in days gone by.
 
-Here's my French timeline.
-*35:51.120*
+`**35:51.120:**` Here's my French timeline.
 
-Here's my English timeline.
-*35:52.400*
+`**35:52.400:**` Here's my English timeline.
 
-And what is possible to do, which is fine, that's totally fine to do that until you start getting cut no or cut notes, hey, or you say edit notes.
-*35:54.160*
+`**35:54.160:**` And what is possible to do, which is fine, that's totally fine to do that until you start getting cut no or cut notes, hey, or you say edit notes.
 
-Where your client says, Oh, yeah, I'm sorry, we have a change that we have to do.
-*36:03.980*
+`**36:03.980:**` Where your client says, Oh, yeah, I'm sorry, we have a change that we have to do.
 
-Then you're like, Ugh, I got to change it in the English version, the German version, the French version, and the Portuguese version.
-*36:09.740*
+`**36:09.740:**` Then you're like, Ugh, I got to change it in the English version, the German version, the French version, and the Portuguese version.
 
-And you have to go find that same change.
-*36:17.240*
+`**36:17.240:**` And you have to go find that same change.
 
-Whereas, if you were working off a one-timeline, which indeed is possible, and something that I didn't, that I never considered.
-*36:19.720*
+`**36:19.720:**` Whereas, if you were working off a one-timeline, which indeed is possible, and something that I didn't, that I never considered.
 
-If I'm working off that one timeline and I just export using my various roles, and again, I mean, I did a tutorial on the Digital Cinema Cafe website about how you can use
-these for localization.
-*36:30.020*
+`**36:30.020:**` If I'm working off that one timeline and I just export using my various roles, and again, I mean, I did a tutorial on the Digital Cinema Cafe website about how you can use these for localization.
 
-Yeah, it's like one of those things where it's like, oh my goodness, my mind has just been blown.
-*36:43.140*
+`**36:43.140:**` Yeah, it's like one of those things where it's like, oh my goodness, my mind has just been blown.
 
-**Speaker 2**: Right.
-*36:47.619*
+`**36:47.619:**` **Speaker 2**: Right.
 
-**Speaker 2**: Well, I was actually thinking of another way that's quite useful because
-*36:48.579*
+`**36:48.579:**` **Speaker 2**: Well, I was actually thinking of another way that's quite useful because
 
-**Speaker 2**: I recently had to prep uh a Fire Capricor 7 project for finishing.
-*36:54.660*
+`**36:54.660:**` **Speaker 2**: I recently had to prep uh a Fire Capricor 7 project for finishing.
 
-**Speaker 2**: And one one scene in the entire movie is really, really it's a gun f scene, it's really complicated from a sound point of view.
-*37:01.060*
+`**37:01.060:**` **Speaker 2**: And one one scene in the entire movie is really, really it's a gun f scene, it's really complicated from a sound point of view.
 
-**Speaker 2**: And so when you're trying to separate out all the tracks and everything, you end up with 30 tracks just for this one scene, but then you have to extend that all the way
-along your entire timeline for no reason at all.
-*37:09.460*
+`**37:09.460:**` **Speaker 2**: And so when you're trying to separate out all the tracks and everything, you end up with 30 tracks just for this one scene, but then you have to extend that all the way along your entire timeline for no reason at all.
 
-**Speaker 2**: Right.
-*37:22.720*
+`**37:22.720:**` **Speaker 2**: Right.
 
-**Speaker 2**: And I think roles are an example where you can use the real estate a lot more efficiently.
-*37:23.599*
+`**37:23.599:**` **Speaker 2**: And I think roles are an example where you can use the real estate a lot more efficiently.
 
-In this one section, it requires you have 30 tracks.
-*37:30.740*
+`**37:30.740:**` In this one section, it requires you have 30 tracks.
 
-**Speaker 2**: But just for that scene, not for any other scene.
-*37:36.580*
+`**37:36.580:**` **Speaker 2**: But just for that scene, not for any other scene.
 
-Do you nest that audio problem down so it doesn't take so much space?
-*37:39.300*
+`**37:39.300:**` Do you nest that audio problem down so it doesn't take so much space?
 
-**Speaker 2**: No, because this was when I was prepping it for finishing.
-*37:44.000*
+`**37:44.000:**` **Speaker 2**: No, because this was when I was prepping it for finishing.
 
-**Speaker 2**: So we weren't working like that, but then we had to make more changes.
-*37:47.200*
+`**37:47.200:**` **Speaker 2**: So we weren't working like that, but then we had to make more changes.
 
-**Speaker 2**: So it was really only a short space of time that we were doing it.
-*37:50.560*
+`**37:50.560:**` **Speaker 2**: So it was really only a short space of time that we were doing it.
 
-**Speaker 2**: But there's just a lot of versatile scrolling past blankness.
-*37:53.500*
+`**37:53.500:**` **Speaker 2**: But there's just a lot of versatile scrolling past blankness.
 
-**Speaker 2**: I think roles with roles, you could organize the space a lot more efficiently
-*37:59.180*
+`**37:59.180:**` **Speaker 2**: I think roles with roles, you could organize the space a lot more efficiently
 
-Yeah, I mean, certainly it's one of those things where the problem has to be explained to you before you realize how brilliant the solution is.
-*38:03.359*
+`**38:03.359:**` Yeah, I mean, certainly it's one of those things where the problem has to be explained to you before you realize how brilliant the solution is.
 
-**Speaker 2**: Yes.
-*38:11.320*
+`**38:11.320:**` **Speaker 2**: Yes.
 
-And I think that's one of the things that Final Cut 10 has done, at least for me.
-*38:12.280*
+`**38:12.280:**` And I think that's one of the things that Final Cut 10 has done, at least for me.
 
-There's been multiple times where it's like.
-*38:17.720*
+`**38:17.720:**` There's been multiple times where it's like.
 
-Oh, I didn't know that was a problem.
-*38:20.580*
+`**38:20.580:**` Oh, I didn't know that was a problem.
 
-Thank you.
-*38:25.220*
+`**38:25.220:**` Thank you.
 
-Thank you for making this solution for me.
-*38:26.020*
+`**38:26.020:**` Thank you for making this solution for me.
 
-**Speaker 2**: Yeah, I think the um
-*38:28.420*
+`**38:28.420:**` **Speaker 2**: Yeah, I think the um
 
-**Speaker 2**: Yeah, I do respect the way that Apple just sort of thought outside the box.
-*38:31.320*
+`**38:31.320:**` **Speaker 2**: Yeah, I do respect the way that Apple just sort of thought outside the box.
 
-**Speaker 2**: I think that the biggest problem was there with how they launched it.
-*38:37.640*
+`**38:37.640:**` **Speaker 2**: I think that the biggest problem was there with how they launched it.
 
-Oh, clearly.
-*38:41.720*
+`**38:41.720:**` Oh, clearly.
 
-**Speaker 2**: Yeah.
-*38:42.839*
+`**38:42.839:**` **Speaker 2**: Yeah.
 
-**Speaker 2**: It was obvious from the Logic Pro 10 release that they learned a lot from that.
-*38:44.359*
+`**38:44.359:**` **Speaker 2**: It was obvious from the Logic Pro 10 release that they learned a lot from that.
 
-Explain what you mean by that.
-*38:51.640*
+`**38:51.640:**` Explain what you mean by that.
 
-**Speaker 2**: Um, well, uh the people who used the previous version of logic loved the new one.
-*38:53.580*
+`**38:53.580:**` **Speaker 2**: Um, well, uh the people who used the previous version of logic loved the new one.
 
-**Speaker 2**: And there was I mean, I didn't read anything bad about it.
-*39:00.140*
+`**39:00.140:**` **Speaker 2**: And there was I mean, I didn't read anything bad about it.
 
-**Speaker 2**: And they kept a lot of the old features, but then they added some great new features and everyone was happy.
-*39:04.520*
+`**39:04.520:**` **Speaker 2**: And they kept a lot of the old features, but then they added some great new features and everyone was happy.
 
-**Speaker 2**: You're not hearing the same sort of vitriol and anger about it.
-*39:10.920*
+`**39:10.920:**` **Speaker 2**: You're not hearing the same sort of vitriol and anger about it.
 
-**Speaker 2**: Well, I think the just Funicup Pro 10 was a big change and Apple, I think a better approach would have been for them to say, we're going to
-*39:14.740*
+`**39:14.740:**` **Speaker 2**: Well, I think the just Funicup Pro 10 was a big change and Apple, I think a better approach would have been for them to say, we're going to
 
-**Speaker 2**: Have this side by side with Final Cut Pro 7 for the next year or so, just while we flesh out the features.
-*39:24.700*
+`**39:24.700:**` **Speaker 2**: Have this side by side with Final Cut Pro 7 for the next year or so, just while we flesh out the features.
 
-**Speaker 2**: And we just want a whole load of feedback from everyone about how we can improve it.
-*39:32.300*
+`**39:32.300:**` **Speaker 2**: And we just want a whole load of feedback from everyone about how we can improve it.
 
-**Speaker 2**: Rather than saying we're discontinuing the old one, this is what you must all switch to.
-*39:37.720*
+`**39:37.720:**` **Speaker 2**: Rather than saying we're discontinuing the old one, this is what you must all switch to.
 
-Clearly, the real issue was a PR problem.
-*39:43.720*
+`**39:43.720:**` Clearly, the real issue was a PR problem.
 
-**Speaker 2**: Yeah, yeah.
-*39:47.799*
+`**39:47.799:**` **Speaker 2**: Yeah, yeah.
 
-**Speaker 2**: Well, n no I I'd say it was a technical problem as well.
-*39:49.020*
+`**39:49.020:**` **Speaker 2**: Well, n no I I'd say it was a technical problem as well.
 
-**Speaker 2**: I mean there were a lot of big features missing for certain workflows.
-*39:51.820*
+`**39:51.820:**` **Speaker 2**: I mean there were a lot of big features missing for certain workflows.
 
-So John clearly in the last couple of years there's been some you know
-*39:56.460*
+`**39:56.460:**` So John clearly in the last couple of years there's been some you know
 
-difficulty in terms of the transition.
-*40:02.539*
+`**40:02.539:**` difficulty in terms of the transition.
 
-And we all know that the that the launch is will probably go down in history as one of the worst tech launches ever of Final Cut ten.
-*40:04.859*
+`**40:04.859:**` And we all know that the that the launch is will probably go down in history as one of the worst tech launches ever of Final Cut ten.
 
-But
-*40:14.539*
+`**40:14.539:**` But
 
-Would you agree that objection, Your Honor, leading the witness.
-*40:15.980*
+`**40:15.980:**` Would you agree that objection, Your Honor, leading the witness.
 
-Would you agree that with 10.
-*40:19.580*
+`**40:19.580:**` Would you agree that with 10.
 
-1, we're
-*40:23.660*
+`**40:23.660:**` 1, we're
 
-at a whole new level now?
-*40:24.840*
+`**40:24.840:**` at a whole new level now?
 
-**Speaker 2**: Um yeah, I'd say that that was achieved um I think it was about ten thirty three.
-*40:26.520*
+`**40:26.520:**` **Speaker 2**: Um yeah, I'd say that that was achieved um I think it was about ten thirty three.
 
-**Speaker 2**: I think 10.
-*40:35.100*
+`**40:35.100:**` **Speaker 2**: I think 10.
 
-**Speaker 2**: 03 or so was when it started to become a lot more usable.
-*40:35.900*
+`**40:35.900:**` **Speaker 2**: 03 or so was when it started to become a lot more usable.
 
-**Speaker 2**: I think the 10.
-*40:40.140*
+`**40:40.140:**` **Speaker 2**: I think the 10.
 
-**Speaker 2**: 1 just really paid up some extra loose ends.
-*40:40.940*
+`**40:40.940:**` **Speaker 2**: 1 just really paid up some extra loose ends.
 
-**Speaker 2**: I I don't see ten point one as perhaps as big enough to deserve that such a large vision number.
-*40:43.920*
+`**40:43.920:**` **Speaker 2**: I I don't see ten point one as perhaps as big enough to deserve that such a large vision number.
 
-**Speaker 2**: But I the it perhaps tied up one of the few remaining ones for me, which was the whole project and events
-*40:52.380*
+`**40:52.380:**` **Speaker 2**: But I the it perhaps tied up one of the few remaining ones for me, which was the whole project and events
 
-**Speaker 2**: and then it loads every single project you've ever worked on by default and it's much better architecture.
-*41:01.180*
+`**41:01.180:**` **Speaker 2**: and then it loads every single project you've ever worked on by default and it's much better architecture.
 
-**Speaker 2**: I think.
-*41:09.400*
+`**41:09.400:**` **Speaker 2**: I think.
 
-Yes, you're breaking up there a little bit, but I think what you said was that ten point one alleviates the project event nightmare.
-*41:10.280*
+`**41:10.280:**` Yes, you're breaking up there a little bit, but I think what you said was that ten point one alleviates the project event nightmare.
 
-Yes.
-*41:18.520*
+`**41:18.520:**` Yes.
 
-Yeah.
-*41:19.320*
+`**41:19.320:**` Yeah.
 
-And you know, there's some really fascinating, and I think I'll put some of these in the show notes.
-*41:19.720*
+`**41:19.720:**` And you know, there's some really fascinating, and I think I'll put some of these in the show notes.
 
-There's one in particular, there's one really fascinating
-*41:24.839*
+`**41:24.839:**` There's one in particular, there's one really fascinating
 
-White paper that was published by a production company called 10.
-*41:30.280*
+`**41:30.280:**` White paper that was published by a production company called 10.
 
-1.
-*41:34.760*
+`**41:34.760:**` 1.
 
-Totally coincidental and unrelated to 10.
-*41:35.560*
+`**41:35.560:**` Totally coincidental and unrelated to 10.
 
-1.
-*41:38.760*
+`**41:38.760:**` 1.
 
-But I believe it's a British company and
-*41:39.480*
+`**41:39.480:**` But I believe it's a British company and
 
-very soon after the release, which makes which always makes it kind of fishy to me because they were definitely on some sort of an insider track with Apple.
-*41:42.720*
+`**41:42.720:**` very soon after the release, which makes which always makes it kind of fishy to me because they were definitely on some sort of an insider track with Apple.
 
-But very soon after the release, they had this amazing white paper that goes through several different production workflow ideas
-*41:53.460*
+`**41:53.460:**` But very soon after the release, they had this amazing white paper that goes through several different production workflow ideas
 
-Showing how you can use the new library structure, the new enhanced XML features to work in collaborative work environments, which has always been one of the main
-things that people have
-*42:02.760*
+`**42:02.760:**` Showing how you can use the new library structure, the new enhanced XML features to work in collaborative work environments, which has always been one of the main things that people have
 
-complained about with Final Fit 10.
-*42:16.240*
+`**42:16.240:**` complained about with Final Fit 10.
 
-**Speaker 2**: When they collaborate they mean on a sand, right?
-*42:18.080*
+`**42:18.080:**` **Speaker 2**: When they collaborate they mean on a sand, right?
 
-Well, yes, on a sand, but more s even bigger than that, you know, if you want to collaborate with
-*42:21.920*
+`**42:21.920:**` Well, yes, on a sand, but more s even bigger than that, you know, if you want to collaborate with
 
-an audio engineer across town or you know assistant editors in another part of the building or whatever
-*42:28.740*
+`**42:28.740:**` an audio engineer across town or you know assistant editors in another part of the building or whatever
 
-I mean, there has to be ways to do that.
-*42:38.040*
+`**42:38.040:**` I mean, there has to be ways to do that.
 
-And that's one of the things that Avid has always been good at.
-*42:40.920*
+`**42:40.920:**` And that's one of the things that Avid has always been good at.
 
-They've been doing it for 25 years now, or almost 24 years, something like that.
-*42:43.880*
+`**42:43.880:**` They've been doing it for 25 years now, or almost 24 years, something like that.
 
-And clearly, Final Cut 10 is seen as the well, I'm just one guy, you know, working by myself.
-*42:48.720*
+`**42:48.720:**` And clearly, Final Cut 10 is seen as the well, I'm just one guy, you know, working by myself.
 
-Just last night, there was this T Twitter string
-*42:58.400*
+`**42:58.400:**` Just last night, there was this T Twitter string
 
-from a tech pundit person who was kind of threw the question out to the Twitter community
-*43:02.640*
+`**43:02.640:**` from a tech pundit person who was kind of threw the question out to the Twitter community
 
-you know, she has like 1.
-*43:10.740*
+`**43:10.740:**` you know, she has like 1.
 
-7 million followers.
-*43:11.780*
+`**43:11.780:**` 7 million followers.
 
-And she says, So I'm thinking of getting back into video editing Premiere or Final Cut 10.
-*43:14.180*
+`**43:14.180:**` And she says, So I'm thinking of getting back into video editing Premiere or Final Cut 10.
 
-And all of a sudden it's like, oh my goodness, it's like 1996 and people yelling at Mac versus PC again.
-*43:20.320*
+`**43:20.320:**` And all of a sudden it's like, oh my goodness, it's like 1996 and people yelling at Mac versus PC again.
 
-You know, not that one of them is a Mac app and one of them is a PC app.
-*43:26.480*
+`**43:26.480:**` You know, not that one of them is a Mac app and one of them is a PC app.
 
-That's not what I mean.
-*43:30.400*
+`**43:30.400:**` That's not what I mean.
 
-It's just the, you know.
-*43:31.440*
+`**43:31.440:**` It's just the, you know.
 
-The giant line drawn in the sand and people on either side, you know, lobbing snowballs at each other.
-*43:34.080*
+`**43:34.080:**` The giant line drawn in the sand and people on either side, you know, lobbing snowballs at each other.
 
-I know I'm mixing weather metaphors there, but.
-*43:42.160*
+`**43:42.160:**` I know I'm mixing weather metaphors there, but.
 
-You know what I mean?
-*43:45.260*
+`**43:45.260:**` You know what I mean?
 
-I mean, it's just like people like, oh no, Premiere sucks, Final Cut sucks.
-*43:45.980*
+`**43:45.980:**` I mean, it's just like people like, oh no, Premiere sucks, Final Cut sucks.
 
-And it's clear that most of the people have not really truly looked at it.
-*43:49.820*
+`**43:49.820:**` And it's clear that most of the people have not really truly looked at it.
 
-Both choices?
-*43:56.400*
+`**43:56.400:**` Both choices?
 
-**Speaker 2**: I think that they're very different choices.
-*43:57.600*
+`**43:57.600:**` **Speaker 2**: I think that they're very different choices.
 
-**Speaker 2**: I mean that there's clear differentiation between the two.
-*44:00.320*
+`**44:00.320:**` **Speaker 2**: I mean that there's clear differentiation between the two.
 
-So in the work that you're doing, you're
-*44:03.760*
+`**44:03.760:**` So in the work that you're doing, you're
 
-You're primarily in Avid?
-*44:05.820*
+`**44:05.820:**` You're primarily in Avid?
 
-**Speaker 2**: Well, right now I'm still FineCard Pro 7, but I don't really want to start any new products.
-*44:07.900*
+`**44:07.900:**` **Speaker 2**: Well, right now I'm still FineCard Pro 7, but I don't really want to start any new products.
 
-**Speaker 2**: Yeah, I'll be moving to Avid.
-*44:12.780*
+`**44:12.780:**` **Speaker 2**: Yeah, I'll be moving to Avid.
 
-**Speaker 2**: Gotcha, gotcha.
-*44:14.780*
+`**44:14.780:**` **Speaker 2**: Gotcha, gotcha.
 
-Okay, well, I don't know what's happening, but the connection is falling apart.
-*44:16.300*
+`**44:16.300:**` Okay, well, I don't know what's happening, but the connection is falling apart.
 
-John, I want to thank you so much for being a part of this little experiment here.
-*44:20.300*
+`**44:20.300:**` John, I want to thank you so much for being a part of this little experiment here.
 
-**Speaker 2**: A pleasure to be here.
-*44:27.140*
+`**44:27.140:**` **Speaker 2**: A pleasure to be here.
 
-**Speaker 2**: Thanks for inviting me on.
-*44:28.100*
+`**44:28.100:**` **Speaker 2**: Thanks for inviting me on.
 
-So your website is digitallrebellion.
-*44:29.460*
+`**44:29.460:**` So your website is digitallrebellion.
 
-com.
-*44:32.500*
+`**44:32.500:**` com.
 
-Where can people follow you elsewhere, personally?
-*44:32.820*
+`**44:32.820:**` Where can people follow you elsewhere, personally?
 
-**Speaker 2**: We're also on Twitter at DigitalReb.
-*44:37.700*
+`**44:37.700:**` **Speaker 2**: We're also on Twitter at DigitalReb.
 
-**Speaker 2**: And we're also on Facebook, I think we're just called
-*44:42.660*
+`**44:42.660:**` **Speaker 2**: And we're also on Facebook, I think we're just called
 
-**Speaker 2**: Digital rebellion one word.
-*44:45.760*
+`**44:45.760:**` **Speaker 2**: Digital rebellion one word.
 
-I keep hearing people talk about this Facebook thing.
-*44:47.440*
+`**44:47.440:**` I keep hearing people talk about this Facebook thing.
 
-I'm gonna probably have to look into that.
-*44:49.680*
+`**44:49.680:**` I'm gonna probably have to look into that.
 
-**Speaker 2**: Actually, I find Twitter a lot better for this type of thing.
-*44:53.360*
+`**44:53.360:**` **Speaker 2**: Actually, I find Twitter a lot better for this type of thing.
 
-**Speaker 2**: Totally, me too.
-*44:57.600*
+`**44:57.600:**` **Speaker 2**: Totally, me too.
 
-I was kind of being facetious.
-*44:59.160*
+`**44:59.160:**` I was kind of being facetious.
 
-John, thanks so much for doing this.
-*45:01.720*
+`**45:01.720:**` John, thanks so much for doing this.
 
-And again, just a reminder to the audience: how much did you pay me to be on this show?
-*45:03.400*
+`**45:03.400:**` And again, just a reminder to the audience: how much did you pay me to be on this show?
 
-Zero doubles.
-*45:09.040*
+`**45:09.040:**` Zero doubles.
 
-There you go.
-*45:10.000*
+`**45:10.000:**` There you go.
 
-Okay, this was purely to satisfy my own curiosity and learn a little bit more about metadata.
-*45:10.480*
+`**45:10.480:**` Okay, this was purely to satisfy my own curiosity and learn a little bit more about metadata.
 
-So, thanks a lot.
-*45:17.020*
+`**45:17.020:**` So, thanks a lot.
 
-Take care.
-*45:18.300*
+`**45:18.300:**` Take care.
 
-All right, thanks, Chris.
-*45:19.099*
+`**45:19.099:**` All right, thanks, Chris.
 
-So, I think if you've been listening to me for the last couple of years or last couple of months on this show.
-*45:22.540*
+`**45:22.540:**` So, I think if you've been listening to me for the last couple of years or last couple of months on this show.
 
-You'll understand why I was really drawn to John.
-*45:28.220*
+`**45:28.220:**` You'll understand why I was really drawn to John.
 
-The little sidebar thing we did talking about his post-haste little plug-in that
-*45:32.539*
+`**45:32.539:**` The little sidebar thing we did talking about his post-haste little plug-in that
 
-Helps you build your folder structure.
-*45:37.740*
+`**45:37.740:**` Helps you build your folder structure.
 
-That's just like, oh, this is a guy after my own heart.
-*45:39.340*
+`**45:39.340:**` That's just like, oh, this is a guy after my own heart.
 
-And I hope you also understand my fascination now with the metadata.
-*45:43.500*
+`**45:43.500:**` And I hope you also understand my fascination now with the metadata.
 
-What CutNotes does to be able to take notes while you're shooting and bring those notes in the form of markers right back into your edit.
-*45:51.359*
+`**45:51.359:**` What CutNotes does to be able to take notes while you're shooting and bring those notes in the form of markers right back into your edit.
 
-That really excites me.
-*46:03.080*
+`**46:03.080:**` That really excites me.
 
-And I am going to get a copy of it.
-*46:05.000*
+`**46:05.000:**` And I am going to get a copy of it.
 
-And actually, you know what?
-*46:08.360*
+`**46:08.360:**` And actually, you know what?
 
-I might even get that tonight because I'm going to a shoot tomorrow.
-*46:10.360*
+`**46:10.360:**` I might even get that tonight because I'm going to a shoot tomorrow.
 
-Maybe I'll try and use it.
-*46:12.920*
+`**46:12.920:**` Maybe I'll try and use it.
 
-But I think that's something that I want to look into because the idea of, you know, a lot of what I'll do when I'm shooting and I don't do that much.
-*46:15.320*
+`**46:15.320:**` But I think that's something that I want to look into because the idea of, you know, a lot of what I'll do when I'm shooting and I don't do that much.
 
-A lot of what I do is, you know, will it's a guy, you know, a CEO guy sitting there reading a teleprompter.
-*46:25.240*
+`**46:25.240:**` A lot of what I do is, you know, will it's a guy, you know, a CEO guy sitting there reading a teleprompter.
 
-And, you know, professional talent read prompter much different than
-*46:32.920*
+`**46:32.920:**` And, you know, professional talent read prompter much different than
 
-you know, professional business people.
-*46:36.920*
+`**46:36.920:**` you know, professional business people.
 
-And, you know, you have the good takes and the bad takes, and the part of one is good and the part of another is bad.
-*46:38.760*
+`**46:38.760:**` And, you know, you have the good takes and the bad takes, and the part of one is good and the part of another is bad.
 
-So
-*46:44.760*
+`**46:44.760:**` So
 
-I'm very interested in taking a look at cutnotes and seeing how that could work in our workflow because the idea of having
-*46:45.240*
+`**46:45.240:**` I'm very interested in taking a look at cutnotes and seeing how that could work in our workflow because the idea of having
 
-you know, the best text already flagged.
-*46:53.500*
+`**46:53.500:**` you know, the best text already flagged.
 
-When I get into post, I think that's really exciting.
-*46:56.540*
+`**46:56.540:**` When I get into post, I think that's really exciting.
 
-So speaking of exciting, I'm very excited and thankful for all of you people that are downloading and listening to the show, or at least downloading it.
-*47:01.440*
+`**47:01.440:**` So speaking of exciting, I'm very excited and thankful for all of you people that are downloading and listening to the show, or at least downloading it.
 
-Hey, thanks for downloading it.
-*47:09.760*
+`**47:09.760:**` Hey, thanks for downloading it.
 
-And um I uh I'm sincerely uh uh humbled by by the attention that the show has been getting
-*47:11.460*
+`**47:11.460:**` And um I uh I'm sincerely uh uh humbled by by the attention that the show has been getting
 
-So that's it for this episode.
-*47:18.920*
+`**47:18.920:**` So that's it for this episode.
 
-You're more than welcome to go do all the iTunes commenting stuff.
-*47:21.000*
+`**47:21.000:**` You're more than welcome to go do all the iTunes commenting stuff.
 
-That's always welcome.
-*47:23.800*
+`**47:23.800:**` That's always welcome.
 
-And if you're trying to find me, once again on Twitter, I am at Chris Fenwick.
-*47:25.560*
+`**47:25.560:**` And if you're trying to find me, once again on Twitter, I am at Chris Fenwick.
 
-Best way to find me.
-*47:29.960*
+`**47:29.960:**` Best way to find me.
 
-And.
-*47:31.560*
+`**47:31.560:**` And.
 
-Again, by all means, if you know people that are doing interesting stuff with the Final Cut 10, let me know.
-*47:33.900*
+`**47:33.900:**` Again, by all means, if you know people that are doing interesting stuff with the Final Cut 10, let me know.
 
-I'm always looking for interesting people to chat with.
-*47:39.339*
+`**47:39.339:**` I'm always looking for interesting people to chat with.
 
-So that's it for this episode.
-*47:42.140*
+`**47:42.140:**` So that's it for this episode.
 
-Later, later.
-*47:43.820*
+`**47:43.820:**` Later, later.

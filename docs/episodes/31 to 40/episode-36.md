@@ -26,2158 +26,1434 @@ NAB2014 recap of FCPX news. In this episode we met with Michael Garber and Sam M
 
 ## Transcription
 
-**Speaker 1**: Welcome to the Post NAB special of Final Cut Grill 036.
-*00:01.440*
+`**00:01.440:**` **Speaker 1**: Welcome to the Post NAB special of Final Cut Grill 036.
 
-**Speaker 1**: So I'm back at home now.
-*00:07.440*
+`**00:07.440:**` **Speaker 1**: So I'm back at home now.
 
-**Speaker 1**: Sitting in the third floor story, third story tower here at Slice Editorial at my desk.
-*00:09.580*
+`**00:09.580:**` **Speaker 1**: Sitting in the third floor story, third story tower here at Slice Editorial at my desk.
 
-**Speaker 1**: And
-*00:16.460*
+`**00:16.460:**` **Speaker 1**: And
 
-**Speaker 1**: Alex McLean and I went to NAB.
-*00:17.660*
+`**00:17.660:**` **Speaker 1**: Alex McLean and I went to NAB.
 
-**Speaker 1**: We set up the DCC Hospitality Suite, which is where this particular episode was recorded.
-*00:20.380*
+`**00:20.380:**` **Speaker 1**: We set up the DCC Hospitality Suite, which is where this particular episode was recorded.
 
-**Speaker 1**: And I want to say a giant, giant thank you to Sam Mestman.
-*00:25.740*
+`**00:25.740:**` **Speaker 1**: And I want to say a giant, giant thank you to Sam Mestman.
 
-**Speaker 1**: If you don't know, if you've never been to NAB, especially in the last couple of years, the number one ticket to get, the number one party to attend
-*00:30.140*
+`**00:30.140:**` **Speaker 1**: If you don't know, if you've never been to NAB, especially in the last couple of years, the number one ticket to get, the number one party to attend
 
-**Speaker 1**: So I am told, is the AJA party.
-*00:40.000*
+`**00:40.000:**` **Speaker 1**: So I am told, is the AJA party.
 
-**Speaker 1**: Now, I've never gone.
-*00:42.559*
+`**00:42.559:**` **Speaker 1**: Now, I've never gone.
 
-**Speaker 1**: I've only been for the last two years.
-*00:44.160*
+`**00:44.160:**` **Speaker 1**: I've only been for the last two years.
 
-**Speaker 1**: But it is a premium event.
-*00:47.360*
+`**00:47.360:**` **Speaker 1**: But it is a premium event.
 
-**Speaker 1**: It is the place to see and be seen.
-*00:50.160*
+`**00:50.160:**` **Speaker 1**: It is the place to see and be seen.
 
-**Speaker 1**: I just want to say that this episode was recorded on, let me think, what day was it?
-*00:53.540*
+`**00:53.540:**` **Speaker 1**: I just want to say that this episode was recorded on, let me think, what day was it?
 
-**Speaker 1**: It was Tuesday evening, which was the evening of the AJA party.
-*00:58.899*
+`**00:58.899:**` **Speaker 1**: It was Tuesday evening, which was the evening of the AJA party.
 
-**Speaker 1**: Now, I had already recorded.
-*01:03.220*
+`**01:03.220:**` **Speaker 1**: Now, I had already recorded.
 
-**Speaker 1**: for a couple of hours with Dave Dugdale at the DCC Suite.
-*01:05.200*
+`**01:05.200:**` **Speaker 1**: for a couple of hours with Dave Dugdale at the DCC Suite.
 
-**Speaker 1**: And we were doing his edit demo, which I believe will air some sometime soon on his website.
-*01:09.680*
+`**01:09.680:**` **Speaker 1**: And we were doing his edit demo, which I believe will air some sometime soon on his website.
 
-**Speaker 1**: And I had arranged for Sam Mestman and Michael Garber, both previous guests on the show, to come to the DCC hospitality suite.
-*01:16.680*
+`**01:16.680:**` **Speaker 1**: And I had arranged for Sam Mestman and Michael Garber, both previous guests on the show, to come to the DCC hospitality suite.
 
-**Speaker 1**: and record an episode talking about NAB.
-*01:27.960*
+`**01:27.960:**` **Speaker 1**: and record an episode talking about NAB.
 
-**Speaker 1**: And I just want to say I want to absolutely reach out and thank Sam Mestman because
-*01:31.400*
+`**01:31.400:**` **Speaker 1**: And I just want to say I want to absolutely reach out and thank Sam Mestman because
 
-**Speaker 1**: He left the AJA party, traveled across town to come and sit down with me and Michael to do this episode.
-*01:36.820*
+`**01:36.820:**` **Speaker 1**: He left the AJA party, traveled across town to come and sit down with me and Michael to do this episode.
 
-**Speaker 1**: And then he went back to the party.
-*01:46.080*
+`**01:46.080:**` **Speaker 1**: And then he went back to the party.
 
-**Speaker 1**: So he's a trooper in every descriptor.
-*01:48.240*
+`**01:48.240:**` **Speaker 1**: So he's a trooper in every descriptor.
 
-**Speaker 1**: So this is earlier in this particular day, no, excuse me, the day before.
-*01:52.560*
+`**01:52.560:**` **Speaker 1**: So this is earlier in this particular day, no, excuse me, the day before.
 
-**Speaker 1**: I had been invited to um visit uh Sam and Michael at the um FCP Works demo suite, which was set up at the Wynn.
-*01:59.240*
+`**01:59.240:**` **Speaker 1**: I had been invited to um visit uh Sam and Michael at the um FCP Works demo suite, which was set up at the Wynn.
 
-**Speaker 1**: And uh I went there and uh
-*02:09.399*
+`**02:09.399:**` **Speaker 1**: And uh I went there and uh
 
-**Speaker 1**: Michael showed me some crazy demo stuff there.
-*02:12.520*
+`**02:12.520:**` **Speaker 1**: Michael showed me some crazy demo stuff there.
 
-**Speaker 1**: And I had also been invited to the You Got a Golden Ticket special private demo at
-*02:16.520*
+`**02:16.520:**` **Speaker 1**: And I had also been invited to the You Got a Golden Ticket special private demo at
 
-**Speaker 1**: um that Apple was putting on and it was an invitation only and I was like really privileged to be able to go there and see Stephen Bays and and uh
-*02:24.760*
+`**02:24.760:**` **Speaker 1**: um that Apple was putting on and it was an invitation only and I was like really privileged to be able to go there and see Stephen Bays and and uh
 
-**Speaker 1**: I'm not supposed to quote anything I said, but I will tell you, as always, they showed very impressive stuff.
-*02:34.520*
+`**02:34.520:**` **Speaker 1**: I'm not supposed to quote anything I said, but I will tell you, as always, they showed very impressive stuff.
 
-**Speaker 1**: So, this is the evening recording, the 11 p.
-*02:42.820*
+`**02:42.820:**` **Speaker 1**: So, this is the evening recording, the 11 p.
 
-**Speaker 1**: m.
-*02:47.540*
+`**02:47.540:**` **Speaker 1**: m.
 
-**Speaker 1**: recording with Sam Missman and Michael Garber at the DCC Hospitality Suite, NAB 2014.
-*02:47.780*
+`**02:47.780:**` **Speaker 1**: recording with Sam Missman and Michael Garber at the DCC Hospitality Suite, NAB 2014.
 
-**Speaker 1**: All right, we are sitting here in the DCC.
-*02:56.020*
+`**02:56.020:**` **Speaker 1**: All right, we are sitting here in the DCC.
 
-**Speaker 1**: Hospitality suite at the Vedara.
-*02:58.220*
+`**02:58.220:**` **Speaker 1**: Hospitality suite at the Vedara.
 
-**Speaker 1**: I'd like to buy a vowel.
-*03:00.140*
+`**03:00.140:**` **Speaker 1**: I'd like to buy a vowel.
 
-**Speaker 1**: And with me tonight, this is a special NAB episode of The Grill.
-*03:02.220*
+`**03:02.220:**` **Speaker 1**: And with me tonight, this is a special NAB episode of The Grill.
 
-**Speaker 1**: And I got Michael Garberg.
-*03:07.460*
+`**03:07.460:**` **Speaker 1**: And I got Michael Garberg.
 
-**Speaker 1**: Michael's been on the show before.
-*03:08.740*
+`**03:08.740:**` **Speaker 1**: Michael's been on the show before.
 
-**Speaker 1**: I got Sam, I can't keep him off the show, Sam Mestman.
-*03:10.180*
+`**03:10.180:**` **Speaker 1**: I got Sam, I can't keep him off the show, Sam Mestman.
 
-**Speaker 1**: And it's been a cool NAB for our little application that could, the one we love so much, Final Cut 10, hasn't it?
-*03:14.020*
+`**03:14.020:**` **Speaker 1**: And it's been a cool NAB for our little application that could, the one we love so much, Final Cut 10, hasn't it?
 
-I would say so.
-*03:21.500*
+`**03:21.500:**` I would say so.
 
-I mean, to be honest with you, I haven't had time to see the floor yet.
-*03:22.620*
+`**03:22.620:**` I mean, to be honest with you, I haven't had time to see the floor yet.
 
-So to be honest is this is kind of a reconnaissance mission for me, what I'm doing here with you.
-*03:26.140*
+`**03:26.140:**` So to be honest is this is kind of a reconnaissance mission for me, what I'm doing here with you.
 
-I'm kind of more interested in hearing you talk.
-*03:30.860*
+`**03:30.860:**` I'm kind of more interested in hearing you talk.
 
-To be honest, because I've been saying the same thing over and over for two straight days.
-*03:32.760*
+`**03:32.760:**` To be honest, because I've been saying the same thing over and over for two straight days.
 
-**Speaker 1**: Well, I've done a lot of software demoing and I know what it's like, and it is a grind, but you always have to remember that every single person that comes in to sit down
-with you.
-*03:37.160*
+`**03:37.160:**` **Speaker 1**: Well, I've done a lot of software demoing and I know what it's like, and it is a grind, but you always have to remember that every single person that comes in to sit down with you.
 
-**Speaker 1**: or hearing it for the first time.
-*03:47.340*
+`**03:47.340:**` **Speaker 1**: or hearing it for the first time.
 
-**Speaker 1**: And I will warn you in the next two days that you have left, forget you've done it a thousand times and pretend it's your first
-*03:48.860*
+`**03:48.860:**` **Speaker 1**: And I will warn you in the next two days that you have left, forget you've done it a thousand times and pretend it's your first
 
-**Speaker 1**: Thousand times to do it because every single person is hanging on everything you say, and it gets hard to get you get really giddy in that last day.
-*03:56.640*
+`**03:56.640:**` **Speaker 1**: Thousand times to do it because every single person is hanging on everything you say, and it gets hard to get you get really giddy in that last day.
 
-**Speaker 1**: It's like, I don't know what I'm saying.
-*04:03.439*
+`**04:03.439:**` **Speaker 1**: It's like, I don't know what I'm saying.
 
-I felt that.
-*04:05.220*
+`**04:05.220:**` I felt that.
 
-No, I felt that this afternoon.
-*04:06.019*
+`**04:06.019:**` No, I felt that this afternoon.
 
-It was the voice of Michael Garber.
-*04:07.540*
+`**04:07.540:**` It was the voice of Michael Garber.
 
-By the way, my voice isn't usually this bassy, but this is what talking for two days will do to you.
-*04:09.379*
+`**04:09.379:**` By the way, my voice isn't usually this bassy, but this is what talking for two days will do to you.
 
-In the air conditioned suite.
-*04:14.940*
+`**04:14.940:**` In the air conditioned suite.
 
-Yeah.
-*04:16.700*
+`**04:16.700:**` Yeah.
 
-Yeah, I got there today at that point.
-*04:17.579*
+`**04:17.579:**` Yeah, I got there today at that point.
 
-I was like, I'm giving this demo and words are coming out of my mouth.
-*04:19.660*
+`**04:19.660:**` I was like, I'm giving this demo and words are coming out of my mouth.
 
-And I hope that what I'm saying is accurate.
-*04:23.660*
+`**04:23.660:**` And I hope that what I'm saying is accurate.
 
-**Speaker 1**: It is the demo artist of curse, is that you forget what you're saying, and that the
-*04:27.259*
+`**04:27.259:**` **Speaker 1**: It is the demo artist of curse, is that you forget what you're saying, and that the
 
-**Speaker 1**: The words that come in out of your mouth are actually connected to ideas in space.
-*04:33.960*
+`**04:33.960:**` **Speaker 1**: The words that come in out of your mouth are actually connected to ideas in space.
 
-Yeah.
-*04:37.879*
+`**04:37.879:**` Yeah.
 
-Well, actually, you know, the worst part is you're going to be midway through the demo and you've been s so on autopilot that
-*04:38.360*
+`**04:38.360:**` Well, actually, you know, the worst part is you're going to be midway through the demo and you've been s so on autopilot that
 
-You basically at a certain point you stop and you then you realize you're in the middle of something and you've forgotten where you are.
-*04:46.000*
+`**04:46.000:**` You basically at a certain point you stop and you then you realize you're in the middle of something and you've forgotten where you are.
 
-And you're like, how did am I in a room now?
-*04:53.680*
+`**04:53.680:**` And you're like, how did am I in a room now?
 
-Like where where am I in
-*04:56.879*
+`**04:56.879:**` Like where where am I in
 
-What part of the demo am I in?
-*04:59.139*
+`**04:59.139:**` What part of the demo am I in?
 
-And who are these people I'm talking to?
-*05:01.220*
+`**05:01.220:**` And who are these people I'm talking to?
 
-**Speaker 1**: Another pointer I'll give you: use your interface as like a script.
-*05:03.940*
+`**05:03.940:**` **Speaker 1**: Another pointer I'll give you: use your interface as like a script.
 
-**Speaker 1**: Like, I want to talk about this, I want to do this, so I've moved from here to here to here.
-*05:07.620*
+`**05:07.620:**` **Speaker 1**: Like, I want to talk about this, I want to do this, so I've moved from here to here to here.
 
-**Speaker 1**: But anyway, so you guys um you guys so Sam, I I still don't know what your actual connection is to FCP Works.
-*05:11.860*
+`**05:11.860:**` **Speaker 1**: But anyway, so you guys um you guys so Sam, I I still don't know what your actual connection is to FCP Works.
 
-**Speaker 1**: As far as I'm concerned, you own and run and it's all you.
-*05:19.460*
+`**05:19.460:**` **Speaker 1**: As far as I'm concerned, you own and run and it's all you.
 
-**Speaker 1**: But you're both here representing FCP Works, which is the LA based Final Cut 10 integration
-*05:23.440*
+`**05:23.440:**` **Speaker 1**: But you're both here representing FCP Works, which is the LA based Final Cut 10 integration
 
-**Speaker 1**: Guru Squad or something.
-*05:32.479*
+`**05:32.479:**` **Speaker 1**: Guru Squad or something.
 
-**Speaker 1**: That's what I I that's the way I think of you guys.
-*05:33.840*
+`**05:33.840:**` **Speaker 1**: That's what I I that's the way I think of you guys.
 
-A guru squad.
-*05:36.000*
+`**05:36.000:**` A guru squad.
 
-Oh, that's so terrifying.
-*05:37.440*
+`**05:37.440:**` Oh, that's so terrifying.
 
-**Speaker 1**: No, but you g no, so y I I was graciously invited to go to your suite on Monday morning.
-*05:39.120*
+`**05:39.120:**` **Speaker 1**: No, but you g no, so y I I was graciously invited to go to your suite on Monday morning.
 
-**Speaker 1**: And I gotta say, Mike, I walked in.
-*05:45.620*
+`**05:45.620:**` **Speaker 1**: And I gotta say, Mike, I walked in.
 
-**Speaker 1**: You were busy doing demoing Red stuff in the Red booth, which is cool.
-*05:48.340*
+`**05:48.340:**` **Speaker 1**: You were busy doing demoing Red stuff in the Red booth, which is cool.
 
-**Speaker 1**: I'm glad you were doing it.
-*05:52.099*
+`**05:52.099:**` **Speaker 1**: I'm glad you were doing it.
 
-**Speaker 1**: I missed seeing you.
-*05:53.539*
+`**05:53.539:**` **Speaker 1**: I missed seeing you.
 
-I was better at the it was better today at the
-*05:54.419*
+`**05:54.419:**` I was better at the it was better today at the
 
-Sweet, to be honest with you.
-*05:56.920*
+`**05:56.920:**` Sweet, to be honest with you.
 
-**Speaker 1**: It's pretty swanky.
-*05:58.600*
+`**05:58.600:**` **Speaker 1**: It's pretty swanky.
 
-**Speaker 1**: So, you guys are like, I'm in the penthouse of the wind.
-*05:59.640*
+`**05:59.640:**` **Speaker 1**: So, you guys are like, I'm in the penthouse of the wind.
 
-**Speaker 1**: There's smoking cool, you know, very nice digs up there.
-*06:03.000*
+`**06:03.000:**` **Speaker 1**: There's smoking cool, you know, very nice digs up there.
 
-**Speaker 1**: And Michael, you did this insane demo.
-*06:08.300*
+`**06:08.300:**` **Speaker 1**: And Michael, you did this insane demo.
 
-**Speaker 1**: And frankly, when about halfway through watching it, I realized I think Sam had talked me through it once.
-*06:12.380*
+`**06:12.380:**` **Speaker 1**: And frankly, when about halfway through watching it, I realized I think Sam had talked me through it once.
 
-**Speaker 1**: And like the words were like, I'm lost.
-*06:20.440*
+`**06:20.440:**` **Speaker 1**: And like the words were like, I'm lost.
 
-**Speaker 1**: I don't really it doesn't really commu compute.
-*06:23.480*
+`**06:23.480:**` **Speaker 1**: I don't really it doesn't really commu compute.
 
-**Speaker 1**: But so the demo you did was showing how in Final Cut 10 you can use
-*06:27.240*
+`**06:27.240:**` **Speaker 1**: But so the demo you did was showing how in Final Cut 10 you can use
 
-**Speaker 1**: which one of Philips plugins were you are sync and link sync and link yeah crazy so bring in multiple cameras
-*06:34.919*
+`**06:34.919:**` **Speaker 1**: which one of Philips plugins were you are sync and link sync and link yeah crazy so bring in multiple cameras
 
-**Speaker 1**: The sound file from the audio recordist.
-*06:42.980*
+`**06:42.980:**` **Speaker 1**: The sound file from the audio recordist.
 
-**Speaker 1**: Now, sync and link actually has to have everything on time code, correct?
-*06:46.340*
+`**06:46.340:**` **Speaker 1**: Now, sync and link actually has to have everything on time code, correct?
 
-Yes, sync and link only syncs time coded.
-*06:50.340*
+`**06:50.340:**` Yes, sync and link only syncs time coded.
 
-based audio, jam synced audio.
-*06:52.560*
+`**06:52.560:**` based audio, jam synced audio.
 
-**Speaker 1**: Right.
-*06:54.000*
+`**06:54.000:**` **Speaker 1**: Right.
 
-**Speaker 1**: So if you have jam synced stuff, which is, you know, what a professional shoot was going to have anyway.
-*06:54.160*
+`**06:54.160:**` **Speaker 1**: So if you have jam synced stuff, which is, you know, what a professional shoot was going to have anyway.
 
-**Speaker 1**: Right.
-*06:59.919*
+`**06:59.919:**` **Speaker 1**: Right.
 
-**Speaker 1**: But what blew me away was bringing in the metadata from the audio recorder.
-*07:00.240*
+`**07:00.240:**` **Speaker 1**: But what blew me away was bringing in the metadata from the audio recorder.
 
-Yeah, that's the part that just blew my mind when I saw what it was capable of last summer when I was cutting the spot.
-*07:04.840*
+`**07:04.840:**` Yeah, that's the part that just blew my mind when I saw what it was capable of last summer when I was cutting the spot.
 
-Because I really didn't under know all that was going on under the hood.
-*07:14.120*
+`**07:14.120:**` Because I really didn't under know all that was going on under the hood.
 
-I wouldn't have known that the sound recordist was more O C D than me.
-*07:18.940*
+`**07:18.940:**` I wouldn't have known that the sound recordist was more O C D than me.
 
-That line may have come from you, but I'm going to say it anyway.
-*07:23.900*
+`**07:23.900:**` That line may have come from you, but I'm going to say it anyway.
 
-And I've been saying that for two days.
-*07:27.659*
+`**07:27.659:**` And I've been saying that for two days.
 
-So I I had no idea until I opened up, I found um
-*07:29.259*
+`**07:29.259:**` So I I had no idea until I opened up, I found um
 
-Wave agent, which I got as a recommendation from Oliver Peters.
-*07:33.240*
+`**07:33.240:**` Wave agent, which I got as a recommendation from Oliver Peters.
 
-And I opened it up, and like, there was like all this
-*07:38.040*
+`**07:38.040:**` And I opened it up, and like, there was like all this
 
-these names attached to the channels.
-*07:41.139*
+`**07:41.139:**` these names attached to the channels.
 
-And I was like, well, can that go on to into Final Cut, onto the audio components?
-*07:44.259*
+`**07:44.259:**` And I was like, well, can that go on to into Final Cut, onto the audio components?
 
-And I think it was Greg of Philip and Greg who said, yeah, we're actually planning on making that happen.
-*07:49.900*
+`**07:49.900:**` And I think it was Greg of Philip and Greg who said, yeah, we're actually planning on making that happen.
 
-And Philip and Greg are from.
-*07:56.860*
+`**07:56.860:**` And Philip and Greg are from.
 
-Intelligent assistants.
-*07:59.600*
+`**07:59.600:**` Intelligent assistants.
 
-Right.
-*08:00.800*
+`**08:00.800:**` Right.
 
-Yeah.
-*08:01.040*
+`**08:01.040:**` Yeah.
 
-**Speaker 1**: And that's Philip Hodgetts and Greg is his programming partner.
-*08:01.840*
+`**08:01.840:**` **Speaker 1**: And that's Philip Hodgetts and Greg is his programming partner.
 
-**Speaker 1**: Everybody knows Philip, but Greg, even Philip, will say, oh, yeah, Greg does all the work around here.
-*08:05.360*
+`**08:05.360:**` **Speaker 1**: Everybody knows Philip, but Greg, even Philip, will say, oh, yeah, Greg does all the work around here.
 
-Greg does a lot of work.
-*08:10.080*
+`**08:10.080:**` Greg does a lot of work.
 
-Brilliant guy.
-*08:11.840*
+`**08:11.840:**` Brilliant guy.
 
-So he, uh yeah, they got that that going and uh and you're able to get the uh the channel names into Final Cut 10 on the audio clips, and it's pretty phenomenal.
-*08:13.120*
+`**08:13.120:**` So he, uh yeah, they got that that going and uh and you're able to get the uh the channel names into Final Cut 10 on the audio clips, and it's pretty phenomenal.
 
-**Speaker 1**: Yeah, you know, for the last two days I keep running into people
-*08:22.080*
+`**08:22.080:**` **Speaker 1**: Yeah, you know, for the last two days I keep running into people
 
-**Speaker 1**: you know, on the show floor, shuttle buses everywhere, bars, you know, uh the post chat um meet up on Monday night.
-*08:24.940*
+`**08:24.940:**` **Speaker 1**: you know, on the show floor, shuttle buses everywhere, bars, you know, uh the post chat um meet up on Monday night.
 
-**Speaker 1**: And I've been telling people that the thing about Final Cut 10 that people that I don't think people realize is that
-*08:32.620*
+`**08:32.620:**` **Speaker 1**: And I've been telling people that the thing about Final Cut 10 that people that I don't think people realize is that
 
-**Speaker 1**: It is solving problems for editors that editors don't even know they have yet.
-*08:38.120*
+`**08:38.120:**` **Speaker 1**: It is solving problems for editors that editors don't even know they have yet.
 
-**Speaker 1**: Yeah.
-*08:43.959*
+`**08:43.959:**` **Speaker 1**: Yeah.
 
-I mean, that's kind of the big thing.
-*08:44.519*
+`**08:44.519:**` I mean, that's kind of the big thing.
 
-It's like
-*08:46.600*
+`**08:46.600:**` It's like
 
-And I think that's why maybe it's having a slow pickup rate, but like once people go, they don't go back.
-*08:47.440*
+`**08:47.440:**` And I think that's why maybe it's having a slow pickup rate, but like once people go, they don't go back.
 
-Because at a certain point, if you've been working a certain way and you
-*08:54.240*
+`**08:54.240:**` Because at a certain point, if you've been working a certain way and you
 
-Don't even realize that you can do something, it would never occur to you to try it.
-*09:00.480*
+`**09:00.480:**` Don't even realize that you can do something, it would never occur to you to try it.
 
-**Speaker 1**: Right.
-*09:08.160*
+`**09:08.160:**` **Speaker 1**: Right.
 
-And that's like
-*09:08.720*
+`**09:08.720:**` And that's like
 
-And in terms of some of this metadata and stuff, I was in Final Cut 7 for like five or six years and I never even thought about it.
-*09:10.020*
+`**09:10.020:**` And in terms of some of this metadata and stuff, I was in Final Cut 7 for like five or six years and I never even thought about it.
 
-And I was like, yes, this is what you do.
-*09:18.700*
+`**09:18.700:**` And I was like, yes, this is what you do.
 
-You rename your clips, you go, you prep, you do all the syncing, you do this manually, this is the way it's supposed to be.
-*09:20.620*
+`**09:20.620:**` You rename your clips, you go, you prep, you do all the syncing, you do this manually, this is the way it's supposed to be.
 
-Oh, time code, I select these two things, it's automatically going to sync these two clips together for me.
-*09:27.560*
+`**09:27.560:**` Oh, time code, I select these two things, it's automatically going to sync these two clips together for me.
 
-Right.
-*09:32.760*
+`**09:32.760:**` Right.
 
-And it just doesn't even occur to you that there's another way.
-*09:33.320*
+`**09:33.320:**` And it just doesn't even occur to you that there's another way.
 
-**Speaker 1**: And then I think the reason for that is
-*09:37.080*
+`**09:37.080:**` **Speaker 1**: And then I think the reason for that is
 
-**Speaker 1**: As editors, we are people of process.
-*09:39.940*
+`**09:39.940:**` **Speaker 1**: As editors, we are people of process.
 
-**Speaker 1**: It is part and parcel of what we do.
-*09:45.220*
+`**09:45.220:**` **Speaker 1**: It is part and parcel of what we do.
 
-**Speaker 1**: We have a
-*09:47.460*
+`**09:47.460:**` **Speaker 1**: We have a
 
-**Speaker 1**: a list of things that need to get done, and we checkbox our way through them.
-*09:48.440*
+`**09:48.440:**` **Speaker 1**: a list of things that need to get done, and we checkbox our way through them.
 
-**Speaker 1**: And it doesn't dawn on us most of the time that those things can be ganged together into a process and that the computer can actually start
-*09:52.840*
+`**09:52.840:**` **Speaker 1**: And it doesn't dawn on us most of the time that those things can be ganged together into a process and that the computer can actually start
 
-**Speaker 1**: Making things easier for us instead of just being the tool for us to do the job.
-*10:01.320*
+`**10:01.320:**` **Speaker 1**: Making things easier for us instead of just being the tool for us to do the job.
 
-**Speaker 1**: Does that make sense?
-*10:07.080*
+`**10:07.080:**` **Speaker 1**: Does that make sense?
 
-**Speaker 1**: I mean, like, for example, I've been noticing in the last couple of years
-*10:07.960*
+`**10:07.960:**` **Speaker 1**: I mean, like, for example, I've been noticing in the last couple of years
 
-**Speaker 1**: That spotlight on my Macintosh is getting it's it's actually smarter than it used to be.
-*10:14.079*
+`**10:14.079:**` **Speaker 1**: That spotlight on my Macintosh is getting it's it's actually smarter than it used to be.
 
-**Speaker 1**: Like, it's almost like it's reading my mind when I when I want to launch iTunes and I type I
-*10:20.800*
+`**10:20.800:**` **Speaker 1**: Like, it's almost like it's reading my mind when I when I want to launch iTunes and I type I
 
-**Speaker 1**: Okay.
-*10:28.519*
+`**10:28.519:**` **Speaker 1**: Okay.
 
-**Speaker 1**: And it autofills iTunes.
-*10:29.640*
+`**10:29.640:**` **Speaker 1**: And it autofills iTunes.
 
-**Speaker 1**: And it doesn't go to iPhoto because I never launch iPhoto.
-*10:31.880*
+`**10:31.880:**` **Speaker 1**: And it doesn't go to iPhoto because I never launch iPhoto.
 
-Right.
-*10:35.160*
+`**10:35.160:**` Right.
 
-It knows how many times you've launched iTunes or that you've launched it recently.
-*10:35.399*
+`**10:35.399:**` It knows how many times you've launched iTunes or that you've launched it recently.
 
-It's like a Google search.
-*10:39.399*
+`**10:39.399:**` It's like a Google search.
 
-In fact, if you start if you type in, I noticed this today because I did it accidentally.
-*10:40.820*
+`**10:40.820:**` In fact, if you start if you type in, I noticed this today because I did it accidentally.
 
-I typed in FC and Final Cut Pro comes out.
-*10:45.140*
+`**10:45.140:**` I typed in FC and Final Cut Pro comes out.
 
-**Speaker 1**: Oh, yeah, yeah, yeah.
-*10:49.060*
+`**10:49.060:**` **Speaker 1**: Oh, yeah, yeah, yeah.
 
-**Speaker 1**: I type FCP all the time and it goes, oh, yeah, I know what that is.
-*10:50.100*
+`**10:50.100:**` **Speaker 1**: I type FCP all the time and it goes, oh, yeah, I know what that is.
 
-**Speaker 1**: Yeah, and so but that's an example of the computer working for us and doing things instead of just being the instrument of our
-*10:54.120*
+`**10:54.120:**` **Speaker 1**: Yeah, and so but that's an example of the computer working for us and doing things instead of just being the instrument of our
 
-**Speaker 1**: Destruction of the instrument of our process, it's actually helping us with the process.
-*11:03.920*
+`**11:03.920:**` **Speaker 1**: Destruction of the instrument of our process, it's actually helping us with the process.
 
-**Speaker 1**: You know, and that's and
-*11:10.560*
+`**11:10.560:**` **Speaker 1**: You know, and that's and
 
-**Speaker 1**: That to me is what Final Cut 10 is beginning to do.
-*11:12.160*
+`**11:12.160:**` **Speaker 1**: That to me is what Final Cut 10 is beginning to do.
 
-**Speaker 1**: I just did a software demo for Dave Dugdale here, and it was just an edit process demo.
-*11:15.040*
+`**11:15.040:**` **Speaker 1**: I just did a software demo for Dave Dugdale here, and it was just an edit process demo.
 
-**Speaker 1**: And Dave has been wanting to kind of peer over my shoulder on a project.
-*11:21.760*
+`**11:21.760:**` **Speaker 1**: And Dave has been wanting to kind of peer over my shoulder on a project.
 
-**Speaker 1**: And I did it all in Final Cut, so it actually turned into a little bit of a Final Cut Pro demo, but um because he's a Premiere user
-*11:25.839*
+`**11:25.839:**` **Speaker 1**: And I did it all in Final Cut, so it actually turned into a little bit of a Final Cut Pro demo, but um because he's a Premiere user
 
-**Speaker 1**: But even we had a couple of guys here just sort of looky loose looking on, and this one guy, Ryan, he pointed out something and it's like, I didn't know that because he's a
-Final Cat 10 user.
-*11:33.779*
+`**11:33.779:**` **Speaker 1**: But even we had a couple of guys here just sort of looky loose looking on, and this one guy, Ryan, he pointed out something and it's like, I didn't know that because he's a Final Cat 10 user.
 
-**Speaker 1**: And it's like
-*11:44.980*
+`**11:44.980:**` **Speaker 1**: And it's like
 
-**Speaker 1**: Once again, there's like a new little thing.
-*11:45.740*
+`**11:45.740:**` **Speaker 1**: Once again, there's like a new little thing.
 
-**Speaker 1**: It's a tutorial I'm going to be making, but it's a new thing that, like, again, there are solutions to problems that I didn't know I had.
-*11:47.820*
+`**11:47.820:**` **Speaker 1**: It's a tutorial I'm going to be making, but it's a new thing that, like, again, there are solutions to problems that I didn't know I had.
 
-**Speaker 1**: Because I've always done it one way, why try?
-*11:56.920*
+`**11:56.920:**` **Speaker 1**: Because I've always done it one way, why try?
 
-**Speaker 1**: Why even imagine that there's another way?
-*12:00.759*
+`**12:00.759:**` **Speaker 1**: Why even imagine that there's another way?
 
-**Speaker 1**: And yet, somebody is out there ahead of us, and that's the thing that's exciting is seeing these things unfold.
-*12:02.600*
+`**12:02.600:**` **Speaker 1**: And yet, somebody is out there ahead of us, and that's the thing that's exciting is seeing these things unfold.
 
-**Speaker 1**: Step by step.
-*12:08.900*
+`**12:08.900:**` **Speaker 1**: Step by step.
 
-Why would you say that's exciting?
-*12:09.540*
+`**12:09.540:**` Why would you say that's exciting?
 
-Because, like, when someone shows me something new that I didn't know, I'm like, oh, cool, my life got easier.
-*12:10.740*
+`**12:10.740:**` Because, like, when someone shows me something new that I didn't know, I'm like, oh, cool, my life got easier.
 
-And I feel like, in so many cases, a lot of people out there are like,
-*12:15.540*
+`**12:15.540:**` And I feel like, in so many cases, a lot of people out there are like,
 
-Oh, I hate you.
-*12:19.420*
+`**12:19.420:**` Oh, I hate you.
 
-You know?
-*12:20.940*
+`**12:20.940:**` You know?
 
-And that is the.
-*12:22.060*
+`**12:22.060:**` And that is the.
 
-**Speaker 1**: That's more of a personality trait problem than a final cut problem.
-*12:24.139*
+`**12:24.139:**` **Speaker 1**: That's more of a personality trait problem than a final cut problem.
 
-**Speaker 1**: I think people, it's still amazing to me that people.
-*12:28.940*
+`**12:28.940:**` **Speaker 1**: I think people, it's still amazing to me that people.
 
-**Speaker 1**: feel intimidated by a piece of software, like, oh, this is going to put me out of business.
-*12:32.740*
+`**12:32.740:**` **Speaker 1**: feel intimidated by a piece of software, like, oh, this is going to put me out of business.
 
-**Speaker 1**: No, it's going to make your business easier.
-*12:36.260*
+`**12:36.260:**` **Speaker 1**: No, it's going to make your business easier.
 
-**Speaker 1**: You know, it's it's hard to get that through to people sometimes.
-*12:38.660*
+`**12:38.660:**` **Speaker 1**: You know, it's it's hard to get that through to people sometimes.
 
-Yeah, and there's more content being generated currently on YouTube that goes up in an hour.
-*12:42.180*
+`**12:42.180:**` Yeah, and there's more content being generated currently on YouTube that goes up in an hour.
 
-that you can ever watch in your entire life if you sat through and I mean, literally, actually, you you can't watch all of the the content that goes on YouTube in your
-entire lifetime that hap that goes up in a single hour.
-*12:47.300*
+`**12:47.300:**` that you can ever watch in your entire life if you sat through and I mean, literally, actually, you you can't watch all of the the content that goes on YouTube in your entire lifetime that hap that goes up in a single hour.
 
-So someone needs to be editing, and someone is editing all of that stuff.
-*12:58.100*
+`**12:58.100:**` So someone needs to be editing, and someone is editing all of that stuff.
 
-So wouldn't it be better if you could do multiple projects faster and get through those?
-*13:01.740*
+`**13:01.740:**` So wouldn't it be better if you could do multiple projects faster and get through those?
 
-**Speaker 1**: And there's plenty of work out there, clearly.
-*13:06.060*
+`**13:06.060:**` **Speaker 1**: And there's plenty of work out there, clearly.
 
-**Speaker 1**: you know.
-*13:10.120*
+`**13:10.120:**` **Speaker 1**: you know.
 
-**Speaker 1**: So Michael, beside the sync and link demo, what are some other things you've been showing at the FCP Works booth?
-*13:10.920*
+`**13:10.920:**` **Speaker 1**: So Michael, beside the sync and link demo, what are some other things you've been showing at the FCP Works booth?
 
-Sweet.
-*13:19.880*
+`**13:19.880:**` Sweet.
 
-Just about everything I've worked on in the past year.
-*13:20.280*
+`**13:20.280:**` Just about everything I've worked on in the past year.
 
-Corporate documentary.
-*13:23.480*
+`**13:23.480:**` Corporate documentary.
 
-I worked on two commercials.
-*13:25.480*
+`**13:25.480:**` I worked on two commercials.
 
-Showing a short documentary, another short film piece that I worked on, and I've
-*13:28.120*
+`**13:28.120:**` Showing a short documentary, another short film piece that I worked on, and I've
 
-Ah, let's see.
-*13:35.160*
+`**13:35.160:**` Ah, let's see.
 
-What else?
-*13:35.800*
+`**13:35.800:**` What else?
 
-What else, Sam?
-*13:36.440*
+`**13:36.440:**` What else, Sam?
 
-Do you remember?
-*13:37.480*
+`**13:37.480:**` Do you remember?
 
-I brought about six and a half terabytes of footage with me.
-*13:38.520*
+`**13:38.520:**` I brought about six and a half terabytes of footage with me.
 
-**Speaker 4**: You did, actually.
-*13:42.040*
+`**13:42.040:**` **Speaker 4**: You did, actually.
 
-**Speaker 4**: Oh, Mike.
-*13:43.800*
+`**13:43.800:**` **Speaker 4**: Oh, Mike.
 
-**Speaker 1**: I'm very thorough, maybe.
-*13:45.660*
+`**13:45.660:**` **Speaker 1**: I'm very thorough, maybe.
 
-**Speaker 1**: So what kind of stuff have you been showing that gets the most interest from people?
-*13:48.220*
+`**13:48.220:**` **Speaker 1**: So what kind of stuff have you been showing that gets the most interest from people?
 
-It depends on where they're coming from.
-*13:53.100*
+`**13:53.100:**` It depends on where they're coming from.
 
-Oh, I show broadcast news demo as well.
-*13:55.980*
+`**13:55.980:**` Oh, I show broadcast news demo as well.
 
-Where I just do some really basic stuff where I show how I'm using roles to go one step further in broadcast news with audio than you normally would.
-*13:58.740*
+`**13:58.740:**` Where I just do some really basic stuff where I show how I'm using roles to go one step further in broadcast news with audio than you normally would.
 
-And that gets a lot of raised up by eyebrows.
-*14:08.520*
+`**14:08.520:**` And that gets a lot of raised up by eyebrows.
 
-I talked to two guys who work one guy who works at Reuters today, and he was really excited by it.
-*14:10.360*
+`**14:10.360:**` I talked to two guys who work one guy who works at Reuters today, and he was really excited by it.
 
-Basically, I just use roles to separate out VO.
-*14:16.280*
+`**14:16.280:**` Basically, I just use roles to separate out VO.
 
-And interview and Natsod or B-roll, as opposed to the old way where you would like pan-pot left for VO and right for interview and B-roll.
-*14:20.120*
+`**14:20.120:**` And interview and Natsod or B-roll, as opposed to the old way where you would like pan-pot left for VO and right for interview and B-roll.
 
-And I thought, you know, like last year, I was like, well,
-*14:30.120*
+`**14:30.120:**` And I thought, you know, like last year, I was like, well,
 
-I could actually provide PBS with an even better mix.
-*14:33.020*
+`**14:33.020:**` I could actually provide PBS with an even better mix.
 
-And I just kind of I called the guy that I work with at the show Religion and Ethics News Weekly.
-*14:37.580*
+`**14:37.580:**` And I just kind of I called the guy that I work with at the show Religion and Ethics News Weekly.
 
-I said, Hey, do you mind if I send you this six stereo channel file instead of the normal
-*14:42.380*
+`**14:42.380:**` I said, Hey, do you mind if I send you this six stereo channel file instead of the normal
 
-to channel.
-*14:46.959*
+`**14:46.959:**` to channel.
 
-And he was like, yeah, sure.
-*14:47.839*
+`**14:47.839:**` And he was like, yeah, sure.
 
-And they never complained or said anything about it.
-*14:49.600*
+`**14:49.600:**` And they never complained or said anything about it.
 
-So I'm giving them maybe more than they want.
-*14:51.839*
+`**14:51.839:**` So I'm giving them maybe more than they want.
 
-But if they do end up creating promos and bumpers out of it, the interviews are now protected from the B roll.
-*14:54.959*
+`**14:54.959:**` But if they do end up creating promos and bumpers out of it, the interviews are now protected from the B roll.
 
-**Speaker 1**: Right.
-*15:01.040*
+`**15:01.040:**` **Speaker 1**: Right.
 
-**Speaker 1**: That's cool.
-*15:01.740*
+`**15:01.740:**` **Speaker 1**: That's cool.
 
-Yeah.
-*15:02.460*
+`**15:02.460:**` Yeah.
 
-**Speaker 1**: Again, added functionality.
-*15:03.180*
+`**15:03.180:**` **Speaker 1**: Again, added functionality.
 
-Yeah.
-*15:04.940*
+`**15:04.940:**` Yeah.
 
-Yeah, it really is.
-*15:05.340*
+`**15:05.340:**` Yeah, it really is.
 
-Something I didn't know I'd be able to do, and now I'm just able to do a lot more.
-*15:06.220*
+`**15:06.220:**` Something I didn't know I'd be able to do, and now I'm just able to do a lot more.
 
-**Speaker 1**: So I missed your demo, obviously, at the Red Booth.
-*15:10.020*
+`**15:10.020:**` **Speaker 1**: So I missed your demo, obviously, at the Red Booth.
 
-**Speaker 1**: What were you showing at the Red Booth, Sam?
-*15:13.540*
+`**15:13.540:**` **Speaker 1**: What were you showing at the Red Booth, Sam?
 
-We were highlighting the Mac Pro, and it's funny.
-*15:16.900*
+`**15:16.900:**` We were highlighting the Mac Pro, and it's funny.
 
-We just I mean
-*15:20.340*
+`**15:20.340:**` We just I mean
 
-And it's Final Cut 10 and Resolve and a round trip workflow.
-*15:21.800*
+`**15:21.800:**` And it's Final Cut 10 and Resolve and a round trip workflow.
 
-And literally, we actually, the demo completely changed Sunday night when we were over at the Red Booth.
-*15:26.279*
+`**15:26.279:**` And literally, we actually, the demo completely changed Sunday night when we were over at the Red Booth.
 
-I went in there planning to do one thing.
-*15:33.480*
+`**15:33.480:**` I went in there planning to do one thing.
 
-And then I don't even know how this happened, but we're running a Mac Pro with three 4K displays hooked into it.
-*15:35.940*
+`**15:35.940:**` And then I don't even know how this happened, but we're running a Mac Pro with three 4K displays hooked into it.
 
-It was supposed to be two cinema displays, and then I show up and suddenly like, oh, we got three 4K displays working off this thing.
-*15:43.300*
+`**15:43.300:**` It was supposed to be two cinema displays, and then I show up and suddenly like, oh, we got three 4K displays working off this thing.
 
-I'm like
-*15:48.580*
+`**15:48.580:**` I'm like
 
-Cool.
-*15:49.339*
+`**15:49.339:**` Cool.
 
-Well, that was in the release notes.
-*15:49.740*
+`**15:49.740:**` Well, that was in the release notes.
 
-I'm glad that works.
-*15:51.100*
+`**15:51.100:**` I'm glad that works.
 
-And so we're on there, and the idea was: I was like, all right, I'm going to run Final Cut on all three screens, and I'm going to show 6K dragon and all this stuff.
-*15:52.540*
+`**15:52.540:**` And so we're on there, and the idea was: I was like, all right, I'm going to run Final Cut on all three screens, and I'm going to show 6K dragon and all this stuff.
 
-And then for some reason, it was actually no, it was even Monday morning I got in there and I was trying to hurriedly get the
-*16:03.120*
+`**16:03.120:**` And then for some reason, it was actually no, it was even Monday morning I got in there and I was trying to hurriedly get the
 
-My resolve round trip stuff in there because we had to transfer to transfer the stuff overnight because we were busy setting up the suite and then I had to get over.
-*16:13.000*
+`**16:13.000:**` My resolve round trip stuff in there because we had to transfer to transfer the stuff overnight because we were busy setting up the suite and then I had to get over.
 
-And anyway, for whatever reason, I don't know why this happened.
-*16:19.400*
+`**16:19.400:**` And anyway, for whatever reason, I don't know why this happened.
 
-I accidentally had Resolve and Final Cut 10 open at the same time and with three 4K displays.
-*16:23.360*
+`**16:23.360:**` I accidentally had Resolve and Final Cut 10 open at the same time and with three 4K displays.
 
-And I had through the HDMI out, there was no Rocket, no Black Magic box, no AJA box.
-*16:30.480*
+`**16:30.480:**` And I had through the HDMI out, there was no Rocket, no Black Magic box, no AJA box.
 
-And I had um a round trip 4K ProRes sequence on Final Cut playing in 4K, and for whatever reason I had Resolve open at the same time, and I accidentally pushed play
-*16:36.660*
+`**16:36.660:**` And I had um a round trip 4K ProRes sequence on Final Cut playing in 4K, and for whatever reason I had Resolve open at the same time, and I accidentally pushed play
 
-in Resolve while Final Cut was open on the Mac Pro across three 4K displays.
-*16:50.200*
+`**16:50.200:**` in Resolve while Final Cut was open on the Mac Pro across three 4K displays.
 
-And suddenly I was playing back.
-*16:55.959*
+`**16:55.959:**` And suddenly I was playing back.
 
-While I had one to one 4K Pro res a better quality playing, I had 5K R3Ds playing
-*16:57.720*
+`**16:57.720:**` While I had one to one 4K Pro res a better quality playing, I had 5K R3Ds playing
 
-and Resolve on the other monitor in full playback on the other screen.
-*17:04.740*
+`**17:04.740:**` and Resolve on the other monitor in full playback on the other screen.
 
-**Speaker 1**: Both apps were playing 4K.
-*17:11.620*
+`**17:11.620:**` **Speaker 1**: Both apps were playing 4K.
 
-**Speaker 1**: One was playing 4K, one was playing 5K.
-*17:13.380*
+`**17:13.380:**` **Speaker 1**: One was playing 4K, one was playing 5K.
 
-**Speaker 1**: All in real time.
-*17:16.140*
+`**17:16.140:**` **Speaker 1**: All in real time.
 
-All in real time.
-*17:17.100*
+`**17:17.100:**` All in real time.
 
-And you would never do this, but then but you can.
-*17:18.060*
+`**17:18.060:**` And you would never do this, but then but you can.
 
-Proof of concept
-*17:22.300*
+`**17:22.300:**` Proof of concept
 
-**Speaker 1**: That's what we call that.
-*17:24.040*
+`**17:24.040:**` **Speaker 1**: That's what we call that.
 
-**Speaker 1**: You will never do this, but look, I can do it anyway.
-*17:25.480*
+`**17:25.480:**` **Speaker 1**: You will never do this, but look, I can do it anyway.
 
-So, literally at 8:30 in the morning, I'm like, oh, I think that's all I need to show today.
-*17:28.920*
+`**17:28.920:**` So, literally at 8:30 in the morning, I'm like, oh, I think that's all I need to show today.
 
-And I just demoed that the whole day, and then I showed.
-*17:34.040*
+`**17:34.040:**` And I just demoed that the whole day, and then I showed.
 
-R3D dragon proxy workflow and um people would come by and they're like, So where's your red rocket?
-*17:36.779*
+`**17:36.779:**` R3D dragon proxy workflow and um people would come by and they're like, So where's your red rocket?
 
-I was like, There's no red rocket.
-*17:42.779*
+`**17:42.779:**` I was like, There's no red rocket.
 
-And they'd be like
-*17:44.059*
+`**17:44.059:**` And they'd be like
 
-So is that on the same computer?
-*17:45.400*
+`**17:45.400:**` So is that on the same computer?
 
-And I was like, Yeah.
-*17:48.040*
+`**17:48.040:**` And I was like, Yeah.
 
-And and people would just kind of stand there for a minute and then just kind of like
-*17:49.560*
+`**17:49.560:**` And and people would just kind of stand there for a minute and then just kind of like
 
-Act surprised, and it was like, yeah, I uh it was one of those like
-*17:54.620*
+`**17:54.620:**` Act surprised, and it was like, yeah, I uh it was one of those like
 
-You would just never even think.
-*18:02.320*
+`**18:02.320:**` You would just never even think.
 
-And that happened at 8:30 in the morning Monday.
-*18:04.240*
+`**18:04.240:**` And that happened at 8:30 in the morning Monday.
 
-And that was like, oh, this is the world's easiest demo now.
-*18:06.800*
+`**18:06.800:**` And that was like, oh, this is the world's easiest demo now.
 
-I just need to push play.
-*18:09.940*
+`**18:09.940:**` I just need to push play.
 
-That's it.
-*18:11.139*
+`**18:11.139:**` That's it.
 
-Right.
-*18:11.700*
+`**18:11.700:**` Right.
 
-And go.
-*18:12.019*
+`**18:12.019:**` And go.
 
-So that was that was what happened at the Red Booth.
-*18:12.899*
+`**18:12.899:**` So that was that was what happened at the Red Booth.
 
-And, you know, it's just funny when those little like happy accidents and
-*18:15.539*
+`**18:15.539:**` And, you know, it's just funny when those little like happy accidents and
 
-So the Red Demo was turned into something completely different than what I'd planned the day before.
-*18:19.240*
+`**18:19.240:**` So the Red Demo was turned into something completely different than what I'd planned the day before.
 
-And so that was and that was Monday and then
-*18:26.760*
+`**18:26.760:**` And so that was and that was Monday and then
 
-Tuesday I was back at the suite and we've got uh we've got kind of quite a few pretty cool things in there.
-*18:30.800*
+`**18:30.800:**` Tuesday I was back at the suite and we've got uh we've got kind of quite a few pretty cool things in there.
 
-I mean there there's what
-*18:37.520*
+`**18:37.520:**` I mean there there's what
 
-Mike was talking about, and he's being a little modest, I think.
-*18:38.940*
+`**18:38.940:**` Mike was talking about, and he's being a little modest, I think.
 
-I mean, he's got some very detailed workflows.
-*18:42.220*
+`**18:42.220:**` I mean, he's got some very detailed workflows.
 
-That he's going through.
-*18:46.860*
+`**18:46.860:**` That he's going through.
 
-And I think what Mike is doing is.
-*18:47.740*
+`**18:47.740:**` And I think what Mike is doing is.
 
-**Speaker 1**: So, so tell me, does Michael Garber win at Workflow?
-*18:50.380*
+`**18:50.380:**` **Speaker 1**: So, so tell me, does Michael Garber win at Workflow?
 
-I think Michael Garber wins at Workflow.
-*18:54.380*
+`**18:54.380:**` I think Michael Garber wins at Workflow.
 
-Wow.
-*18:56.700*
+`**18:56.700:**` Wow.
 
-Yeah.
-*18:57.100*
+`**18:57.100:**` Yeah.
 
-I mean, it like.
-*18:57.419*
+`**18:57.419:**` I mean, it like.
 
-He is far, far more OCD than I am.
-*18:59.860*
+`**18:59.860:**` He is far, far more OCD than I am.
 
-And it is very detail oriented and it's like if you wanted someone to prep your project
-*19:02.820*
+`**19:02.820:**` And it is very detail oriented and it's like if you wanted someone to prep your project
 
-And be like, this is better than I imagined it could be.
-*19:08.919*
+`**19:08.919:**` And be like, this is better than I imagined it could be.
 
-That would be Michael Garber.
-*19:12.200*
+`**19:12.200:**` That would be Michael Garber.
 
-So, and he's doing that.
-*19:14.440*
+`**19:14.440:**` So, and he's doing that.
 
-And at the meantime, we have the, we're powering the whole room off of quantum sand.
-*19:16.440*
+`**19:16.440:**` And at the meantime, we have the, we're powering the whole room off of quantum sand.
 
-over sixteen gig fiber on Sandlink twos.
-*19:21.340*
+`**19:21.340:**` over sixteen gig fiber on Sandlink twos.
 
-And we are we've got Softron in there for broadcast ingest.
-*19:24.299*
+`**19:24.299:**` And we are we've got Softron in there for broadcast ingest.
 
-We have the DIT stations
-*19:29.260*
+`**19:29.260:**` We have the DIT stations
 
-**Speaker 1**: Did you see that thing?
-*19:30.900*
+`**19:30.900:**` **Speaker 1**: Did you see that thing?
 
-**Speaker 1**: Yeah, the cart.
-*19:31.940*
+`**19:31.940:**` **Speaker 1**: Yeah, the cart.
 
-**Speaker 1**: Oh, it's not the cart, it's the suitcase.
-*19:32.740*
+`**19:32.740:**` **Speaker 1**: Oh, it's not the cart, it's the suitcase.
 
-**Speaker 1**: Yeah, the suitcase.
-*19:34.580*
+`**19:34.580:**` **Speaker 1**: Yeah, the suitcase.
 
-**Speaker 1**: The doomsday machine.
-*19:35.460*
+`**19:35.460:**` **Speaker 1**: The doomsday machine.
 
-**Speaker 1**: So, actually, the reason I say that is somebody was telling me.
-*19:39.380*
+`**19:39.380:**` **Speaker 1**: So, actually, the reason I say that is somebody was telling me.
 
-**Speaker 1**: That they had built a DIT station.
-*19:44.220*
+`**19:44.220:**` **Speaker 1**: That they had built a DIT station.
 
-**Speaker 1**: It was the I mean and maybe it was him.
-*19:47.340*
+`**19:47.340:**` **Speaker 1**: It was the I mean and maybe it was him.
 
-**Speaker 1**: It was the guy from the DIT people.
-*19:49.740*
+`**19:49.740:**` **Speaker 1**: It was the guy from the DIT people.
 
-**Speaker 1**: He said their their previous one, they were on a shoot with an an S and L shoot with Daniel Craig, and they were doing a spoof.
-*19:52.220*
+`**19:52.220:**` **Speaker 1**: He said their their previous one, they were on a shoot with an an S and L shoot with Daniel Craig, and they were doing a spoof.
 
-**Speaker 1**: And they needed something to be the doomsday machine.
-*20:01.040*
+`**20:01.040:**` **Speaker 1**: And they needed something to be the doomsday machine.
 
-**Speaker 1**: And they said, Can we just use your DIT cart and use it as a prop and a shot?
-*20:04.560*
+`**20:04.560:**` **Speaker 1**: And they said, Can we just use your DIT cart and use it as a prop and a shot?
 
-**Speaker 1**: Yeah.
-*20:09.040*
+`**20:09.040:**` **Speaker 1**: Yeah.
 
-**Speaker 1**: That was the doomsday.
-*20:10.480*
+`**20:10.480:**` **Speaker 1**: That was the doomsday.
 
-And actually it actually I believe that.
-*20:11.900*
+`**20:11.900:**` And actually it actually I believe that.
 
-You know, you look at it and you're like, that is like the little black black suitcase that you would leave somewhere.
-*20:14.059*
+`**20:14.059:**` You know, you look at it and you're like, that is like the little black black suitcase that you would leave somewhere.
 
-And it was a little pelican case.
-*20:18.460*
+`**20:18.460:**` And it was a little pelican case.
 
-So yeah.
-*20:21.100*
+`**20:21.100:**` So yeah.
 
-We were also demoing Sam's new app.
-*20:22.480*
+`**20:22.480:**` We were also demoing Sam's new app.
 
-Or well, is it sorry?
-*20:25.040*
+`**20:25.040:**` Or well, is it sorry?
 
-Not your app, but it's something that I helped develop.
-*20:27.200*
+`**20:27.200:**` Not your app, but it's something that I helped develop.
 
-Tell me about it.
-*20:31.280*
+`**20:31.280:**` Tell me about it.
 
-So it is ShotNotes 10.
-*20:32.080*
+`**20:32.080:**` So it is ShotNotes 10.
 
-**Speaker 1**: Did you see ShotNotes when you were there?
-*20:33.920*
+`**20:33.920:**` **Speaker 1**: Did you see ShotNotes when you were there?
 
-**Speaker 1**: I did not see shot notes.
-*20:35.460*
+`**20:35.460:**` **Speaker 1**: I did not see shot notes.
 
-**Speaker 1**: No.
-*20:36.660*
+`**20:36.660:**` **Speaker 1**: No.
 
-Mike, you didn't show them shot notes?
-*20:36.980*
+`**20:36.980:**` Mike, you didn't show them shot notes?
 
-**Speaker 1**: You know what?
-*20:38.340*
+`**20:38.340:**` **Speaker 1**: You know what?
 
-**Speaker 1**: When I came in, I was just like, oh, cool, I'm hanging with the cool kids, you know?
-*20:38.740*
+`**20:38.740:**` **Speaker 1**: When I came in, I was just like, oh, cool, I'm hanging with the cool kids, you know?
 
-**Speaker 1**: And it was kind of fun, and I didn't even like.
-*20:42.420*
+`**20:42.420:**` **Speaker 1**: And it was kind of fun, and I didn't even like.
 
-**Speaker 1**: Like I sat down and I talked with Philip for a while, but he never even showed me anything.
-*20:44.760*
+`**20:44.760:**` **Speaker 1**: Like I sat down and I talked with Philip for a while, but he never even showed me anything.
 
-**Speaker 1**: It was it's like it was the worst demo out of my career.
-*20:48.360*
+`**20:48.360:**` **Speaker 1**: It was it's like it was the worst demo out of my career.
 
-I just want you to know, you were the first one of the day on the first day of NAB, so and it was like, Oh, Chris
-*20:52.039*
+`**20:52.039:**` I just want you to know, you were the first one of the day on the first day of NAB, so and it was like, Oh, Chris
 
-Fenwick is here to watch me do my first demo, and I know how much Chris knows about Final Cut 10.
-*20:57.080*
+`**20:57.080:**` Fenwick is here to watch me do my first demo, and I know how much Chris knows about Final Cut 10.
 
-I am a little nervous, and I was talking to these guys who were asking me about, you know.
-*21:01.960*
+`**21:01.960:**` I am a little nervous, and I was talking to these guys who were asking me about, you know.
 
-NASA's and SANS and I'm trying to come up with answers and act like I know what I'm talking about.
-*21:09.020*
+`**21:09.020:**` NASA's and SANS and I'm trying to come up with answers and act like I know what I'm talking about.
 
-**Speaker 1**: Yeah, no, it was it was fine.
-*21:14.940*
+`**21:14.940:**` **Speaker 1**: Yeah, no, it was it was fine.
 
-**Speaker 1**: But it actually it w it was kind of fun.
-*21:16.300*
+`**21:16.300:**` **Speaker 1**: But it actually it w it was kind of fun.
 
-**Speaker 1**: And plus I had just gotten out of
-*21:17.900*
+`**21:17.900:**` **Speaker 1**: And plus I had just gotten out of
 
-**Speaker 1**: Apple's demo, which is down the hall, which was also an invitation only thing and very very much an honor to be invited to be a part of that.
-*21:19.740*
+`**21:19.740:**` **Speaker 1**: Apple's demo, which is down the hall, which was also an invitation only thing and very very much an honor to be invited to be a part of that.
 
-**Speaker 1**: So yeah, it was f it was fun.
-*21:27.580*
+`**21:27.580:**` **Speaker 1**: So yeah, it was f it was fun.
 
-**Speaker 1**: I felt
-*21:29.180*
+`**21:29.180:**` **Speaker 1**: I felt
 
-**Speaker 1**: You know what I felt like, and this is going back to something I've said many times, and I've been saying it a lot on the show floor.
-*21:30.060*
+`**21:30.060:**` **Speaker 1**: You know what I felt like, and this is going back to something I've said many times, and I've been saying it a lot on the show floor.
 
-**Speaker 1**: I felt like I had got the golden ticket.
-*21:36.300*
+`**21:36.300:**` **Speaker 1**: I felt like I had got the golden ticket.
 
-**Speaker 1**: I was Charlie Bucket, and I got invited inside.
-*21:38.140*
+`**21:38.140:**` **Speaker 1**: I was Charlie Bucket, and I got invited inside.
 
-**Speaker 1**: The chocolate factory, you know, remember remember the old guy with the cart?
-*21:41.840*
+`**21:41.840:**` **Speaker 1**: The chocolate factory, you know, remember remember the old guy with the cart?
 
-Nobody ever goes in.
-*21:57.880*
+`**21:57.880:**` Nobody ever goes in.
 
-Nobody ever comes out.
-*22:03.160*
+`**22:03.160:**` Nobody ever comes out.
 
-**Speaker 1**: And that's kind of the sort of mentality that Apple has held for several years now.
-*22:05.640*
+`**22:05.640:**` **Speaker 1**: And that's kind of the sort of mentality that Apple has held for several years now.
 
-**Speaker 1**: They don't talk about things publicly.
-*22:11.120*
+`**22:11.120:**` **Speaker 1**: They don't talk about things publicly.
 
-**Speaker 1**: And it's a shame too, because you know, Stephen Bays and many great people, it has been so exciting for me to be able to talk to them.
-*22:13.120*
+`**22:13.120:**` **Speaker 1**: And it's a shame too, because you know, Stephen Bays and many great people, it has been so exciting for me to be able to talk to them.
 
-**Speaker 1**: And it's
-*22:22.560*
+`**22:22.560:**` **Speaker 1**: And it's
 
-**Speaker 1**: It's empowering, it's reaffirming, and it's like, God, I wish these guys could talk publicly, but they're not allowed to.
-*22:23.440*
+`**22:23.440:**` **Speaker 1**: It's empowering, it's reaffirming, and it's like, God, I wish these guys could talk publicly, but they're not allowed to.
 
-**Speaker 1**: And it's sad, and I don't care if they're listening or not, but it's.
-*22:29.760*
+`**22:29.760:**` **Speaker 1**: And it's sad, and I don't care if they're listening or not, but it's.
 
-**Speaker 1**: It's it to it to me it's imperative that they be you know taken let out to you know to to speak.
-*22:35.740*
+`**22:35.740:**` **Speaker 1**: It's it to it to me it's imperative that they be you know taken let out to you know to to speak.
 
-**Speaker 1**: Well, Stephen Bays would be the Al Mooney of Apple if Apple would let him.
-*22:43.980*
+`**22:43.980:**` **Speaker 1**: Well, Stephen Bays would be the Al Mooney of Apple if Apple would let him.
 
-**Speaker 1**: I mean, of course, I have no idea who any of these people are.
-*22:49.660*
+`**22:49.660:**` **Speaker 1**: I mean, of course, I have no idea who any of these people are.
 
-But I have I have uh no, I was lucky enough to go I mean, I actually completely understand where you're coming from 'cause I got the golden ticket to go
-*22:53.740*
+`**22:53.740:**` But I have I have uh no, I was lucky enough to go I mean, I actually completely understand where you're coming from 'cause I got the golden ticket to go
 
-um, work with those guys for a little bit.
-*23:04.519*
+`**23:04.519:**` um, work with those guys for a little bit.
 
-And, you know, it's funny, like when like it doesn't seem real when you're like, I I get to go in and see
-*23:07.480*
+`**23:07.480:**` And, you know, it's funny, like when like it doesn't seem real when you're like, I I get to go in and see
 
-you know, you've been working with this piece of software for the longest time, then you get to go in and meet the people who make it and all that stuff.
-*23:14.240*
+`**23:14.240:**` you know, you've been working with this piece of software for the longest time, then you get to go in and meet the people who make it and all that stuff.
 
-And the You get to meet the Ompa Limpas.
-*23:20.080*
+`**23:20.080:**` And the You get to meet the Ompa Limpas.
 
-Yeah.
-*23:22.640*
+`**23:22.640:**` Yeah.
 
-And well, and actually you're as you're sitting there thinking about it, like I didn't know what to picture.
-*23:22.880*
+`**23:22.880:**` And well, and actually you're as you're sitting there thinking about it, like I didn't know what to picture.
 
-I'm literally thinking about
-*23:27.040*
+`**23:27.040:**` I'm literally thinking about
 
-you know, the golden ticket and all of that stuff and like going in and like the land of chocolate and like you go watch Chocolate River and Augustus Glouke falling in.
-*23:29.100*
+`**23:29.100:**` you know, the golden ticket and all of that stuff and like going in and like the land of chocolate and like you go watch Chocolate River and Augustus Glouke falling in.
 
-Or you're you're also thinking, you're like, or is it going to be this really sterile environment where you go in and like they're like watching you with cameras and
-it's very like
-*23:36.940*
+`**23:36.940:**` Or you're you're also thinking, you're like, or is it going to be this really sterile environment where you go in and like they're like watching you with cameras and it's very like
 
-People in lab coats next to, you don't know what to think.
-*23:46.580*
+`**23:46.580:**` People in lab coats next to, you don't know what to think.
 
-You can't know.
-*23:49.299*
+`**23:49.299:**` You can't know.
 
-**Speaker 1**: Because you never know.
-*23:50.900*
+`**23:50.900:**` **Speaker 1**: Because you never know.
 
-**Speaker 1**: And yet, they are people that are.
-*23:52.820*
+`**23:52.820:**` **Speaker 1**: And yet, they are people that are.
 
-**Speaker 1**: Insanely passionate about what they're doing.
-*23:54.720*
+`**23:54.720:**` **Speaker 1**: Insanely passionate about what they're doing.
 
-**Speaker 1**: And you know, when you hear people say, Well, you know, I don't know if Apple's going to be around.
-*23:57.120*
+`**23:57.120:**` **Speaker 1**: And you know, when you hear people say, Well, you know, I don't know if Apple's going to be around.
 
-**Speaker 1**: I'd be like, you know what?
-*24:00.480*
+`**24:00.480:**` **Speaker 1**: I'd be like, you know what?
 
-**Speaker 1**: I wish you could talk to some of the people that I've been able to talk to.
-*24:03.200*
+`**24:03.200:**` **Speaker 1**: I wish you could talk to some of the people that I've been able to talk to.
 
-**Speaker 1**: It's empowering.
-*24:06.640*
+`**24:06.640:**` **Speaker 1**: It's empowering.
 
-The funniest thing is the so I'm sitting there and I'm like nervous, beyond nervous in the waiting room and I'm like, I don't know what to expect.
-*24:07.440*
+`**24:07.440:**` The funniest thing is the so I'm sitting there and I'm like nervous, beyond nervous in the waiting room and I'm like, I don't know what to expect.
 
-I'm going to like.
-*24:15.440*
+`**24:15.440:**` I'm going to like.
 
-The world's gonna blow up or something, and I'm and the next thing I know, like my boss, you know, while I'm there, comes down and he's like, So, are you ready to have some
-fun?
-*24:16.740*
+`**24:16.740:**` The world's gonna blow up or something, and I'm and the next thing I know, like my boss, you know, while I'm there, comes down and he's like, So, are you ready to have some fun?
 
-And I'm like
-*24:28.340*
+`**24:28.340:**` And I'm like
 
-Oh, that's where I am.
-*24:30.040*
+`**24:30.040:**` Oh, that's where I am.
 
-Like, this is Apple, you know?
-*24:31.240*
+`**24:31.240:**` Like, this is Apple, you know?
 
-And that's like, and that's the thing: I think, you know, you never see the people, so you don't know and you don't realize, but there is like.
-*24:32.680*
+`**24:32.680:**` And that's like, and that's the thing: I think, you know, you never see the people, so you don't know and you don't realize, but there is like.
 
-this spirit there, I think these people actually are they really do care.
-*24:40.679*
+`**24:40.679:**` this spirit there, I think these people actually are they really do care.
 
-And I think that's actually the biggest thing about the software that I wish people understood is like how great is it that a company has a successful product
-*24:46.600*
+`**24:46.600:**` And I think that's actually the biggest thing about the software that I wish people understood is like how great is it that a company has a successful product
 
-and is willing to do something completely crazy and different and then have it not go over well, and instead of just sweeping it under the rug and going back and doing
-what everyone wanted to do
-*24:54.860*
+`**24:54.860:**` and is willing to do something completely crazy and different and then have it not go over well, and instead of just sweeping it under the rug and going back and doing what everyone wanted to do
 
-They actually dug in and listened and brought back some of the things that people wanted, but then also pushed the really good ideas that they had in the software
-forward.
-*25:07.160*
+`**25:07.160:**` They actually dug in and listened and brought back some of the things that people wanted, but then also pushed the really good ideas that they had in the software forward.
 
-**Speaker 1**: Yeah, I think one of the greatest things that I have seen happen is and you have to sort of read the tea leaves, but I believe that the changes that happen with Ten
-*25:18.040*
+`**25:18.040:**` **Speaker 1**: Yeah, I think one of the greatest things that I have seen happen is and you have to sort of read the tea leaves, but I believe that the changes that happen with Ten
 
-**Speaker 1**: were a little bit of a yeah, we may have messed that up, so here's a library now.
-*25:30.620*
+`**25:30.620:**` **Speaker 1**: were a little bit of a yeah, we may have messed that up, so here's a library now.
 
-**Speaker 1**: And I think it's a huge testament to Apple's dedication to this, because they could have very easily just said
-*25:36.300*
+`**25:36.300:**` **Speaker 1**: And I think it's a huge testament to Apple's dedication to this, because they could have very easily just said
 
-**Speaker 1**: Nope, we like the two-folder system, it's perfect, and you shall use it.
-*25:41.840*
+`**25:41.840:**` **Speaker 1**: Nope, we like the two-folder system, it's perfect, and you shall use it.
 
-**Speaker 1**: But they listened, they totally listened, they're not as vocal about the listening.
-*25:46.000*
+`**25:46.000:**` **Speaker 1**: But they listened, they totally listened, they're not as vocal about the listening.
 
-**Speaker 1**: as Al Mooney or Kevin Monaghan at at Adobe.
-*25:50.519*
+`**25:50.519:**` **Speaker 1**: as Al Mooney or Kevin Monaghan at at Adobe.
 
-**Speaker 1**: They they may not be have as much of a of an actual presence on forums and stuff.
-*25:54.760*
+`**25:54.760:**` **Speaker 1**: They they may not be have as much of a of an actual presence on forums and stuff.
 
-**Speaker 1**: But they're there and they're listening.
-*26:00.140*
+`**26:00.140:**` **Speaker 1**: But they're there and they're listening.
 
-**Speaker 1**: And that to me is just really encouraging.
-*26:02.220*
+`**26:02.220:**` **Speaker 1**: And that to me is just really encouraging.
 
-**Speaker 1**: And the bottom line is, I've never been so happy about a piece of software.
-*26:04.780*
+`**26:04.780:**` **Speaker 1**: And the bottom line is, I've never been so happy about a piece of software.
 
-**Speaker 1**: And it's so annoying when you say, Oh, yeah, I cut in five hat ten and people give you that look and it's like, Oh, you know what?
-*26:09.260*
+`**26:09.260:**` **Speaker 1**: And it's so annoying when you say, Oh, yeah, I cut in five hat ten and people give you that look and it's like, Oh, you know what?
 
-**Speaker 1**: Shut up.
-*26:13.820*
+`**26:13.820:**` **Speaker 1**: Shut up.
 
-**Speaker 1**: You don't know what you're talking about.
-*26:14.140*
+`**26:14.140:**` **Speaker 1**: You don't know what you're talking about.
 
-**Speaker 1**: You really don't.
-*26:15.820*
+`**26:15.820:**` **Speaker 1**: You really don't.
 
-Well, yeah, and and the funny thing about that is, I mean, they really like
-*26:17.100*
+`**26:17.100:**` Well, yeah, and and the funny thing about that is, I mean, they really like
 
-They care, you know?
-*26:23.960*
+`**26:23.960:**` They care, you know?
 
-And the ironic thing is, I went in there when I went there.
-*26:26.200*
+`**26:26.200:**` And the ironic thing is, I went in there when I went there.
 
-I feel like my punishment after going in there and whining.
-*26:31.240*
+`**26:31.240:**` I feel like my punishment after going in there and whining.
 
-You know, and complaining and like pounding my fist and saying, Why isn't is then you go in and you meet these people and
-*26:35.120*
+`**26:35.120:**` You know, and complaining and like pounding my fist and saying, Why isn't is then you go in and you meet these people and
 
-Then you come out and you hear these people, and you're like, Oh, God, that was me.
-*26:45.419*
+`**26:45.419:**` Then you come out and you hear these people, and you're like, Oh, God, that was me.
 
-**Speaker 1**: I'm sorry, I was so mean to you online.
-*26:52.780*
+`**26:52.780:**` **Speaker 1**: I'm sorry, I was so mean to you online.
 
-And you know, and you're just like
-*26:55.500*
+`**26:55.500:**` And you know, and you're just like
 
-And now your punishment is that you have seen the other side and you understand and now
-*26:59.380*
+`**26:59.380:**` And now your punishment is that you have seen the other side and you understand and now
 
-**Speaker 1**: That is so so so tell me then, how would you fix this?
-*27:10.400*
+`**27:10.400:**` **Speaker 1**: That is so so so tell me then, how would you fix this?
 
-**Speaker 1**: What should we do?
-*27:14.960*
+`**27:14.960:**` **Speaker 1**: What should we do?
 
-**Speaker 1**: What should be different?
-*27:15.760*
+`**27:15.760:**` **Speaker 1**: What should be different?
 
-**Speaker 1**: Yeah, no, and you know, and I don't want this to sound like a
-*27:16.720*
+`**27:16.720:**` **Speaker 1**: Yeah, no, and you know, and I don't want this to sound like a
 
-**Speaker 1**: Oh, you know, it's so cool.
-*27:20.240*
+`**27:20.240:**` **Speaker 1**: Oh, you know, it's so cool.
 
-**Speaker 1**: We got it you know.
-*27:21.440*
+`**27:21.440:**` **Speaker 1**: We got it you know.
 
-**Speaker 1**: I mean, I again, I've said this many times.
-*27:22.560*
+`**27:22.560:**` **Speaker 1**: I mean, I again, I've said this many times.
 
-**Speaker 1**: These are some of these people are are friends.
-*27:25.280*
+`**27:25.280:**` **Speaker 1**: These are some of these people are are friends.
 
-**Speaker 1**: I've known for a long, long time, long before even Funnel Cut won.
-*27:27.120*
+`**27:27.120:**` **Speaker 1**: I've known for a long, long time, long before even Funnel Cut won.
 
-**Speaker 1**: But, um
-*27:32.400*
+`**27:32.400:**` **Speaker 1**: But, um
 
-**Speaker 1**: I just think it's an important message.
-*27:34.780*
+`**27:34.780:**` **Speaker 1**: I just think it's an important message.
 
-**Speaker 1**: And frankly, if Apple were paying for this podcast, I probably would be slapped and wouldn't be allowed to say some of these things.
-*27:36.380*
+`**27:36.380:**` **Speaker 1**: And frankly, if Apple were paying for this podcast, I probably would be slapped and wouldn't be allowed to say some of these things.
 
-**Speaker 1**: But that's the beauty of the fact that
-*27:43.900*
+`**27:43.900:**` **Speaker 1**: But that's the beauty of the fact that
 
-**Speaker 1**: You know, this is an independent venture and they're not behind it.
-*27:48.000*
+`**27:48.000:**` **Speaker 1**: You know, this is an independent venture and they're not behind it.
 
-**Speaker 1**: And I don't have to be, you know, subject to the same stuff.
-*27:50.799*
+`**27:50.799:**` **Speaker 1**: And I don't have to be, you know, subject to the same stuff.
 
-**Speaker 1**: That being said, I don't.
-*27:54.559*
+`**27:54.559:**` **Speaker 1**: That being said, I don't.
 
-**Speaker 1**: Hi, Steve.
-*27:56.640*
+`**27:56.640:**` **Speaker 1**: Hi, Steve.
 
-**Speaker 1**: Please be nice.
-*27:57.920*
+`**27:57.920:**` **Speaker 1**: Please be nice.
 
-**Speaker 1**: I'm totally behind you.
-*27:58.880*
+`**27:58.880:**` **Speaker 1**: I'm totally behind you.
 
-**Speaker 1**: So yeah, I just want to give that as a little bit of a disclaimer.
-*28:01.040*
+`**28:01.040:**` **Speaker 1**: So yeah, I just want to give that as a little bit of a disclaimer.
 
-**Speaker 1**: So what is next for Final Cut Works?
-*28:06.320*
+`**28:06.320:**` **Speaker 1**: So what is next for Final Cut Works?
 
-**Speaker 1**: Or FCP do you say Final Cut Works?
-*28:11.340*
+`**28:11.340:**` **Speaker 1**: Or FCP do you say Final Cut Works?
 
-**Speaker 1**: Do you say F Final Cut Works?
-*28:13.260*
+`**28:13.260:**` **Speaker 1**: Do you say F Final Cut Works?
 
-**Speaker 1**: Pro P Works.
-*28:14.540*
+`**28:14.540:**` **Speaker 1**: Pro P Works.
 
-Just F C P Works is I think the official title.
-*28:15.340*
+`**28:15.340:**` Just F C P Works is I think the official title.
 
-What is next for?
-*28:18.220*
+`**28:18.220:**` What is next for?
 
-I mean, basically, for us, it is
-*28:18.940*
+`**28:18.940:**` I mean, basically, for us, it is
 
-Keep doing what we're doing, which is essentially all we are at the end of the day, is
-*28:23.520*
+`**28:23.520:**` Keep doing what we're doing, which is essentially all we are at the end of the day, is
 
-People who use the software, like I use this on my own time.
-*28:29.660*
+`**28:29.660:**` People who use the software, like I use this on my own time.
 
-You can't pay me to edit, you can't pay me to color anymore.
-*28:32.860*
+`**28:32.860:**` You can't pay me to edit, you can't pay me to color anymore.
 
-I do my own stuff and I work on my own things.
-*28:35.580*
+`**28:35.580:**` I do my own stuff and I work on my own things.
 
-But you know, I also visit and talk with other people who are working and
-*28:38.460*
+`**28:38.460:**` But you know, I also visit and talk with other people who are working and
 
-you know, it's kind of the other people that are that are working with this.
-*28:43.620*
+`**28:43.620:**` you know, it's kind of the other people that are that are working with this.
 
-What you get from us is we are a reseller for all of these products, but the thing is we only sell the products that we use.
-*28:48.820*
+`**28:48.820:**` What you get from us is we are a reseller for all of these products, but the thing is we only sell the products that we use.
 
-And for us, it's just kind of continuing to keep working because, believe it or not, there's actually demand out there.
-*28:55.679*
+`**28:55.679:**` And for us, it's just kind of continuing to keep working because, believe it or not, there's actually demand out there.
 
-And there's a lot more people using this software and a lot more people curious about this software than you would ever think.
-*29:06.820*
+`**29:06.820:**` And there's a lot more people using this software and a lot more people curious about this software than you would ever think.
 
-So for us, we're just here to meet people and find people who are interested in what we're doing.
-*29:13.700*
+`**29:13.700:**` So for us, we're just here to meet people and find people who are interested in what we're doing.
 
-keep, you know, finding cool projects to go help people with.
-*29:20.480*
+`**29:20.480:**` keep, you know, finding cool projects to go help people with.
 
-And that's really all we're interested in.
-*29:25.040*
+`**29:25.040:**` And that's really all we're interested in.
 
-**Speaker 1**: So let me ask you, have you met any people that have come in that actually are doing really cool stuff?
-*29:26.480*
+`**29:26.480:**` **Speaker 1**: So let me ask you, have you met any people that have come in that actually are doing really cool stuff?
 
-**Speaker 1**: that you can talk about?
-*29:32.960*
+`**29:32.960:**` **Speaker 1**: that you can talk about?
 
-Uh yes, there are lots of people doing really cool things.
-*29:34.320*
+`**29:34.320:**` Uh yes, there are lots of people doing really cool things.
 
-Um no, I mean it's it's funny.
-*29:37.760*
+`**29:37.760:**` Um no, I mean it's it's funny.
 
-I mean there's a lot of people who are curious and there's a lot of facilities actually that are coming in and are like
-*29:39.360*
+`**29:39.360:**` I mean there's a lot of people who are curious and there's a lot of facilities actually that are coming in and are like
 
-It's the the funniest thing is is usually there's an internal battle going on at the facility raging between the few people who want to you know give Final Cut 10 a chance
-and then there's an entrenched thing that they're fighting.
-*29:47.800*
+`**29:47.800:**` It's the the funniest thing is is usually there's an internal battle going on at the facility raging between the few people who want to you know give Final Cut 10 a chance and then there's an entrenched thing that they're fighting.
 
-And so there are these people who understand the program, who are super passionate about it, who are literally having to go in and prove that
-*30:01.880*
+`**30:01.880:**` And so there are these people who understand the program, who are super passionate about it, who are literally having to go in and prove that
 
-It is a professional product to their bosses.
-*30:11.160*
+`**30:11.160:**` It is a professional product to their bosses.
 
-So, in a lot of cases, they're coming into the suite and they're saying, How do I explain to these people that this is okay to do?
-*30:14.200*
+`**30:14.200:**` So, in a lot of cases, they're coming into the suite and they're saying, How do I explain to these people that this is okay to do?
 
-Right.
-*30:23.800*
+`**30:23.800:**` Right.
 
-So top three things, what do you tell them?
-*30:24.740*
+`**30:24.740:**` So top three things, what do you tell them?
 
-Top three things is the metadata and shot notes demo.
-*30:27.460*
+`**30:27.460:**` Top three things is the metadata and shot notes demo.
 
-If you're interested in 4K, it's a no brainer in terms of the proxy, offline, online workflow.
-*30:33.060*
+`**30:33.060:**` If you're interested in 4K, it's a no brainer in terms of the proxy, offline, online workflow.
 
-And then, I don't know, Mike, you take the last one actually.
-*30:39.019*
+`**30:39.019:**` And then, I don't know, Mike, you take the last one actually.
 
-What do you think?
-*30:41.659*
+`**30:41.659:**` What do you think?
 
-Well, I'll do a combo because they're two in one, but for me, it's all about roll
-*30:44.139*
+`**30:44.139:**` Well, I'll do a combo because they're two in one, but for me, it's all about roll
 
-For me it's all about roles and the magnetic timeline and uh getting home earlier at the end of the day.
-*30:48.240*
+`**30:48.240:**` For me it's all about roles and the magnetic timeline and uh getting home earlier at the end of the day.
 
-**Speaker 1**: Yeah, you know, the magnetic timeline is very interesting because there is that there's the beginning of the
-*30:55.280*
+`**30:55.280:**` **Speaker 1**: Yeah, you know, the magnetic timeline is very interesting because there is that there's the beginning of the
 
-**Speaker 1**: of the relationship that you have with this software where some people they don't get it, but when they get it, they go, Oh, yeah, I totally get it.
-*31:01.340*
+`**31:01.340:**` **Speaker 1**: of the relationship that you have with this software where some people they don't get it, but when they get it, they go, Oh, yeah, I totally get it.
 
-**Speaker 1**: Mm-hmm.
-*31:08.700*
+`**31:08.700:**` **Speaker 1**: Mm-hmm.
 
-When you combo those two, I mean, it's really powerful what you can do.
-*31:09.419*
+`**31:09.419:**` When you combo those two, I mean, it's really powerful what you can do.
 
-**Speaker 1**: All across the board.
-*31:14.540*
+`**31:14.540:**` **Speaker 1**: All across the board.
 
-**Speaker 4**: I mean, it's even going to save you time in your audio mix.
-*31:15.580*
+`**31:15.580:**` **Speaker 4**: I mean, it's even going to save you time in your audio mix.
 
-**Speaker 1**: Yeah, so the magnetic timeline allows you to move things about more easily
-*31:17.900*
+`**31:17.900:**` **Speaker 1**: Yeah, so the magnetic timeline allows you to move things about more easily
 
-**Speaker 1**: And not worry about exactly where they are in what would have normally been a track stack.
-*31:22.160*
+`**31:22.160:**` **Speaker 1**: And not worry about exactly where they are in what would have normally been a track stack.
 
-**Speaker 1**: And the roles allow you to keep track of that information so it still g outputs the channel that you want.
-*31:27.760*
+`**31:27.760:**` **Speaker 1**: And the roles allow you to keep track of that information so it still g outputs the channel that you want.
 
-**Speaker 1**: I'm going to steal that from you, and I'm going
-*31:33.520*
+`**31:33.520:**` **Speaker 1**: I'm going to steal that from you, and I'm going
 
-**Speaker 1**: And I'm going to say that tomorrow in my demo.
-*31:35.700*
+`**31:35.700:**` **Speaker 1**: And I'm going to say that tomorrow in my demo.
 
-**Speaker 1**: You're more than welcome to.
-*31:37.620*
+`**31:37.620:**` **Speaker 1**: You're more than welcome to.
 
-**Speaker 1**: That was brilliant.
-*31:38.820*
+`**31:38.820:**` **Speaker 1**: That was brilliant.
 
-**Speaker 1**: Yeah.
-*31:39.539*
+`**31:39.539:**` **Speaker 1**: Yeah.
 
-**Speaker 1**: I mean, it it it's two sides to a coin.
-*31:39.779*
+`**31:39.779:**` **Speaker 1**: I mean, it it it's two sides to a coin.
 
-Yeah.
-*31:42.340*
+`**31:42.340:**` Yeah.
 
-**Speaker 1**: You know, the magnetic timeline, I can move this around, and if it has to like push it down here or whatever, but the rolls.
-*31:42.820*
+`**31:42.820:**` **Speaker 1**: You know, the magnetic timeline, I can move this around, and if it has to like push it down here or whatever, but the rolls.
 
-**Speaker 1**: Is as if it were on its own.
-*31:49.620*
+`**31:49.620:**` **Speaker 1**: Is as if it were on its own.
 
-Yeah, it's the translation method between the magnetic timeline and
-*31:53.940*
+`**31:53.940:**` Yeah, it's the translation method between the magnetic timeline and
 
-what I'd say is the rest of the world, which, you know, would be tracks.
-*31:57.340*
+`**31:57.340:**` what I'd say is the rest of the world, which, you know, would be tracks.
 
-**Speaker 1**: So right.
-*32:01.100*
+`**32:01.100:**` **Speaker 1**: So right.
 
-**Speaker 1**: Okay, so let me ask you this, and this is something I've been doing on the show once in a while.
-*32:02.380*
+`**32:02.380:**` **Speaker 1**: Okay, so let me ask you this, and this is something I've been doing on the show once in a while.
 
-**Speaker 1**: If you had the opportunity to sit down and like sneak into the back door and sit down with the engineers and go, hey, forget what they said, make me this feature.
-*32:06.700*
+`**32:06.700:**` **Speaker 1**: If you had the opportunity to sit down and like sneak into the back door and sit down with the engineers and go, hey, forget what they said, make me this feature.
 
-**Speaker 1**: What would you what would you add to Final Cut 10 if you had the ability to talk one-on-one with the with the programmers doing it?
-*32:15.120*
+`**32:15.120:**` **Speaker 1**: What would you what would you add to Final Cut 10 if you had the ability to talk one-on-one with the with the programmers doing it?
 
-Well, if I'm gonna go first, I mean my uh there's two things.
-*32:23.220*
+`**32:23.220:**` Well, if I'm gonna go first, I mean my uh there's two things.
 
-There's um sounding color.
-*32:27.060*
+`**32:27.060:**` There's um sounding color.
 
-So for me
-*32:30.180*
+`**32:30.180:**` So for me
 
-I really actually love a lot of the sound tools in there.
-*32:31.720*
+`**32:31.720:**` I really actually love a lot of the sound tools in there.
 
-Me too.
-*32:34.520*
+`**32:34.520:**` Me too.
 
-But the thing that's missing for me is taking full advantage of the roles.
-*32:35.240*
+`**32:35.240:**` But the thing that's missing for me is taking full advantage of the roles.
 
-What I want to be able to do is select roles and move stuff around based on roles and kind of lock things down.
-*32:39.640*
+`**32:39.640:**` What I want to be able to do is select roles and move stuff around based on roles and kind of lock things down.
 
-Using rolls almost as tracks, but having the flexibility to break them apart immediately too.
-*32:47.740*
+`**32:47.740:**` Using rolls almost as tracks, but having the flexibility to break them apart immediately too.
 
-So I can optionally turn them on or off and move things around and lay things out according to
-*32:53.020*
+`**32:53.020:**` So I can optionally turn them on or off and move things around and lay things out according to
 
-**Speaker 1**: role.
-*33:00.640*
+`**33:00.640:**` **Speaker 1**: role.
 
-**Speaker 1**: Did you see on uh FCP Co.
-*33:01.600*
+`**33:01.600:**` **Speaker 1**: Did you see on uh FCP Co.
 
-**Speaker 1**: they were v imagining what it would be like if roles could be color coded?
-*33:03.520*
+`**33:03.520:**` **Speaker 1**: they were v imagining what it would be like if roles could be color coded?
 
-**Speaker 1**: Did you see that?
-*33:08.560*
+`**33:08.560:**` **Speaker 1**: Did you see that?
 
-**Speaker 1**: There's a a graphic uh that somebody had made up.
-*33:09.280*
+`**33:09.280:**` **Speaker 1**: There's a a graphic uh that somebody had made up.
 
-**Speaker 1**: I can't I don't know who did it.
-*33:12.240*
+`**33:12.240:**` **Speaker 1**: I can't I don't know who did it.
 
-**Speaker 1**: It's very cool.
-*33:13.660*
+`**33:13.660:**` **Speaker 1**: It's very cool.
 
-**Speaker 1**: It's like, oh, yeah, there's my music.
-*33:14.300*
+`**33:14.300:**` **Speaker 1**: It's like, oh, yeah, there's my music.
 
-**Speaker 1**: I do coo because everything is this color or whatever.
-*33:15.740*
+`**33:15.740:**` **Speaker 1**: I do coo because everything is this color or whatever.
 
-And that would be fantastic.
-*33:18.300*
+`**33:18.300:**` And that would be fantastic.
 
-And, you know, and like that is, you know, being able to do that.
-*33:19.900*
+`**33:19.900:**` And, you know, and like that is, you know, being able to do that.
 
-And then also on the color side would be.
-*33:23.260*
+`**33:23.260:**` And then also on the color side would be.
 
-I want my three-way built in.
-*33:28.419*
+`**33:28.419:**` I want my three-way built in.
 
-I really want it back.
-*33:30.900*
+`**33:30.900:**` I really want it back.
 
-And I would love to be able to use my control surface in there.
-*33:32.260*
+`**33:32.260:**` And I would love to be able to use my control surface in there.
 
-And if someone would make a nice curves plugin, I'm never leaving that software.
-*33:36.900*
+`**33:36.900:**` And if someone would make a nice curves plugin, I'm never leaving that software.
 
-I'll echo you on that.
-*33:41.220*
+`**33:41.220:**` I'll echo you on that.
 
-**Speaker 1**: The other thing that I would like to see is when you hit that little arrow and it slides over into the color board.
-*33:43.100*
+`**33:43.100:**` **Speaker 1**: The other thing that I would like to see is when you hit that little arrow and it slides over into the color board.
 
-**Speaker 1**: Why can't there's a whole lot of empty space at the bottom of that window?
-*33:51.300*
+`**33:51.300:**` **Speaker 1**: Why can't there's a whole lot of empty space at the bottom of that window?
 
-**Speaker 1**: Take the whole colorboard, push it down, and above, keep
-*33:55.220*
+`**33:55.220:**` **Speaker 1**: Take the whole colorboard, push it down, and above, keep
 
-**Speaker 1**: The user interface for the different color correctors, and I want to add a new one.
-*34:00.660*
+`**34:00.660:**` **Speaker 1**: The user interface for the different color correctors, and I want to add a new one.
 
-**Speaker 1**: I want to add a new one.
-*34:06.260*
+`**34:06.260:**` **Speaker 1**: I want to add a new one.
 
-**Speaker 1**: Leave that stuff right there, but leave the color board there also.
-*34:07.299*
+`**34:07.299:**` **Speaker 1**: Leave that stuff right there, but leave the color board there also.
 
-**Speaker 1**: Because I hate it when I'm like, okay, I'm doing this.
-*34:10.740*
+`**34:10.740:**` **Speaker 1**: Because I hate it when I'm like, okay, I'm doing this.
 
-**Speaker 1**: Now I want to add my vignette.
-*34:12.980*
+`**34:12.980:**` **Speaker 1**: Now I want to add my vignette.
 
-**Speaker 1**: Step back out, add one, step back in, change the vignette outside.
-*34:14.500*
+`**34:14.500:**` **Speaker 1**: Step back out, add one, step back in, change the vignette outside.
 
-**Speaker 1**: I'd love to be able to see that.
-*34:19.540*
+`**34:19.540:**` **Speaker 1**: I'd love to be able to see that.
 
-**Speaker 1**: Yeah.
-*34:21.720*
+`**34:21.720:**` **Speaker 1**: Yeah.
 
-And maybe there's another way to even do color that I haven't necessarily thought about, you know, and that's but I do know that as a person who was a colorist
-*34:22.359*
+`**34:22.359:**` And maybe there's another way to even do color that I haven't necessarily thought about, you know, and that's but I do know that as a person who was a colorist
 
-I want so badly to not have to go to another app.
-*34:32.120*
+`**34:32.120:**` I want so badly to not have to go to another app.
 
-And I'm so close to not having to do that.
-*34:35.800*
+`**34:35.800:**` And I'm so close to not having to do that.
 
-**Speaker 1**: I think really that's the thing.
-*34:38.440*
+`**34:38.440:**` **Speaker 1**: I think really that's the thing.
 
-**Speaker 1**: I think there's so much talk about, oh, XML this and In and Out and stuff.
-*34:39.880*
+`**34:39.880:**` **Speaker 1**: I think there's so much talk about, oh, XML this and In and Out and stuff.
 
-**Speaker 1**: We're like, really?
-*34:44.280*
+`**34:44.280:**` **Speaker 1**: We're like, really?
 
-**Speaker 1**: Or like even now
-*34:45.160*
+`**34:45.160:**` **Speaker 1**: Or like even now
 
-**Speaker 1**: Who is it?
-*34:46.559*
+`**34:46.559:**` **Speaker 1**: Who is it?
 
-**Speaker 1**: Um Autodesk is Autodesk that now no, it's Resolve.
-*34:47.119*
+`**34:47.119:**` **Speaker 1**: Um Autodesk is Autodesk that now no, it's Resolve.
 
-**Speaker 1**: You know, now they have 70 new editing features.
-*34:52.240*
+`**34:52.240:**` **Speaker 1**: You know, now they have 70 new editing features.
 
-**Speaker 1**: It's like, isn't that where we're going?
-*34:54.639*
+`**34:54.639:**` **Speaker 1**: It's like, isn't that where we're going?
 
-**Speaker 1**: Can't w why can't I
-*34:56.799*
+`**34:56.799:**` **Speaker 1**: Can't w why can't I
 
-**Speaker 1**: Have the power of resolve as a plug-in per clip.
-*34:59.400*
+`**34:59.400:**` **Speaker 1**: Have the power of resolve as a plug-in per clip.
 
-**Speaker 1**: I don't understand why that's not possible.
-*35:03.720*
+`**35:03.720:**` **Speaker 1**: I don't understand why that's not possible.
 
-**Speaker 1**: I don't know.
-*35:06.920*
+`**35:06.920:**` **Speaker 1**: I don't know.
 
-**Speaker 1**: I don't understand either.
-*35:07.320*
+`**35:07.320:**` **Speaker 1**: I don't understand either.
 
-**Speaker 1**: What about you, Michael?
-*35:08.680*
+`**35:08.680:**` **Speaker 1**: What about you, Michael?
 
-**Speaker 1**: If you could add a feature, what would it be?
-*35:09.560*
+`**35:09.560:**` **Speaker 1**: If you could add a feature, what would it be?
 
-It's all kind of time line related.
-*35:12.040*
+`**35:12.040:**` It's all kind of time line related.
 
-My number one request
-*35:15.240*
+`**35:15.240:**` My number one request
 
-Is the ability to move the clip indicator, that little white dot that shows up on clips now?
-*35:18.400*
+`**35:18.400:**` Is the ability to move the clip indicator, that little white dot that shows up on clips now?
 
-Yep.
-*35:24.000*
+`**35:24.000:**` Yep.
 
-I'd like to be able to move that up and down.
-*35:24.800*
+`**35:24.800:**` I'd like to be able to move that up and down.
 
-And to the keystroker.
-*35:28.000*
+`**35:28.000:**` And to the keystroker.
 
-With a keystroke, like maybe shift command up and down.
-*35:30.000*
+`**35:30.000:**` With a keystroke, like maybe shift command up and down.
 
-Just saying.
-*35:33.280*
+`**35:33.280:**` Just saying.
 
-That's really the number one thing.
-*35:35.859*
+`**35:35.859:**` That's really the number one thing.
 
-Yeah, it really is, because it would allow me to edit in the timeline with keyboard only the way I envision it.
-*35:37.460*
+`**35:37.460:**` Yeah, it really is, because it would allow me to edit in the timeline with keyboard only the way I envision it.
 
-What I would want it to turn into, what I'd want it to turn into would be a target indicator.
-*35:44.620*
+`**35:44.620:**` What I would want it to turn into, what I'd want it to turn into would be a target indicator.
 
-So that would get rid that would basically nix the idea of track targets in a track.
-*35:51.680*
+`**35:51.680:**` So that would get rid that would basically nix the idea of track targets in a track.
 
-Exactly.
-*35:59.380*
+`**35:59.380:**` Exactly.
 
-So the little bouncing ball from like the old school, like, you know, what words you're on.
-*36:00.660*
+`**36:00.660:**` So the little bouncing ball from like the old school, like, you know, what words you're on.
 
-I want it to bump up.
-*36:06.420*
+`**36:06.420:**` I want it to bump up.
 
-Yeah, go with my time line.
-*36:08.100*
+`**36:08.100:**` Yeah, go with my time line.
 
-But yeah, like imagine being able to target like two s like you have a clip and a connected clip and another connected clip on top of that.
-*36:09.720*
+`**36:09.720:**` But yeah, like imagine being able to target like two s like you have a clip and a connected clip and another connected clip on top of that.
 
-And I want to sandwich a shot between clip
-*36:17.240*
+`**36:17.240:**` And I want to sandwich a shot between clip
 
-Two and clip three.
-*36:20.740*
+`**36:20.740:**` Two and clip three.
 
-**Speaker 1**: So if you ball down one or two and then overlay, it'll overlay on top of that push.
-*36:21.780*
+`**36:21.780:**` **Speaker 1**: So if you ball down one or two and then overlay, it'll overlay on top of that push.
 
-Yeah, or go up from the storyline.
-*36:26.420*
+`**36:26.420:**` Yeah, or go up from the storyline.
 
-Mind blown.
-*36:28.500*
+`**36:28.500:**` Mind blown.
 
-Storyline.
-*36:29.300*
+`**36:29.300:**` Storyline.
 
-Watching Sam's temples bulge up.
-*36:29.940*
+`**36:29.940:**` Watching Sam's temples bulge up.
 
-It connects it to, you know, not to the second clip, but still to the primary, but between clips two and three.
-*36:33.340*
+`**36:33.340:**` It connects it to, you know, not to the second clip, but still to the primary, but between clips two and three.
 
-**Speaker 1**: I do think it would be neat to be able to connect a clip to a connected clip.
-*36:39.100*
+`**36:39.100:**` **Speaker 1**: I do think it would be neat to be able to connect a clip to a connected clip.
 
-Yeah, a lot of people say that.
-*36:42.880*
+`**36:42.880:**` Yeah, a lot of people say that.
 
-I haven't found the need for it yet, but I'm sure there's so many workflows out there and.
-*36:44.240*
+`**36:44.240:**` I haven't found the need for it yet, but I'm sure there's so many workflows out there and.
 
-**Speaker 1**: He's looking up like he's reading something off the ceiling over here.
-*36:51.160*
+`**36:51.160:**` **Speaker 1**: He's looking up like he's reading something off the ceiling over here.
 
-Final cut.
-*36:54.520*
+`**36:54.520:**` Final cut.
 
-You know, I'm just like, I'm like, I want to, I want to be able to edit in secondary storylines with my keyboard only.
-*36:56.120*
+`**36:56.120:**` You know, I'm just like, I'm like, I want to, I want to be able to edit in secondary storylines with my keyboard only.
 
-So if I could move that.
-*37:02.440*
+`**37:02.440:**` So if I could move that.
 
-What I call the target indicator up to a secondary, and that becomes the area where I can now
-*37:03.920*
+`**37:03.920:**` What I call the target indicator up to a secondary, and that becomes the area where I can now
 
-Wedge in shots, insert shots, overwrite shots.
-*37:12.140*
+`**37:12.140:**` Wedge in shots, insert shots, overwrite shots.
 
-Select a select.
-*37:15.660*
+`**37:15.660:**` Select a select.
 
-The entire, but I want to do it with the keyboard.
-*37:20.820*
+`**37:20.820:**` The entire, but I want to do it with the keyboard.
 
-I don't want to use the mouse.
-*37:23.140*
+`**37:23.140:**` I don't want to use the mouse.
 
-So, if you were to push like option right arrow or something, that might move the little bouncing ball over, and then if you push like option arrow up, it might move it up.
-*37:24.740*
+`**37:24.740:**` So, if you were to push like option right arrow or something, that might move the little bouncing ball over, and then if you push like option arrow up, it might move it up.
 
-And then you could push C to select that clip and then maybe move it.
-*37:33.000*
+`**37:33.000:**` And then you could push C to select that clip and then maybe move it.
 
-And so the idea is like you could kill your mouse, basically.
-*37:37.160*
+`**37:37.160:**` And so the idea is like you could kill your mouse, basically.
 
-That's my point.
-*37:40.120*
+`**37:40.120:**` That's my point.
 
-I want to kill the mouse.
-*37:40.840*
+`**37:40.840:**` I want to kill the mouse.
 
-Yeah.
-*37:42.520*
+`**37:42.520:**` Yeah.
 
-Interesting.
-*37:42.840*
+`**37:42.840:**` Interesting.
 
-Yeah.
-*37:43.840*
+`**37:43.840:**` Yeah.
 
-**Speaker 1**: I have a couple that I would love to see, and I didn't plan on showing this, but here I will.
-*37:44.320*
+`**37:44.320:**` **Speaker 1**: I have a couple that I would love to see, and I didn't plan on showing this, but here I will.
 
-**Speaker 1**: And they're also color corrected color corrector related.
-*37:48.560*
+`**37:48.560:**` **Speaker 1**: And they're also color corrected color corrector related.
 
-**Speaker 1**: I would like to be able to name my color correctors instead of color corrector, you know, corrector one, corrector two, corrector three.
-*37:51.900*
+`**37:51.900:**` **Speaker 1**: I would like to be able to name my color correctors instead of color corrector, you know, corrector one, corrector two, corrector three.
 
-**Speaker 1**: I would also like to be able
-*37:58.299*
+`**37:58.299:**` **Speaker 1**: I would also like to be able
 
-**Speaker 1**: Paste them individually
-*37:59.579*
+`**37:59.579:**` **Speaker 1**: Paste them individually
 
-**Speaker 1**: So, like, if I like the vignette on shot number 27 and I want to have it be the same on shot 28, but I don't want the color from 27.
-*38:02.400*
+`**38:02.400:**` **Speaker 1**: So, like, if I like the vignette on shot number 27 and I want to have it be the same on shot 28, but I don't want the color from 27.
 
-Oh yeah, I guess you can't do that, can you?
-*38:11.180*
+`**38:11.180:**` Oh yeah, I guess you can't do that, can you?
 
-**Speaker 1**: I can copy attributes and then I can go in and say paste attributes.
-*38:12.700*
+`**38:12.700:**` **Speaker 1**: I can copy attributes and then I can go in and say paste attributes.
 
-**Speaker 1**: Right now it's just paste attributes of color, but it could it could be paste attributes of col
-*38:15.740*
+`**38:15.740:**` **Speaker 1**: Right now it's just paste attributes of color, but it could it could be paste attributes of col
 
-**Speaker 1**: With the two or three or four names of what each one of my color correctors is.
-*38:21.160*
+`**38:21.160:**` **Speaker 1**: With the two or three or four names of what each one of my color correctors is.
 
-**Speaker 1**: So have it work like the effects work basically.
-*38:25.080*
+`**38:25.080:**` **Speaker 1**: So have it work like the effects work basically.
 
-**Speaker 1**: Exactly.
-*38:28.040*
+`**38:28.040:**` **Speaker 1**: Exactly.
 
-**Speaker 1**: Yeah, you can turn on and off individual effects, which is a huge improvement over Final Cut 7.
-*38:28.600*
+`**38:28.600:**` **Speaker 1**: Yeah, you can turn on and off individual effects, which is a huge improvement over Final Cut 7.
 
-**Speaker 1**: and I think there's still room for improvement there.
-*38:34.240*
+`**38:34.240:**` **Speaker 1**: and I think there's still room for improvement there.
 
-**Speaker 1**: And I already mentioned putting all the m masking controls and adding color correctors into the color corrector pane.
-*38:37.600*
+`**38:37.600:**` **Speaker 1**: And I already mentioned putting all the m masking controls and adding color correctors into the color corrector pane.
 
-I'd like to see a little floaty window in the effects pane, kind of like in motion.
-*38:44.120*
+`**38:44.120:**` I'd like to see a little floaty window in the effects pane, kind of like in motion.
 
-I want a floaty window.
-*38:49.560*
+`**38:49.560:**` I want a floaty window.
 
-Well, no, they have floaty windows with like when you click on logic plug-ins and it'll open the little
-*38:50.840*
+`**38:50.840:**` Well, no, they have floaty windows with like when you click on logic plug-ins and it'll open the little
 
-Floaty window, right?
-*38:56.760*
+`**38:56.760:**` Floaty window, right?
 
-**Speaker 1**: Would you call it that?
-*38:58.120*
+`**38:58.120:**` **Speaker 1**: Would you call it that?
 
-**Speaker 1**: Yeah, sure.
-*38:58.920*
+`**38:58.920:**` **Speaker 1**: Yeah, sure.
 
-Um, but like with a three-way color corrector.
-*38:59.640*
+`**38:59.640:**` Um, but like with a three-way color corrector.
 
-So if we're if they're going to keep the
-*39:02.600*
+`**39:02.600:**` So if we're if they're going to keep the
 
-Inspector, you know, locked screen size, and we get a three-way color crypt.
-*39:05.400*
+`**39:05.400:**` Inspector, you know, locked screen size, and we get a three-way color crypt.
 
-I want to be able to enlarge that.
-*39:10.680*
+`**39:10.680:**` I want to be able to enlarge that.
 
-If I did want to use my mouse for that, I'm not going to kill the mouse for that.
-*39:12.780*
+`**39:12.780:**` If I did want to use my mouse for that, I'm not going to kill the mouse for that.
 
-But if there's a floaty window, then you could enlarge.
-*39:17.020*
+`**39:17.020:**` But if there's a floaty window, then you could enlarge.
 
-uh to the size that you want.
-*39:20.160*
+`**39:20.160:**` uh to the size that you want.
 
-**Speaker 1**: This is fun.
-*39:21.680*
+`**39:21.680:**` **Speaker 1**: This is fun.
 
-**Speaker 1**: This is it's this is a great conversation to have with guys like you because you guys have really thought this stuff out.
-*39:22.320*
+`**39:22.320:**` **Speaker 1**: This is it's this is a great conversation to have with guys like you because you guys have really thought this stuff out.
 
-It's very a really ticky tack one is is I want to be able to resize the smart collection window.
-*39:27.280*
+`**39:27.280:**` It's very a really ticky tack one is is I want to be able to resize the smart collection window.
 
-And resize the search window.
-*39:34.700*
+`**39:34.700:**` And resize the search window.
 
-You know, when you hit the little magnifying glass and that thing pops up, you know, they want us using all those keywords.
-*39:38.060*
+`**39:38.060:**` You know, when you hit the little magnifying glass and that thing pops up, you know, they want us using all those keywords.
 
-I'd love to be able to see all of my keywords in this
-*39:43.260*
+`**39:43.260:**` I'd love to be able to see all of my keywords in this
 
-as opposed to having to scroll down on this little tiny thing, especially if you have multiple filters in there.
-*39:46.240*
+`**39:46.240:**` as opposed to having to scroll down on this little tiny thing, especially if you have multiple filters in there.
 
-So that's a big one for me, actually.
-*39:52.000*
+`**39:52.000:**` So that's a big one for me, actually.
 
-It's and it's just this little annoyance like, why can't I make this bigger?
-*39:53.520*
+`**39:53.520:**` It's and it's just this little annoyance like, why can't I make this bigger?
 
-I didn't realize you couldn't change the size of it.
-*39:58.060*
+`**39:58.060:**` I didn't realize you couldn't change the size of it.
 
-That's right.
-*39:59.980*
+`**39:59.980:**` That's right.
 
-Once you realize you can't do it, it becomes really aggravating.
-*40:01.020*
+`**40:01.020:**` Once you realize you can't do it, it becomes really aggravating.
 
-And then you want to do it every time.
-*40:03.420*
+`**40:03.420:**` And then you want to do it every time.
 
-You go to it all the time because you can expand Command 9, the, what's it called?
-*40:04.540*
+`**40:04.540:**` You go to it all the time because you can expand Command 9, the, what's it called?
 
-render processor when you can expand that out, which you need to to see how many megs you have left to upload some things to like to YouTube or whatever.
-*40:10.540*
+`**40:10.540:**` render processor when you can expand that out, which you need to to see how many megs you have left to upload some things to like to YouTube or whatever.
 
-**Speaker 1**: And so all things being said, we still enjoy the software.
-*40:20.740*
+`**40:20.740:**` **Speaker 1**: And so all things being said, we still enjoy the software.
 
-**Speaker 1**: I love having this discussion because hopefully somebody's listening and taking notes.
-*40:26.420*
+`**40:26.420:**` **Speaker 1**: I love having this discussion because hopefully somebody's listening and taking notes.
 
-**Speaker 1**: Um, but yeah, very cool.
-*40:30.299*
+`**40:30.299:**` **Speaker 1**: Um, but yeah, very cool.
 
-**Speaker 1**: So what's uh you we you are now halfway through the week.
-*40:32.700*
+`**40:32.700:**` **Speaker 1**: So what's uh you we you are now halfway through the week.
 
-**Speaker 1**: You guys got the energy to get through the rest of it?
-*40:37.579*
+`**40:37.579:**` **Speaker 1**: You guys got the energy to get through the rest of it?
 
-**Speaker 1**: Something's gonna happen.
-*40:41.220*
+`**40:41.220:**` **Speaker 1**: Something's gonna happen.
 
-I'm down.
-*40:43.380*
+`**40:43.380:**` I'm down.
 
-I'm here.
-*40:44.500*
+`**40:44.500:**` I'm here.
 
-Yeah.
-*40:45.620*
+`**40:45.620:**` Yeah.
 
-I'm in.
-*40:46.180*
+`**40:46.180:**` I'm in.
 
-The world will keep turning.
-*40:46.900*
+`**40:46.900:**` The world will keep turning.
 
-I'm actually really looking forward to Thursday, honestly, when I get to go actually walk around the floor and see some of the other guys.
-*40:50.380*
+`**40:50.380:**` I'm actually really looking forward to Thursday, honestly, when I get to go actually walk around the floor and see some of the other guys.
 
-**Speaker 1**: So is your suite closed on Thursday?
-*40:55.579*
+`**40:55.579:**` **Speaker 1**: So is your suite closed on Thursday?
 
-**Speaker 1**: You're closed on Thursday.
-*40:57.420*
+`**40:57.420:**` **Speaker 1**: You're closed on Thursday.
 
-**Speaker 1**: So you basically just have one more day.
-*40:58.299*
+`**40:58.299:**` **Speaker 1**: So you basically just have one more day.
 
-**Speaker 1**: One more day.
-*41:00.140*
+`**41:00.140:**` **Speaker 1**: One more day.
 
-**Speaker 1**: Well, first of all, I want to say thank you for coming here tonight.
-*41:01.220*
+`**41:01.220:**` **Speaker 1**: Well, first of all, I want to say thank you for coming here tonight.
 
-**Speaker 1**: By the way, we are doing this at 11 o'clock at night because
-*41:05.539*
+`**41:05.539:**` **Speaker 1**: By the way, we are doing this at 11 o'clock at night because
 
-**Speaker 1**: Everybody is doing so much stuff here, and I think most everybody is like they're like at the AJA party or something, and
-*41:08.640*
+`**41:08.640:**` **Speaker 1**: Everybody is doing so much stuff here, and I think most everybody is like they're like at the AJA party or something, and
 
-**Speaker 1**: I was there and I came over here, Chris.
-*41:16.340*
+`**41:16.340:**` **Speaker 1**: I was there and I came over here, Chris.
 
-**Speaker 1**: Oh my goodness, you're kidding me.
-*41:19.780*
+`**41:19.780:**` **Speaker 1**: Oh my goodness, you're kidding me.
 
-**Speaker 1**: There's quite a few people angry at me, but I was like, I gotta see Chris Fenwick while I'm here.
-*41:21.780*
+`**41:21.780:**` **Speaker 1**: There's quite a few people angry at me, but I was like, I gotta see Chris Fenwick while I'm here.
 
-**Speaker 1**: Oh, that's too sweet.
-*41:25.300*
+`**41:25.300:**` **Speaker 1**: Oh, that's too sweet.
 
-**Speaker 1**: Very nice.
-*41:26.740*
+`**41:26.740:**` **Speaker 1**: Very nice.
 
-**Speaker 1**: So, thanks again.
-*41:27.780*
+`**41:27.780:**` **Speaker 1**: So, thanks again.
 
-**Speaker 1**: You basically, both of you, open invitation.
-*41:30.340*
+`**41:30.340:**` **Speaker 1**: You basically, both of you, open invitation.
 
-**Speaker 1**: If you ever have something you want to talk about, call me, let me know.
-*41:33.140*
+`**41:33.140:**` **Speaker 1**: If you ever have something you want to talk about, call me, let me know.
 
-**Speaker 1**: We'll do the show again.
-*41:36.740*
+`**41:36.740:**` **Speaker 1**: We'll do the show again.
 
-**Speaker 1**: You, I need real contact information for you because half the time when I'm
-*41:38.500*
+`**41:38.500:**` **Speaker 1**: You, I need real contact information for you because half the time when I'm
 
-**Speaker 1**: Tweeting you to FCP Works.
-*41:42.840*
+`**41:42.840:**` **Speaker 1**: Tweeting you to FCP Works.
 
-**Speaker 1**: I don't know who's in.
-*41:44.360*
+`**41:44.360:**` **Speaker 1**: I don't know who's in.
 
-**Speaker 1**: Direct messaging on Twitter.
-*41:45.320*
+`**41:45.320:**` **Speaker 1**: Direct messaging on Twitter.
 
-**Speaker 1**: Like, I'm not, I'm not even on my Twitter.
-*41:46.440*
+`**41:46.440:**` **Speaker 1**: Like, I'm not, I'm not even on my Twitter.
 
-**Speaker 1**: Like, it's I don't know.
-*41:48.680*
+`**41:48.680:**` **Speaker 1**: Like, it's I don't know.
 
-**Speaker 1**: Well, then we're gonna have to figure out a way that I can get in touch with you.
-*41:49.800*
+`**41:49.800:**` **Speaker 1**: Well, then we're gonna have to figure out a way that I can get in touch with you.
 
-I'm gonna give you a card.
-*41:52.120*
+`**41:52.120:**` I'm gonna give you a card.
 
-Okay.
-*41:53.880*
+`**41:53.880:**` Okay.
 
-Or email, you know, and and
-*41:55.560*
+`**41:55.560:**` Or email, you know, and and
 
-And we'll do the third.
-*41:57.600*
+`**41:57.600:**` And we'll do the third.
 
-I actually don't even have your phone number, do I?
-*41:58.960*
+`**41:58.960:**` I actually don't even have your phone number, do I?
 
-After all this.
-*42:00.880*
+`**42:00.880:**` After all this.
 
-I don't know.
-*42:01.680*
+`**42:01.680:**` I don't know.
 
-So we do the Skype thing, and then it's.
-*42:02.240*
+`**42:02.240:**` So we do the Skype thing, and then it's.
 
-Yeah, that's weird.
-*42:04.160*
+`**42:04.160:**` Yeah, that's weird.
 
-**Speaker 1**: Alright, well guys, thanks thanks for doing this uh little special edition thing that we'll do that I'll post this Friday morning.
-*42:05.500*
+`**42:05.500:**` **Speaker 1**: Alright, well guys, thanks thanks for doing this uh little special edition thing that we'll do that I'll post this Friday morning.
 
-**Speaker 1**: I'll see you into the suite next year.
-*42:12.700*
+`**42:12.700:**` **Speaker 1**: I'll see you into the suite next year.
 
-**Speaker 1**: You know what, I would totally do that.
-*42:14.860*
+`**42:14.860:**` **Speaker 1**: You know what, I would totally do that.
 
-**Speaker 1**: I know how to do software demos.
-*42:17.660*
+`**42:17.660:**` **Speaker 1**: I know how to do software demos.
 
-That's right.
-*42:19.580*
+`**42:19.580:**` That's right.
 
-**Speaker 1**: And actually, when we sign this off, I have something I want to show you.
-*42:20.620*
+`**42:20.620:**` **Speaker 1**: And actually, when we sign this off, I have something I want to show you.
 
-**Speaker 1**: So anyway, thanks again.
-*42:23.660*
+`**42:23.660:**` **Speaker 1**: So anyway, thanks again.
 
-**Speaker 1**: And we will do this again, no doubt.
-*42:25.740*
+`**42:25.740:**` **Speaker 1**: And we will do this again, no doubt.
 
-**Speaker 1**: All right.
-*42:28.620*
+`**42:28.620:**` **Speaker 1**: All right.
 
-**Speaker 1**: Fantastic.
-*42:29.160*
+`**42:29.160:**` **Speaker 1**: Fantastic.
 
-**Speaker 1**: Thanks, Chris.
-*42:29.640*
+`**42:29.640:**` **Speaker 1**: Thanks, Chris.
 
-**Speaker 1**: Take care, guys.
-*42:30.200*
+`**42:30.200:**` **Speaker 1**: Take care, guys.
 
-**Speaker 1**: Thank you.
-*42:30.760*
+`**42:30.760:**` **Speaker 1**: Thank you.
 
-**Speaker 1**: So, once again, I want to thank Sam for coming across town and sitting with Michael and I.
-*42:32.120*
+`**42:32.120:**` **Speaker 1**: So, once again, I want to thank Sam for coming across town and sitting with Michael and I.
 
-**Speaker 1**: And I want to thank Michael for coming from wherever he came from.
-*42:36.920*
+`**42:36.920:**` **Speaker 1**: And I want to thank Michael for coming from wherever he came from.
 
-**Speaker 1**: And it's always great to catch up with those guys.
-*42:40.340*
+`**42:40.340:**` **Speaker 1**: And it's always great to catch up with those guys.
 
-**Speaker 1**: I had tweeted that night the meeting of the minds or something, two great funnel cut minds under one roof.
-*42:42.260*
+`**42:42.260:**` **Speaker 1**: I had tweeted that night the meeting of the minds or something, two great funnel cut minds under one roof.
 
-**Speaker 1**: And truly, it was a privilege and honor to sit down and chat with them.
-*42:48.500*
+`**42:48.500:**` **Speaker 1**: And truly, it was a privilege and honor to sit down and chat with them.
 
-**Speaker 1**: I look forward to many more conversations.
-*42:52.100*
+`**42:52.100:**` **Speaker 1**: I look forward to many more conversations.
 
-**Speaker 1**: So that's it for this episode of Final Cut Grill.
-*42:54.859*
+`**42:54.859:**` **Speaker 1**: So that's it for this episode of Final Cut Grill.
 
-**Speaker 1**: Thanks for listening.
-*42:57.099*
+`**42:57.099:**` **Speaker 1**: Thanks for listening.
 
-**Speaker 1**: Thanks for tuning in.
-*42:57.820*
+`**42:57.820:**` **Speaker 1**: Thanks for tuning in.
 
-**Speaker 1**: Thanks for downloading.
-*42:58.780*
+`**42:58.780:**` **Speaker 1**: Thanks for downloading.
 
-**Speaker 1**: Thanks for telling your friends.
-*42:59.740*
+`**42:59.740:**` **Speaker 1**: Thanks for telling your friends.
 
-**Speaker 1**: And thanks for going to iTunes and leaving comments.
-*43:00.940*
+`**43:00.940:**` **Speaker 1**: And thanks for going to iTunes and leaving comments.
 
-**Speaker 1**: I really appreciate them.
-*43:04.080*
+`**43:04.080:**` **Speaker 1**: I really appreciate them.
 
-**Speaker 1**: And more than anything, I wish there was a mechanism in iTunes where I could hit a button and reply and say thanks for the comments.
-*43:05.680*
+`**43:05.680:**` **Speaker 1**: And more than anything, I wish there was a mechanism in iTunes where I could hit a button and reply and say thanks for the comments.
 
-**Speaker 1**: So from the bottom of my heart, I say thanks for all the comments and all the
-*43:13.920*
+`**43:13.920:**` **Speaker 1**: So from the bottom of my heart, I say thanks for all the comments and all the
 
-**Speaker 1**: Stars, even you crazy people that are giving us four stars.
-*43:18.240*
+`**43:18.240:**` **Speaker 1**: Stars, even you crazy people that are giving us four stars.
 
-**Speaker 1**: No, I'm kidding.
-*43:21.360*
+`**43:21.360:**` **Speaker 1**: No, I'm kidding.
 
-**Speaker 1**: Maybe I'll cut that out.
-*43:22.720*
+`**43:22.720:**` **Speaker 1**: Maybe I'll cut that out.
 
-**Speaker 1**: Maybe I won't.
-*43:23.680*
+`**43:23.680:**` **Speaker 1**: Maybe I won't.
 
-**Speaker 1**: So that's it for this episode.
-*43:24.800*
+`**43:24.800:**` **Speaker 1**: So that's it for this episode.
 
-**Speaker 4**: We will be back next Monday with more from the Final Cut Grill.
-*43:26.160*
+`**43:26.160:**` **Speaker 4**: We will be back next Monday with more from the Final Cut Grill.
 
-**Speaker 4**: Later, later.
-*43:30.000*
+`**43:30.000:**` **Speaker 4**: Later, later.
