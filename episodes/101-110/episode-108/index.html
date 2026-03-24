@@ -1,0 +1,2363 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.827666826594">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 4.4.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Episode 108</title>
+    <meta name="title" content="Episode 108">
+    <meta name="description" content="FCG108 - Motion Templates in FCPX (feat. Szymon Masiak)">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://grill.fcp.cafe/episodes/101-110/episode-108/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://grill.fcp.cafe/episodes/101-110/episode-108/">
+    <meta property="og:title" content="Episode 108">
+    <meta property="og:description" content="FCG108 - Motion Templates in FCPX (feat. Szymon Masiak)">
+    <meta property="og:site_name" content="Final Cut Grill">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://grill.fcp.cafe/episodes/101-110/episode-108/">
+    <meta name="twitter:title" content="Episode 108">
+    <meta name="twitter:description" content="FCG108 - Motion Templates in FCPX (feat. Szymon Masiak)">
+
+    <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
+
+    <link id="retype-favicon" rel="icon" href="../../../static/favicon.ico" />
+    <link href="../../../resources/css/retype.css?v=4.4.0.827666826594" rel="stylesheet">
+
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=4.4.0.827666826594" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=4.4.0.827666826594" data-turbo-eval="false" defer></script>
+</head>
+<body>
+    <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
+    <div class="absolute bottom-0 left-0" style="top: 5rem; right: 50%"></div>
+
+    <header id="retype-header" class="sticky top-0 z-30 flex w-full h-16 bg-header-bg border-b border-header-border md:h-20">
+        <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
+            <!-- Mobile menu button skeleton -->
+            <button v-cloak class="skeleton retype-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-hidden rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+            <div v-cloak id="retype-sidebar-left-toggle-button"></div>
+    
+            <!-- Logo -->
+            <div class="flex items-center justify-between h-full py-2 md:w-75">
+                <div class="flex items-center px-2 md:px-6">
+                    <a id="retype-branding-logo" href="https://grill.fcp.cafe/" class="flex items-center leading-snug text-xl">
+                        <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
+                            <img class="max-h-10 md:inline-block" src="../../../static/fcp-grill.jpg" alt="" width="40" height="40">
+                        </span>
+                        <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">Final Cut Grill</span>
+                    </a>
+                </div>
+    
+                <span class="hidden h-8 border-r md:inline-block border-base-border"></span>
+            </div>
+    
+            <div class="flex justify-between md:grow">
+                <!-- Top Nav -->
+                <nav id="retype-header-nav" class="hidden md:flex">
+                    <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://github.com/latenitefilms/grill/issues" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Zm9.5 2a2 2 0 1 1-.001-3.999A2 2 0 0 1 12 14Z"/>
+                                </svg>
+                                <span>Issues</span>
+                            </a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://github.com/latenitefilms/grill/discussions" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                </svg>
+                                <span>Discussions</span>
+                            </a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://discord.gg/b2r27UtPJw" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                </svg>
+                                <span>Discord</span>
+                            </a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://fcp.cafe" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M15 4.75a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM2.5 19.25a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0Zm0-14.5a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM5.75 6.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 5.75 6.5Zm0 14.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 5.75 21Zm12.5-14.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 18.25 6.5Z"/><path d="M5.75 16.75A.75.75 0 0 1 5 16V8a.75.75 0 0 1 1.5 0v8a.75.75 0 0 1-.75.75Z"/><path d="M17.5 8.75v-1H19v1a3.75 3.75 0 0 1-3.75 3.75h-7a1.75 1.75 0 0 0-1.75 1.75H5A3.25 3.25 0 0 1 8.25 11h7a2.25 2.25 0 0 0 2.25-2.25Z"/>
+                                </svg>
+                                <span>FCP Cafe</span>
+                            </a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://fcp.cafe/latenite/" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
+                                </svg>
+                                <span>LateNite</span>
+                            </a>
+                        </li>
+    
+                    </ul>
+                </nav>
+    
+                <div v-cloak class="flex justify-end grow">
+                    <div id="retype-mobile-search-button"></div>
+                    <doc-search-desktop></doc-search-desktop>
+    
+                    <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                    <doc-history></doc-history>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div id="retype-container" class="container relative flex bg-white">
+        <!-- Sidebar Skeleton -->
+        <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-sidebar-left-bg border-sidebar-left-border sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton">
+        
+            <div class="flex items-center h-16 px-6">
+                <input id="retype-filter-input-mock" class="w-full h-10 pl-8 px-3 py-2 transition-colors duration-200 ease-linear bg-filter-bg border border-filter-border rounded-lg shadow-none md:text-sm hover:border-filter-border-hover focus:outline-hidden focus:border-filter-border-focus placeholder-filter-placeholder" type="text">
+            </div>
+        
+            <div class="pl-6 mt-1 mb-4">
+                <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+            </div>
+        
+        </div>
+        
+        <!-- Sidebar component -->
+        <doc-sidebar v-cloak>
+            <template #sidebar-footer>
+                <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-base-border">
+        
+                    <div class="py-3 px-6 md:hidden border-b dark:border-base-border">
+                        <nav>
+                            <ul class="flex flex-wrap justify-center items-center">
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://github.com/latenitefilms/grill/issues" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Zm9.5 2a2 2 0 1 1-.001-3.999A2 2 0 0 1 12 14Z"/>
+                                        </svg>
+                                        <span>Issues</span>
+                                    </a>
+                                </li>
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://github.com/latenitefilms/grill/discussions" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                        </svg>
+                                        <span>Discussions</span>
+                                    </a>
+                                </li>
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://discord.gg/b2r27UtPJw" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                        </svg>
+                                        <span>Discord</span>
+                                    </a>
+                                </li>
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://fcp.cafe" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M15 4.75a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM2.5 19.25a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0Zm0-14.5a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM5.75 6.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 5.75 6.5Zm0 14.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 5.75 21Zm12.5-14.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 18.25 6.5Z"/><path d="M5.75 16.75A.75.75 0 0 1 5 16V8a.75.75 0 0 1 1.5 0v8a.75.75 0 0 1-.75.75Z"/><path d="M17.5 8.75v-1H19v1a3.75 3.75 0 0 1-3.75 3.75h-7a1.75 1.75 0 0 0-1.75 1.75H5A3.25 3.25 0 0 1 8.25 11h7a2.25 2.25 0 0 0 2.25-2.25Z"/>
+                                        </svg>
+                                        <span>FCP Cafe</span>
+                                    </a>
+                                </li>
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://fcp.cafe/latenite/" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
+                                        </svg>
+                                        <span>LateNite</span>
+                                    </a>
+                                </li>
+        
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </template>
+        </doc-sidebar>
+
+        <div class="grow min-w-0 bg-body-bg">
+            <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+<div class="flex">
+    <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
+        <main class="relative pb-12 lg:pt-2">
+            <div class="retype-markdown" id="retype-content">
+                <!-- Rendered if sidebar right is enabled -->
+                <div id="retype-sidebar-right-toggle"></div>
+                <nav id="retype-breadcrumb" class="breadcrumb" aria-label="Breadcrumb">
+                    <ol role="list">
+                        <li class="pr-4">
+                            <a href="../../../" class="pr-4">
+                                Welcome
+                            </a>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/>
+                            </svg>
+                        </li>
+                        <li class="pr-4">
+                            <span class="pr-4">
+                                Episodes
+                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/>
+                            </svg>
+                        </li>
+                        <li class="pr-4">
+                            <span class="pr-4">
+                                101 110
+                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/>
+                            </svg>
+                        </li>
+                        <li class="pr-4">
+                            <a href="../../../episodes/101-110/episode-108/" class="pr-4">
+                                Episode 108
+                            </a>
+                        </li>
+                    </ol>
+                </nav>
+
+                <!-- Page content  -->
+<h1 id="episode-108">Episode 108</h1>
+<p><strong>FCG108 - Motion Templates in FCPX (feat. Szymon Masiak)</strong></p>
+<p>Motion is a powerful gfx creation tool for FCPX but some of the real power is available for $50 bucks a pop through Motion VFX. Szymon Masiak, talks about his company and the type of attention to detail that they put into all their Motion templates and just how easy it is to apply them and use them from within Final Cut Pro. We’ll also go into a rather controversial topic that hit Motion VFX a couple years about about content copywriter and plagiarism that is very interesting. Make sure you check out MotionVFX.com</p>
+<hr>
+<h2 id="download">Download</h2>
+<ul>
+<li><a href="https://cdn.fcp.cafe/grill/FCG108-Szymon-Masiak.mp3" class="outbound" target="_blank"><span>MP3</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></li>
+</ul>
+<hr>
+<h2 id="featuring">Featuring</h2>
+<ul>
+<li>Chris Fenwick - chrisfenwick.com - @chrisfenwick</li>
+<li>Szymon Masiak - @motionVFX</li>
+<li>Szymon Masiak - @motionVF</li>
+</ul>
+<hr>
+<h2 id="transcription">Transcription</h2>
+<p>It&#x27;s a big motion graphics thing.
+<em>00:00.001</em></p>
+<p>I&#x27;m sure you found some job for using fusing M Object someday.
+<em>00:00.080</em></p>
+<p>Yeah, which is something like uh sixty miles from Krakow.
+<em>00:00.160</em></p>
+<p>and deliver high quality content.
+<em>00:00.160</em></p>
+<p>plugins.
+<em>00:00.160</em></p>
+<p>Very limited for for for the first time I I saw it but um you know I I loved it and uh yeah it
+<em>00:00.160</em></p>
+<p>Yeah.
+<em>00:00.160</em></p>
+<p>But that&#x27;s the beauty of having such a great team I&#x27;m working with.
+<em>00:00.160</em></p>
+<p>I know what you&#x27;re going to ask me.
+<em>00:00.160</em></p>
+<p>And I&#x27;m not going to say again, I&#x27;m not going to say the name of the company again this time.
+<em>00:00.160</em></p>
+<p>Then I got a really kind email.
+<em>00:00.160</em></p>
+<p>And it was very interesting.
+<em>00:00.160</em></p>
+<p>There&#x27;s something interesting when you spend three days looking at dust in front of your lens, you begin to identify with the various patterns and swirls and the
+characteristic of the dust.
+<em>00:00.160</em></p>
+<p>Now that&#x27;s not cool.
+<em>00:00.160</em></p>
+<p>They were based on the quick times and we spent so many days shooting them on the red one camera and then just
+<em>00:00.160</em></p>
+<p>put another finger on us and say, hey, you are you&#x27;re guilty because what?
+<em>00:00.160</em></p>
+<p>Oh yeah.
+<em>00:00.160</em></p>
+<p>Yeah.
+<em>00:00.160</em></p>
+<p>Apple is using old version of OpenGL, and we would love to have a newer version of the OpenGL.
+<em>00:00.160</em></p>
+<p>I said, you know what?
+<em>00:00.160</em></p>
+<p>And he&#x27;s got little hunks of text floating next to his head.
+<em>00:00.160</em></p>
+<p>Wow.
+<em>00:00.160</em></p>
+<p>That&#x27;s all.
+<em>00:00.160</em></p>
+<p>two hundred bucks for ten people.
+<em>00:00.160</em></p>
+<p>And today we&#x27;re talking with Shimon Mashak.
+<em>00:00.240</em></p>
+<p>He runs a website called Motion VFX.
+<em>00:00.240</em></p>
+<p>but it doesn&#x27;t have a modeling application.
+<em>00:00.240</em></p>
+<p>Another website I want you to go check out is premiumbeat.
+<em>00:00.240</em></p>
+<p>Okay, so anyway, I found that cut of music really quickly.
+<em>00:00.240</em></p>
+<p>In this particular piece, I could almost do a t whole tutorial about this piece.
+<em>00:00.240</em></p>
+<p>So now we&#x27;re going to go to the interview with Shimon Mosiak from VFX, excuse me, Motion VFX.
+<em>00:00.240</em></p>
+<p>And if he talks a little funny, he&#x27;s from Poland.
+<em>00:00.240</em></p>
+<p>That&#x27;s okay.
+<em>00:00.240</em></p>
+<p>Okay.
+<em>00:00.240</em></p>
+<p>Well, this is motionvfx.
+<em>00:00.240</em></p>
+<p>Yeah, that&#x27;s similar.
+<em>00:00.240</em></p>
+<p>And final cut is.
+<em>00:00.240</em></p>
+<p>Which is sophisticated, and I don&#x27;t even understand how it works.
+<em>00:00.240</em></p>
+<p>But anyway, yes, if you will ask me, there&#x27;s some connection between them.
+<em>00:00.240</em></p>
+<p>and previous previous versions of motion, but how can I pretend void that was so different?
+<em>00:00.240</em></p>
+<p>It&#x27;s those things where people go, Yeah, I want to do that, and then you make me a template for it.
+<em>00:00.240</em></p>
+<p>then ecosystem Apple did with the Motion 5 is and Panka Proten is so fantastic that I just got it was
+<em>00:00.240</em></p>
+<p>Motion uh Apple Motion 5 project number 968.
+<em>00:00.240</em></p>
+<p>every single element so you can just open it up in motion and change the colors or the shape or the animation everything is there and it&#x27;s all
+<em>00:00.240</em></p>
+<p>for you for just 50 bucks you know sometimes people are uh saying that oh your templates are great but they&#x27;re so expensive but if you look at the
+<em>00:00.240</em></p>
+<p>Yeah, they they say that.
+<em>00:00.240</em></p>
+<p>This is like nothing.
+<em>00:00.240</em></p>
+<p>At fifty bucks, I would have to be able to do this in twenty minutes to make it worth my while.
+<em>00:00.240</em></p>
+<p>And sometimes it does random, sometimes it it divides it into a title and a bunch of images, but it&#x27;s like this is too
+<em>00:00.240</em></p>
+<p>You know, and so and obviously you guys are putting tons of time into this.
+<em>00:00.240</em></p>
+<p>We don&#x27;t want to release such a crappy project every single day, other companies do, but we really work hard to prepare it
+<em>00:00.240</em></p>
+<p>but also for the editors who are not really involved in the motion graphics and motion five, but they are trying to just have that great fresh look for the videos or for
+the intros.
+<em>00:00.240</em></p>
+<p>and replace the videos on the dropsons and the text.
+<em>00:00.240</em></p>
+<p>Doesn&#x27;t really know how the motion 5 works, or they are not designers.
+<em>00:00.240</em></p>
+<p>So also we are trying to make sure that all elements are published so you can use them in Fanca Proten as well.
+<em>00:00.240</em></p>
+<p>And I want to give you an opportunity if you want.
+<em>00:00.240</em></p>
+<p>And I don&#x27;t know if you want to mention the other company.
+<em>00:00.240</em></p>
+<p>And you have I think as I recall, you had a video on the blog post where you went through how you took one of your layers of dust.
+<em>00:00.240</em></p>
+<p>And you were looking at somebody else&#x27;s dust package, dust elements.
+<em>00:00.240</em></p>
+<p>Yeah, that&#x27;s correct.
+<em>00:00.240</em></p>
+<p>But you can read on our blog that they stretch them, mix them with other products, probably with some others&#x27; products as well, and release them in
+<em>00:00.240</em></p>
+<p>product from that other company and started comparing the files.
+<em>00:00.240</em></p>
+<p>And we were looking with our video department and we were saying, what this this is our desk.
+<em>00:00.240</em></p>
+<p>If you look at the particles about on the dust, that&#x27;s what you mentioned, you can really see the behavior and there&#x27;s no any way to emulate or simulate
+<em>00:00.240</em></p>
+<p>I will let people judge who is right and who is wrong.
+<em>00:00.240</em></p>
+<p>I believe they&#x27;re still doing.
+<em>00:00.240</em></p>
+<p>get in get involved in a bunch of litigation.
+<em>00:00.240</em></p>
+<p>Is that it&#x27;s such a small group of people.
+<em>00:00.240</em></p>
+<p>It was not their corporate policy to do that, but they had one sort of, I&#x27;ll call him a rogue designer in their company.
+<em>00:00.240</em></p>
+<p>And which I didn&#x27;t describe, or I didn&#x27;t continue the article on our website, was that that company accused us on the Vimeo and they put the DMCA
+<em>00:00.240</em></p>
+<p>This is not true.
+<em>00:00.240</em></p>
+<p>And this is, you know, it&#x27;s been like two years ago, right?
+<em>00:00.240</em></p>
+<p>like I don&#x27;t know, maybe stupid people.
+<em>00:00.240</em></p>
+<p>taking your time, this is taking your nerves and it it it just doesn&#x27;t make any sense.
+<em>00:00.240</em></p>
+<p>Well, I definitely applaud you for taking the high road in that regard.
+<em>00:00.240</em></p>
+<p>But I want you to pick one in particular that you would like to talk about, about something that is maybe pushing the envelope technologically, using more of the
+features that are
+<em>00:00.240</em></p>
+<p>possible or something that just particularly you go, you know what, I&#x27;m really proud of this one.
+<em>00:00.240</em></p>
+<p>Look at the After Effects.
+<em>00:00.240</em></p>
+<p>After Effects costed me because we got a couple of other licenses.
+<em>00:00.240</em></p>
+<p>It&#x27;s a GPU based.
+<em>00:00.240</em></p>
+<p>And believe me that in motion, they are running real time.
+<em>00:00.240</em></p>
+<p>But Motion is so fast you can also use the elements created in Photoshop or Pixelmator on other software, or you can create the elements inside of Motion, and it&#x27;s super
+quick, super fast.
+<em>00:00.240</em></p>
+<p>And I&#x27;m really inlaulavated.
+<em>00:00.240</em></p>
+<p>I had an interview with oh I&#x27;m gonna forget his name now.
+<em>00:00.240</em></p>
+<p>You know, there are definitely ways to do it.
+<em>00:00.240</em></p>
+<p>is a lot less of a commitment than a once a month fifty dollar leasing agreement to get
+<em>00:00.240</em></p>
+<p>But this is one thing.
+<em>00:00.240</em></p>
+<p>Something like 30 bucks or 50 bucks, similar price?
+<em>00:00.240</em></p>
+<p>For myself, that&#x27;s why I&#x27;m not trying to convert our website to a monthly payment or some kind of agreements.
+<em>00:00.240</em></p>
+<p>And I I have that feeling that I prefer to pay for the software once and just use it forever.
+<em>00:00.240</em></p>
+<p>Maybe I&#x27;m old school.
+<em>00:00.240</em></p>
+<p>Yeah.
+<em>00:00.240</em></p>
+<p>But I want you to talk a little bit about mObject.
+<em>00:00.240</em></p>
+<p>and use them together with an object and the motion scene to create really fantastic looks.
+<em>00:00.240</em></p>
+<p>And it&#x27;s pretty big.
+<em>00:00.240</em></p>
+<p>3D extrusion.
+<em>00:00.240</em></p>
+<p>You can texture it, you can apply the colors, you can modify it, animate it, whatever you want.
+<em>00:00.240</em></p>
+<p>is going to be a very advanced 3D extrusion which you can use it&#x27;s really you if
+<em>00:00.240</em></p>
+<p>I was posting some screenshots on the Facebook and Twitter some time ago, and some people were saying that it looks similar to the smog, out of the smog.
+<em>00:00.240</em></p>
+<p>I don&#x27;t really know how it looks in smog, but people were really excited that we are going to release that feature.
+<em>00:00.240</em></p>
+<p>which can be used, of course, real time.
+<em>00:00.240</em></p>
+<p>render it real time as well.
+<em>00:00.240</em></p>
+<p>And if you look at their tutorials, you will see that the resolution is lower to one quarter of H D and it
+<em>00:00.240</em></p>
+<p>You are the only company asking for that.
+<em>00:00.240</em></p>
+<p>And I was like, yeah, but I want a switcher.
+<em>00:00.240</em></p>
+<p>Producing that feature, but you&#x27;re the only guy on the planet who wants to.
+<em>00:00.240</em></p>
+<p>You are the only one.
+<em>00:00.240</em></p>
+<p>That&#x27;s great.
+<em>00:00.240</em></p>
+<p>And I believe um if you hit the return key, it was like hitting the cut button.
+<em>00:00.240</em></p>
+<p>To make it fast and to make it possible.
+<em>00:00.240</em></p>
+<p>that we said there must be some way to implement it inside of motion.
+<em>00:00.240</em></p>
+<p>But we want to get rid of it, maybe in version 2.
+<em>00:00.240</em></p>
+<p>is built in MObject right now.
+<em>00:00.240</em></p>
+<p>and we re we we have released it for free so people can use it and tell um tell us what they think about it.
+<em>00:00.240</em></p>
+<p>there must be a better way to implement 3D, and we have to do real 3D.
+<em>00:00.240</em></p>
+<p>That&#x27;s huge, but imagine that that text can be 3D and you can put a real extruded text in your scene, which you just created.
+<em>00:00.240</em></p>
+<p>I don&#x27;t know, one frame per second for good.
+<em>00:00.240</em></p>
+<p>If you are familiar with motion and with the 3D space, you can implement 3D objects very easily.
+<em>00:00.240</em></p>
+<p>Of course, if you are more advanced user, you can use Maya or Blender or Cinema4D and model it for yourself and then export them as a OBJ files and then import them into an
+object and animate them in a motion file.
+<em>00:00.240</em></p>
+<p>Hmm.
+<em>00:00.240</em></p>
+<p>And I finally cracked it open just a couple of weeks ago because I had something where we had to do a whole bunch of tracking.
+<em>00:00.240</em></p>
+<p>Oh my goodness, it was so easy.
+<em>00:00.240</em></p>
+<p>It was really spectacular.
+<em>00:00.240</em></p>
+<p>a Cinema 4 D thing and and he&#x27;s o it&#x27;s like, oh, geez, this this project just went off the rails &#x27;cause it&#x27;s gonna take so long now whenever he cracks that open
+<em>00:00.240</em></p>
+<p>But I would love to take a look at it.
+<em>00:00.240</em></p>
+<p>Artist Bundle includes the MObject plugin and shaders.
+<em>00:00.240</em></p>
+<p>Check it out.
+<em>00:00.240</em></p>
+<p>Right, they will not listen to the episode.
+<em>00:00.240</em></p>
+<p>And you&#x27;re in charge of it.
+<em>00:00.240</em></p>
+<p>And that&#x27;s so great.
+<em>00:00.240</em></p>
+<p>All right.
+<em>00:00.240</em></p>
+<p>Anyway, Motion VFX is really great, and I would highly recommend you go check out their tutorials.
+<em>00:00.240</em></p>
+<p>Absolute best foot forward.
+<em>00:00.240</em></p>
+<p>Having a lot of listeners is good for the show and it&#x27;s good for the software.
+<em>00:00.240</em></p>
+<p>Now, Michael&#x27;s from San Diego and great, great interview.
+<em>00:00.240</em></p>
+<p>some w um some l you know Google Hangouts or whatever.
+<em>00:00.240</em></p>
+<p>We will be back next week with another episode.
+<em>00:00.240</em></p>
+<p>Timeline or in a project.
+<em>00:00.320</em></p>
+<p>interesting discussion.
+<em>00:00.320</em></p>
+<p>And I have been cutting a piece.
+<em>00:00.320</em></p>
+<p>And I gotta tell you, he&#x27;s like my go-to guy.
+<em>00:00.320</em></p>
+<p>Wow.
+<em>00:00.320</em></p>
+<p>And this is what we basically do.
+<em>00:00.320</em></p>
+<p>Allocat Pro users and motion users.
+<em>00:00.320</em></p>
+<p>I&#x27;ve been visual effects guys for films like Snakes in Plain or SCNCD.
+<em>00:00.320</em></p>
+<p>And I was always a 3D guy doing the visual effects, the particle systems, the explosions and clouds and fire stuff.
+<em>00:00.320</em></p>
+<p>And I was trying to do something different in my life because I knew that my wife wasn&#x27;t happy in the States and we were trying to solve the way or find a way.
+<em>00:00.320</em></p>
+<p>what we can do here in Poland.
+<em>00:00.320</em></p>
+<p>And he was asking me a question, so many questions, and I was so new about the motion, and I started producing first templates.
+<em>00:00.320</em></p>
+<p>And then I found out about the Mac platform and I got my first MacBook Pro.
+<em>00:00.320</em></p>
+<p>And that was the days where the Apple motion, I think it was motion two, started showing up on the market.
+<em>00:00.320</em></p>
+<p>So we produce templates, and this is like a half of our market.
+<em>00:00.320</em></p>
+<p>So people sometimes ask me why you are hiring so many people, what these people are doing.
+<em>00:00.320</em></p>
+<p>So that&#x27;s what we do.
+<em>00:00.320</em></p>
+<p>E L E L I 5.
+<em>00:00.320</em></p>
+<p>and was designed for Francophone.
+<em>00:00.320</em></p>
+<p>And I&#x27;m noticing, you know, that this is really good.
+<em>00:00.320</em></p>
+<p>Yeah, I want some of that.
+<em>00:00.320</em></p>
+<p>A three or four day head start on your project.
+<em>00:00.320</em></p>
+<p>But it&#x27;s the they&#x27;re these great, you know, starter places where you can I can get so much
+<em>00:00.320</em></p>
+<p>production value out of it.
+<em>00:00.320</em></p>
+<p>Which is fine.
+<em>00:00.320</em></p>
+<p>obviously you&#x27;re going to be uh you you&#x27;re going to turn into a a better um designer and a better animator.
+<em>00:00.320</em></p>
+<p>Are you and actually I should probably say, Simon, how much are you paying to be on the show today?
+<em>00:00.320</em></p>
+<p>People just have to embrace this kind of thing.
+<em>00:00.320</em></p>
+<p>We our artists are totally different.
+<em>00:00.320</em></p>
+<p>Specifically see which template was created by individual artists and they are so different
+<em>00:00.320</em></p>
+<p>you know, some kind of hole on the market which we are able to fill and which where we can deliver such a great content.
+<em>00:00.320</em></p>
+<p>Trying to change the broadcast look on your TV station or have a new set of graphics for your TV stations.
+<em>00:00.320</em></p>
+<p>So, about a year ago, I got really excited about two years ago.
+<em>00:00.320</em></p>
+<p>And maybe some people will hate me for that, but I just decided to be honest with the community and say
+<em>00:00.320</em></p>
+<p>hey, this is what happened to us.
+<em>00:00.320</em></p>
+<p>And that&#x27;s what happened.
+<em>00:00.320</em></p>
+<p>Now go to the cart and win this case, but I decided to just you know give it go let it go
+<em>00:00.320</em></p>
+<p>Let it go.
+<em>00:00.320</em></p>
+<p>than getting involved in some stupid emails and trying to fight for myself.
+<em>00:00.320</em></p>
+<p>And Judah themselves.
+<em>00:00.320</em></p>
+<p>Potentially ruined.
+<em>00:00.320</em></p>
+<p>then you are sure and you have to make sure that your the content you are releasing is legit.
+<em>00:00.320</em></p>
+<p>And I as a Simon, I give my signature under my products under Motion VFX.
+<em>00:00.320</em></p>
+<p>and has correct licensing.
+<em>00:00.320</em></p>
+<p>time to inform that the company, that company, that we are fighting for our rights.
+<em>00:00.320</em></p>
+<p>But of course, these videos are ours, and we proved that this is original work, so we got them back.
+<em>00:00.320</em></p>
+<p>or four years ago.
+<em>00:00.320</em></p>
+<p>No other company worldwide was able to put such an amount of attention to 50 bucks software to create such an amazing content.
+<em>00:00.320</em></p>
+<p>And I believe that in every single template, we push it to the limits.
+<em>00:00.320</em></p>
+<p>I was visiting a TVN, it&#x27;s a major TV station in Warsaw, and we were talking together and I was saying, look at Motion.
+<em>00:00.320</em></p>
+<p>Well, After Effects is faster.
+<em>00:00.320</em></p>
+<p>So what you can really say about motion, I personally, as Motion VFX, I can say that you can do so many things with motion and it&#x27;s not worse than After Effects, really.
+<em>00:00.320</em></p>
+<p>And motion is 50 bucks and you can do exactly the same what you can do in Astroface.
+<em>00:00.320</em></p>
+<p>compare the pricing for the After Effects.
+<em>00:00.320</em></p>
+<p>websites are going on the monthly payments pricing model.
+<em>00:00.320</em></p>
+<p>And I say, you know, I&#x27;m not really sure if that&#x27;s going to work.
+<em>00:00.320</em></p>
+<p>over the network, like pirates, websites and stuff like that.
+<em>00:00.320</em></p>
+<p>But anyway, returning to the pricing model, I&#x27;m not really sure if that&#x27;s going to work for our website, even we get that request, but I believe one-time payment really
+works
+<em>00:00.320</em></p>
+<p>That people are saying, oh no, I would rather, you know, rent or, you know, I wouldn&#x27;t want that.
+<em>00:00.320</em></p>
+<p>And maybe sometimes I feel like I&#x27;m old school and trying to, you know, move from some kind of old age bachelor.
+<em>00:00.320</em></p>
+<p>There&#x27;s one plugin that I&#x27;ve heard a lot of people talking about, and I&#x27;ve kind of sort of shied away for it for somewhat obvious reasons if people have ever heard me talk.
+<em>00:00.320</em></p>
+<p>Tons of Fine Cat Pro Studio boxes, and I sometimes like to just take them from my closet and just touch them to see: hey, this is retro these days.
+<em>00:00.320</em></p>
+<p>allowing people to open and animate real 3D objects inside Motion 5 without
+<em>00:00.320</em></p>
+<p>hours and develop more features.
+<em>00:00.320</em></p>
+<p>We&#x27;ve been talking about motion and after effects.
+<em>00:00.320</em></p>
+<p>And with m object you can do that.
+<em>00:00.320</em></p>
+<p>So there is a bell curve, and in the center of that bell curve is where any manufacturer is going to try and appease those people.
+<em>00:00.320</em></p>
+<p>At either end of that bell curve is a 10%, you know, real advanced people and 10%, you know, I don&#x27;t really care people.
+<em>00:00.320</em></p>
+<p>And but when you&#x27;re out at the pointy tip of that bell curve, the very you know, that one percent, it&#x27;s like, yeah, I Simon, I would love to be able to put the ten thousand
+man hours involved in in
+<em>00:00.320</em></p>
+<p>You know, you could on your F keys, you could cut, you know, your program.
+<em>00:00.320</em></p>
+<p>took us always um I think we spent only eight months trying to find a w real way
+<em>00:00.320</em></p>
+<p>kind of external application and have some kind of pipeline between motion and m object and maybe use
+<em>00:00.320</em></p>
+<p>sockets.
+<em>00:00.320</em></p>
+<p>An object with the motion 5 totally because we are currently using like an external application to loading the elements and preparing the textures and some of the
+shadings.
+<em>00:00.320</em></p>
+<p>Yeah, I mean, it&#x27;s really amazing to even think about it.
+<em>00:00.320</em></p>
+<p>Well, it is a pain in the ass if you will look at the seriously.
+<em>00:00.320</em></p>
+<p>But for people who are using Fanca Protein and maybe they are getting into motion and they are trying to think 3D, oh shit, what&#x27;s this?
+<em>00:00.320</em></p>
+<p>Don&#x27;t do that.
+<em>00:00.320</em></p>
+<p>Really, people are afraid of 3D because maybe for myself, I&#x27;ve been in 3D for like 20 years.
+<em>00:00.320</em></p>
+<p>Now imagine that instead of the text, you can have your logo type.
+<em>00:00.320</em></p>
+<p>Why I&#x27;m saying that?
+<em>00:00.320</em></p>
+<p>Just like that, or you can use our packages.
+<em>00:00.320</em></p>
+<p>And so they sent it to me.
+<em>00:00.320</em></p>
+<p>That&#x27;s the artist bundle.
+<em>00:00.320</em></p>
+<p>What you can really do with this internet, what this internet is.
+<em>00:00.320</em></p>
+<p>Take care.
+<em>00:00.320</em></p>
+<p>in three days.
+<em>00:00.320</em></p>
+<p>Hey, are are you going to be at are you by any chance going to go to NAB this year?
+<em>00:00.320</em></p>
+<p>And last year, they had a hospitality suite at the Wynn Hotel across too far from the thing.
+<em>00:00.320</em></p>
+<p>It&#x27;s so much easier doing one a week.
+<em>00:00.320</em></p>
+<p>for primarily Final Cut Pro 10 and Motion 5 and 4, I guess, templates.
+<em>00:00.400</em></p>
+<p>Yeah, I th I you hear that a lot and I think it&#x27;s it&#x27;s based on the fact that most people just don&#x27;t understand what that relationship between motion and and whoops.
+<em>00:00.400</em></p>
+<p>It really is spectacular.
+<em>00:00.400</em></p>
+<p>968, of course I do.
+<em>00:00.400</em></p>
+<p>FX, I think.
+<em>00:00.400</em></p>
+<p>But if nothing else, if nothing else, it&#x27;s this is very inspirational.
+<em>00:00.400</em></p>
+<p>using such a great artists.
+<em>00:00.400</em></p>
+<p>You know, they&#x27;re let me tell the story as much as I feel comfortable saying it, and then I&#x27;ll let you elaborate on it.
+<em>00:00.400</em></p>
+<p>That I had been getting a bunch of email from them, and I saw a plug-in that I went, Wow, that&#x27;s really a cool plug-in.
+<em>00:00.400</em></p>
+<p>you actually call it the body modification, I think, or the one I mentioned earlier, 968, the one with it&#x27;s sort of it&#x27;s inspired by Sons of Anarchy.
+<em>00:00.400</em></p>
+<p>So, I can use that for my show, right?
+<em>00:00.400</em></p>
+<p>Is produce a package called Chris Fenwick&#x27;s Cool Body Tattoos and take so for a $50 investment, I could turn around and potentially sell that a bunch of times.
+<em>00:00.400</em></p>
+<p>two or one day after we released our product as their own, as their own package.
+<em>00:00.400</em></p>
+<p>in the same situation with the same company.
+<em>00:00.400</em></p>
+<p>The company, as we have been referring to it as, came to the realization, or at least they claim, allegedly, as the lawyers would say, that
+<em>00:00.400</em></p>
+<p>who was liberally borrowing from other people so that he could keep his work output
+<em>00:00.400</em></p>
+<p>As high as he wanted to do it.
+<em>00:00.400</em></p>
+<p>We really don&#x27;t care or really don&#x27;t know if there was a worker.
+<em>00:00.400</em></p>
+<p>know the Vimeo that they are not original, blah, blah, blah.
+<em>00:00.400</em></p>
+<p>Well, it&#x27;s really hard because I believe that we put a lot of effort in every single template.
+<em>00:00.400</em></p>
+<p>Well well, I I open it twice and we are okay, it&#x27;s a it&#x27;s okay.
+<em>00:00.400</em></p>
+<p>some filters which are not included in motion, but but I can live without them, all right?
+<em>00:00.400</em></p>
+<p>Okay, I was trying to give you the opportunity to point out one particular thing, but I totally get what you&#x27;re saying.
+<em>00:00.400</em></p>
+<p>See, this is the depressing model that we are having with the Adobe and with the Apple one-time purchase.
+<em>00:00.400</em></p>
+<p>you would say, because we get that requests as well, can you do like some kind of monthly payments or per year payments to access all your content?
+<em>00:00.400</em></p>
+<p>Find your software online on the cracked websites, then that means you&#x27;re famous.
+<em>00:00.400</em></p>
+<p>Okay, the deal is imagine motion with real 3D objects, which were created in a software like Cinema4D or Blender.
+<em>00:00.400</em></p>
+<p>If you will look at the After Effects, After Effects has the VO Copilot and they have the element 3D.
+<em>00:00.400</em></p>
+<p>It looks like a real time, but we are showing our content in full HD, real time, without any lowering the resolution.
+<em>00:00.400</em></p>
+<p>And it was hard.
+<em>00:00.400</em></p>
+<p>new, way better world and looks amazing.
+<em>00:00.400</em></p>
+<p>as a great lightning, and it replaces your ugly texts and looks just beautiful.
+<em>00:00.400</em></p>
+<p>You go for that.
+<em>00:00.400</em></p>
+<p>At some point prior or at some point after this show releases, I&#x27;m going to send out a tweet that says, Hey, new episode with Simon from Motion VFX.
+<em>00:00.400</em></p>
+<p>So, Pixelmat is awesome.
+<em>00:00.400</em></p>
+<p>Basically, what it allows you to do is to take 3D models and drop them into your motion projects.
+<em>00:00.480</em></p>
+<p>You gotta give credit where credit&#x27;s due.
+<em>00:00.480</em></p>
+<p>That&#x27;s correct.
+<em>00:00.480</em></p>
+<p>or it was called PowerBook based on a G I think it was G4 processor and my my adventure started somewhere around 2004 where
+<em>00:00.480</em></p>
+<p>I hired the first person, and we started creating a templates together.
+<em>00:00.480</em></p>
+<p>We get that questions from our customers.
+<em>00:00.480</em></p>
+<p>I&#x27;ll try to explain as to my son.
+<em>00:00.480</em></p>
+<p>Okay, you have a Lego bricks where you have different colors and different sizes.
+<em>00:00.480</em></p>
+<p>And this is basically motion where you can create almost whatever you want.
+<em>00:00.480</em></p>
+<p>which released our MLOX plugin for the grading in in done in basically in motion five.
+<em>00:00.480</em></p>
+<p>Let&#x27;s start here because we can, for fifty bucks or whatever, we can get probably easily
+<em>00:00.480</em></p>
+<p>The look and feel of that with this sort of ghosty writing on of the tattoos and stuff.
+<em>00:00.480</em></p>
+<p>You have to look at the number of hours that would first of all go into it for you to do it.
+<em>00:00.480</em></p>
+<p>Too easy, too powerful to not at least, you know.
+<em>00:00.480</em></p>
+<p>The first thing I noticed, I remember the friend of mine on Twitter sent me an email, hey, look at this, you released MDust&#x27;s product, and this is the other company
+releasing a very similar one.
+<em>00:00.480</em></p>
+<p>Exactly the same behavior.
+<em>00:00.480</em></p>
+<p>And that was some kind of worker who did this thing and he just created the elements from our elements.
+<em>00:00.480</em></p>
+<p>But u ultimately it&#x27;s the guy who who views it the last time who who kind of has to take responsibility.
+<em>00:00.480</em></p>
+<p>to avoid using Adobe software.
+<em>00:00.480</em></p>
+<p>Or Maya or 3DS Max, whatever you are using for 3D, and then be able to open such objects in Apple Motion 5.
+<em>00:00.480</em></p>
+<p>FX plug more open and be able to access more things in motion scene.
+<em>00:00.480</em></p>
+<p>requesting so many new features, which we are unable to implement at the moment.
+<em>00:00.480</em></p>
+<p>I was having that dream to have real 3D extrusion plugin inside of motion.
+<em>00:00.480</em></p>
+<p>try to find better way to implement because it was it was going to be extrusion and extrusion only.
+<em>00:00.480</em></p>
+<p>use 3D.
+<em>00:00.480</em></p>
+<p>At Chris Fenwick.
+<em>00:00.480</em></p>
+<p>I was having trouble pronouncing your name.
+<em>00:00.480</em></p>
+<p>unorganized.
+<em>00:00.560</em></p>
+<p>and also plugins for Final Cut Pro.
+<em>00:00.560</em></p>
+<p>motion market.
+<em>00:00.560</em></p>
+<p>And then in 2009 actually I decided to create a company here in Poland.
+<em>00:00.560</em></p>
+<p>Coders which are creating great plugins in FX Plug.
+<em>00:00.560</em></p>
+<p>So explain explain to me and you there&#x27;s a thing on Reddit called I wait
+<em>00:00.560</em></p>
+<p>This is motion.
+<em>00:00.560</em></p>
+<p>And you can recognize that the style is different and the layout is different and you can really tell who was creating each template.
+<em>00:00.560</em></p>
+<p>specifically and make sure that it&#x27;s so beautifully laid out.
+<em>00:00.560</em></p>
+<p>Some people are not really used to it, but I can see that a lot of customers who
+<em>00:00.560</em></p>
+<p>where I compare our original elements with their elements.
+<em>00:00.560</em></p>
+<p>on the Vimeo, you note that the Vimeo actually removed our videos from the they put them offline and I had to prove that these videos are original and they were made by
+myself.
+<em>00:00.560</em></p>
+<p>Our M object plugin better or other plugins look beautiful than, you know this is such a dirt.
+<em>00:00.560</em></p>
+<p>show me what I can&#x27;t do in motion for fifty bucks.
+<em>00:00.560</em></p>
+<p>If we are talking about the designing or of course, After Effects works pretty great with the Photoshop and it&#x27;s integrated, blah, blah, blah.
+<em>00:00.560</em></p>
+<p>That&#x27;s what we do.
+<em>00:00.560</em></p>
+<p>It&#x27;s like a pixel meter or in Photoshop.
+<em>00:00.560</em></p>
+<p>Any other Arnold plugins or any other so basically what M object is, this is a plugin for opening and animating 3D objects inside of Motion 5.
+<em>00:00.560</em></p>
+<p>because there are so many objects online which you can purchase and import to an object and use them.
+<em>00:00.560</em></p>
+<p>I want to try MObject.
+<em>00:00.560</em></p>
+<p>And I&#x27;m sure there&#x27;s something like go to their website and say, hey, I want to get an invite to the hospitality suite.
+<em>00:00.560</em></p>
+<p>And I was able to make some edits and push and pull the duration of the song so certain things happened at the right time.
+<em>00:00.640</em></p>
+<p>Well, Simon, I appreciate you doing this, and I&#x27;ve been wanting to get you on the show.
+<em>00:00.640</em></p>
+<p>And we started so many years ago, I don&#x27;t even remember when this started.
+<em>00:00.640</em></p>
+<p>And I was always looking for something different.
+<em>00:00.640</em></p>
+<p>The only the interface will refresh.
+<em>00:00.640</em></p>
+<p>Yeah, that&#x27;s the beauty about the templates we are producing.
+<em>00:00.640</em></p>
+<p>Apple Motion 5 Project 982.
+<em>00:00.640</em></p>
+<p>all our Motion5 templates are working with Fanca Pro10 as well because you have that opportunity to run Motion templates in Fanca Pro 10.
+<em>00:00.640</em></p>
+<p>And so there&#x27;s definitely licensing agreements that we use and probably we should talk about that so that like when I let&#x27;s say I want to do I want to purchase your
+<em>00:00.640</em></p>
+<p>If you read my article, you can see that I mentioned two other companies I don&#x27;t want to mention online who were
+<em>00:00.640</em></p>
+<p>Of course, they denied everything on the beginning, and they said this is our original work.
+<em>00:00.640</em></p>
+<p>explain if they are guilty different ways.
+<em>00:00.640</em></p>
+<p>But and he was the guy who introduced me to the concept of the lunatic fringe.
+<em>00:00.640</em></p>
+<p>Slice X and Track X.
+<em>00:00.640</em></p>
+<p>It&#x27;s always a pleasure.
+<em>00:00.640</em></p>
+<p>That&#x27;s great.
+<em>00:00.640</em></p>
+<p>We&#x27;re going to be talking about working in workgroups.
+<em>00:00.640</em></p>
+<p>So, anyway, that&#x27;s that.
+<em>00:00.640</em></p>
+<p>A couple of things.
+<em>00:00.640</em></p>
+<p>Okay, I&#x27;m going to ask you a question that we have not discussed today, but I know that a while back in an email you and I did
+<em>00:00.720</em></p>
+<p>the article, they said, well, we are sorry there was a worker, he&#x27;s not with us anymore, blah, blah, blah.
+<em>00:00.720</em></p>
+<p>bug reports and our suggestions.
+<em>00:00.720</em></p>
+<p>works for us, works for myself.
+<em>00:00.720</em></p>
+<p>to be possible to load even more polygons and render them inside of Motion five, we want to integrate
+<em>00:00.720</em></p>
+<p>3D object import and modifications and animations, everything inside of motion.
+<em>00:00.720</em></p>
+<p>It might take me more than a week to crack it open.
+<em>00:00.720</em></p>
+<p>Let me put it this way.
+<em>00:00.720</em></p>
+<p>Hey, good morning and welcome to another episode.
+<em>00:00.800</em></p>
+<p>We just add them from time to time.
+<em>00:00.800</em></p>
+<p>the documents in a cart.
+<em>00:00.800</em></p>
+<p>And he had like, you know, like for example, he did like Pixelmater instead of Photoshop and of course motion instead of After Effects.
+<em>00:00.800</em></p>
+<p>Careful.
+<em>00:00.800</em></p>
+<p>At Chris Fenwick and at Motion VFX, and the phrase, I want to try MObject.
+<em>00:00.800</em></p>
+<p>Not really.
+<em>00:00.880</em></p>
+<p>When Apple released Fanca Pro 10, they built a special kind of software called Motion 5, and this is used as a plugin creator.
+<em>00:00.880</em></p>
+<p>This may be a bad thing, maybe it&#x27;s not.
+<em>00:00.880</em></p>
+<p>So I don&#x27;t have to know how to extrude or to create or model, I guess is the word I&#x27;m looking for.
+<em>00:00.880</em></p>
+<p>Well, if we talk about the 3D modeling, if you have ready-to-use models like our packages, then you don&#x27;t have to.
+<em>00:00.880</em></p>
+<p>I think it was the opening title sequence to Stranger Than Fiction, you know, where the where I can&#x27;t remember the actor&#x27;s name now.
+<em>00:00.880</em></p>
+<p>So, anyway, yeah, I would love to take a look at MObject.
+<em>00:00.880</em></p>
+<p>Which is with the advanced shaders.
+<em>00:00.880</em></p>
+<p>And now I&#x27;m not going to tweet this little tidbit of information.
+<em>00:00.880</em></p>
+<p>We want to support as many Fanca Pro users as possible.
+<em>00:00.960</em></p>
+<p>your box with the Lego bricks and you build figures or you build houses, cars, whatever.
+<em>00:00.960</em></p>
+<p>What&#x27;s this?
+<em>00:00.960</em></p>
+<p>Well, yeah, that&#x27;s the thing.
+<em>00:00.960</em></p>
+<p>It&#x27;s obvious that you do, most definitely.
+<em>00:00.960</em></p>
+<p>I&#x27;m going to call it the great M-dust controversy.
+<em>00:00.960</em></p>
+<p>Of course, motion has its own limitations, and we really trying to suggest Apple what to do with motion next.
+<em>00:00.960</em></p>
+<p>The idea was to integrate real 3D objects inside of motion and use the 3D scene and camera and lightning, which are accessible from motion.
+<em>00:00.960</em></p>
+<p>And I was trying to get a guy to build me a hardware program preview bus with a little fader bar because I used it as a live switcher.
+<em>00:00.960</em></p>
+<p>What how did you realize that this was even possible to put a 3D object inside a 3D scene in motion?
+<em>00:00.960</em></p>
+<p>That&#x27;s correct.
+<em>00:01.040</em></p>
+<p>And we have hundreds of motion templates and we have dozens of plugins for Funcat Pro.
+<em>00:01.040</em></p>
+<p>real 3D world and the editing systems and Motion 5.
+<em>00:01.040</em></p>
+<p>implement new things.
+<em>00:01.040</em></p>
+<p>That&#x27;s what&#x27;s comforting me, that&#x27;s good.
+<em>00:01.040</em></p>
+<p>plugins for Fanca Pro 10 or Motion 5, and they are creating 3D extrusion text, which is just slow.
+<em>00:01.040</em></p>
+<p>They&#x27;re at the, I think it&#x27;s called the Renaissance Hotel.
+<em>00:01.040</em></p>
+<p>Most of the people think that Poland is somewhere in Africa, so no worries.
+<em>00:01.120</em></p>
+<p>I got involved into trying to find what I can do with the Apple systems.
+<em>00:01.120</em></p>
+<p>You also said that, you know, we shot, you know, you got a red camera and you shot this dust for a couple of days and you said
+<em>00:01.120</em></p>
+<p>Yeah, but this is, you know, which some people you will, some people will like it and some people will hate it.
+<em>00:01.120</em></p>
+<p>No, it&#x27;s not going to happen.
+<em>00:01.120</em></p>
+<p>Then in addition to M objects, I&#x27;m noticing now you also have tons of additional packages of themed things or designer things or
+<em>00:01.120</em></p>
+<p>I will say several months ago, and I&#x27;ve literally lost track.
+<em>00:01.120</em></p>
+<p>your tweet about this podcast will get a free version of MObject.
+<em>00:01.120</em></p>
+<p>Thank you for having me so anyway.
+<em>00:01.120</em></p>
+<p>If you want to do that and if you&#x27;re just insistent, and I&#x27;m not taking away from somebody who does want to do it, because
+<em>00:01.200</em></p>
+<p>That&#x27;s what happened.
+<em>00:01.200</em></p>
+<p>If you&#x27;d be willing to do this, I&#x27;d like to go through your templates.
+<em>00:01.200</em></p>
+<p>There&#x27;s a technique called sockets rendering.
+<em>00:01.200</em></p>
+<p>This is really easy.
+<em>00:01.200</em></p>
+<p>Yes.
+<em>00:01.200</em></p>
+<p>You know, just a couple of hours and you have it.
+<em>00:01.280</em></p>
+<p>They changed the product and they changed the name and they changed the desk elements, they removed our elements.
+<em>00:01.280</em></p>
+<p>I don&#x27;t want to hear a 40-year-old guy saying he feels old.
+<em>00:01.280</em></p>
+<p>I mean, we released MObject a year ago and it&#x27;s been pretty successful.
+<em>00:01.280</em></p>
+<p>And if you retweet that, no, hold on.
+<em>00:01.280</em></p>
+<p>But the real thing that&#x27;s of interest is the motion templates because what he does is he writes these motion templates so that they are very, very customizable right
+inside of a Final Katen
+<em>00:01.360</em></p>
+<p>After Effects is SOMEM Amazing.
+<em>00:01.360</em></p>
+<p>But if you look on my laptop, on my MacBook Pro, you will not see any of the Adobe E software.
+<em>00:01.360</em></p>
+<p>Screw it.
+<em>00:01.360</em></p>
+<p>You let me know when you&#x27;re done with that.
+<em>00:01.360</em></p>
+<p>And I read through it, and it was like, you know what?
+<em>00:01.440</em></p>
+<p>That&#x27;s how I work.
+<em>00:01.440</em></p>
+<p>Imagine if you will get any motion knowledge and you are familiar with the 3D space, you know how to put a text inside of motion, you can maybe do some reflection and you
+can animate the camera and lights.
+<em>00:01.440</em></p>
+<p>I was like, oh yeah, yeah, I got to get to that.
+<em>00:01.440</em></p>
+<p>I&#x27;m going to be there.
+<em>00:01.440</em></p>
+<p>We had that category all the time, but we are not refreshing it so often as the motion templates or Fancat program.
+<em>00:01.520</em></p>
+<p>And the plugin is more sophisticated where you have to use a very specific person who was trying to
+<em>00:01.520</em></p>
+<p>I don&#x27;t know, build the cars, or he&#x27;s a special engineer who is able to write computer software.
+<em>00:01.520</em></p>
+<p>No, I&#x27;m going to totally defend you there because it&#x27;s anybody who thinks that fifty bucks for one of these templates is expensive
+<em>00:01.520</em></p>
+<p>I&#x27;m really busy person.
+<em>00:01.520</em></p>
+<p>Now, just to be fair, and I want to ask, because I think I heard this somewhere, but I think I read somewhere that
+<em>00:01.520</em></p>
+<p>How to work in our current world without any Adobe products.
+<em>00:01.520</em></p>
+<p>Artist Bundle.
+<em>00:01.520</em></p>
+<p>I mean, it&#x27;s been a pleasure to be with you today.
+<em>00:01.520</em></p>
+<p>Thanks for having me today.
+<em>00:01.600</em></p>
+<p>So, um tell people a little bit about um your company.
+<em>00:01.600</em></p>
+<p>Is this iMovie?
+<em>00:01.600</em></p>
+<p>You are responsible for that.
+<em>00:01.600</em></p>
+<p>This year, they&#x27;re going to be at the Renaissance Hotel.
+<em>00:01.600</em></p>
+<p>Okay.
+<em>00:01.680</em></p>
+<p>But if you look at the amount of work we put in these templates and the amount of elements you can have for just fifty bucks, this is
+<em>00:01.680</em></p>
+<p>I&#x27;m not sure.
+<em>00:01.680</em></p>
+<p>Right, right.
+<em>00:01.680</em></p>
+<p>I&#x27;m going to do everything I can to make sure it&#x27;s really cool because they&#x27;ve asked me to get involved.
+<em>00:01.680</em></p>
+<p>And I was able to find the cut of music like really quickly.
+<em>00:01.760</em></p>
+<p>I can&#x27;t.
+<em>00:01.760</em></p>
+<p>So you can get three days of my time for fifty bucks.
+<em>00:01.760</em></p>
+<p>And that market actually was starting these days.
+<em>00:01.840</em></p>
+<p>And so the opening title sequence is very it it&#x27;s very um emotive.
+<em>00:01.840</em></p>
+<p>And this and this one producer I worked with, Peter, he was like, should I feel guilty about doing this?
+<em>00:01.840</em></p>
+<p>And it&#x27;s it&#x27;s to me, I gotta say, it&#x27;s really amazing that like I talk to people literally across the globe.
+<em>00:01.840</em></p>
+<p>I actually just clicked on something and a preview started to play in the background there.
+<em>00:01.920</em></p>
+<p>How do I do that?
+<em>00:01.920</em></p>
+<p>Now, did you hear that side of the story?
+<em>00:01.920</em></p>
+<p>I&#x27;m sorry for you people that wanted to.
+<em>00:01.920</em></p>
+<p>So, and I&#x27;m not saying all of them are, but certainly a lot of them are.
+<em>00:02.000</em></p>
+<p>Yeah, I&#x27;m looking at my website.
+<em>00:02.000</em></p>
+<p>It&#x27;s it&#x27;s better because it&#x27;s so complicated, right?
+<em>00:02.000</em></p>
+<p>This is what I I personally like.
+<em>00:02.000</em></p>
+<p>I want a real 3D inside motion right now.
+<em>00:02.000</em></p>
+<p>Because before or with other companies, I don&#x27;t want to mention the names, they are using old technologies and they were creating plugins for old Final Cap Pro 7 and
+they are still producing
+<em>00:02.000</em></p>
+<p>And I know that one of the things that Sam and I have been talking about, and I probably shouldn&#x27;t be saying this, but whatever.
+<em>00:02.000</em></p>
+<p>This is dust.
+<em>00:02.080</em></p>
+<p>We got to think of something.
+<em>00:02.080</em></p>
+<p>We are based in Poland.
+<em>00:02.160</em></p>
+<p>You can do so many things which you can do with After Effects.
+<em>00:02.160</em></p>
+<p>This is actually reminding me the times where we were as the visual effects artists, we were looking for some different software to use
+<em>00:02.160</em></p>
+<p>It was, I gotta say, it was really awesome.
+<em>00:02.160</em></p>
+<p>I&#x27;m going to play you just the first couple seconds of a piece I&#x27;ve been cutting for the last couple of days.
+<em>00:02.240</em></p>
+<p>But you know, I&#x27;m I&#x27;m not the judge.
+<em>00:02.240</em></p>
+<p>If they put a case in a cart, then the Vimeo would take the videos offline like permanently.
+<em>00:02.240</em></p>
+<p>And I tell people all the time: if you just want to dabble in animation, believe me, a one-time $50 purchase.
+<em>00:02.240</em></p>
+<p>And I sketched it all out.
+<em>00:02.240</em></p>
+<p>It was really hard because of the OpenGL limitations and because of the FXPlug limitations.
+<em>00:02.240</em></p>
+<p>So to be clear, y you&#x27;re not you&#x27;re not giving away M object, but you&#x27;re giving away the artist bundle.
+<em>00:02.240</em></p>
+<p>Very cool.
+<em>00:02.240</em></p>
+<p>I think it was an email that I got from you.
+<em>00:02.320</em></p>
+<p>I&#x27;m I&#x27;m 76.
+<em>00:02.320</em></p>
+<p>If you look at the element 3D, I know guys from Video Copiled are struggling with the resolutions and rendering times.
+<em>00:02.320</em></p>
+<p>You can load the plugin and you can load the element or object, 3D object inside of Motion 5.
+<em>00:02.320</em></p>
+<p>And it&#x27;s been people been asking for that like 12 months already.
+<em>00:02.320</em></p>
+<p>Just amazing.
+<em>00:02.320</em></p>
+<p>And I think I just earlier today I tweeted, wow, late to the party.
+<em>00:02.320</em></p>
+<p>I got too much stuff to do.
+<em>00:02.320</em></p>
+<p>Thanks again, Simon.
+<em>00:02.320</em></p>
+<p>His music is just really soulful.
+<em>00:02.400</em></p>
+<p>You know, I&#x27;m sitting here, I&#x27;m going to get sidetracked a lot during this interview because I&#x27;m sitting here kind of like perusing through the Motion VFX website.
+<em>00:02.400</em></p>
+<p>And I was so disappointed that it&#x27;s happening to myself and my company that I decided to write a blog, the article on our blog.
+<em>00:02.400</em></p>
+<p>Well, I like the attitude you&#x27;re taking.
+<em>00:02.400</em></p>
+<p>And you have to, of course, fake it and make copies or replicators for the text, but you are not able to load any 3D objects.
+<em>00:02.400</em></p>
+<p>We hate you.
+<em>00:02.400</em></p>
+<p>What we are trying to do with mObject is to show people that it&#x27;s better, there&#x27;s a better way to
+<em>00:02.400</em></p>
+<p>They will not finish it.
+<em>00:02.400</em></p>
+<p>And then, Simon, what is your Twitter handle?
+<em>00:02.400</em></p>
+<p>See, that&#x27;s the beauty of the Internet.
+<em>00:02.400</em></p>
+<p>So this allows you to bring models into motion.
+<em>00:02.480</em></p>
+<p>And we are spending so many days to put each and every single template and make it so beautiful.
+<em>00:02.480</em></p>
+<p>Be careful because it can happen to yourself.
+<em>00:02.480</em></p>
+<p>And I decided to write the article about it.
+<em>00:02.480</em></p>
+<p>And then I asked him at the end of the interview, and I didn&#x27;t actually record him Moshak, how to pronounce it.
+<em>00:02.480</em></p>
+<p>com.
+<em>00:02.560</em></p>
+<p>Sure, why not?
+<em>00:02.560</em></p>
+<p>We work without any Adobe products.
+<em>00:02.560</em></p>
+<p>But it&#x27;s this is another thing about motion.
+<em>00:02.560</em></p>
+<p>Yeah, I had that happen many years ago.
+<em>00:02.560</em></p>
+<p>I&#x27;m sorry, what?
+<em>00:02.560</em></p>
+<p>I&#x27;m excited about that.
+<em>00:02.560</em></p>
+<p>Now, if you&#x27;re not familiar with Motion VFX, I would recommend going and checking it out.
+<em>00:02.640</em></p>
+<p>And I think ultimately you&#x27;re probably doing the right thing.
+<em>00:02.640</em></p>
+<p>Because the there&#x27;s no problem in creating a very advanced ray tracer or renderer.
+<em>00:02.640</em></p>
+<p>Looks like NAB is coming up really quick.
+<em>00:02.640</em></p>
+<p>We know that, and essentially that&#x27;s what this company was doing: they had taken your elements and turned them around and was essentially they were stretching it,
+scaling it a little, pulling it out, and calling it their own, right?
+<em>00:02.720</em></p>
+<p>But I don&#x27;t want to be involved in that case anymore.
+<em>00:02.720</em></p>
+<p>When you&#x27;re the only guy on the planet that wants something, you&#x27;re probably not going to get it, unfortunately.
+<em>00:02.720</em></p>
+<p>We knew it&#x27;s going to be possible somewhere.
+<em>00:02.720</em></p>
+<p>And we had to do a bunch of those.
+<em>00:02.720</em></p>
+<p>I was like, Yeah, yeah, sure, send it to me.
+<em>00:02.720</em></p>
+<p>You know what?
+<em>00:02.720</em></p>
+<p>This is like a, you know, dust is everywhere.
+<em>00:02.800</em></p>
+<p>Actually, they copied other plugins and other elements and create it as their own.
+<em>00:02.800</em></p>
+<p>So, the content we are creating shows the best of Motion 5
+<em>00:02.800</em></p>
+<p>Motion is a real-time application and we want to keep the object
+<em>00:02.800</em></p>
+<p>We have like sport or military packages, and there are tons of objects ready to use with an object.
+<em>00:02.800</em></p>
+<p>They uh Schim Scheiman was able to actually do but he and his people were able to do this, and I I don&#x27;t know, it blows me away, but
+<em>00:02.880</em></p>
+<p>We support the Fancat Pro community and we deliver top-notch content for
+<em>00:02.880</em></p>
+<p>And so many things happened in my life that I got involved in motion and I said, you know what?
+<em>00:02.880</em></p>
+<p>Well, Simon, thank you so much for taking the time.
+<em>00:02.880</em></p>
+<p>Now, Shimon, or Simon, as I probably called him a hundred times in the interview.
+<em>00:02.960</em></p>
+<p>Maybe six years old.
+<em>00:02.960</em></p>
+<p>Okay.
+<em>00:02.960</em></p>
+<p>I mean I mean if you&#x27;re comparing this for with the with motion 4
+<em>00:02.960</em></p>
+<p>I prefer to spend my time on creating fantastic, professional-looking products.
+<em>00:02.960</em></p>
+<p>I&#x27;ll send you a copy.
+<em>00:02.960</em></p>
+<p>It&#x27;s called The Right Path.
+<em>00:03.040</em></p>
+<p>What we do, we do motion templates and we do FineCut Pro 10 plugins.
+<em>00:03.040</em></p>
+<p>And hold on a second.
+<em>00:03.040</em></p>
+<p>That&#x27;s the one with the tattoo.
+<em>00:03.040</em></p>
+<p>Oh, I think I think I think Pixelmator is only like 15.
+<em>00:03.040</em></p>
+<p>I&#x27;m sure we&#x27;ll run into each other if you&#x27;re there, okay?
+<em>00:03.040</em></p>
+<p>So I would be really careful about accusing my workers and say, hey, this is my worker, blame him
+<em>00:03.120</em></p>
+<p>This happened two years ago.
+<em>00:03.120</em></p>
+<p>The end result is going to be too expensive.
+<em>00:03.120</em></p>
+<p>We deliver the content which can be modified any way you want.
+<em>00:03.200</em></p>
+<p>Of course, and all it takes is, you know, one podcast, one blog post, and all of a sudden, you know, somebody is
+<em>00:03.200</em></p>
+<p>And you have to make sure that everything is legit by yourself.
+<em>00:03.200</em></p>
+<p>And he said, look at this, this is online shop.
+<em>00:03.200</em></p>
+<p>We are pretty happy about it.
+<em>00:03.280</em></p>
+<p>I will say that I&#x27;ve actually for some producers that I work with that I really like and I&#x27;m really trying to help out, I&#x27;ve actually taken them to your website and I&#x27;ve
+said, here.
+<em>00:03.280</em></p>
+<p>We put so many hours, if not days, to create one template.
+<em>00:03.280</em></p>
+<p>We don&#x27;t need to.
+<em>00:03.280</em></p>
+<p>This is a 50 bucks software, which was released with Ifanca Pro 10.
+<em>00:03.280</em></p>
+<p>Yeah, yeah, yeah, yeah.
+<em>00:03.280</em></p>
+<p>Actually, you know what I&#x27;m going to do?
+<em>00:03.360</em></p>
+<p>And I was so happy about it.
+<em>00:03.360</em></p>
+<p>And here&#x27;s this template where for 50 bucks I can emulate a whole lot of the of the of the um
+<em>00:03.360</em></p>
+<p>It&#x27;s such a powerful way to get a head start on what you&#x27;re doing.
+<em>00:03.360</em></p>
+<p>So the Vimeo actually took them off.
+<em>00:03.360</em></p>
+<p>You have to right now you have the Adobe Cloud and you have to pay monthly like what, fifty bucks or ninety nine bucks, depends to your mod pricing model.
+<em>00:03.360</em></p>
+<p>And then I&#x27;ll get and like every three, four weeks, I get an email from this very nice girl.
+<em>00:03.360</em></p>
+<p>Yeah.
+<em>00:03.360</em></p>
+<p>We are not trying to focus on anything else like After Effects or LW Premier because what we do, we believe that
+<em>00:03.440</em></p>
+<p>So the difference between plug-in and motion template.
+<em>00:03.440</em></p>
+<p>I don&#x27;t of course I don&#x27;t remember everything.
+<em>00:03.440</em></p>
+<p>And sometimes when I speak with our customers, they say, oh, I have a friend of mine in the States, and he says, I&#x27;m using your templates.
+<em>00:03.440</em></p>
+<p>Let&#x27;s do this because we are on the air right now.
+<em>00:03.440</em></p>
+<p>I missed that.
+<em>00:03.440</em></p>
+<p>Sorry, I just kicked my mic stand.
+<em>00:03.520</em></p>
+<p>So now I&#x27;m looking at your website, and there actually is a subcategory for After Effects.
+<em>00:03.520</em></p>
+<p>We can discuss that.
+<em>00:03.520</em></p>
+<p>And we&#x27;re here because we like this software and we want it to be good.
+<em>00:03.520</em></p>
+<p>In this particular piece, I used the loop pack loop set rather extensively.
+<em>00:03.600</em></p>
+<p>This is actually 8 p.
+<em>00:03.600</em></p>
+<p>So, I understand Lego, and I don&#x27;t understand any coding.
+<em>00:03.600</em></p>
+<p>What you guys do, it would appear, is you see things that
+<em>00:03.600</em></p>
+<p>And actually, I can tell you who it&#x27;s going to be.
+<em>00:03.600</em></p>
+<p>com.
+<em>00:03.680</em></p>
+<p>And people are still using it.
+<em>00:03.680</em></p>
+<p>I personally have always avoided any sort of real 3D work because it just seems to be such an amazing time suck.
+<em>00:03.680</em></p>
+<p>Here&#x27;s what you&#x27;re going to have to tweet, people.
+<em>00:03.680</em></p>
+<p>Anyway, we&#x27;ll be back next week in another episode.
+<em>00:03.680</em></p>
+<p>So you know, it&#x27;s I think it&#x27;s pretty neat content, and we put a lot of heart into creating it.
+<em>00:03.760</em></p>
+<p>And not sure if you remember, there is a still software called GIMP.
+<em>00:03.760</em></p>
+<p>Now we&#x27;re also going to talk about toward the end of the interview, I&#x27;m going to let them talk about a plugin that they have called MObject.
+<em>00:03.840</em></p>
+<p>Okay, yeah, so for me to say Poland is just like it&#x27;s the dumbest thing I could probably say &#x27;cause it&#x27;s the only city I know in Poland.
+<em>00:03.840</em></p>
+<p>And I was like, okay, now&#x27;s the time to try it.
+<em>00:03.840</em></p>
+<p>If you have not gone to the iTunes and entered in a comment or given the show a review, please do that and tell your friends.
+<em>00:03.840</em></p>
+<p>I mean, we haven&#x27;t even really figured it all out, but um I promise you it&#x27;s going to be cool.
+<em>00:03.840</em></p>
+<p>But there&#x27;s tons of great music and all kinds of genres.
+<em>00:03.920</em></p>
+<p>And in After Effects, you have to render them.
+<em>00:03.920</em></p>
+<p>Now, I don&#x27;t know what the protocol is for getting into seeing what we&#x27;re demoing and what we&#x27;re showing, but I will be keeping you posted here.
+<em>00:03.920</em></p>
+<p>So, Premium Beat has been supporting this show for a long time now, and they&#x27;re great fans of the show, or supporters of the show, at least.
+<em>00:04.000</em></p>
+<p>Nine hours difference from California, just so you know.
+<em>00:04.000</em></p>
+<p>You said yourself, you know, your words, I just want to create beautiful product.
+<em>00:04.000</em></p>
+<p>This is top-notch software, right?
+<em>00:04.000</em></p>
+<p>Yeah, we would love to give you that feature.
+<em>00:04.000</em></p>
+<p>We&#x27;ll play with it.
+<em>00:04.000</em></p>
+<p>We will do this again.
+<em>00:04.000</em></p>
+<p>That&#x27;s Shimon Mashak.
+<em>00:04.000</em></p>
+<p>We have one artist working with us on the After Effects and
+<em>00:04.080</em></p>
+<p>I can do this, I can do that.
+<em>00:04.080</em></p>
+<p>So now you know how I feel because I have been enlightened.
+<em>00:04.080</em></p>
+<p>And so we will stop talking about it because, like you said, it is two years old.
+<em>00:04.080</em></p>
+<p>But anyway, this is some people will say what you can do with fifty bugs software
+<em>00:04.080</em></p>
+<p>So, what we are trying to do here, we are trying to do real time.
+<em>00:04.080</em></p>
+<p>Oh, wow.
+<em>00:04.080</em></p>
+<p>I know we&#x27;re going to be pushing that.
+<em>00:04.080</em></p>
+<p>So it means explain like I&#x27;m five.
+<em>00:04.160</em></p>
+<p>And it doesn&#x27;t matter if it&#x27;s a broadcast show or a corporate event or a web thing, right?
+<em>00:04.160</em></p>
+<p>Well, what we heard, or what we were, the information we were given, was that there was some person working with them.
+<em>00:04.160</em></p>
+<p>Uh remember these days where we ha we were having the boxes?
+<em>00:04.160</em></p>
+<p>I&#x27;m 52.
+<em>00:04.160</em></p>
+<p>Now imagine, okay, now you&#x27;re familiar with the 3D text.
+<em>00:04.160</em></p>
+<p>And if you want to have me take a look at it eventually, I&#x27;m not promising anything quickly.
+<em>00:04.160</em></p>
+<p>Can you do that template which you did for motion?
+<em>00:04.240</em></p>
+<p>And it&#x27;s these it&#x27;s a flipboard.
+<em>00:04.240</em></p>
+<p>I let people judge and I let people read, compare.
+<em>00:04.240</em></p>
+<p>And I&#x27;m not really sure why this company is trying to, I don&#x27;t know.
+<em>00:04.240</em></p>
+<p>The features we are also working on are the real retraced refraction and reflection
+<em>00:04.240</em></p>
+<p>So, here&#x27;s what we&#x27;re going to do: we&#x27;re going to say, you&#x27;re going to have to tweet this.
+<em>00:04.240</em></p>
+<p>Actually, did it just last night, so I&#x27;m a little bit ahead of schedule.
+<em>00:04.240</em></p>
+<p>I know that&#x27;s a big trip for you.
+<em>00:04.240</em></p>
+<p>It&#x27;s by one of my favorite composers on Premium Beat.
+<em>00:04.320</em></p>
+<p>I mean, I&#x27;ve been a Linux user, Windows user.
+<em>00:04.320</em></p>
+<p>And you can see the comparisons on our blog where the videos were posted on the Vimeo.
+<em>00:04.320</em></p>
+<p>Right.
+<em>00:04.320</em></p>
+<p>I go on a napkin.
+<em>00:04.320</em></p>
+<p>Some of the Premiere and After Effects are using it.
+<em>00:04.320</em></p>
+<p>I again, not something that I want to get involved in, but I hear of people saying all the time, oh, I want to do this.
+<em>00:04.320</em></p>
+<p>Oh, I mean, I know we do.
+<em>00:04.320</em></p>
+<p>There might be some legal reasons why we don&#x27;t want to.
+<em>00:04.400</em></p>
+<p>Also, some people are asking, this is actually, I think, very good to mention as some
+<em>00:04.400</em></p>
+<p>I&#x27;m really proud of the guys that put together this particular template.
+<em>00:04.480</em></p>
+<p>He was amazing.
+<em>00:04.480</em></p>
+<p>Several months ago, the people at Core Melt contacted me and they said, Hey, would you be willing to take a look at
+<em>00:04.480</em></p>
+<p>I think it&#x27;s like the first or second week of April.
+<em>00:04.480</em></p>
+<p>Now, are you looking that up or do you just remember it?
+<em>00:04.560</em></p>
+<p>Each of them costed me something like nine hundred bucks.
+<em>00:04.560</em></p>
+<p>Of course, we use Photoshop because my web designer, he can&#x27;t live without Illustrator and Photoshop.
+<em>00:04.560</em></p>
+<p>Okay.
+<em>00:04.560</em></p>
+<p>So yeah.
+<em>00:04.640</em></p>
+<p>I don&#x27;t really afraid of that because I remember Nicholas from Noise Industries told me one thing a couple of years ago.
+<em>00:04.640</em></p>
+<p>I&#x27;m going to play you.
+<em>00:04.720</em></p>
+<p>I want you to discuss it at whatever level you want.
+<em>00:04.720</em></p>
+<p>Probably Apple wouldn&#x27;t or didn&#x27;t expect ever that someone will create such a plugin.
+<em>00:04.720</em></p>
+<p>It&#x27;s like, no, that&#x27;s not a good business model for me.
+<em>00:04.720</em></p>
+<p>So you&#x27;ll have everything you need to get started doing working in MObject.
+<em>00:04.720</em></p>
+<p>And I&#x27;m just thanking my God every day for such a great opportunity that I found a
+<em>00:04.800</em></p>
+<p>And you said, Mm, you might want to read this blog post of mine.
+<em>00:04.800</em></p>
+<p>I want to focus on something else.
+<em>00:04.800</em></p>
+<p>I was born in 1976, so I&#x27;m almost 40 years old.
+<em>00:04.800</em></p>
+<p>And that&#x27;s what we are trying to do.
+<em>00:04.800</em></p>
+<p>Thank you for saying that.
+<em>00:04.800</em></p>
+<p>So no worries.
+<em>00:04.800</em></p>
+<p>But you&#x27;ll find the first 10 people that retweet the phrase, all that stuff I just said, at FCPX Grill.
+<em>00:04.800</em></p>
+<p>If you want to come back, we&#x27;ll talk again sometime.
+<em>00:04.800</em></p>
+<p>I mean, the first time I saw Motion 5, it maybe it wasn&#x27;t refreshed.
+<em>00:04.880</em></p>
+<p>I don&#x27;t really want to know that.
+<em>00:04.880</em></p>
+<p>Of course, it&#x27;s pretty slow at the moment, but if you look at the pixel meter, which is like
+<em>00:04.880</em></p>
+<p>I remember I&#x27;ve been talking to Mark Spencer.
+<em>00:04.960</em></p>
+<p>Six years old.
+<em>00:04.960</em></p>
+<p>And even that company changed their product after I sent the email and I was trying to accuse them.
+<em>00:04.960</em></p>
+<p>Okay.
+<em>00:04.960</em></p>
+<p>And that&#x27;s the beauty of the internet.
+<em>00:04.960</em></p>
+<p>Because we are stealing and these videos are not legit.
+<em>00:05.040</em></p>
+<p>0, and have everything inside of motion and have that little elements like textures, like extrusion, like a.
+<em>00:05.040</em></p>
+<p>I&#x27;ll just say, and I do want to say this on the air.
+<em>00:05.040</em></p>
+<p>And I don&#x27;t know, it&#x27;s one of the perks of having the podcast.
+<em>00:05.040</em></p>
+<p>We&#x27;re just saying it on the air.
+<em>00:05.040</em></p>
+<p>And the other market is RD Pancat Pro 10 plugins.
+<em>00:05.120</em></p>
+<p>Do you want to discuss the
+<em>00:05.120</em></p>
+<p>I remember that.
+<em>00:05.120</em></p>
+<p>We got to have a code in here.
+<em>00:05.120</em></p>
+<p>And I&#x27;ll tell you, let&#x27;s say you&#x27;re a hardcore, nope, got to do it all myself kind of guy.
+<em>00:05.200</em></p>
+<p>I got slightly distracted because I&#x27;m thinking about the other stuff I want to talk to you about.
+<em>00:05.200</em></p>
+<p>They want to open the motion template in FACA Pro 10 and just drop the videos on the drop zones and replace the text or the colors.
+<em>00:05.200</em></p>
+<p>You&#x27;re going to have to have hashtag FCPXgrill.
+<em>00:05.200</em></p>
+<p>It&#x27;s not?
+<em>00:05.280</em></p>
+<p>And I think we&#x27;ve even contacted a couple of times in the past, but just paths never crossed.
+<em>00:05.280</em></p>
+<p>I started my Fanca Pro adventure a couple of years ago in the States when I was working on a feature films.
+<em>00:05.280</em></p>
+<p>And then when we release the
+<em>00:05.280</em></p>
+<p>Right.
+<em>00:05.280</em></p>
+<p>And Shimon, I want to apologize.
+<em>00:05.280</em></p>
+<p>m.
+<em>00:05.360</em></p>
+<p>I believe we are pretty small company, but we are trying to do top-class products and just enjoy the life.
+<em>00:05.360</em></p>
+<p>This is so different than Fanca Pro 7.
+<em>00:05.360</em></p>
+<p>And it&#x27;s a did you use motion?
+<em>00:05.360</em></p>
+<p>Shut up.
+<em>00:05.360</em></p>
+<p>But this is because it&#x27;s limited.
+<em>00:05.360</em></p>
+<p>I&#x27;m like, can&#x27;t you build me this?
+<em>00:05.360</em></p>
+<p>So we spent so many months to
+<em>00:05.360</em></p>
+<p>You can have your logo which is extruded, which has a beautiful reflection.
+<em>00:05.360</em></p>
+<p>Okay.
+<em>00:05.360</em></p>
+<p>Today we were shopping online and my mother-in-law, she says, what you can
+<em>00:05.360</em></p>
+<p>Of course, as you know, you can create plugins in sort of plugins in Motion, in Motion Five.
+<em>00:05.440</em></p>
+<p>I just felt dirty having said all the things that I had said previously.
+<em>00:05.440</em></p>
+<p>You know, I mean, the the community the thing about this the the production community, especially the post-production community
+<em>00:05.440</em></p>
+<p>But did you really use it?
+<em>00:05.440</em></p>
+<p>Imagine the amount of projects which are downloaded and are distributed.
+<em>00:05.440</em></p>
+<p>And what is it?
+<em>00:05.440</em></p>
+<p>Nobody wants to buy it but you.
+<em>00:05.440</em></p>
+<p>At MotionVFX.
+<em>00:05.440</em></p>
+<p>So it&#x27;s kind of interesting.
+<em>00:05.520</em></p>
+<p>And it&#x27;s so empowering to be able to just say, yep, yep, get going, and then go from there.
+<em>00:05.520</em></p>
+<p>So yeah, I think it&#x27;s worth mentioning that
+<em>00:05.520</em></p>
+<p>And I feel bad that I hadn&#x27;t taken a look at it earlier.
+<em>00:05.520</em></p>
+<p>I have similar card colours.
+<em>00:05.520</em></p>
+<p>So we&#x27;re going to do some really cool stuff for Final Cut 10, okay?
+<em>00:05.520</em></p>
+<p>Welcome to another episode of Final Cut Grill.
+<em>00:05.600</em></p>
+<p>So, like, for example, I&#x27;m looking at
+<em>00:05.600</em></p>
+<p>And for 50 bucks, I mean, anybody who complains that 50 bucks is too much.
+<em>00:05.600</em></p>
+<p>So we are trying to put more development
+<em>00:05.600</em></p>
+<p>And if you hit the space bar, it was like hitting auto trans.
+<em>00:05.600</em></p>
+<p>So we were trying to think of
+<em>00:05.600</em></p>
+<p>I know we do, &#x27;cause uh uh one of our freelancers that we hire, he&#x27;s he&#x27;s really into the whole
+<em>00:05.600</em></p>
+<p>Okay.
+<em>00:05.600</em></p>
+<p>That&#x27;s a pleasure.
+<em>00:05.600</em></p>
+<p>Okay, I get the shoes for you right now.
+<em>00:05.600</em></p>
+<p>And you know what?
+<em>00:05.600</em></p>
+<p>I&#x27;m going to quiz you.
+<em>00:05.680</em></p>
+<p>And I&#x27;d like you to pick one in particular.
+<em>00:05.680</em></p>
+<p>But if you ask me, look at the market or the motion market like let&#x27;s say three years ago.
+<em>00:05.680</em></p>
+<p>It&#x27;s totally worth looking at.
+<em>00:05.680</em></p>
+<p>And I just love this cut of music.
+<em>00:05.760</em></p>
+<p>About seven.
+<em>00:05.760</em></p>
+<p>Sometimes I just scroll through your site and go, oh yeah, that&#x27;s a neat look.
+<em>00:05.760</em></p>
+<p>They they took them offline.
+<em>00:05.760</em></p>
+<p>Of course, some templates are more easier to do, some are harder to do.
+<em>00:05.760</em></p>
+<p>Yes, he was amazing.
+<em>00:05.760</em></p>
+<p>I&#x27;m just teasing you.
+<em>00:05.840</em></p>
+<p>And I know I can&#x27;t do these things in twenty minutes.
+<em>00:05.840</em></p>
+<p>Is this really happening to us?
+<em>00:05.840</em></p>
+<p>Dust is in a studio, and it&#x27;s just impossible to create exactly the same behavior.
+<em>00:05.840</em></p>
+<p>I decided to let people know about it.
+<em>00:05.840</em></p>
+<p>So I believe we were even comparing the templates created, the same kind of templates created in After Effects and in Motion.
+<em>00:05.840</em></p>
+<p>And you will tell me a week later if you like it or not.
+<em>00:05.840</em></p>
+<p>And I was like, okay, I&#x27;m going to give this a try.
+<em>00:05.840</em></p>
+<p>I just finally tried Track X and it was totally easy.
+<em>00:05.840</em></p>
+<p>Right then.
+<em>00:05.840</em></p>
+<p>Hold on, I got to look it up because I totally know.
+<em>00:05.840</em></p>
+<p>Then the company grew up, and right now we are 15 people together.
+<em>00:05.920</em></p>
+<p>And the first thing I said as
+<em>00:05.920</em></p>
+<p>Oh, I was happening two years ago.
+<em>00:05.920</em></p>
+<p>I really want to focus on what we are producing.
+<em>00:05.920</em></p>
+<p>Let me look it up.
+<em>00:05.920</em></p>
+<p>I totally agree.
+<em>00:05.920</em></p>
+<p>But yeah, that is the phenomenon that I&#x27;ve spoken about before on the show called the lunatic fringe.
+<em>00:05.920</em></p>
+<p>I didn&#x27;t decide it yet.
+<em>00:05.920</em></p>
+<p>And you&#x27;re in Poland, is that correct?
+<em>00:06.000</em></p>
+<p>And people who are using After Effects say
+<em>00:06.000</em></p>
+<p>And some people may say, well, your plugin is very similar to Element 3D, but what we are doing, we are
+<em>00:06.000</em></p>
+<p>50 bucks, 50 bucks, and literally, like, I could not do what one of their tutorials does.
+<em>00:06.000</em></p>
+<p>And I said, listen,
+<em>00:06.080</em></p>
+<p>And I&#x27;m not really sure if that&#x27;s going to work for us as a motion VFX.
+<em>00:06.080</em></p>
+<p>If you look at the motion, for example, there&#x27;s no any
+<em>00:06.080</em></p>
+<p>Later, later.
+<em>00:06.080</em></p>
+<p>Sometimes, you know, currently we are hiring 15 people on staff.
+<em>00:06.160</em></p>
+<p>Do you want to talk about that at all?
+<em>00:06.160</em></p>
+<p>We are still developing it.
+<em>00:06.160</em></p>
+<p>Oh, that&#x27;s awesome.
+<em>00:06.160</em></p>
+<p>And those first 10 people will get a free copy of MObject and the des what did you say was the designer bundle?
+<em>00:06.160</em></p>
+<p>If they&#x27;re not officially doing it, I&#x27;m going to be doing it because Final Cut 10 in workgroups is awesome now.
+<em>00:06.160</em></p>
+<p>So it&#x27;s not refreshed very often, but we do it.
+<em>00:06.240</em></p>
+<p>It&#x27;s a flipboard with you know flipping between two images and it
+<em>00:06.240</em></p>
+<p>And that&#x27;s what exactly what happened.
+<em>00:06.240</em></p>
+<p>I want to spend my time with the my uh graphics department or with my coders and make
+<em>00:06.240</em></p>
+<p>Okay, okay, I will agree.
+<em>00:06.240</em></p>
+<p>It&#x27;s not really.
+<em>00:06.320</em></p>
+<p>Well, people are trying to avoid it because they are afraid of that.
+<em>00:06.320</em></p>
+<p>All right.
+<em>00:06.320</em></p>
+<p>This is this is like After Effects is like twenty years old right now.
+<em>00:06.400</em></p>
+<p>So let&#x27;s do it.
+<em>00:06.400</em></p>
+<p>Thank you for having me today.
+<em>00:06.400</em></p>
+<p>I think we&#x27;re going to be doing some podcasting from there.
+<em>00:06.400</em></p>
+<p>And anyway, great website.
+<em>00:06.480</em></p>
+<p>So it&#x27;s really cool to be able to do this.
+<em>00:06.480</em></p>
+<p>And you can see that there is almost no difference between them.
+<em>00:06.480</em></p>
+<p>They are trying to make a stories and
+<em>00:06.480</em></p>
+<p>And it&#x27;s actually a really funny subcategory on Reddit.
+<em>00:06.560</em></p>
+<p>This is imagine that motion is a
+<em>00:06.560</em></p>
+<p>Do you know which one that is, 968?
+<em>00:06.560</em></p>
+<p>It was really incredible.
+<em>00:06.560</em></p>
+<p>We are trying to still develop it, and I&#x27;m sure the next version will be even better.
+<em>00:06.560</em></p>
+<p>We&#x27;re going to have to have a code because a lot of people retweet that and don&#x27;t know that this deal is there.
+<em>00:06.560</em></p>
+<p>So that&#x27;s what you&#x27;re going to have to tweet.
+<em>00:06.560</em></p>
+<p>It&#x27;s kind of cool.
+<em>00:06.560</em></p>
+<p>Okay.
+<em>00:06.640</em></p>
+<p>You keep talking.
+<em>00:06.640</em></p>
+<p>So I&#x27;m maybe
+<em>00:06.640</em></p>
+<p>Also, we would love to have the
+<em>00:06.640</em></p>
+<p>I remember we called the first alpha version M extrusion.
+<em>00:06.640</em></p>
+<p>So you have to actually be listening to the show.
+<em>00:06.640</em></p>
+<p>Take care, Simon.
+<em>00:06.640</em></p>
+<p>Of course, you can do more with Lego.
+<em>00:06.720</em></p>
+<p>And frankly, I&#x27;m kind of shocked
+<em>00:06.720</em></p>
+<p>And he&#x27;s like, no, I&#x27;m not going to build you that.
+<em>00:06.720</em></p>
+<p>Sure.
+<em>00:06.720</em></p>
+<p>It&#x27;s a great resource.
+<em>00:06.800</em></p>
+<p>I did not plan on doing this, so pardon me for the being a
+<em>00:06.800</em></p>
+<p>So basically, we have the graphics department, we have a video department, and we have the development
+<em>00:06.800</em></p>
+<p>So
+<em>00:06.800</em></p>
+<p>I could see his face &#x27;cause I met him at NAB, but he had done a blog post about um
+<em>00:06.800</em></p>
+<p>In the nineties, I used to use the old NewTek video toaster.
+<em>00:06.800</em></p>
+<p>That was the ghost.
+<em>00:06.880</em></p>
+<p>So that answers my question or your question.
+<em>00:06.880</em></p>
+<p>And right now I know it&#x27;s super fast and we want to make it even faster.
+<em>00:06.880</em></p>
+<p>And the first day I saw that it&#x27;s possible
+<em>00:06.880</em></p>
+<p>Okay, so at MotionVFX.
+<em>00:06.880</em></p>
+<p>No, it&#x27;s not.
+<em>00:06.960</em></p>
+<p>So this is not only for designers who are
+<em>00:06.960</em></p>
+<p>And I know that on this show, I talked about it.
+<em>00:06.960</em></p>
+<p>How do I use it?
+<em>00:06.960</em></p>
+<p>And we are still working on it.
+<em>00:06.960</em></p>
+<p>So anyway, go do that for me.
+<em>00:06.960</em></p>
+<p>That&#x27;s very cool.
+<em>00:07.040</em></p>
+<p>Go check it out.
+<em>00:07.120</em></p>
+<p>So anyway, this is really great.
+<em>00:07.120</em></p>
+<p>Yeah, I mean, it&#x27;s kind of like being a producer.
+<em>00:07.120</em></p>
+<p>And I agree, you know.
+<em>00:07.120</em></p>
+<p>And the first time I saw the 3D extrusion, I thought
+<em>00:07.120</em></p>
+<p>All right.
+<em>00:07.120</em></p>
+<p>Oh, yes, yes, I&#x27;ve noticed.
+<em>00:07.120</em></p>
+<p>So let me just play this for you.
+<em>00:07.200</em></p>
+<p>Actually, that was a PowerBook Pro.
+<em>00:07.200</em></p>
+<p>Well, we deliver
+<em>00:07.200</em></p>
+<p>And if company actually feels the
+<em>00:07.200</em></p>
+<p>But this is another thing about that company is trying to make us stories and make us
+<em>00:07.200</em></p>
+<p>And so it it
+<em>00:07.200</em></p>
+<p>Let&#x27;s do this.
+<em>00:07.200</em></p>
+<p>You had to go find a shuttle bus.
+<em>00:07.200</em></p>
+<p>Let me try that.
+<em>00:07.280</em></p>
+<p>I go, no, you&#x27;re just being a smart producer.
+<em>00:07.280</em></p>
+<p>And I had to spend a couple of weeks because the DMCA period is something like three weeks and if they have
+<em>00:07.280</em></p>
+<p>No, not the artist bundle.
+<em>00:07.280</em></p>
+<p>Awesome.
+<em>00:07.280</em></p>
+<p>Okay, so here we go.
+<em>00:07.360</em></p>
+<p>And I believe I believe that day that if I will release that article, it will
+<em>00:07.360</em></p>
+<p>If you own the company and if you run the company
+<em>00:07.360</em></p>
+<p>And you are responsible for everything you release, not your worker, but you, because your name is on your company.
+<em>00:07.360</em></p>
+<p>No?
+<em>00:07.440</em></p>
+<p>It&#x27;s limited by Apple and we are unable to
+<em>00:07.440</em></p>
+<p>No, I&#x27;m not building it for you.
+<em>00:07.440</em></p>
+<p>And you can render through the sockets, but it was so slow
+<em>00:07.440</em></p>
+<p>And we still get the questions about how do I get the MS extrusion?
+<em>00:07.440</em></p>
+<p>If you&#x27;ve heard me been listening to me for a while, you know I&#x27;m not a big 3D fan, but
+<em>00:07.520</em></p>
+<p>He&#x27;s a great guy and a friend of mine.
+<em>00:07.520</em></p>
+<p>And and here is a thing where you gotta know people are going
+<em>00:07.520</em></p>
+<p>Okay, because I look at this.
+<em>00:07.520</em></p>
+<p>No, it happened a couple of years ago, but about last year, I came across a company.
+<em>00:07.520</em></p>
+<p>And even so happen, I still have that feeling that they are still copying others.
+<em>00:07.520</em></p>
+<p>So, on your F keys, you could cut the program bus, and on the number keys, right below the F keys, you could cut the preview bus.
+<em>00:07.520</em></p>
+<p>And she&#x27;s like, hey, have you had a chance to?
+<em>00:07.520</em></p>
+<p>Yeah, if you want to record any videos with me, actually, I have a similar haircut to your.
+<em>00:07.520</em></p>
+<p>This is episode 108, I believe.
+<em>00:07.600</em></p>
+<p>Nothing.
+<em>00:07.600</em></p>
+<p>And I really like to pay for the software.
+<em>00:07.600</em></p>
+<p>I still have like a uh
+<em>00:07.600</em></p>
+<p>It&#x27;s gorgeous.
+<em>00:07.600</em></p>
+<p>And there is nothing too afraid of.
+<em>00:07.600</em></p>
+<p>But I promise you,
+<em>00:07.600</em></p>
+<p>I would love to, but I&#x27;m not really sure if uh I I&#x27;ve been there last year, but uh if you&#x27;ll tell me come over, I will.
+<em>00:07.600</em></p>
+<p>Warsaw?
+<em>00:07.680</em></p>
+<p>Is that something that you added later?
+<em>00:07.680</em></p>
+<p>So we just purchased that
+<em>00:07.680</em></p>
+<p>There are so
+<em>00:07.680</em></p>
+<p>But it is interesting.
+<em>00:07.680</em></p>
+<p>I don&#x27;t know why.
+<em>00:07.680</em></p>
+<p>Like, people want to hear my opinion about stuff.
+<em>00:07.680</em></p>
+<p>Oh, it&#x27;s great.
+<em>00:07.680</em></p>
+<p>So, anyway, Premiumbeat.
+<em>00:07.760</em></p>
+<p>So the next big feature which is going to be released soon
+<em>00:07.760</em></p>
+<p>And that.
+<em>00:07.840</em></p>
+<p>This is going to take me a couple of days.
+<em>00:07.840</em></p>
+<p>So, can we talk a little bit about now in your products, you also have
+<em>00:07.840</em></p>
+<p>And what we were trying to do, we were trying to fill that gap between
+<em>00:07.840</em></p>
+<p>Hey, Sam.
+<em>00:07.840</em></p>
+<p>Can you just do it in After Effects?
+<em>00:07.920</em></p>
+<p>I don&#x27;t really know if that&#x27;s true, but you know, people are trying to
+<em>00:07.920</em></p>
+<p>Let&#x27;s call him ghost, okay?
+<em>00:07.920</em></p>
+<p>But because it&#x27;s limited, we have to make so many workarounds.
+<em>00:07.920</em></p>
+<p>I&#x27;m sorry.
+<em>00:07.920</em></p>
+<p>This one, okay, you get it tomorrow morning.
+<em>00:07.920</em></p>
+<p>Their licensing is easy.
+<em>00:08.000</em></p>
+<p>Yeah.
+<em>00:08.000</em></p>
+<p>You know, of course, if I would be in States, maybe we could accuse them and
+<em>00:08.000</em></p>
+<p>Right, okay.
+<em>00:08.000</em></p>
+<p>Where am I going to access it?
+<em>00:08.000</em></p>
+<p>Hey, this is just motion VFX, yes.
+<em>00:08.000</em></p>
+<p>It is looking very positive.
+<em>00:08.000</em></p>
+<p>I&#x27;m looking at here
+<em>00:08.080</em></p>
+<p>And I make sure I want to make sure that every single project we release is legit
+<em>00:08.080</em></p>
+<p>He&#x27;s walking along and he&#x27;s, you know, he&#x27;s it&#x27;s a Will Farrell.
+<em>00:08.080</em></p>
+<p>And then one last thing, I just looked over at another screen.
+<em>00:08.080</em></p>
+<p>So, this is basically the difference between the motion templates and clients.
+<em>00:08.160</em></p>
+<p>But I will say this, that
+<em>00:08.160</em></p>
+<p>I don&#x27;t want to sit here and you know
+<em>00:08.160</em></p>
+<p>I&#x27;m going to have to write this down because I&#x27;m totally going to for
+<em>00:08.160</em></p>
+<p>Nothing.
+<em>00:08.240</em></p>
+<p>Yeah.
+<em>00:08.240</em></p>
+<p>Motion is a 50 bucks software, and it&#x27;s so fast.
+<em>00:08.240</em></p>
+<p>We are still struggling with some problems.
+<em>00:08.240</em></p>
+<p>That&#x27;s very cool.
+<em>00:08.240</em></p>
+<p>I work with the Pixel Mater, I work with the Motion and Franca Pro.
+<em>00:08.320</em></p>
+<p>I want to try MObject.
+<em>00:08.320</em></p>
+<p>That&#x27;s correct.
+<em>00:08.400</em></p>
+<p>You know, my son is twelve years old already, and I&#x27;m trying to
+<em>00:08.400</em></p>
+<p>So I I&#x27;m a big fan of uh Sons of Anarchy, which is on American television.
+<em>00:08.400</em></p>
+<p>I would really appreciate it.
+<em>00:08.400</em></p>
+<p>So, Simon, thanks for joining us on the little show here.
+<em>00:08.480</em></p>
+<p>I&#x27;m like, ah, I couldn&#x27;t.
+<em>00:08.480</em></p>
+<p>And I said, oh, wow, this is really great.
+<em>00:08.480</em></p>
+<p>I mean, clearly we spent like our research and development was
+<em>00:08.480</em></p>
+<p>I&#x27;ve been doing crazy visual effects for feature films.
+<em>00:08.480</em></p>
+<p>And we&#x27;re going to be putting Final Cut Tens
+<em>00:08.480</em></p>
+<p>And you went, Oh my God, that&#x27;s my dust.
+<em>00:08.560</em></p>
+<p>And I remember we were
+<em>00:08.560</em></p>
+<p>Very very cool stuff.
+<em>00:08.560</em></p>
+<p>There you go.
+<em>00:08.640</em></p>
+<p>And I think
+<em>00:08.640</em></p>
+<p>But remember
+<em>00:08.640</em></p>
+<p>First, 10 people who will retweet.
+<em>00:08.640</em></p>
+<p>Motion is a box of Lego.
+<em>00:08.720</em></p>
+<p>It&#x27;s a pain.
+<em>00:08.720</em></p>
+<p>And I know it&#x27;s kind of like your children.
+<em>00:08.800</em></p>
+<p>This is M object plus shaders.
+<em>00:08.800</em></p>
+<p>His name is Dan Phillipson.
+<em>00:08.880</em></p>
+<p>And that
+<em>00:08.880</em></p>
+<p>Yeah.
+<em>00:08.880</em></p>
+<p>I mean, your editor could screw something up and do a typo, which I&#x27;ve been known to do many times.
+<em>00:08.880</em></p>
+<p>So, what I&#x27;d love to do, I&#x27;d love to have you, I&#x27;d like to go through
+<em>00:08.880</em></p>
+<p>So
+<em>00:08.880</em></p>
+<p>And depending on what you had selected, whether it was a wipe or a dissolve, the auto trans would initiate with the space bar.
+<em>00:08.880</em></p>
+<p>Use your damn keyboard.
+<em>00:08.880</em></p>
+<p>But anyway, it was, we were kind of doing the
+<em>00:08.880</em></p>
+<p>So I had to ask him to send me a sound file because I wanted to get it right.
+<em>00:08.880</em></p>
+<p>.
+<em>00:08.960</em></p>
+<p>Hold on.
+<em>00:08.960</em></p>
+<p>And you&#x27;re going to have to tweet this phrase.
+<em>00:08.960</em></p>
+<p>I&#x27;m just going to tell you that right now.
+<em>00:08.960</em></p>
+<p>And while it&#x27;s playing, I&#x27;m going to figure out what it&#x27;s called so I can tell you.
+<em>00:09.040</em></p>
+<p>And I&#x27;ve actually been
+<em>00:09.040</em></p>
+<p>I was like, Oh my goodness, this is such a great plug-in.
+<em>00:09.040</em></p>
+<p>I don&#x27;t know why people are saying that.
+<em>00:09.040</em></p>
+<p>I don&#x27;t have to know how to model.
+<em>00:09.040</em></p>
+<p>No, it&#x27;s going to be Michael Toe.
+<em>00:09.040</em></p>
+<p>com.
+<em>00:09.120</em></p>
+<p>Right.
+<em>00:09.120</em></p>
+<p>I believe that, you know, this is
+<em>00:09.120</em></p>
+<p>Oh, yeah, yeah, I&#x27;ll get to that.
+<em>00:09.120</em></p>
+<p>And
+<em>00:09.120</em></p>
+<p>I want you to go check it out.
+<em>00:09.200</em></p>
+<p>So explain like I&#x27;m five years old the difference between a motion template and a plugin.
+<em>00:09.280</em></p>
+<p>What as you mentioned, the other companies purchased our Dust elements.
+<em>00:09.280</em></p>
+<p>Let
+<em>00:09.280</em></p>
+<p>So I didn&#x27;t really be afraid of that.
+<em>00:09.280</em></p>
+<p>So I think we are pretty successful on that.
+<em>00:09.280</em></p>
+<p>It&#x27;s easy to edit.
+<em>00:09.360</em></p>
+<p>Love it, love it, love it.
+<em>00:09.360</em></p>
+<p>Okay, so that&#x27;s my license.
+<em>00:09.360</em></p>
+<p>So that&#x27;s amazing.
+<em>00:09.360</em></p>
+<p>Okay.
+<em>00:09.360</em></p>
+<p>No, we are actually based on the south of Poland.
+<em>00:09.440</em></p>
+<p>So this is not an advertisement.
+<em>00:09.440</em></p>
+<p>This is so complicated.
+<em>00:09.440</em></p>
+<p>So
+<em>00:09.520</em></p>
+<p>And not MObject, but the artist bundle, which is 200 bucks.
+<em>00:09.520</em></p>
+<p>So I&#x27;m looking at.
+<em>00:09.680</em></p>
+<p>These are your elements in option.
+<em>00:09.760</em></p>
+<p>It&#x27;s very slow.
+<em>00:09.840</em></p>
+<p>What&#x27;s the deal?
+<em>00:09.920</em></p>
+<p>That sort of 80% in the middle.
+<em>00:09.920</em></p>
+<p>Now, Simon, you can be searching for that.
+<em>00:09.920</em></p>
+<p>And so it&#x27;s it&#x27;s unbeliev and and not only
+<em>00:10.000</em></p>
+<p>Yeah.
+<em>00:10.080</em></p>
+<p>Now Motion has a 3D workspace and 3D lighting and stuff like that.
+<em>00:10.160</em></p>
+<p>Hmm.
+<em>00:10.160</em></p>
+<p>There are not any templates on me.
+<em>00:10.240</em></p>
+<p>I like to pay once and use it for my timeline.
+<em>00:10.240</em></p>
+<p>He goes, yeah, but I don&#x27;t want my clients to know how easy this was.
+<em>00:10.320</em></p>
+<p>But the the other thing happened to me a couple of weeks ago, which is connected to this story.
+<em>00:10.320</em></p>
+<p>You really
+<em>00:10.320</em></p>
+<p>This is some percentage of our market as well.
+<em>00:10.400</em></p>
+<p>And
+<em>00:10.400</em></p>
+<p>Yeah, that&#x27;s cool, right?
+<em>00:10.480</em></p>
+<p>And we feel a lot of
+<em>00:10.480</em></p>
+<p>That sounds odd to me.
+<em>00:10.480</em></p>
+<p>I think I&#x27;m going to be doing some work with our friends at FCP Works.
+<em>00:10.480</em></p>
+<p>And I got to tell you, this thing kind of blows me away.
+<em>00:10.640</em></p>
+<p>Maybe I should even look at seeing if they want to sponsor the show.
+<em>00:10.640</em></p>
+<p>I was uh talking to my friend in the major television a couple of days ago.
+<em>00:10.640</em></p>
+<p>This is Fine Cat Pro 7, this is Fine Cat Pro Studio, I like it.
+<em>00:10.640</em></p>
+<p>I know what you feel, but.
+<em>00:10.640</em></p>
+<p>I hate that.
+<em>00:10.640</em></p>
+<p>So this is basically this is for six years.
+<em>00:10.720</em></p>
+<p>Yeah, how do you do that?
+<em>00:10.720</em></p>
+<p>It&#x27;s not like I&#x27;m selling time here.
+<em>00:10.800</em></p>
+<p>Um
+<em>00:10.880</em></p>
+<p>And I just want to mention, we were talking about Pixelmater.
+<em>00:10.880</em></p>
+<p>And I
+<em>00:10.960</em></p>
+<p>But of course, we have that problems as well.
+<em>00:11.040</em></p>
+<p>And we are constantly getting the answer from Apple saying
+<em>00:11.040</em></p>
+<p>It&#x27;s a whole
+<em>00:11.040</em></p>
+<p>It&#x27;s refreshes like a
+<em>00:11.040</em></p>
+<p>Okay.
+<em>00:11.120</em></p>
+<p>So I apologize for that.
+<em>00:11.280</em></p>
+<p>So basically, what had happened, and you went through.
+<em>00:11.360</em></p>
+<p>Like, ugh, okay.
+<em>00:11.360</em></p>
+<p>I think they&#x27;re fans.
+<em>00:11.440</em></p>
+<p>And there&#x27;s all kinds of ways that you can customize things.
+<em>00:11.440</em></p>
+<p>Of course, motion is very limited.
+<em>00:11.440</em></p>
+<p>I appreciate you taking the time.
+<em>00:11.600</em></p>
+<p>We want to make it
+<em>00:11.600</em></p>
+<p>So it&#x27;s not the plugin alone, but the
+<em>00:11.600</em></p>
+<p>What I can&#x27;t do
+<em>00:11.680</em></p>
+<p>I mean, how did you even
+<em>00:11.680</em></p>
+<p>I&#x27;m afraid of that.
+<em>00:11.760</em></p>
+<p>And I say
+<em>00:11.840</em></p>
+<p>Now I&#x27;m making a much bigger deal out of it than I should have been.
+<em>00:11.920</em></p>
+<p>I hope they&#x27;re fans.
+<em>00:12.080</em></p>
+<p>Yeah, and these are your filters.
+<em>00:12.080</em></p>
+<p>I remember we&#x27;ve been the first company
+<em>00:12.080</em></p>
+<p>So that&#x27;s what I need for a living.
+<em>00:12.160</em></p>
+<p>And this
+<em>00:12.240</em></p>
+<p>I always believe that
+<em>00:12.400</em></p>
+<p>Maybe people are
+<em>00:12.400</em></p>
+<p>I can&#x27;t remember what what network it is.
+<em>00:12.480</em></p>
+<p>This is just something where I look at it and I&#x27;m like.
+<em>00:12.480</em></p>
+<p>Just tell your friends.
+<em>00:12.640</em></p>
+<p>I mean
+<em>00:12.880</em></p>
+<p>It&#x27;s actually, I think you were right, it&#x27;s $30.
+<em>00:13.120</em></p>
+<p>.
+<em>00:13.200</em></p>
+<p>This is about eight o&#x27;clock at night for you.
+<em>00:13.280</em></p>
+<p>All right.
+<em>00:13.440</em></p>
+<p>If people
+<em>00:13.440</em></p>
+<p>Yes.
+<em>00:13.840</em></p>
+<p>It&#x27;s
+<em>00:14.080</em></p>
+
+                
+                <!-- Required only on API pages -->
+                <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
+            </div>
+            <footer id="retype-content-footer" class="clear-both">
+            
+                <nav id="retype-nextprev" class="print:hidden flex mt-14">
+                    <div class="w-1/2">
+                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../../episodes/101-110/episode-107/">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                            <span>
+                                <span class="block text-xs font-normal text-base-text-muted">Previous</span>
+                                <span class="block mt-1">Episode 107</span>
+                            </span>
+                        </a>
+                    </div>
+            
+                    <div class="w-1/2">
+                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../../episodes/101-110/episode-109/">
+                            <span>
+                                <span class="block text-xs font-normal text-right text-base-text-muted">Next</span>
+                                <span class="block mt-1">Episode 109</span>
+                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                        </a>
+                    </div>
+                </nav>
+            </footer>
+        </main>
+
+        <div id="retype-page-footer" class="print:border-none border-t border-base-border pt-6 mb-8">
+            <footer class="flex flex-wrap items-center justify-between print:justify-center">
+                <div id="retype-footer-links" class="print:hidden">
+                    <ul class="flex flex-wrap items-center text-sm">
+                    </ul>
+                </div>
+                <div id="retype-copyright" class="print:justify-center py-2 text-footer-text font-footer-link text-sm leading-relaxed"><p>© Copyright 2026 LateNite Films Pty Ltd. All rights reserved.</p></div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Rendered if sidebar right is enabled -->
+    <!-- Sidebar right skeleton-->
+    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-sidebar-right-bg border-sidebar-right-border lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:translate-x-0 sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton">
+        <div class="pl-5">
+            <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+            <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+            <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+        </div>
+    </div>
+
+    <!-- User should be able to hide sidebar right -->
+    <doc-sidebar-right v-cloak></doc-sidebar-right>
+</div>
+
+        </div>
+    </div>
+
+    <doc-search-mobile></doc-search-mobile>
+    <doc-back-to-top></doc-back-to-top>
+</div>
+
+
+    <div id="retype-overlay-target"></div>
+
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Episode 108", level: 3, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+</body>
+</html>

@@ -1,0 +1,3063 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.827666826594">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 4.4.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Episode 117</title>
+    <meta name="title" content="Episode 117">
+    <meta name="description" content="FCG117 - NAB/10.2 Meltdown - Sort of… (feat. Daniel Ray Todd Villegas)">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://grill.fcp.cafe/episodes/111-120/episode-117/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://grill.fcp.cafe/episodes/111-120/episode-117/">
+    <meta property="og:title" content="Episode 117">
+    <meta property="og:description" content="FCG117 - NAB/10.2 Meltdown - Sort of… (feat. Daniel Ray Todd Villegas)">
+    <meta property="og:site_name" content="Final Cut Grill">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://grill.fcp.cafe/episodes/111-120/episode-117/">
+    <meta name="twitter:title" content="Episode 117">
+    <meta name="twitter:description" content="FCG117 - NAB/10.2 Meltdown - Sort of… (feat. Daniel Ray Todd Villegas)">
+
+    <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
+
+    <link id="retype-favicon" rel="icon" href="../../../static/favicon.ico" />
+    <link href="../../../resources/css/retype.css?v=4.4.0.827666826594" rel="stylesheet">
+
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=4.4.0.827666826594" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=4.4.0.827666826594" data-turbo-eval="false" defer></script>
+</head>
+<body>
+    <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
+    <div class="absolute bottom-0 left-0" style="top: 5rem; right: 50%"></div>
+
+    <header id="retype-header" class="sticky top-0 z-30 flex w-full h-16 bg-header-bg border-b border-header-border md:h-20">
+        <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
+            <!-- Mobile menu button skeleton -->
+            <button v-cloak class="skeleton retype-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-hidden rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+            <div v-cloak id="retype-sidebar-left-toggle-button"></div>
+    
+            <!-- Logo -->
+            <div class="flex items-center justify-between h-full py-2 md:w-75">
+                <div class="flex items-center px-2 md:px-6">
+                    <a id="retype-branding-logo" href="https://grill.fcp.cafe/" class="flex items-center leading-snug text-xl">
+                        <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
+                            <img class="max-h-10 md:inline-block" src="../../../static/fcp-grill.jpg" alt="" width="40" height="40">
+                        </span>
+                        <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">Final Cut Grill</span>
+                    </a>
+                </div>
+    
+                <span class="hidden h-8 border-r md:inline-block border-base-border"></span>
+            </div>
+    
+            <div class="flex justify-between md:grow">
+                <!-- Top Nav -->
+                <nav id="retype-header-nav" class="hidden md:flex">
+                    <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://github.com/latenitefilms/grill/issues" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Zm9.5 2a2 2 0 1 1-.001-3.999A2 2 0 0 1 12 14Z"/>
+                                </svg>
+                                <span>Issues</span>
+                            </a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://github.com/latenitefilms/grill/discussions" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                </svg>
+                                <span>Discussions</span>
+                            </a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://discord.gg/b2r27UtPJw" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                </svg>
+                                <span>Discord</span>
+                            </a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://fcp.cafe" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M15 4.75a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM2.5 19.25a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0Zm0-14.5a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM5.75 6.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 5.75 6.5Zm0 14.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 5.75 21Zm12.5-14.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 18.25 6.5Z"/><path d="M5.75 16.75A.75.75 0 0 1 5 16V8a.75.75 0 0 1 1.5 0v8a.75.75 0 0 1-.75.75Z"/><path d="M17.5 8.75v-1H19v1a3.75 3.75 0 0 1-3.75 3.75h-7a1.75 1.75 0 0 0-1.75 1.75H5A3.25 3.25 0 0 1 8.25 11h7a2.25 2.25 0 0 0 2.25-2.25Z"/>
+                                </svg>
+                                <span>FCP Cafe</span>
+                            </a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://fcp.cafe/latenite/" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
+                                </svg>
+                                <span>LateNite</span>
+                            </a>
+                        </li>
+    
+                    </ul>
+                </nav>
+    
+                <div v-cloak class="flex justify-end grow">
+                    <div id="retype-mobile-search-button"></div>
+                    <doc-search-desktop></doc-search-desktop>
+    
+                    <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                    <doc-history></doc-history>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div id="retype-container" class="container relative flex bg-white">
+        <!-- Sidebar Skeleton -->
+        <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-sidebar-left-bg border-sidebar-left-border sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton">
+        
+            <div class="flex items-center h-16 px-6">
+                <input id="retype-filter-input-mock" class="w-full h-10 pl-8 px-3 py-2 transition-colors duration-200 ease-linear bg-filter-bg border border-filter-border rounded-lg shadow-none md:text-sm hover:border-filter-border-hover focus:outline-hidden focus:border-filter-border-focus placeholder-filter-placeholder" type="text">
+            </div>
+        
+            <div class="pl-6 mt-1 mb-4">
+                <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+            </div>
+        
+        </div>
+        
+        <!-- Sidebar component -->
+        <doc-sidebar v-cloak>
+            <template #sidebar-footer>
+                <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-base-border">
+        
+                    <div class="py-3 px-6 md:hidden border-b dark:border-base-border">
+                        <nav>
+                            <ul class="flex flex-wrap justify-center items-center">
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://github.com/latenitefilms/grill/issues" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Zm9.5 2a2 2 0 1 1-.001-3.999A2 2 0 0 1 12 14Z"/>
+                                        </svg>
+                                        <span>Issues</span>
+                                    </a>
+                                </li>
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://github.com/latenitefilms/grill/discussions" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                        </svg>
+                                        <span>Discussions</span>
+                                    </a>
+                                </li>
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://discord.gg/b2r27UtPJw" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                        </svg>
+                                        <span>Discord</span>
+                                    </a>
+                                </li>
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://fcp.cafe" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M15 4.75a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM2.5 19.25a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0Zm0-14.5a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM5.75 6.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 5.75 6.5Zm0 14.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 5.75 21Zm12.5-14.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 18.25 6.5Z"/><path d="M5.75 16.75A.75.75 0 0 1 5 16V8a.75.75 0 0 1 1.5 0v8a.75.75 0 0 1-.75.75Z"/><path d="M17.5 8.75v-1H19v1a3.75 3.75 0 0 1-3.75 3.75h-7a1.75 1.75 0 0 0-1.75 1.75H5A3.25 3.25 0 0 1 8.25 11h7a2.25 2.25 0 0 0 2.25-2.25Z"/>
+                                        </svg>
+                                        <span>FCP Cafe</span>
+                                    </a>
+                                </li>
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://fcp.cafe/latenite/" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
+                                        </svg>
+                                        <span>LateNite</span>
+                                    </a>
+                                </li>
+        
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </template>
+        </doc-sidebar>
+
+        <div class="grow min-w-0 bg-body-bg">
+            <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+<div class="flex">
+    <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
+        <main class="relative pb-12 lg:pt-2">
+            <div class="retype-markdown" id="retype-content">
+                <!-- Rendered if sidebar right is enabled -->
+                <div id="retype-sidebar-right-toggle"></div>
+                <nav id="retype-breadcrumb" class="breadcrumb" aria-label="Breadcrumb">
+                    <ol role="list">
+                        <li class="pr-4">
+                            <a href="../../../" class="pr-4">
+                                Welcome
+                            </a>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/>
+                            </svg>
+                        </li>
+                        <li class="pr-4">
+                            <span class="pr-4">
+                                Episodes
+                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/>
+                            </svg>
+                        </li>
+                        <li class="pr-4">
+                            <span class="pr-4">
+                                111 120
+                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/>
+                            </svg>
+                        </li>
+                        <li class="pr-4">
+                            <a href="../../../episodes/111-120/episode-117/" class="pr-4">
+                                Episode 117
+                            </a>
+                        </li>
+                    </ol>
+                </nav>
+
+                <!-- Page content  -->
+<h1 id="episode-117">Episode 117</h1>
+<p><strong>FCG117 - NAB/10.2 Meltdown - Sort of… (feat. Daniel Ray Todd Villegas)</strong></p>
+<p>Hey MOM!!! I’m on a podcast! I don’t think that Daniel Ray Todd Villegas thought that after spending a week listening to me in the FCPWORKS Presentation Suite at NAB, that all of a sudden he would be on the show sharing what he learned with others. Often times I think that the most pure form of sharing information is when you hear what the normal guy off the street has to say. Todd is an editor from Santa Cruz California and clearly a forward thinking guy who spent a lot of time talking to the people around the Presentation Suite and it shows. You’re going to appreciate his insight. send to compressor doesn’t access the cache file but it allows you to send to compressor and Compressor has access to BOTH GPU’s and render very fast and distributed render and apply multiple settings Compressor 4.2 has a preference to leverage the GPU SHARE WINDOW - using the SHARE window is good because you can do it IN FCPX and you get all the render files if you have your built in presets BUT You can BUNDLE Brian Gary - teamed up with Ripple Training Be on the Show</p>
+<hr>
+<h2 id="download">Download</h2>
+<ul>
+<li><a href="https://cdn.fcp.cafe/grill/FCG117-Daniel-Ray-Todd-Villagas.mp3" class="outbound" target="_blank"><span>MP3</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></li>
+</ul>
+<hr>
+<h2 id="featuring">Featuring</h2>
+<ul>
+<li>Chris Fenwick - chrisfenwick.com - @chrisfenwick</li>
+<li>Daniel Ray Todd Villegas - @oneeditaday</li>
+<li><a href="mailto:lehans@gmail.com">lehans@gmail.com</a> - a final cut editor from south america</li>
+</ul>
+<hr>
+<h2 id="transcription">Transcription</h2>
+<p>And I immediately went to my playlist because I know what kind of music is in there.
+<em>00:00.001</em></p>
+<p>The FCP Works Suite was all about.
+<em>00:00.001</em></p>
+<p>But I mean, as far as what the actual industry out here is, that&#x27;s a big part of it.
+<em>00:00.001</em></p>
+<p>And thank God for a producer&#x27;s assistant, because you can go in and you can find out which clips actually have the effect you&#x27;re looking for on it, and then you can
+manually go in and check them off.
+<em>00:00.001</em></p>
+<p>But the visual voicemail saved me so much time.
+<em>00:00.001</em></p>
+<p>We heard uh twenty thousand people are interested in this in this in this in this up in this idea.
+<em>00:00.001</em></p>
+<p>I mean kind of.
+<em>00:00.001</em></p>
+<p>Cool.
+<em>00:00.001</em></p>
+<p>Do you remember the That Thing You Do?
+<em>00:00.001</em></p>
+<p>hippie healthcare industry.
+<em>00:00.080</em></p>
+<p>I don&#x27;t you witness he wasn&#x27;t drinking or anything.
+<em>00:00.080</em></p>
+<p>my edit machine.
+<em>00:00.080</em></p>
+<p>She&#x27;s a tiny tihua the size of of a of a Labrador in in her in her head, anyways.
+<em>00:00.080</em></p>
+<p>&#x27;Cause everyone was just focused on there&#x27;s no keyboard.
+<em>00:00.080</em></p>
+<p>Right, right, right, right, right.
+<em>00:00.080</em></p>
+<p>Thanks, Sam.
+<em>00:00.080</em></p>
+<p>No, I owe I always do it within ten.
+<em>00:00.080</em></p>
+<p>mixed with some FTP server stuff, and then you have a compress some uh an external compressor, and then you have some other diver uh thing for client review, something
+else for notes.
+<em>00:00.080</em></p>
+<p>Hey, so we&#x27;re back from NAB.
+<em>00:00.160</em></p>
+<p>the edit system of the future.
+<em>00:00.160</em></p>
+<p>that we literally had people approaching us saying, oh my goodness, you guys should be charging for this.
+<em>00:00.160</em></p>
+<p>because he came walking he was very kind of fashion conscious I&#x27;ll say but he had these little little tiny peg leg pants on that I looked at him I go how the hell do you get
+your foot through that thing
+<em>00:00.160</em></p>
+<p>With producers, they&#x27;ll go, I don&#x27;t like that.
+<em>00:00.160</em></p>
+<p>The licensing is simple.
+<em>00:00.160</em></p>
+<p>Now drones like people, mindless people or helicopters?
+<em>00:00.160</em></p>
+<p>the new ten point two release.
+<em>00:00.160</em></p>
+<p>So really early version of a 10.
+<em>00:00.160</em></p>
+<p>But we you know it&#x27;s weird?
+<em>00:00.160</em></p>
+<p>You&#x27;ll find our our video up there.
+<em>00:00.160</em></p>
+<p>Too shabby.
+<em>00:00.160</em></p>
+<p>You work in media.
+<em>00:00.160</em></p>
+<p>He&#x27;s a vice president of something, and he&#x27;s just talking about living in New York and what a mess it was right now, currently, from the weather-wise.
+<em>00:00.160</em></p>
+<p>And it&#x27;s very much like Tai Chi.
+<em>00:00.160</em></p>
+<p>But he has a really long he has a long series that he&#x27;s producing right now that I&#x27;m working on.
+<em>00:00.160</em></p>
+<p>I&#x27;m currently working for another organization called Boldly Me.
+<em>00:00.160</em></p>
+<p>like um just kind of out of film school kids that are uh that are that are that are close to making that the edge jumping off that edge there and so that&#x27;s kind of why i was
+over there at the at the scp work suite just kind of soaking as much as possible because i know it&#x27;s possible
+<em>00:00.160</em></p>
+<p>You can think about it, you can think about the options for that for the producer&#x27;s point of view.
+<em>00:00.160</em></p>
+<p>You know, he&#x27;s like, well, for myself, he&#x27;s like, I&#x27;m kind of over it.
+<em>00:00.160</em></p>
+<p>We were sitting there in our in our in our in our production truck.
+<em>00:00.160</em></p>
+<p>I think he&#x27;s a great cutter.
+<em>00:00.160</em></p>
+<p>Sure.
+<em>00:00.160</em></p>
+<p>A gentleman approached me and told me that he had listened to a couple of episodes of The Grill, but wasn&#x27;t convinced.
+<em>00:00.160</em></p>
+<p>to talk to you guys, meaning these mana high level managers at Apple.
+<em>00:00.160</em></p>
+<p>You know, of something, throw it all out there.
+<em>00:00.160</em></p>
+<p>from from here, but here we have all these extra tools that we&#x27;re going to help to create make this community, make this family of editors stronger.
+<em>00:00.160</em></p>
+<p>just finding these other and these other avenues, I don&#x27;t see that that same type of passion coming from the s from the ground up like I do with Final Code.
+<em>00:00.160</em></p>
+<p>Denver has said that, yeah, you know, it&#x27;s going really well.
+<em>00:00.160</em></p>
+<p>It&#x27;s not like, wow, you&#x27;re really liking color finale.
+<em>00:00.160</em></p>
+<p>in Scotts Valley, and then they&#x27;re ETR and associates.
+<em>00:00.160</em></p>
+<p>But the point is, I I have really, really, really, really, really had a hard time kind of selling Final Cut to them because inside of their house, they use Premiere.
+<em>00:00.160</em></p>
+<p>Of work.
+<em>00:00.160</em></p>
+<p>And we won&#x27;t get into all of that here, but you know, maybe I should have Philip.
+<em>00:00.160</em></p>
+<p>And when Philip and I watched that thing at FCP Works with Philip and he&#x27;s talking about, hey, you can have multiple people watching what it is you&#x27;re working on and have
+your edits ready to go by the time that you turn off that camera.
+<em>00:00.160</em></p>
+<p>And it&#x27;s true, as an editor or someone that relies on this program for their livelihood, when you don&#x27;t hear the exactly like, we&#x27;re going to be supporting this
+forever, it&#x27;s not going to go away like Aperture.
+<em>00:00.160</em></p>
+<p>There&#x27;s a little bit of discomfort when you don&#x27;t know that that&#x27;s the case.
+<em>00:00.160</em></p>
+<p>but not necessarily so helpful when it comes to the Final Cut community and the editing community, people that rely on an actual program for their livelihood
+necessarily, you know?
+<em>00:00.160</em></p>
+<p>But when it comes to Apple, it th it&#x27;s a little bit of a disconnect for a lot of people.
+<em>00:00.160</em></p>
+<p>We heard your feet your features are coming out in a few months.
+<em>00:00.160</em></p>
+<p>So, a new icon.
+<em>00:00.160</em></p>
+<p>From a marketing standpoint, from a marketing standpoint, it&#x27;s not like, hey, let&#x27;s make a big bullet point on a banner and we&#x27;ll hang it over the front door at Apple, at
+NAB.
+<em>00:00.160</em></p>
+<p>necessarily three D text kind of thing.
+<em>00:00.160</em></p>
+<p>I mean, honestly, Final Cuts is a database.
+<em>00:00.160</em></p>
+<p>It&#x27;s a smaller update than adding multicam or adding another glossy feature is.
+<em>00:00.160</em></p>
+<p>And every time there&#x27;s been a big update, a big update, it&#x27;s like, oh, you guys, you guys want to learn how to do something really fast?
+<em>00:00.160</em></p>
+<p>On a future broadcast.
+<em>00:00.160</em></p>
+<p>I really am passionate about not just this program, but about just video creation in general.
+<em>00:00.160</em></p>
+<p>Thousand hours before we started this recording.
+<em>00:00.160</em></p>
+<p>the more work that it took to actually get it to that point.
+<em>00:00.160</em></p>
+<p>Yeah, it&#x27;s usually because a crap load of work went into it.
+<em>00:00.160</em></p>
+<p>Or I mean, like you said, a color change or whatnot, you can actually then you can track that to your to your image.
+<em>00:00.160</em></p>
+<p>The motion integration is kind of cool.
+<em>00:00.160</em></p>
+<p>It&#x27;s so funny.
+<em>00:00.160</em></p>
+<p>Uh, checking voicemail, you hear that, like you know, um, you put in your password.
+<em>00:00.160</em></p>
+<p>And you look at some of these things that are that but what they end up turning into and it&#x27;s kind of it&#x27;s kind of turned into is now you have an iPhone that&#x27;s that that not
+not just has these other excuse me.
+<em>00:00.160</em></p>
+<p>That&#x27;s from a few years ago.
+<em>00:00.160</em></p>
+<p>I think it was a stupid justification because that&#x27;s a really loaded statement, like all their titles in Final Pet Pro.
+<em>00:00.160</em></p>
+<p>Yes.
+<em>00:00.160</em></p>
+<p>You can rename a mask but not the color corrector one two three four five.
+<em>00:00.160</em></p>
+<p>And you want to find all the clips that are that these parameters, you can put it in your in your library and get it across all these events.
+<em>00:00.160</em></p>
+<p>who&#x27;s not necessarily an editor, but that if there is a disconnect between those two different mindsets, when you introduce something like that, it&#x27;s almost like,
+well, why wouldn&#x27;t you have it set up so you could have it
+<em>00:00.160</em></p>
+<p>when you send a compressor.
+<em>00:00.160</em></p>
+<p>Maybe you need a small like something you can actually email out to somebody some email review.
+<em>00:00.160</em></p>
+<p>your speed should be pretty darn quick because it&#x27;ll be able to use your optimized video.
+<em>00:00.160</em></p>
+<p>I think it&#x27;s one of the coolest things I&#x27;ve seen in a long time.
+<em>00:00.160</em></p>
+<p>for you know, maybe ten to fifteen minutes.
+<em>00:00.160</em></p>
+<p>And so I don&#x27;t know, just kind of seeing that kind of that kind of passion amongst this entire community is kind of what inspired me in general just to kind of continue
+along with Final Code.
+<em>00:00.160</em></p>
+<p>Oh wow.
+<em>00:00.160</em></p>
+<p>And they have it, they had a huge space they took out on the floor.
+<em>00:00.160</em></p>
+<p>Do you know?
+<em>00:00.160</em></p>
+<p>But you&#x27;ll have they&#x27;ll have they&#x27;ll be in your hands, start getting creative, go out there and do something fun with them, and we&#x27;ll be there to uh to make more stuff
+next year.
+<em>00:00.160</em></p>
+<p>And we can come up with these ideas quickly.
+<em>00:00.160</em></p>
+<p>that the woman that was doing the demo, like on a few occasions, she would say, uh, um, so and and that&#x27;s the new so-and-so and such and such.
+<em>00:00.160</em></p>
+<p>gauge, like, do people really want this or not?
+<em>00:00.160</em></p>
+<p>I looked at some of the cameras that they were using there, and I think they&#x27;re all stu they were all the studio the Black Magic Studio cameras.
+<em>00:00.160</em></p>
+<p>Or NOK Productions and you can find some good stuff on there.
+<em>00:00.160</em></p>
+<p>Lectures, some of it was just like, hey, look, we got a new camera.
+<em>00:00.240</em></p>
+<p>I noticed like some images were popping up on the web, and I couldn&#x27;t tell exactly who they were.
+<em>00:00.240</em></p>
+<p>But it&#x27;s really important that it it&#x27;s it&#x27;s wonderful that Premium Beat sees that shows like this are worth
+<em>00:00.240</em></p>
+<p>This is the classic thing.
+<em>00:00.240</em></p>
+<p>So, anyway, we&#x27;re going to talk with Todd.
+<em>00:00.240</em></p>
+<p>to NAB.
+<em>00:00.240</em></p>
+<p>those uh alliterations of of final cut.
+<em>00:00.240</em></p>
+<p>name is Teresa Chu and I.
+<em>00:00.240</em></p>
+<p>I have uh my dog&#x27;s name is Apple, by the way.
+<em>00:00.240</em></p>
+<p>Uh very early on, very early on.
+<em>00:00.240</em></p>
+<p>The person who&#x27;s talking, are they like me?
+<em>00:00.240</em></p>
+<p>And he does chipsling called Qigong.
+<em>00:00.240</em></p>
+<p>They have no job after like, you know, a one or two little freebie deals.
+<em>00:00.240</em></p>
+<p>You know, Mike, you know, Mike, I don&#x27;t want to take over this whole thing, but you know, Mike Masdorf, he&#x27;s just hit during one of the during one of the sessions, he says
+something like, someone says, Oh, what do you think about Avid?
+<em>00:00.240</em></p>
+<p>At some accounting firm, and he&#x27;s like, okay, yeah, all right, I&#x27;ll do that.
+<em>00:00.240</em></p>
+<p>This is standard.
+<em>00:00.240</em></p>
+<p>Final Cut Classic.
+<em>00:00.240</em></p>
+<p>that that hears this amazing this the stuff that&#x27;s like, oh, that sounds innovative.
+<em>00:00.240</em></p>
+<p>The final he cause, I think, somewhere in his mind, he sort of assumed that Final Cut 7 would never change for thousands of years.
+<em>00:00.240</em></p>
+<p>Uh, meet up, correct?
+<em>00:00.240</em></p>
+<p>If you&#x27;re curious about switching, and he and at the point where I started talking to him, he wasn&#x27;t even curious.
+<em>00:00.240</em></p>
+<p>Actually, take place, and it took place.
+<em>00:00.240</em></p>
+<p>Chris is no joke.
+<em>00:00.240</em></p>
+<p>And I think the thing that was the most interesting was that, and I&#x27;m trying to find a letter that I wrote just recently.
+<em>00:00.240</em></p>
+<p>using this.
+<em>00:00.240</em></p>
+<p>You know, this is how it&#x27;s done.
+<em>00:00.240</em></p>
+<p>Oh.
+<em>00:00.240</em></p>
+<p>I proceeded to spend about a half an hour very passionately explaining to him a way that he could experiment with Franchet Ten and then slowly make a transition in his
+business that has six edit suites.
+<em>00:00.240</em></p>
+<p>That he would give it a try.
+<em>00:00.240</em></p>
+<p>During the entire conversation, two Apple employees, to remain nameless, were standing about three feet away listening to everything.
+<em>00:00.240</em></p>
+<p>He&#x27;s gonna start using Final Cut X.
+<em>00:00.240</em></p>
+<p>Hey, Todd, how&#x27;s it going?
+<em>00:00.240</em></p>
+<p>and they have twenty different cameras going off.
+<em>00:00.240</em></p>
+<p>That&#x27;s the kind of community that we have here.
+<em>00:00.240</em></p>
+<p>Because all we want to do is make it easy for you.
+<em>00:00.240</em></p>
+<p>You know, they&#x27;re just not.
+<em>00:00.240</em></p>
+<p>Neatly packaged together necessarily.
+<em>00:00.240</em></p>
+<p>And so when it launched 10.
+<em>00:00.240</em></p>
+<p>And they could cut me off.
+<em>00:00.240</em></p>
+<p>just stupid that they won&#x27;t they can make all they can make all your your your copies of final cut go back to 10 i mean go back to uh yeah yeah or 10.
+<em>00:00.240</em></p>
+<p>Sure.
+<em>00:00.240</em></p>
+<p>But if I can just say here, when a guy&#x27;s talking on camera, put this effect preset on him, and it&#x27;ll gang all it&#x27;ll gang the whole
+<em>00:00.240</em></p>
+<p>You know, audio chain the way I want it to go.
+<em>00:00.240</em></p>
+<p>you know, add my channel EQ, add my gain, add my limiter, add my isotope denoiser, add my, you know, it&#x27;s just like, no, bing, bong, done.
+<em>00:00.240</em></p>
+<p>For me as an editor, much of the stuff that I want is not something that you would make a bullet point out of.
+<em>00:00.240</em></p>
+<p>But yeah, something that simple can just make your life easier.
+<em>00:00.240</em></p>
+<p>And I&#x27;ve been an alpha editor for a while.
+<em>00:00.240</em></p>
+<p>No problem at all.
+<em>00:00.240</em></p>
+<p>as smooth as possible.
+<em>00:00.240</em></p>
+<p>Oh, yeah.
+<em>00:00.240</em></p>
+<p>I did not sign anything about any of this.
+<em>00:00.240</em></p>
+<p>optimizing the code so it&#x27;s so it runs better.
+<em>00:00.240</em></p>
+<p>Pro super, super machine.
+<em>00:00.240</em></p>
+<p>Every effect that you apply to a video clip, if you hover your mouse over the little gray bar, you get a mask tool, just like you had in the old colorboard.
+<em>00:00.240</em></p>
+<p>That kind of gang together.
+<em>00:00.240</em></p>
+<p>So I think the fact that there&#x27;s color masking or excuse me that the shape and color masks is really powerful.
+<em>00:00.240</em></p>
+<p>AVC Ultra Codec family, XAVC, the JVC H.
+<em>00:00.240</em></p>
+<p>And so that visual voicemail was like this t tiny little feature set from this phone that saved me so much time.
+<em>00:00.240</em></p>
+<p>for these three D titles.
+<em>00:00.240</em></p>
+<p>Creative feedback.
+<em>00:00.240</em></p>
+<p>What&#x27;s interesting, I talked with another guy, and he&#x27;s like on the engineering team.
+<em>00:00.240</em></p>
+<p>God, why is my phone all die-in?
+<em>00:00.240</em></p>
+<p>That sometimes a device or a thing or a tool or a feature is created, and it&#x27;s not until you put it at the hands
+<em>00:00.240</em></p>
+<p>We haven&#x27;t.
+<em>00:00.240</em></p>
+<p>And I was like, how do I not know motion does this?
+<em>00:00.240</em></p>
+<p>I know these guys are really proud of their work.
+<em>00:00.240</em></p>
+<p>That doesn&#x27;t have any color correction on it, instead of digging through the effects tab to go add a color corrector, and instead of
+<em>00:00.240</em></p>
+<p>you know, um, copying, you know, and pasting or whatever, the easiest way to add color oh the color board to a clip is just hit Command 6.
+<em>00:00.240</em></p>
+<p>to the colorboard, it will leave that effect on that clip.
+<em>00:00.240</em></p>
+<p>You also have another keyword that has the word good take.
+<em>00:00.240</em></p>
+<p>And this ability for filtering has been around in OS X since the last edition, not USMIDY, but the one before where it allows you to tag in Mavericks, I believe.
+<em>00:00.240</em></p>
+<p>across the entire project they&#x27;re working on.
+<em>00:00.240</em></p>
+<p>So and again, I haven&#x27;t had a chance to see anything from NAB, but I know that they launched, they&#x27;re real, and you can get it and use it.
+<em>00:00.240</em></p>
+<p>I&#x27;m going to build this tool because I love what I do and I love this field and that&#x27;s what the product kind of came out of.
+<em>00:00.240</em></p>
+<p>Yeah, no, I mean, clearly it is, you know, it&#x27;s obviously my choice.
+<em>00:00.240</em></p>
+<p>2015 is the year where freelancers start going, ah, okay, maybe I should take a look at this.
+<em>00:00.240</em></p>
+<p>Okay community, you guys want you guys want some tools?
+<em>00:00.240</em></p>
+<p>They&#x27;ve got a 4K is that right?
+<em>00:00.240</em></p>
+<p>They have a um they have a I find the micro cinema camera.
+<em>00:00.240</em></p>
+<p>with this small little thing called Twitter.
+<em>00:00.240</em></p>
+<p>They were the studio cameras that look like they have an iPad glued to the back of them.
+<em>00:00.240</em></p>
+<p>Yeah, no, they use the Black Magic Studio Camera is the one it&#x27;s called.
+<em>00:00.240</em></p>
+<p>Anyways, one edit a day.
+<em>00:00.240</em></p>
+<p>For now, it&#x27;s still going to be one edit a day, is what it&#x27;s going to be.
+<em>00:00.240</em></p>
+<p>gonna fl fly very well.
+<em>00:00.240</em></p>
+<p>Like we did episode 100, and I might even have those guys, you know, call up their bins and whatnot and show how they organize stuff.
+<em>00:00.240</em></p>
+<p>user group or something, whatever it&#x27;s called.
+<em>00:00.240</em></p>
+<p>They were amazingly generous with their trust.
+<em>00:00.320</em></p>
+<p>And you know, it&#x27;s funny, you know, we asked people to register to be a part of the events.
+<em>00:00.320</em></p>
+<p>And I got to say, you know, it&#x27;s very interesting when you partake in something like this, where literally like, I am there, and I could deep six the entire thing for them.
+<em>00:00.320</em></p>
+<p>They never once told me what to say.
+<em>00:00.320</em></p>
+<p>I don&#x27;t necessarily connect faces with Twitter names.
+<em>00:00.320</em></p>
+<p>Oh, one edit a day is Todd.
+<em>00:00.320</em></p>
+<p>And he even showed up at the DCC meetup.
+<em>00:00.320</em></p>
+<p>But their music is curated.
+<em>00:00.320</em></p>
+<p>In the new version of PremiumBeat.
+<em>00:00.320</em></p>
+<p>So I just meercatted that commercial, and now we&#x27;re sitting here in front of Adobe Audition because that&#x27;s what I used to record the show.
+<em>00:00.320</em></p>
+<p>I did.
+<em>00:00.320</em></p>
+<p>Okay, so you choose it you choose it for the weather, quite simply.
+<em>00:00.320</em></p>
+<p>So, I mean, it does vary quite a lot.
+<em>00:00.320</em></p>
+<p>That had started off as film majors, they leave.
+<em>00:00.320</em></p>
+<p>Sure.
+<em>00:00.320</em></p>
+<p>And he&#x27;s a younger guy.
+<em>00:00.320</em></p>
+<p>the anger and the rhetoric and the you know the um the excitement um one way or the other
+<em>00:00.320</em></p>
+<p>All the editors in his company.
+<em>00:00.320</em></p>
+<p>Sure.
+<em>00:00.320</em></p>
+<p>And I know I have his card someplace, so I apologize that I didn&#x27;t do my research and I don&#x27;t know your name if you&#x27;re listening to this.
+<em>00:00.320</em></p>
+<p>At the end of that exchange with the gentleman at the DCC meetup on Tuesday night, I wrote a letter.
+<em>00:00.320</em></p>
+<p>time doing the movie focus I&#x27;m talking about.
+<em>00:00.320</em></p>
+<p>But it&#x27;s interesting.
+<em>00:00.320</em></p>
+<p>and begin to understand how much of your lives you&#x27;ve poured into the application that I&#x27;ve chosen to hang my livelihood on.
+<em>00:00.320</em></p>
+<p>And once they introduced multicam, the way those even those three things were like heavy hitters for just how quickly and how easily you can make an edit, get an ID to
+paper, control D, select all, control D.
+<em>00:00.320</em></p>
+<p>If you go to Color Grading Central, the primary focus of that site is selling a membership level that gets you into all of his Resolve training.
+<em>00:00.320</em></p>
+<p>Right.
+<em>00:00.320</em></p>
+<p>Color Finale, which is his new plugin that we did a whole session on, you realize that he sees that this thing has legs.
+<em>00:00.320</em></p>
+<p>I know you&#x27;re not writing me personally.
+<em>00:00.320</em></p>
+<p>Personal and he&#x27;s not doing it to sell more stuff either, necessarily.
+<em>00:00.320</em></p>
+<p>So let&#x27;s talk a little bit about 10.
+<em>00:00.320</em></p>
+<p>between and you look at Al Mooney and the Premier gang.
+<em>00:00.320</em></p>
+<p>At 9:01, when Monday morning, like, so literally, like, so we&#x27;re going to start our sessions at like 10 o&#x27;clock or whatever, Monday morning.
+<em>00:00.320</em></p>
+<p>I had some correspondence with, I believe, or at least I was reading along with Richard Taylor and with Alex Golner, and they were like, oh, 10-2, this, 10-2, that.
+<em>00:00.320</em></p>
+<p>But then I started to notice a few things that actually really excited me.
+<em>00:00.320</em></p>
+<p>you know, college and, you know, before getting into video editing.
+<em>00:00.320</em></p>
+<p>Yeah, it&#x27;s actually really nice, actually.
+<em>00:00.320</em></p>
+<p>You know, and I think that&#x27;s like a massive, massive thing, even though, you know, as a
+<em>00:00.320</em></p>
+<p>You have to have things that are, you know, go-to snazzy things and yet.
+<em>00:00.320</em></p>
+<p>To show me all of the applied effects.
+<em>00:00.320</em></p>
+<p>to a multitude of different clips that you have on your timeline.
+<em>00:00.320</em></p>
+<p>Yeah, I&#x27;m gonna lower my levels down just a little bit just in case that does cause a problem.
+<em>00:00.320</em></p>
+<p>And you and Alex spent a few minutes talking about that.
+<em>00:00.320</em></p>
+<p>I&#x27;m up there, I get to talk.
+<em>00:00.320</em></p>
+<p>And you could see how fluidly it moved as they were, you know, changing it and whatnot.
+<em>00:00.320</em></p>
+<p>And I have a the first generation retina, so whatever, it&#x27;s like 2012.
+<em>00:00.320</em></p>
+<p>So I do think that there is a lot of code that goes into doing that.
+<em>00:00.320</em></p>
+<p>It type.
+<em>00:00.320</em></p>
+<p>And you couple that with a Mac Pro and dual GPUs, I think that&#x27;s going to be really huge for people that are doing that 4K, 5K, 6K red stuff.
+<em>00:00.320</em></p>
+<p>Inter internally.
+<em>00:00.320</em></p>
+<p>And so you&#x27;re looking at I&#x27;m just I&#x27;m looking at you when every time something a feature comes out, people were like, well, who wants 3D tracking?
+<em>00:00.320</em></p>
+<p>And I can&#x27;t remember if it was Apple or if it was Sam or somebody, but somebody showed a pie graph that said that I believe 55 or 45% of Final Cut 10 users
+<em>00:00.320</em></p>
+<p>do all of their titling inside of Final Cut.
+<em>00:00.320</em></p>
+<p>Can I have a copy of that?
+<em>00:00.320</em></p>
+<p>Of a creative person that you begin to really see how that gets implemented and how it affects the industry.
+<em>00:00.320</em></p>
+<p>really ugly.
+<em>00:00.320</em></p>
+<p>Harkens toward the kind of a send to motion problem that we don&#x27;t have a send to motion thing.
+<em>00:00.320</em></p>
+<p>At least two shots, probably more, that were 3D tracked.
+<em>00:00.320</em></p>
+<p>Okay.
+<em>00:00.320</em></p>
+<p>Why is that message not getting out more widely that I know it?
+<em>00:00.320</em></p>
+<p>Apple fails in is that they have built a strong tool.
+<em>00:00.320</em></p>
+<p>Yeah, they&#x27;re amazing over there.
+<em>00:00.320</em></p>
+<p>And then they put it in a bag and they put it on the curb out front, and they hope somebody picks it up.
+<em>00:00.320</em></p>
+<p>the broadcast safe generator was useless because you could put your broadcast safe thing on it and then colorboard it into oblivion.
+<em>00:00.320</em></p>
+<p>So it used to be that the little bouncing ball would always track which effect
+<em>00:00.320</em></p>
+<p>Try that.
+<em>00:00.320</em></p>
+<p>Not 100% structure on the ho with the wording of this, but basically in all essence, it&#x27;s just gonna be slower if you do it from straight from a compressor.
+<em>00:00.320</em></p>
+<p>that is one of the deliverables we&#x27;re going to probably need anyway.
+<em>00:00.320</em></p>
+<p>Which is quite cool and it actually works very easily.
+<em>00:00.320</em></p>
+<p>And so I mean, it&#x27;s kind of funny because they have so many products out this session that it&#x27;s almost hard to track any of them because I&#x27;m wondering if that&#x27;s them this
+quarter.
+<em>00:00.320</em></p>
+<p>And to me, it seems like they too are a company that is impassioned about making this stuff.
+<em>00:00.320</em></p>
+<p>And I hope some of them stick.
+<em>00:00.320</em></p>
+<p>Is that they&#x27;re almost using NAB for market research.
+<em>00:00.320</em></p>
+<p>No, but the I mean, I&#x27;m in that train of metaphor.
+<em>00:00.320</em></p>
+<p>A D A Y.
+<em>00:00.320</em></p>
+<p>And he caught me in between sessions.
+<em>00:00.320</em></p>
+<p>Dean and Scott Simmons, and we&#x27;re going to talk about how to do music videos and how these guys do it and what their workflow is.
+<em>00:00.320</em></p>
+<p>And you can get to F um how does he say it?
+<em>00:00.320</em></p>
+<p>18.
+<em>00:00.320</em></p>
+<p>And it&#x27;s going to blow minds.
+<em>00:00.320</em></p>
+<p>and in their presentation suite next to the Las Vegas Convention Center.
+<em>00:00.400</em></p>
+<p>And he kept showing up.
+<em>00:00.400</em></p>
+<p>And I implore you, if you have not heard of Premium Beat, go check them out.
+<em>00:00.400</em></p>
+<p>I cho I chose to be sequestered in the FCPX booth.
+<em>00:00.400</em></p>
+<p>No, I did not.
+<em>00:00.400</em></p>
+<p>So you spent most of your time voluntarily at the FCP Works booth.
+<em>00:00.400</em></p>
+<p>Music video that he wanted for a jazz song.
+<em>00:00.400</em></p>
+<p>Version of a music video.
+<em>00:00.400</em></p>
+<p>The gentleman was just complaining about the weather.
+<em>00:00.400</em></p>
+<p>It was like sixty five all last week and maybe in the high in the high seventies when it gets really hot kind of thing.
+<em>00:00.400</em></p>
+<p>talk about it.
+<em>00:00.400</em></p>
+<p>Somewhere along the way, he realized making money as a musician was tough.
+<em>00:00.400</em></p>
+<p>In our office, are all musicians, and most of them are drummers.
+<em>00:00.400</em></p>
+<p>And, you know, now we have 10, too.
+<em>00:00.400</em></p>
+<p>And it may very well be that what he is currently doing, and I don&#x27;t even remember what he&#x27;s doing, he&#x27;s probably on premiere or whatever.
+<em>00:00.400</em></p>
+<p>This is the letter that I sent to them.
+<em>00:00.400</em></p>
+<p>And I maybe it was it was rocky early on, but even early on, just like things like the scammer and comp the way compound clips kind of function.
+<em>00:00.400</em></p>
+<p>And you know what was really interesting is that you talked about it being a hard sell.
+<em>00:00.400</em></p>
+<p>And everybody was giving me a hard time, like, oh, Fenwick knows, Fenwick has seen it.
+<em>00:00.400</em></p>
+<p>And he&#x27;s like, oh, you nerd, fine.
+<em>00:00.400</em></p>
+<p>And then we launched it.
+<em>00:00.400</em></p>
+<p>Are a little tweaky, they&#x27;re a little nerdy, and sometimes it&#x27;s kind of hard to explain to the kind of entry-level junior editors, if you will, that we have around the
+office.
+<em>00:00.400</em></p>
+<p>So anyway, when they were demoing it, you could see that obviously there is an enormous amount of code that&#x27;s going into making that
+<em>00:00.400</em></p>
+<p>Which is kind of crazy cool.
+<em>00:00.400</em></p>
+<p>Even in 10.
+<em>00:00.400</em></p>
+<p>favorited, keyworded pictures, I mean, excuse me, videos.
+<em>00:00.400</em></p>
+<p>But I mean, he too was one of these people that is just impassioned about doing stuff.
+<em>00:00.400</em></p>
+<p>Because he&#x27;s because it was a pain in the ass from the production side of things to actually have to deal with like 10 different products.
+<em>00:00.400</em></p>
+<p>If you are a powerful Final Cut 10 user, and of course, it helps if you know some motion and/or After Effects.
+<em>00:00.400</em></p>
+<p>Enormous, enormous.
+<em>00:00.400</em></p>
+<p>But um but I mean you look you looked at the SCP Works guys, they were all using Black Magic Studio cameras.
+<em>00:00.400</em></p>
+<p>Probably the best bet in town and that had a good image.
+<em>00:00.400</em></p>
+<p>But anyway, so that&#x27;s that&#x27;s our NAB 2015 meltdown, as it were, from a from a decidedly Final Cut 10.
+<em>00:00.400</em></p>
+<p>I you know, we at Slice here, we&#x27;re probably, I don&#x27;t know, five, six years ahead of where he is.
+<em>00:00.400</em></p>
+<p>Doggone it.
+<em>00:00.400</em></p>
+<p>And as it turns out, Ta&#x27;ad is really excited and very passionate about Fanaka 10 and what it means for his business.
+<em>00:00.480</em></p>
+<p>We&#x27;re in an area that&#x27;s just extreme it has the I think the number one air quality in the in the country.
+<em>00:00.480</em></p>
+<p>And uh and I can live here because we can, pretty much.
+<em>00:00.480</em></p>
+<p>Maybe a little older, but not much.
+<em>00:00.480</em></p>
+<p>Just be pounded over the head.
+<em>00:00.480</em></p>
+<p>But he was a guy from somewhere over and he had six edit suites that he was responsible for, and he was the boss.
+<em>00:00.480</em></p>
+<p>But as you and I both know, we&#x27;ll get to this, there are workflow advancements in Final Cut 10 that are solving problems that we&#x27;re not even that most editors aren&#x27;t even
+acknowledging exist.
+<em>00:00.480</em></p>
+<p>And you get somebody else on board, it will be much easier.
+<em>00:00.480</em></p>
+<p>more and more people from all levels of the production community, the highest level of producers and directors down to even assistant editors, are starting to see, oh
+my goodness, I could save time and therefore money.
+<em>00:00.480</em></p>
+<p>Wow.
+<em>00:00.480</em></p>
+<p>No, no, screw it.
+<em>00:00.480</em></p>
+<p>And when it comes to the editing of what&#x27;s going to that they&#x27;re going to need, they&#x27;re going to need to have people of a lot of academics go ahead and review this footage.
+<em>00:00.480</em></p>
+<p>That the focus of what we&#x27;re talking about is this damn 3D text.
+<em>00:00.480</em></p>
+<p>Again, it&#x27;s secrecy.
+<em>00:00.480</em></p>
+<p>Backstory message that you want to make sure gets out there.
+<em>00:00.480</em></p>
+<p>And I tabbed over to um messages and I was chatting with a friend and I noticed that
+<em>00:00.480</em></p>
+<p>No, I can&#x27;t remember his name.
+<em>00:00.480</em></p>
+<p>Oh, my phone just rebooted.
+<em>00:00.480</em></p>
+<p>Okay, that&#x27;s cool.
+<em>00:00.480</em></p>
+<p>Exactly.
+<em>00:00.480</em></p>
+<p>because it has to do with the rendering.
+<em>00:00.480</em></p>
+<p>there because they&#x27;re filling some space and they&#x27;ve been contracted out to do some work.
+<em>00:00.480</em></p>
+<p>With the release or over at the SCP Works?
+<em>00:00.480</em></p>
+<p>It won&#x27;t stomp over your serial or anything like that.
+<em>00:00.480</em></p>
+<p>And I think that they&#x27;re kind of in this place where they&#x27;re like, here, consumers.
+<em>00:00.480</em></p>
+<p>Is just based on the presentation.
+<em>00:00.480</em></p>
+<p>Productions.
+<em>00:00.480</em></p>
+<p>All right, Todd.
+<em>00:00.480</em></p>
+<p>The display name and the at name and still retain all your followers.
+<em>00:00.480</em></p>
+<p>I want to say that there are plenty of people to talk to coming up post NAB.
+<em>00:00.480</em></p>
+<p>So, anyway, that&#x27;ll be in an upcoming episode as well.
+<em>00:00.480</em></p>
+<p>And I think after this Wednesday, you know what?
+<em>00:00.480</em></p>
+<p>Kind of rock the universe a little bit.
+<em>00:00.480</em></p>
+<p>That he&#x27;s going to be selling.
+<em>00:00.480</em></p>
+<p>You know, Todd and I just kind of rambled on about, you know, stuff that we saw and insights that we had.
+<em>00:00.480</em></p>
+<p>Well, if anyone that&#x27;s just been here has a ch has a chance to go by Westcliff or the beach or pretty much anywhere around here, it&#x27;s it a little is uh some people say it&#x27;s a
+little hippie central, but uh that&#x27;s okay.
+<em>00:00.560</em></p>
+<p>Healthcare.
+<em>00:00.560</em></p>
+<p>Yeah, I wonder why.
+<em>00:00.560</em></p>
+<p>And I said, okay, well, that&#x27;s four years ago.
+<em>00:00.560</em></p>
+<p>And I&#x27;m going to read it to you.
+<em>00:00.560</em></p>
+<p>And because of that, that&#x27;s why we see features like Core Mel and
+<em>00:00.560</em></p>
+<p>This one blanket effect across the board, across to 100, 200, 10 clips, 20 clips, whatever, tweak a couple, change a couple, make a new preset, change that preset a
+little bit, do it again.
+<em>00:00.560</em></p>
+<p>You could have a very complex edit in a matter of half an hour where you may you don&#x27;t without having set an option like that, you couldn&#x27;t.
+<em>00:00.560</em></p>
+<p>and optimizes the speed and makes the application snappier, we all live up we all benefit from that.
+<em>00:00.560</em></p>
+<p>But one of the things that they would say was that a lot of work has gone into
+<em>00:00.560</em></p>
+<p>What are you talking about?
+<em>00:00.560</em></p>
+<p>Inspired me.
+<em>00:00.560</em></p>
+<p>You know, Denver Riddle and whatnot, we wouldn&#x27;t know this stuff.
+<em>00:00.560</em></p>
+<p>Did you have a chance to see the FrameIO and what they&#x27;re doing in regards to having a compressor setting for FrameIO going right directly to the web and for client
+review?
+<em>00:00.560</em></p>
+<p>Um color finale and track a track that to your video.
+<em>00:00.560</em></p>
+<p>To be a part of this.
+<em>00:00.560</em></p>
+<p>They open up a mic and I get to talk, and there&#x27;s people in the room, and they&#x27;re recording it, and sure, they could cut it out, but it would cause a bunch of extra work.
+<em>00:00.640</em></p>
+<p>For most of the day.
+<em>00:00.640</em></p>
+<p>So out of film school, it&#x27;s been a few years now.
+<em>00:00.640</em></p>
+<p>And and they go there, they move to LA, they bust their ass working working Diners, working Applebee&#x27;s, working wherever, and their second their side job was as a
+colorist, side job was as a editor or mo a lot of times just as a PA.
+<em>00:00.640</em></p>
+<p>I think that people are drawn to a comfort zone.
+<em>00:00.640</em></p>
+<p>And when you decide, hmm, this is actually really fast, then pick one of your editors and say, hey, I want you to try something.
+<em>00:00.640</em></p>
+<p>Mainly because Apple employees are they&#x27;re sort of trained to not engage the public and things like that.
+<em>00:00.640</em></p>
+<p>The bigger the company, the bigger the ship, the harder it is to steer.
+<em>00:00.640</em></p>
+<p>Grows in strength and popularity to the point where it is advantageous to outside developers to get in and develop
+<em>00:00.640</em></p>
+<p>Although not vocally, but broadly, that a lot of people are seeing it as a place to participate financially.
+<em>00:00.640</em></p>
+<p>And in the casual conversations, and I don&#x27;t think I&#x27;m revealing anything of secret nature.
+<em>00:00.640</em></p>
+<p>Yes.
+<em>00:00.640</em></p>
+<p>Let me see if I can step through some of these release notes and see if I can comment on them specifically.
+<em>00:00.640</em></p>
+<p>And then there&#x27;s possibilities there that I think that you add something like Track X or SliceX to that mask and then you can track that color change or that effect,
+whether it&#x27;s a Gaussian blur or some kind of blur possibly or.
+<em>00:00.640</em></p>
+<p>But I will say this about the three D titles, and this really kind of bugged me.
+<em>00:00.640</em></p>
+<p>They don&#x27;t want to share this stuff with the public, which is kind of stupid.
+<em>00:00.640</em></p>
+<p>You know?
+<em>00:00.640</em></p>
+<p>There is a brand new update to the Core Melt TrackX and SliceX plugin.
+<em>00:00.640</em></p>
+<p>It&#x27;s this little trick you do with an adjustment layer or something.
+<em>00:00.640</em></p>
+<p>And uh and we did.
+<em>00:00.720</em></p>
+<p>the edit system of the future and to and the implication is that FCPWorks are the people to talk to if you want to implement
+<em>00:00.720</em></p>
+<p>are worth supporting, and I appreciate them to no end and everybody there have been so generous.
+<em>00:00.720</em></p>
+<p>Is shoot a bunch of stuff of your kids on your iPhone.
+<em>00:00.720</em></p>
+<p>There&#x27;s plenty of stuff.
+<em>00:00.720</em></p>
+<p>That&#x27;s where that&#x27;s the soul, if you will, of that site.
+<em>00:00.720</em></p>
+<p>I remember Sam said something like this.
+<em>00:00.720</em></p>
+<p>I think the masking is something that, again, not super sexy, but very useful, extremely useful in that the fact that every filter
+<em>00:00.720</em></p>
+<p>So I think that&#x27;s giant and huge.
+<em>00:00.720</em></p>
+<p>People talk about some of these features that are so crappy.
+<em>00:00.720</em></p>
+<p>Is that something you can put on the screen?
+<em>00:00.720</em></p>
+<p>Explain further what you mean.
+<em>00:00.720</em></p>
+<p>They just they had thrown out just so many different products that were like maybe they had small each of these had like a it was like a niche market like oh
+<em>00:00.720</em></p>
+<p>So you paid for this software three times over with your exactly.
+<em>00:00.800</em></p>
+<p>Film school, Santa Cruz, and what type of work are you currently doing?
+<em>00:00.800</em></p>
+<p>But I said, you know, when you come to the consensus that you&#x27;re interested in Final Cat 10
+<em>00:00.800</em></p>
+<p>Excuse me, I didn&#x27;t write the cough.
+<em>00:00.800</em></p>
+<p>God, give me help me out with the slice.
+<em>00:00.800</em></p>
+<p>When the dude from Apple came and pitched.
+<em>00:00.800</em></p>
+<p>It&#x27;s been out for what?
+<em>00:00.800</em></p>
+<p>In terms of what we have to see with these new shape masks and color masks for every effect, um and I&#x27;ll tell you the other one that sort of you know quietly excited me was
+the fact that now the color board is a standalone effect.
+<em>00:00.800</em></p>
+<p>Good mask, even though it&#x27;s not so great.
+<em>00:00.800</em></p>
+<p>Hey, we should wrap this up.
+<em>00:00.800</em></p>
+<p>I mean I think it&#x27;s just it&#x27;s just I don&#x27;t think that was their final I don&#x27;t think that was ever supposed to be their quote unquote final product.
+<em>00:00.800</em></p>
+<p>And I&#x27;ve now I think I&#x27;ve spoken with everybody that I want to get on the on board.
+<em>00:00.800</em></p>
+<p>Tomorrow&#x27;s the 19th, 20th, the 22nd.
+<em>00:00.800</em></p>
+<p>I mean the producers pushed for using Final Cut 10 because they knew it, they understood it, and they knew that they would save
+<em>00:00.880</em></p>
+<p>That was more modern, that was designed for workflows of the 21st century.
+<em>00:00.880</em></p>
+<p>And I&#x27;m going to just read this.
+<em>00:00.880</em></p>
+<p>Keep up the good work.
+<em>00:00.880</em></p>
+<p>Ecosystem, and the Final Hat 10 world is an ecosystem, is that there&#x27;s a point where an application
+<em>00:00.880</em></p>
+<p>Say color finale.
+<em>00:00.880</em></p>
+<p>Where was that tracking done?
+<em>00:00.880</em></p>
+<p>It was good, but what it it would it would it would it would stick you into an event.
+<em>00:00.880</em></p>
+<p>You know, a minute, I think it worked very easy.
+<em>00:00.880</em></p>
+<p>If you choose to live wherever you want, that&#x27;s where I live.
+<em>00:00.960</em></p>
+<p>They talked about the entire process and they loved it.
+<em>00:00.960</em></p>
+<p>And people don&#x27;t like learning new stuff.
+<em>00:00.960</em></p>
+<p>side applications or utilities that you can use in conjunction with Final Cut that allows you to log footage while you are shooting in a very straightforward, simple
+way.
+<em>00:00.960</em></p>
+<p>Well, um, d did you say you watched it online?
+<em>00:00.960</em></p>
+<p>I&#x27;ll tell you something.
+<em>00:00.960</em></p>
+<p>It feels kind of like the gateway drug kind of thing, like where they&#x27;re starting off with titles and pretty soon you should be able to.
+<em>00:00.960</em></p>
+<p>And that&#x27;s not to say that there are not some brilliant editors there.
+<em>00:00.960</em></p>
+<p>Of April, go because Sam is going to debut a new product.
+<em>00:00.960</em></p>
+<p>Talk that person into it.
+<em>00:01.040</em></p>
+<p>Very high-level people at Apple in the pro apps department, and I won&#x27;t even tell you who they are.
+<em>00:01.040</em></p>
+<p>And I&#x27;m like, ah, well, you there&#x27;s Apple Care, but that doesn&#x27;t necessarily address the inner workings of Final Cut.
+<em>00:01.040</em></p>
+<p>And there was a title in the sky.
+<em>00:01.040</em></p>
+<p>Change the color right from there.
+<em>00:01.040</em></p>
+<p>I don&#x27;t have it open.
+<em>00:01.040</em></p>
+<p>Okay, so I mean, I don&#x27;t know about miss necessarily, but you and I were talking earlier about what Black Magic kind of was producing on the on the floor.
+<em>00:01.040</em></p>
+<p>Yeah, so every time I I use the one edit a day now, it&#x27;s like, uh one need it oh need I so it looks like I need it a day.
+<em>00:01.040</em></p>
+<p>Insight to him and how to grow a business, especially a small post-production business.
+<em>00:01.040</em></p>
+<p>I mean, I&#x27;ve been doing this a bit longer than you.
+<em>00:01.120</em></p>
+<p>Most, I would say most of the people that I work with on a day-to-day basis, from managers to producers to other editors.
+<em>00:01.120</em></p>
+<p>And I think that that&#x27;s important that you look at those things.
+<em>00:01.120</em></p>
+<p>Shift it up.
+<em>00:01.120</em></p>
+<p>Emery Wells had invited me to check out FrameIO several months ago, actually, and I thought what he was doing was really impressive.
+<em>00:01.120</em></p>
+<p>You can contact me.
+<em>00:01.120</em></p>
+<p>And just purely talk about the feature set and purely talk about the advantages and disadvantages, because I think there are some disadvantages in Final Cut 10.
+<em>00:01.200</em></p>
+<p>Yeah.
+<em>00:01.200</em></p>
+<p>Which clip the the currently open color board was shape was dealing with, okay?
+<em>00:01.200</em></p>
+<p>What do you think of that?
+<em>00:01.200</em></p>
+<p>He will never know all of you by name, but he will experience what the end result of passionate creative energy is.
+<em>00:01.280</em></p>
+<p>For that community.
+<em>00:01.280</em></p>
+<p>Yeah, so anyways.
+<em>00:01.280</em></p>
+<p>And I think I talked about that.
+<em>00:01.280</em></p>
+<p>Kind of steals processor cycles from your machine.
+<em>00:01.280</em></p>
+<p>1.
+<em>00:01.280</em></p>
+<p>The titles inspired me to think of ways that I could use these 3D titles in ways that I had not thought it had not crossed my mind.
+<em>00:01.280</em></p>
+<p>I just did that right now.
+<em>00:01.280</em></p>
+<p>And I think that&#x27;s a big deal that you can now search across multiple events.
+<em>00:01.280</em></p>
+<p>Do you use compressor, Todd?
+<em>00:01.280</em></p>
+<p>No, not droplets, but it&#x27;s called like a a package or something.
+<em>00:01.280</em></p>
+<p>No.
+<em>00:01.280</em></p>
+<p>com, where you can find Theresa Chu and my work on there.
+<em>00:01.280</em></p>
+<p>Anyway, there&#x27;s a fourth guy in Vega in L in London, and I can&#x27;t remember it, and I&#x27;m so sorry.
+<em>00:01.280</em></p>
+<p>There are some people that get it, and there&#x27;s some people that are just like, oh, yeah, it&#x27;s not for me.
+<em>00:01.360</em></p>
+<p>And so I pounded on this guy for a long, long time about why he should change and why he should at least consider changing.
+<em>00:01.360</em></p>
+<p>FX Factory and Ripple Training and Color Finale.
+<em>00:01.360</em></p>
+<p>And to be clear, you&#x27;re talking about Philip Hodges.
+<em>00:01.360</em></p>
+<p>1.
+<em>00:01.360</em></p>
+<p>And you&#x27;re thinking it introduces the ability to add multiple lights and cameras and tracking inside of motion.
+<em>00:01.360</em></p>
+<p>You&#x27;re talking about lower thirds.
+<em>00:01.360</em></p>
+<p>There&#x27;s two E&#x27;s in there next to each other.
+<em>00:01.360</em></p>
+<p>Take care, and we will speak more later.
+<em>00:01.360</em></p>
+<p>And you were there.
+<em>00:01.440</em></p>
+<p>And I was like, oh crap, a new icon.
+<em>00:01.440</em></p>
+<p>So yeah.
+<em>00:01.440</em></p>
+<p>So getting back to 10.
+<em>00:01.440</em></p>
+<p>I said, well, just give it a little time.
+<em>00:01.440</em></p>
+<p>And he said, No.
+<em>00:01.440</em></p>
+<p>That&#x27;s right up your alley.
+<em>00:01.440</em></p>
+<p>Where did you do that?
+<em>00:01.520</em></p>
+<p>It&#x27;s like, uh, okay.
+<em>00:01.520</em></p>
+<p>I hope you&#x27;re enjoying Color Finale.
+<em>00:01.520</em></p>
+<p>And it&#x27;s a very well, I don&#x27;t think that&#x27;s fair.
+<em>00:01.520</em></p>
+<p>2, I was kind of shocked.
+<em>00:01.520</em></p>
+<p>And so in that regard, I think it&#x27;s kind of dumb that they wouldn&#x27;t share it.
+<em>00:01.520</em></p>
+<p>Oh, yeah.
+<em>00:01.520</em></p>
+<p>So what&#x27;s your pick from NAB?
+<em>00:01.520</em></p>
+<p>If people wanted to follow you online, how would they find you?
+<em>00:01.520</em></p>
+<p>That thing you do with uh do you know the movie That Thing You Do?
+<em>00:01.520</em></p>
+<p>So that was awesome that they would pitch in for that and that they support this podcast because I think this is really important that we have
+<em>00:01.600</em></p>
+<p>I don&#x27;t know if that&#x27;s what you should judge me b on as an editor, but that was the very first thing that I&#x27;ve ever put together in 10, and uh we won a freaking thousand bucks
+from it.
+<em>00:01.600</em></p>
+<p>He was sitting there at the top at this third was it third floor, third floor of the Cosmopolitan as a Cosmo, next to the pool table, shared over pizza and possibly a beer.
+<em>00:01.600</em></p>
+<p>I said Tuesday night at 11.
+<em>00:01.600</em></p>
+<p>If they wanted to quote unquote cut me off, they&#x27;d be cutting me off on a grand total of zero.
+<em>00:01.600</em></p>
+<p>Let&#x27;s see.
+<em>00:01.600</em></p>
+<p>4.
+<em>00:01.600</em></p>
+<p>What he did is he showed like a a demo video that they made of a bunch of 3D titles like integrated into different scenes.
+<em>00:01.600</em></p>
+<p>It was a racetrack, and it was as if there was a camera in a car driving underneath the finish line.
+<em>00:01.600</em></p>
+<p>People like Philip Hodgetts and people, you know, I mean, all these outside vendors that are making these amazing tools
+<em>00:01.600</em></p>
+<p>And what is and what is the origin of that phrase?
+<em>00:01.600</em></p>
+<p>Although somebody else did say that the other day.
+<em>00:01.680</em></p>
+<p>What was your overall take from the whole thing?
+<em>00:01.680</em></p>
+<p>I have some friends that are software developers, and they basically have a very like a rule of thumb in a sense.
+<em>00:01.680</em></p>
+<p>I don&#x27;t know if you realized that before, that you could do that before, even though you had a color, a shape mask, you could click on that little icon again and add
+another one.
+<em>00:01.680</em></p>
+<p>A week now.
+<em>00:01.680</em></p>
+<p>I say we like there&#x27;s somebody in my pocket.
+<em>00:01.760</em></p>
+<p>Now, for whatever reason, we decided to do it all on 10.
+<em>00:01.760</em></p>
+<p>It&#x27;d only been up for just a few months.
+<em>00:01.760</em></p>
+<p>Fast forward, we won that contest.
+<em>00:01.760</em></p>
+<p>He has a obviously he has a great musical sense, and he cuts like a musician cuts, which is good.
+<em>00:01.760</em></p>
+<p>And I said, well, why is that?
+<em>00:01.760</em></p>
+<p>On Lumberjack, we&#x27;re going to make it open so that you can have ten copies of it running, and that&#x27;s okay.
+<em>00:01.760</em></p>
+<p>All right.
+<em>00:01.760</em></p>
+<p>Yeah, 16 gigs of RAM on a laptop.
+<em>00:01.760</em></p>
+<p>Yeah, not cool.
+<em>00:01.760</em></p>
+<p>We&#x27;re going to throw a bunch of spaghetti on the wall and hope some that we don&#x27;t not too many meatballs fall, kind of thing.
+<em>00:01.760</em></p>
+<p>And so that was really sort of the underlying message.
+<em>00:01.840</em></p>
+<p>But before we get to Todd, I want to thank the people at Premium Beat for helping to pave the way for Alex and I to be able to actually go.
+<em>00:01.840</em></p>
+<p>Todd is actually listening in while I&#x27;m recording this.
+<em>00:01.840</em></p>
+<p>And I go, Really?
+<em>00:01.840</em></p>
+<p>The music is high quality and wonderful and awesome in every way.
+<em>00:01.840</em></p>
+<p>We&#x27;ll talk about it in a second.
+<em>00:01.840</em></p>
+<p>And now you have all these extra apps out there and developers.
+<em>00:01.840</em></p>
+<p>Right, right.
+<em>00:01.840</em></p>
+<p>Smart dude, Sam Nessman, one of the biggest brains in the Funnel Cut 10 community.
+<em>00:01.840</em></p>
+<p>I did, I did.
+<em>00:01.920</em></p>
+<p>Was that about half an hour, Chris?
+<em>00:01.920</em></p>
+<p>And so I because he Sam doesn&#x27;t totally get Twitter.
+<em>00:01.920</em></p>
+<p>A while back, Steve Martin, the Ripple Training guys, they were talking about you should always do it yeah, it was Steve Martin.
+<em>00:01.920</em></p>
+<p>I don&#x27;t know if anyone&#x27;s ever heard of it before, but you know you&#x27;re you can only talk about in 160 characters and if you guys are interested, whatever.
+<em>00:01.920</em></p>
+<p>My partner, she&#x27;s actually she&#x27;s Chinese American and she always makes fun of it.
+<em>00:02.000</em></p>
+<p>I mean, he and I say younger, he&#x27;s probably, you know, I guess this guy is like mid-30s, early 30s, something like that.
+<em>00:02.000</em></p>
+<p>And you don&#x27;t have a giant company that has, you know, like Avid&#x27;s Avid&#x27;s amazing in the sense that their support, they will take care of you because you&#x27;re paying so
+much money for these systems.
+<em>00:02.000</em></p>
+<p>But yeah, no, you you let me know actually.
+<em>00:02.000</em></p>
+<p>If you&#x27;re looking for like a future forward, like where are they going, being able to work with objects?
+<em>00:02.000</em></p>
+<p>Do you remember that that was actually that was a real conversation.
+<em>00:02.000</em></p>
+<p>And I think that if indeed that was the justification for putting all the time and energy into making 3D titles
+<em>00:02.000</em></p>
+<p>And he gave me his time.
+<em>00:02.000</em></p>
+<p>What what&#x27;s one last thing that you saw that as tiny as tiny a detail as you want, one last thing that you saw that excited you?
+<em>00:02.000</em></p>
+<p>Maybe they&#x27;re not all ready to go, so we&#x27;ll update them in a few months with a software update, and a few months later with another software update.
+<em>00:02.000</em></p>
+<p>And so afterwards, I was like, you know, I&#x27;d like to talk to him and see what his take was.
+<em>00:02.080</em></p>
+<p>Whenever I ever try to explain it to people, I was like, oh, it sounds kind of a hippie hipstery type of type of vibe.
+<em>00:02.080</em></p>
+<p>You still there?
+<em>00:02.080</em></p>
+<p>It looks great.
+<em>00:02.080</em></p>
+<p>You want to know what one of my favorites is the little things they did was the smart collection with the you could it&#x27;s now libraries, but you can put it over the entire
+library, which is kind of nice.
+<em>00:02.080</em></p>
+<p>So go check that out.
+<em>00:02.080</em></p>
+<p>com, you can have multiple playlists.
+<em>00:02.160</em></p>
+<p>And actually, it&#x27;s kind of the reason main reason why I was there with SCP Works and at NAB is that a lot of my friends
+<em>00:02.160</em></p>
+<p>Don&#x27;t ever give up.
+<em>00:02.160</em></p>
+<p>And when I saw 10.
+<em>00:02.160</em></p>
+<p>I&#x27;m pretty sure I have that right.
+<em>00:02.160</em></p>
+<p>He goes, in motion.
+<em>00:02.160</em></p>
+<p>I actually don&#x27;t use compressor on a regular basis.
+<em>00:02.160</em></p>
+<p>So so sorry, I think I I now gonna take a page from Alex McLean and uh change my Twitter name.
+<em>00:02.160</em></p>
+<p>And after a couple of sessions, I go, hey, what&#x27;s your name?
+<em>00:02.240</em></p>
+<p>We put together she&#x27;s a great videographer and she we put together in 24 hours what we thought was decent
+<em>00:02.240</em></p>
+<p>2.
+<em>00:02.240</em></p>
+<p>Yeah.
+<em>00:02.240</em></p>
+<p>That&#x27;s really cool because there&#x27;s a lot of stuff.
+<em>00:02.240</em></p>
+<p>It&#x27;s really hard to make to from a marketing standpoint, you have to have things that are banner headlines.
+<em>00:02.240</em></p>
+<p>Exactly.
+<em>00:02.240</em></p>
+<p>And every once in a while I I was back when you were on DCC, I had made some comment, I don&#x27;t remember which episode, let&#x27;s just say 15 or something.
+<em>00:02.240</em></p>
+<p>I&#x27;m really bad with names, so sorry.
+<em>00:02.240</em></p>
+<p>They were, I don&#x27;t want to say they were the biggest thing out there, but sure felt like it.
+<em>00:02.240</em></p>
+<p>He&#x27;s like, it&#x27;s terrible.
+<em>00:02.320</em></p>
+<p>And he has a whole entire workout series currently right now.
+<em>00:02.320</em></p>
+<p>And when you get the consensus of one other editor, then present it to the rest of them.
+<em>00:02.320</em></p>
+<p>He said, people are just starting to under to get some of what this new update can do.
+<em>00:02.320</em></p>
+<p>Did you?
+<em>00:02.320</em></p>
+<p>You can add color finale to tweak out the sky, and then you can color mask it out to say, yeah, only screw with the sky.
+<em>00:02.320</em></p>
+<p>Holy crap.
+<em>00:02.320</em></p>
+<p>Okay, I&#x27;m going to add a mask to this.
+<em>00:02.320</em></p>
+<p>The rendering time is saved inside of Final Cut.
+<em>00:02.320</em></p>
+<p>And now, you know, just like his musical instrument that he learned, which has not changed for thousands of years, that&#x27;ll give you a hint what instrument he plays.
+<em>00:02.400</em></p>
+<p>And so really, really, really passionate about the power of switching his edit suite over to Final Cut.
+<em>00:02.400</em></p>
+<p>Go ahead.
+<em>00:02.400</em></p>
+<p>Maybe, but you have to kind of wrap your head around what visual voicemail is.
+<em>00:02.400</em></p>
+<p>Yeah.
+<em>00:02.400</em></p>
+<p>I don&#x27;t know where they&#x27;re from.
+<em>00:02.400</em></p>
+<p>No kidding.
+<em>00:02.480</em></p>
+<p>Oh, yeah.
+<em>00:02.480</em></p>
+<p>You&#x27;re talking about credit rolls.
+<em>00:02.480</em></p>
+<p>Right.
+<em>00:02.480</em></p>
+<p>That&#x27;s actually a really big deal if you think about it.
+<em>00:02.480</em></p>
+<p>Oh, sure.
+<em>00:02.480</em></p>
+<p>Okay.
+<em>00:02.480</em></p>
+<p>Yeah, um, but you also mentioned other stuff uh the other stuff.
+<em>00:02.560</em></p>
+<p>I got home to my hotel room that night and wrote a big long email about why this combination will save them hours and hours and hours.
+<em>00:02.560</em></p>
+<p>And I&#x27;m thinking about that.
+<em>00:02.560</em></p>
+<p>Hey, we&#x27;re going to make a big announcement, but we don&#x27;t want you to videotape it, which is just absurd and ridiculous.
+<em>00:02.560</em></p>
+<p>And I think that anything along those lines that optimizes code
+<em>00:02.560</em></p>
+<p>Yes, sir.
+<em>00:02.560</em></p>
+<p>No.
+<em>00:02.560</em></p>
+<p>Okay, I see it.
+<em>00:02.560</em></p>
+<p>It&#x27;s the good stuff.
+<em>00:02.640</em></p>
+<p>I like that.
+<em>00:02.640</em></p>
+<p>As a mixture, I was at USC for a period of time, but I graduated from UC Santa Cruz, UCSC, up here in Santa Cruz, where I currently live now, actually.
+<em>00:02.640</em></p>
+<p>So we have a lot of clients that do a lot of conscious mindfulness, things like meditation, educational.
+<em>00:02.640</em></p>
+<p>Certain skit.
+<em>00:02.640</em></p>
+<p>Okay.
+<em>00:02.640</em></p>
+<p>But do you remember the first iPhone?
+<em>00:02.640</em></p>
+<p>It inspired me to think of ways to use these really elegant-looking titles.
+<em>00:02.640</em></p>
+<p>So now you could put your broadcast safe after your color board, your color correction, whatever.
+<em>00:02.640</em></p>
+<p>I talked to Emery for a while.
+<em>00:02.640</em></p>
+<p>He&#x27;s like, How do I grow my business?
+<em>00:02.640</em></p>
+<p>If you can get to that this Wednesday, the is it eighteen, nineteen, twenty one
+<em>00:02.640</em></p>
+<p>Are they not like me?
+<em>00:02.720</em></p>
+<p>They&#x27;re out of Fremont area.
+<em>00:02.720</em></p>
+<p>Yeah, and I don&#x27;t know if you saw the conversation that I had with, um, and I feel bad because I forgot his name already, but it was like Jim or Brian or Bill or
+<em>00:02.720</em></p>
+<p>Right.
+<em>00:02.720</em></p>
+<p>You should buy these LUTs or I got you on my marketing list.
+<em>00:02.720</em></p>
+<p>Exactly.
+<em>00:02.720</em></p>
+<p>You need that sort of, you know, inspiration to say, oh, this is the way I can use this.
+<em>00:02.720</em></p>
+<p>I said, Why wouldn&#x27;t you want to show that to anybody?
+<em>00:02.720</em></p>
+<p>4.
+<em>00:02.720</em></p>
+<p>It doesn&#x27;t help.
+<em>00:02.720</em></p>
+<p>I&#x27;m over all the extra extra loops and extra steps I have to take in order to get this edit done.
+<em>00:02.800</em></p>
+<p>59 p.
+<em>00:02.800</em></p>
+<p>So, yeah, so I think those are some of the things.
+<em>00:02.800</em></p>
+<p>I do.
+<em>00:02.800</em></p>
+<p>You know, Google did that with the Google Glass.
+<em>00:02.800</em></p>
+<p>And um there was one there was one guy that I couldn&#x27;t help but notice
+<em>00:02.880</em></p>
+<p>It&#x27;s because you guys are watching.
+<em>00:02.880</em></p>
+<p>We had drinks at two o&#x27;clock in the morning at the Cosmopolitan.
+<em>00:02.880</em></p>
+<p>But, but, you know, I got pretty passionate with this guy.
+<em>00:02.880</em></p>
+<p>Please report back to Willy Wonka inside the chocolate factory about how hard I went to bat for you guys with that guy last night.
+<em>00:02.880</em></p>
+<p>Oh, dude.
+<em>00:02.880</em></p>
+<p>And so you say, why won&#x27;t people do this?
+<em>00:02.880</em></p>
+<p>You have the SliceX and TrackX team.
+<em>00:02.880</em></p>
+<p>They have multiple audio feeds for a project.
+<em>00:02.880</em></p>
+<p>Okay, so then it launches and we start getting into it.
+<em>00:02.880</em></p>
+<p>A actually, speaking of producer&#x27;s best friend, wouldn&#x27;t it be great if we could use the Time Line Index
+<em>00:02.880</em></p>
+<p>And one of the things that people would say to me, and I&#x27;m might be, you know what, I&#x27;m sorry, but
+<em>00:02.880</em></p>
+<p>Oh, sure.
+<em>00:02.880</em></p>
+<p>Of course, there&#x27;s always added camera support.
+<em>00:02.880</em></p>
+<p>Sure.
+<em>00:02.960</em></p>
+<p>But I said to him, I said, you know, if you&#x27;re going to think about changing, what you should do.
+<em>00:02.960</em></p>
+<p>You know, you keep riding your horse.
+<em>00:02.960</em></p>
+<p>We can&#x27;t tell you you have a lot of the secrecy in that you always say the oompa loompa thing or the Willy Wonka and the Chocolate Factory example that you give.
+<em>00:02.960</em></p>
+<p>And I&#x27;m standing there with Mestman, Sam Mestman from SCP Works.
+<em>00:02.960</em></p>
+<p>So, before when you had the smart collection, you&#x27;d be stuck to that with inside of the event.
+<em>00:02.960</em></p>
+<p>Here&#x27;s some tools and they just threw out like every possible version of a camera that they started they made their Ursa mini they made it so they made their Ursa smaller
+<em>00:02.960</em></p>
+<p>I mean, the puddings in the pie.
+<em>00:02.960</em></p>
+<p>So, not a lot of jazz song options out there for music videos.
+<em>00:03.040</em></p>
+<p>And so you have these things and you have this community that&#x27;s kind of like: here, you guys need more tools?
+<em>00:03.040</em></p>
+<p>And what they basically do, they&#x27;re an education research company, and they recently have a study in which they have a lot of need for multicam.
+<em>00:03.040</em></p>
+<p>Maybe you were in the room when I brought it up.
+<em>00:03.040</em></p>
+<p>I&#x27;ve been going around the office installing it on the machines, and I&#x27;m really looking forward to seeing it, to seeing how it runs.
+<em>00:03.040</em></p>
+<p>I think I got the point.
+<em>00:03.040</em></p>
+<p>not realized, but it&#x27;s not fully explored.
+<em>00:03.040</em></p>
+<p>No, nothing?
+<em>00:03.040</em></p>
+<p>Yeah, yeah.
+<em>00:03.040</em></p>
+<p>Yeah, color correction one, color board.
+<em>00:03.040</em></p>
+<p>Yeah, I do.
+<em>00:03.040</em></p>
+<p>Yeah, that&#x27;s very early.
+<em>00:03.120</em></p>
+<p>Would you say?
+<em>00:03.120</em></p>
+<p>There&#x27;s some new tutorials I want you to see.
+<em>00:03.120</em></p>
+<p>Installed updates in the last thirty days.
+<em>00:03.120</em></p>
+<p>I I have a feeling there&#x27;s some there&#x27;s some tricks and there&#x27;s some uh surprises up Apple sleeve.
+<em>00:03.120</em></p>
+<p>We&#x27;ll see.
+<em>00:03.120</em></p>
+<p>Apparently, according to Alex McLean, who recently changed his Twitter handle, you can change both
+<em>00:03.120</em></p>
+<p>So please go if you&#x27;re in LA, go to the user group thing.
+<em>00:03.120</em></p>
+<p>So his Twitter handle is one edit a day, and we talk about that in the thing.
+<em>00:03.200</em></p>
+<p>And you apparently voluntarily put you through it.
+<em>00:03.200</em></p>
+<p>And so um there was there was a on like a YouTube guy, um, his name was Greg Sparrow, and he had a he decided that he had a competition for a thousand dollars uh for a
+<em>00:03.200</em></p>
+<p>Then there&#x27;s just a lot of local businesses that have a lot of local needs, and whether that&#x27;s self promotions, promotion for the city
+<em>00:03.200</em></p>
+<p>Do you remember that on the show?
+<em>00:03.200</em></p>
+<p>And so yeah, you see something you see some of these extra feature sets and see how clean and easy something is, and the easier it&#x27;s it is easier than last version.
+<em>00:03.200</em></p>
+<p>Okay, multiple stacks of it.
+<em>00:03.200</em></p>
+<p>But I think it&#x27;s it&#x27;ll it will be very interesting.
+<em>00:03.200</em></p>
+<p>I know they&#x27;re very excited about it.
+<em>00:03.200</em></p>
+<p>And he could have been w talking to someone that&#x27;s, you know, that&#x27;s some bigwig somewhere else.
+<em>00:03.200</em></p>
+<p>And if you live in the Bay Area, contact me.
+<em>00:03.200</em></p>
+<p>6.
+<em>00:03.200</em></p>
+<p>And you could see the presentation on the SCP Works page somewhere.
+<em>00:03.200</em></p>
+<p>Yeah, I mean we&#x27;re close enough to San Francisco, close enough to San Jose, so you have you know, you got Evernote and Evernote and Dropbox well, not Dropbox, but you
+have all all the tech companies going on just just about just a few miles north of me, so all l a lot of our customers are from there.
+<em>00:03.280</em></p>
+<p>I think I skipped over that in that last sentence.
+<em>00:03.280</em></p>
+<p>Okay, so this is a letter within a letter within a letter in a podcast.
+<em>00:03.280</em></p>
+<p>So, I mean, and that&#x27;s, I mean, that has been helpful for Apple as far as their innovation is concerned.
+<em>00:03.280</em></p>
+<p>And quite honestly, it&#x27;s all about those little things that just make your life easier, that end up being the feature set that you&#x27;re actually looking for, not some big
+glossy
+<em>00:03.280</em></p>
+<p>And as you drove underneath it, the perspective of it sh shifted.
+<em>00:03.280</em></p>
+<p>Anything from NAB.
+<em>00:03.280</em></p>
+<p>So, we&#x27;re excited to be here post-NAB 2015.
+<em>00:03.280</em></p>
+<p>They loved the entire process.
+<em>00:03.360</em></p>
+<p>He was like, I&#x27;m not even remotely interested.
+<em>00:03.360</em></p>
+<p>I think it&#x27;s like a lot of people can&#x27;t see the big picture unless you kind of draw it out and draw out the details with that big picture kind of involved.
+<em>00:03.360</em></p>
+<p>Now, I was going to launch open the App Store and see if I can see
+<em>00:03.360</em></p>
+<p>I don&#x27;t think we&#x27;ve seen how it&#x27;s going to be used.
+<em>00:03.360</em></p>
+<p>One edit a day keeps the doctor away, that kind of thing.
+<em>00:03.360</em></p>
+<p>They never once told me what the message was.
+<em>00:03.440</em></p>
+<p>And just drudging away.
+<em>00:03.440</em></p>
+<p>They were film majors.
+<em>00:03.440</em></p>
+<p>And he came to video editing from a different background.
+<em>00:03.440</em></p>
+<p>And I think that the rest of the world does not want to.
+<em>00:03.440</em></p>
+<p>And he goes, well, you know, if I had moved to Final Cat 10 in the beginning, Funnel Cat 10 would have killed my business.
+<em>00:03.440</em></p>
+<p>And he&#x27;s also out there.
+<em>00:03.440</em></p>
+<p>I&#x27;m like, oh, if I had a big team.
+<em>00:03.440</em></p>
+<p>2, I was like, seriously, I&#x27;m shocked.
+<em>00:03.440</em></p>
+<p>That to me is massive.
+<em>00:03.440</em></p>
+<p>But it just kind of annoyed me.
+<em>00:03.440</em></p>
+<p>Be diligent and precise in all that you do.
+<em>00:03.520</em></p>
+<p>Real quick, Philip said the same thing about his product.
+<em>00:03.520</em></p>
+<p>You&#x27;re talking about Lumberjack.
+<em>00:03.520</em></p>
+<p>And that actually is extremely powerful when you start to go, okay, let me do
+<em>00:03.520</em></p>
+<p>2, I think the other thing that we have to look forward to is that obviously when they were demoing the 3D text
+<em>00:03.520</em></p>
+<p>I go, really?
+<em>00:03.520</em></p>
+<p>Command six will invoke the color board.
+<em>00:03.520</em></p>
+<p>You know what&#x27;s great about compressor is it allows you to send out a bunch of different versions of something at the same time.
+<em>00:03.520</em></p>
+<p>And after he debuts that, I&#x27;m going to have him on the show and we&#x27;re going to talk all about his new product.
+<em>00:03.520</em></p>
+<p>But most of it was really amazing content in terms of how to work better with this tool that we all choose to use.
+<em>00:03.600</em></p>
+<p>But to a certain degree, sometimes they need to be a little bit.
+<em>00:03.600</em></p>
+<p>m.
+<em>00:03.600</em></p>
+<p>And what we have seen is that Fanoka Ten has been adopted so broadly
+<em>00:03.600</em></p>
+<p>I know you&#x27;re using a big old email robot.
+<em>00:03.600</em></p>
+<p>I think Philip actually, you know, come to think of it, Philip I think has been on the show.
+<em>00:03.600</em></p>
+<p>Yeah, that sounds right.
+<em>00:03.600</em></p>
+<p>That&#x27;s right.
+<em>00:03.600</em></p>
+<p>It&#x27;ll be able to use whatever cache settings are currently inside the final cut.
+<em>00:03.600</em></p>
+<p>I don&#x27;t think it&#x27;s San Francisco.
+<em>00:03.600</em></p>
+<p>Pasta, pasta.
+<em>00:03.600</em></p>
+<p>If you can get to the Lacey Pug event on the 22nd.
+<em>00:03.600</em></p>
+<p>And I&#x27;ll actually make I&#x27;ll actually shove that over into my playlist.
+<em>00:03.680</em></p>
+<p>It was funny, dude after uh during NAB, I think I split a cab with a an NBC executive.
+<em>00:03.680</em></p>
+<p>Actually, let me change the width of this column so it&#x27;s a little easier to read and zoom in on this screen.
+<em>00:03.680</em></p>
+<p>No, no, no, no.
+<em>00:03.680</em></p>
+<p>Okay.
+<em>00:03.680</em></p>
+<p>How do I, the guy who does the Final Cut Pro podcast, not know that motion does 3D tracking?
+<em>00:03.680</em></p>
+<p>So you don&#x27;t have to worry about reentering codes or anything.
+<em>00:03.680</em></p>
+<p>Lacey Pug, the Los Angeles Cutters.
+<em>00:03.680</em></p>
+<p>And he said to me, you know, and he was there because he listens to Digital Cinema Cafe, not so much that he listened to The Grill.
+<em>00:03.760</em></p>
+<p>But in some of the kind of casual conversations I would have with some of the Apple people, I would say to them, I&#x27;d say, look.
+<em>00:03.760</em></p>
+<p>I&#x27;m a super Apple fanboy, so I had like every iPhone.
+<em>00:03.760</em></p>
+<p>And then you also had a favorite.
+<em>00:03.760</em></p>
+<p>But if you go ahead and take a look at their videos online, I have a feeling that they all looked really good and they were able to put together this thing very quickly.
+<em>00:03.760</em></p>
+<p>And I spent the whole week with the FCP Works crew.
+<em>00:03.840</em></p>
+<p>It&#x27;s easy to find good things.
+<em>00:03.840</em></p>
+<p>It&#x27;s a pain.
+<em>00:03.840</em></p>
+<p>Have you looked at it lately?
+<em>00:03.840</em></p>
+<p>I would say at least a half hour, I was in this guy&#x27;s face.
+<em>00:03.840</em></p>
+<p>When he does and when he does, he&#x27;s going to learn about how damn hard all of you are working each and every day to bring to market the most advanced and smart editing
+platform on the planet.
+<em>00:03.840</em></p>
+<p>So uh I was genuinely shocked
+<em>00:03.840</em></p>
+<p>What did you think of his presentation?
+<em>00:03.840</em></p>
+<p>It&#x27;s a database with a browser attached to it.
+<em>00:03.840</em></p>
+<p>You&#x27;re back here, you don&#x27;t get to talk.
+<em>00:03.840</em></p>
+<p>Right.
+<em>00:03.840</em></p>
+<p>You&#x27;re talking about opening title sequences.
+<em>00:03.840</em></p>
+<p>They have a larger version of the module for the I must say for the larger URSA.
+<em>00:03.840</em></p>
+<p>Should I listen to them or not?
+<em>00:03.920</em></p>
+<p>I don&#x27;t know why people aren&#x27;t in editing in front of it.
+<em>00:03.920</em></p>
+<p>And what you find in this industry is that people are drawn like a moth to a flame to their comfort zone.
+<em>00:03.920</em></p>
+<p>All right.
+<em>00:03.920</em></p>
+<p>I know there are.
+<em>00:03.920</em></p>
+<p>I am.
+<em>00:03.920</em></p>
+<p>Another thing that they&#x27;ve done here is apparently that the the GPU rendering
+<em>00:03.920</em></p>
+<p>Okay, we&#x27;re going to make a product for that.
+<em>00:03.920</em></p>
+<p>Okay, so th th that is that&#x27;s that&#x27;s just the I&#x27;m I think I&#x27;m gonna change this name because I don&#x27;t know if you look at it, it looks ki it reminds me of uh the O&#x27;Neaders.
+<em>00:03.920</em></p>
+<p>So I&#x27;m curating the curated music.
+<em>00:04.000</em></p>
+<p>Todd, we just got back from Las Vegas.
+<em>00:04.000</em></p>
+<p>And I think that where we are at, and this is what happened with Focus, where we are at with Fan of Chet 10 is
+<em>00:04.000</em></p>
+<p>we had a digital cinema cafe meetup at the Cosmopolitan Hotel.
+<em>00:04.000</em></p>
+<p>He&#x27;s just saying, Look, there&#x27;s more tutorials for that&#x27;s actually a really good point.
+<em>00:04.000</em></p>
+<p>I mean, I I know all the features about 10.
+<em>00:04.000</em></p>
+<p>I wouldn&#x27;t have to log in to something and click on the you know, you have to like put in your password.
+<em>00:04.000</em></p>
+<p>Uh, press one to delete, press two to hear again, and you could never hear it hear it again.
+<em>00:04.000</em></p>
+<p>I remember that now.
+<em>00:04.000</em></p>
+<p>And I haven&#x27;t totally looked into that.
+<em>00:04.000</em></p>
+<p>Background, whatever.
+<em>00:04.000</em></p>
+<p>And so I realized, you know, like not until today, this is Saturday after NAB.
+<em>00:04.080</em></p>
+<p>There we were you had Velcro strapped to the walls, you know, this kind of stuff, and he and he says, you know, but we we edited the whole thing in Final Cut.
+<em>00:04.080</em></p>
+<p>Um, no, no, I did not.
+<em>00:04.080</em></p>
+<p>You have Philip Hodgetts, you have the guys over at the Color Finale, guys over at Color Finale, you have Denver Riddle, you have.
+<em>00:04.160</em></p>
+<p>So I think that my initial take on it was pretty weak.
+<em>00:04.160</em></p>
+<p>Where&#x27;s my keyboard?
+<em>00:04.160</em></p>
+<p>And I feel bad.
+<em>00:04.160</em></p>
+<p>Yeah, yeah, yeah.
+<em>00:04.160</em></p>
+<p>You talked about it.
+<em>00:04.240</em></p>
+<p>I am.
+<em>00:04.240</em></p>
+<p>He was saying that he actually, I don&#x27;t know if he was the sole person that programmed it or basically doing the secondary part of it.
+<em>00:04.240</em></p>
+<p>But he&#x27;s like he&#x27;s he&#x27;s co-founder, if I&#x27;m not mistaken, and CEO of Freemio.
+<em>00:04.240</em></p>
+<p>And more and more, we are beginning to see it is the choice of many more people.
+<em>00:04.240</em></p>
+<p>And those guys are no dummies.
+<em>00:04.240</em></p>
+<p>They&#x27;re like, well, what&#x27;s the number I call at Apple to help me fix my
+<em>00:04.320</em></p>
+<p>I was able to do I was able to track a lens flare to the headlight of a car in like
+<em>00:04.320</em></p>
+<p>I have my fan playlist, and it has music that I dig and that I know I want to cut to.
+<em>00:04.400</em></p>
+<p>They do they&#x27;re a nonprofit, and we&#x27;re doing a whole thing for their dinner coming up in a few months.
+<em>00:04.400</em></p>
+<p>They are dead tired.
+<em>00:04.400</em></p>
+<p>And also, you know, other stuff, whatever.
+<em>00:04.400</em></p>
+<p>I&#x27;ve worked independently for a lot of the tech companies in up in San Jose and in San Francisco.
+<em>00:04.480</em></p>
+<p>And one of the things that they would say, and it&#x27;s kind of in the release notes.
+<em>00:04.480</em></p>
+<p>And I have I I as you know, you know, because we were on Meerkat for like a
+<em>00:04.480</em></p>
+<p>Yeah, shape and color mask.
+<em>00:04.480</em></p>
+<p>It was the visual voicemail.
+<em>00:04.480</em></p>
+<p>I was giving you the stage for a couple of seconds.
+<em>00:04.480</em></p>
+<p>You can send it right from the share menu in Final Fat 10.
+<em>00:04.480</em></p>
+<p>Yeah, I&#x27;m not saying that necessarily be the biggest thing, but like some little thing that you think somebody else is going to miss.
+<em>00:04.480</em></p>
+<p>Oh my God.
+<em>00:04.560</em></p>
+<p>They were all excited.
+<em>00:04.560</em></p>
+<p>And I think that part of the reason why I wanted to do this podcast is to have conversations away from
+<em>00:04.560</em></p>
+<p>I&#x27;m going to get in a car.
+<em>00:04.560</em></p>
+<p>Apple listening, maybe?
+<em>00:04.560</em></p>
+<p>Oh, yeah, dude, you&#x27;re excited.
+<em>00:04.560</em></p>
+<p>And if it weren&#x27;t for guys like, say, Sam Messman and Noah Kadner and Maria and the whole team at FCP works.
+<em>00:04.560</em></p>
+<p>So let&#x27;s say you have a cool you have a cool filter that finds all these close-up
+<em>00:04.560</em></p>
+<p>But if you if you go out of Final Cut and then rebring in your project from Compressor, I&#x27;m
+<em>00:04.560</em></p>
+<p>Yeah, the one that looks like it has an iPad on the back.
+<em>00:04.560</em></p>
+<p>He&#x27;s back at home.
+<em>00:04.640</em></p>
+<p>I&#x27;m like, oh yeah, 10&#x27;s out.
+<em>00:04.640</em></p>
+<p>Very cool.
+<em>00:04.640</em></p>
+<p>I just got there a little late, a little coffee mishap.
+<em>00:04.640</em></p>
+<p>I felt really bad.
+<em>00:04.640</em></p>
+<p>And this machine only has like 16 gigs of RAM.
+<em>00:04.640</em></p>
+<p>Okay.
+<em>00:04.640</em></p>
+<p>Wait, I think I&#x27;m screwing up metaphors over here.
+<em>00:04.640</em></p>
+<p>And if you&#x27;re in the Santa Cruz area, come by the beach.
+<em>00:04.640</em></p>
+<p>Now we have something like with Philip Hodgett&#x27;s Philip Hodges his lumberjack
+<em>00:04.720</em></p>
+<p>Here&#x27;s a shape mask.
+<em>00:04.720</em></p>
+<p>Well, you&#x27;d be stuck inside one of your events.
+<em>00:04.720</em></p>
+<p>They had it out there for a while and they&#x27;re like, all right, we&#x27;re kind of done with that experiment.
+<em>00:04.720</em></p>
+<p>Yeah.
+<em>00:04.720</em></p>
+<p>And quite honestly, this is where it kind of does hurt the Apple community in a sense, and that you don&#x27;t have a voice saying, hey, look,
+<em>00:04.800</em></p>
+<p>I mean, he gets it, but he&#x27;s like not into it.
+<em>00:04.800</em></p>
+<p>He goes, You can&#x27;t have it.
+<em>00:04.800</em></p>
+<p>He says, yeah.
+<em>00:04.800</em></p>
+<p>Because Apple just throws this thing.
+<em>00:04.800</em></p>
+<p>Okay, cool.
+<em>00:04.800</em></p>
+<p>I&#x27;m going to say this.
+<em>00:04.800</em></p>
+<p>Let me put it that way.
+<em>00:04.880</em></p>
+<p>Like just helicopters everywhere.
+<em>00:04.880</em></p>
+<p>So so me, Apple, my girlfriend, uh we live out here because I think it&#x27;s use you can now.
+<em>00:04.880</em></p>
+<p>And then you fast forward, and they&#x27;re no longer interested in film, don&#x27;t have that creative spirit anymore.
+<em>00:04.880</em></p>
+<p>Yeah, no, that&#x27;s not really for us.
+<em>00:04.880</em></p>
+<p>I have a pretty, I&#x27;ll say, marginally strong audio background from
+<em>00:04.880</em></p>
+<p>Sure.
+<em>00:04.880</em></p>
+<p>And we&#x27;re going to do that in an upcoming episode.
+<em>00:04.880</em></p>
+<p>I mean, they like they were really solid work study.
+<em>00:04.960</em></p>
+<p>And there&#x27;s a lot of people that think that, no, you know, hey, dude, I got this.
+<em>00:04.960</em></p>
+<p>And yet, if you look at the way he is promoting
+<em>00:04.960</em></p>
+<p>Correct.
+<em>00:04.960</em></p>
+<p>But not only can you do video effects presets, but you can do audio effects preset.
+<em>00:04.960</em></p>
+<p>And at the same time, we had such great content coming out of our suite.
+<em>00:05.040</em></p>
+<p>I don&#x27;t mean the salespeople.
+<em>00:05.040</em></p>
+<p>I remember 10.
+<em>00:05.040</em></p>
+<p>I think he was actually like a vice president of something.
+<em>00:05.040</em></p>
+<p>Sure.
+<em>00:05.040</em></p>
+<p>Okay.
+<em>00:05.040</em></p>
+<p>And he said, he goes, Oh, yeah, you know, I know how it all works.
+<em>00:05.040</em></p>
+<p>Yeah, no, I use compressor a lot actually.
+<em>00:05.040</em></p>
+<p>Yes, yes, they were.
+<em>00:05.040</em></p>
+<p>But if you&#x27;re looking for me on Twitter, you can go to one edit a day, O-N-E-E-D-I-T.
+<em>00:05.040</em></p>
+<p>So yeah.
+<em>00:05.120</em></p>
+<p>What kind of work do you do, Nick?
+<em>00:05.120</em></p>
+<p>A little bit.
+<em>00:05.120</em></p>
+<p>It is a hard sell.
+<em>00:05.120</em></p>
+<p>I had not seen it.
+<em>00:05.120</em></p>
+<p>The micro cinema camera for a less expensive version.
+<em>00:05.120</em></p>
+<p>We&#x27;re going to give you 20 different products, and next year we&#x27;re going to give you 40.
+<em>00:05.120</em></p>
+<p>It&#x27;s not professional.
+<em>00:05.200</em></p>
+<p>Premiumbeat.
+<em>00:05.200</em></p>
+<p>So you grad uh you went to film school, is that correct?
+<em>00:05.200</em></p>
+<p>But I&#x27;m looking forward to playing around with it on the i5s and or the excuse me, the 5ks, i7s they are.
+<em>00:05.200</em></p>
+<p>Exactly.
+<em>00:05.200</em></p>
+<p>I can&#x27;t click on the buttons.
+<em>00:05.200</em></p>
+<p>Now that&#x27;s an interesting that I think that graphic was used as a justification
+<em>00:05.200</em></p>
+<p>There has to be.
+<em>00:05.200</em></p>
+<p>You can definitely save it.
+<em>00:05.200</em></p>
+<p>Okay, so that they were called the the O&#x27;Neaters.
+<em>00:05.200</em></p>
+<p>And I like had a simple word, and I was just kind of doing the same things I saw Sam do in the demo a couple of times.
+<em>00:05.280</em></p>
+<p>Sure.
+<em>00:05.280</em></p>
+<p>Yeah.
+<em>00:05.280</em></p>
+<p>So anyway, that&#x27;s actually uh a very cool little little tidbit.
+<em>00:05.280</em></p>
+<p>Okay, because they have that San Francisco startup vibe.
+<em>00:05.280</em></p>
+<p>For that for that presentation, I think I could be wrong here, but
+<em>00:05.280</em></p>
+<p>It&#x27;s Todd.
+<em>00:05.360</em></p>
+<p>I think everybody who listens to this show is always trying to figure out
+<em>00:05.360</em></p>
+<p>And, you know, I complimented him.
+<em>00:05.360</em></p>
+<p>So I have another project I&#x27;m working on for this organization.
+<em>00:05.360</em></p>
+<p>264 long GOP.
+<em>00:05.360</em></p>
+<p>And I think that when you that a lot of times you sort of need that kind of
+<em>00:05.360</em></p>
+<p>Anyway, I will say that they
+<em>00:05.360</em></p>
+<p>That&#x27;s nice.
+<em>00:05.360</em></p>
+<p>Right, right.
+<em>00:05.360</em></p>
+<p>Sure, they can go to the production company I&#x27;ve been part of, which is NOK Productions.
+<em>00:05.360</em></p>
+<p>That was the original idea.
+<em>00:05.360</em></p>
+<p>I want to get Dean, I want to get Vid, I want to get I always draw a blank.
+<em>00:05.360</em></p>
+<p>So if you haven&#x27;t checked them out, you&#x27;re doing yourself a disservice.
+<em>00:05.440</em></p>
+<p>Okay, so um
+<em>00:05.440</em></p>
+<p>They were all excited to produce something, to edit something, to create something.
+<em>00:05.440</em></p>
+<p>Power Melt.
+<em>00:05.440</em></p>
+<p>And they say that the easier something looks, and the cleaner it works, and the better and faster that it is.
+<em>00:05.440</em></p>
+<p>Okay, can you give me a couple seconds on that?
+<em>00:05.440</em></p>
+<p>Sure.
+<em>00:05.520</em></p>
+<p>And Qigong spelled with Q-I, G-O-N-G.
+<em>00:05.520</em></p>
+<p>She always calls it, it&#x27;s a my grandmother does that stuff.
+<em>00:05.520</em></p>
+<p>Because, and we talk about this all the time on the show, that from 10.
+<em>00:05.520</em></p>
+<p>Do you have Color Finale?
+<em>00:05.520</em></p>
+<p>Okay.
+<em>00:05.520</em></p>
+<p>Does that make sense?
+<em>00:05.520</em></p>
+<p>Anyway, welcome to another episode of Final Cut Grill.
+<em>00:05.600</em></p>
+<p>But but um they knew that they would be able to save time and money if they were cutting in something
+<em>00:05.600</em></p>
+<p>It&#x27;s easier for you, who&#x27;s working primarily by yourself, say, Yeah, I just want to work fast.
+<em>00:05.600</em></p>
+<p>Here&#x27;s some more crap you should buy.
+<em>00:05.600</em></p>
+<p>That&#x27;s right.
+<em>00:05.600</em></p>
+<p>You&#x27;re like, well, and Alex always makes fun of you calling you the going the old man stories and this and that.
+<em>00:05.600</em></p>
+<p>I don&#x27;t think we&#x27;ve fully explored the implications of what that really means.
+<em>00:05.600</em></p>
+<p>You can&#x27;t do it yet, but you&#x27;re starting to look at, like, oh, maybe I can start to work with 3D objects inside my editor.
+<em>00:05.600</em></p>
+<p>I have a feeling that they are using it for a very specific reason because it&#x27;s for price per price per price for bing for the buck kind of thing.
+<em>00:05.600</em></p>
+<p>Sure.
+<em>00:05.600</em></p>
+<p>And I&#x27;ll give you a pointer and a tip if you haven&#x27;t heard me say this.
+<em>00:05.680</em></p>
+<p>Exactly.
+<em>00:05.680</em></p>
+<p>Um so I&#x27;m talking briefly to the people on Meerkat and they&#x27;re saying that the audio is cutting in and out, and I will look into that.
+<em>00:05.680</em></p>
+<p>And I think that that&#x27;s one of the things that Apple
+<em>00:05.680</em></p>
+<p>Add shape mask.
+<em>00:05.680</em></p>
+<p>I might be able to find you some work.
+<em>00:05.680</em></p>
+<p>Did you see actually visualize it?
+<em>00:05.680</em></p>
+<p>It was almost like she was just trying to
+<em>00:05.680</em></p>
+<p>It was like 10.
+<em>00:05.760</em></p>
+<p>He was saying, early on, they were thinking about all these different ways of like, oh, we don&#x27;t want people to use it on 25 mic machines and this kind of thing.
+<em>00:05.760</em></p>
+<p>Oh, actually, you can&#x27;t watch it online because they wouldn&#x27;t let us point cameras at him.
+<em>00:05.760</em></p>
+<p>And not only just for the kids, but just for me, because I don&#x27;t have to like
+<em>00:05.760</em></p>
+<p>But when he showed that piece, I asked him
+<em>00:05.760</em></p>
+<p>I said, 3D tracking.
+<em>00:05.760</em></p>
+<p>And then we make that becomes our master that we make everything from.
+<em>00:05.760</em></p>
+<p>So, anyway, that was Todd from San Diego.
+<em>00:05.760</em></p>
+<p>And I got to say, I had a great time.
+<em>00:05.840</em></p>
+<p>Huh.
+<em>00:05.840</em></p>
+<p>Talk about Disaster Central.
+<em>00:05.840</em></p>
+<p>And so you go on YouTube, you look up this gentleman&#x27;s name, Greg Sperr, or when you look up his competition, you will find our
+<em>00:05.840</em></p>
+<p>And I felt horrible.
+<em>00:05.840</em></p>
+<p>It makes me get all jazzed up because I&#x27;m like, why do you have this huge industry?
+<em>00:05.840</em></p>
+<p>He expressed all of the standard concerns that we hear over and over, saying things like his business would have gone under had he jumped to ten point zero.
+<em>00:05.840</em></p>
+<p>2, but but you know, maybe you let me know what what that presentation was like.
+<em>00:05.840</em></p>
+<p>Of the shape mask.
+<em>00:05.840</em></p>
+<p>And so there&#x27;s there&#x27;s I think there&#x27;s some incredible power there that is not fully
+<em>00:05.840</em></p>
+<p>That was like from a few years ago, or excuse me, 3D titles.
+<em>00:05.840</em></p>
+<p>I think that a lot of times it&#x27;ll get used.
+<em>00:05.840</em></p>
+<p>And I just I really wish Apple could talk about it and let us point cameras at them when they do.
+<em>00:05.840</em></p>
+<p>Oh, okay.
+<em>00:05.840</em></p>
+<p>It&#x27;s like, ah, shut up.
+<em>00:05.920</em></p>
+<p>I had asthma when I used to live in LA.
+<em>00:05.920</em></p>
+<p>It&#x27;s a hard sell, yeah.
+<em>00:05.920</em></p>
+<p>And so I went over and I quit Final Cut, and immediately messages went like, oh, yeah, hey, it&#x27;s messages.
+<em>00:05.920</em></p>
+<p>I&#x27;m guessing, I don&#x27;t know if this is true, but being able to work with objects, kind of like MObject kind of did before.
+<em>00:05.920</em></p>
+<p>But if it&#x27;s as easy as everything else I&#x27;ve ever done in Core Melt, I&#x27;m sure that&#x27;s not hard either.
+<em>00:05.920</em></p>
+<p>And then there&#x27;s another function inside the new Cormel SliceX update that allows you to take something like
+<em>00:05.920</em></p>
+<p>So and it&#x27;s it&#x27;s kind of funny because it k they they&#x27;re out of uh are they based out of San Francisco?
+<em>00:05.920</em></p>
+<p>And in general, that was, you know, I had described it in some of the videos there, that it was kind of like the epicenter of knowledge of Final Khaten.
+<em>00:06.000</em></p>
+<p>1 came out.
+<em>00:06.000</em></p>
+<p>And then their dad offers them some position at like a
+<em>00:06.000</em></p>
+<p>There&#x27;s one guy I know who is a local editor in the San Francisco area.
+<em>00:06.000</em></p>
+<p>Not you specifically, but to basically pass on a message to the entire Funnel Cut team, Funnel Cut slash motion team.
+<em>00:06.000</em></p>
+<p>And for God&#x27;s sake, please give me the damn remove attributes.
+<em>00:06.000</em></p>
+<p>I don&#x27;t think I&#x27;m actually allowed to talk about what the project is.
+<em>00:06.000</em></p>
+<p>Sorry about that.
+<em>00:06.000</em></p>
+<p>Well, in your smart collections, it allows you to kind of take all these little data points and say, well, if you find a clip that is all this, show up in this bin.
+<em>00:06.000</em></p>
+<p>We tend to take our full Res Texas Master outputs and we take those out because
+<em>00:06.000</em></p>
+<p>Because I don&#x27;t think that technology or battery battery technology is really there yet to wear have a wearable last all day.
+<em>00:06.000</em></p>
+<p>If you&#x27;re in the LA area
+<em>00:06.000</em></p>
+<p>So that&#x27;ll be coming up soon.
+<em>00:06.000</em></p>
+<p>And then I put two and two together.
+<em>00:06.080</em></p>
+<p>Anyway, hey, Todd, is listening in on Meerkat.
+<em>00:06.080</em></p>
+<p>So, anyway, at the end of that.
+<em>00:06.080</em></p>
+<p>Because I remember talking, I think I was talking with
+<em>00:06.080</em></p>
+<p>But this particular guy is like, I don&#x27;t edit.
+<em>00:06.080</em></p>
+<p>Because before with the colorboard being hardwired into the effects chain after the effects,
+<em>00:06.080</em></p>
+<p>So that&#x27;s a little speed that&#x27;s a little speed trick.
+<em>00:06.080</em></p>
+<p>com.
+<em>00:06.160</em></p>
+<p>Yeah, totally worth it though, by the way.
+<em>00:06.160</em></p>
+<p>Well, let me give you a little tiny bit of a backstory.
+<em>00:06.160</em></p>
+<p>Because of beat, sure.
+<em>00:06.160</em></p>
+<p>It seems so logical.
+<em>00:06.160</em></p>
+<p>Thank you.
+<em>00:06.160</em></p>
+<p>Okay.
+<em>00:06.160</em></p>
+<p>Yeah, wouldn&#x27;t that be cool?
+<em>00:06.160</em></p>
+<p>Oh, yeah, sure.
+<em>00:06.160</em></p>
+<p>I&#x27;m like, everybody, just a year before this.
+<em>00:06.160</em></p>
+<p>Engineer at Apple.
+<em>00:06.160</em></p>
+<p>You&#x27;re good on that.
+<em>00:06.160</em></p>
+<p>And one of the most interesting was a guy I talked to, and he has one edit suite.
+<em>00:06.160</em></p>
+<p>And that&#x27;s going to be in an upcoming episode.
+<em>00:06.160</em></p>
+<p>They were everybody at FCP Works was amazingly generous with their trust.
+<em>00:06.240</em></p>
+<p>I mean actual physical drones.
+<em>00:06.240</em></p>
+<p>Cut that in Final Cut 10 at home.
+<em>00:06.240</em></p>
+<p>At the end of the half hour, he finally agreed that he would give it a try.
+<em>00:06.240</em></p>
+<p>Here you go.
+<em>00:06.240</em></p>
+<p>So you can add a shape and/or color mask.
+<em>00:06.240</em></p>
+<p>When the guy from Apple and I feel really bad, and I&#x27;m really sorry, I can&#x27;t remember your name.
+<em>00:06.240</em></p>
+<p>They were the um
+<em>00:06.240</em></p>
+<p>So it was great to meet people and it was great to connect with people.
+<em>00:06.320</em></p>
+<p>And so when you have a tool that&#x27;s this powerful, it&#x27;s kind of hard not to be so sorry about that.
+<em>00:06.320</em></p>
+<p>I don&#x27;t know.
+<em>00:06.320</em></p>
+<p>He has a training about this.
+<em>00:06.320</em></p>
+<p>And I might catch hell for saying this, but it was almost as though
+<em>00:06.320</em></p>
+<p>And Todd, I want to thank you for taking the time to
+<em>00:06.320</em></p>
+<p>I&#x27;ve been a 7 editor for a while, worked on documentaries with 7, or might have been 6.
+<em>00:06.400</em></p>
+<p>So yeah, so that&#x27;s I guess that&#x27;s my reason for living out here.
+<em>00:06.400</em></p>
+<p>And yet it brings some of these things that you can preset a bunch of big layered effect.
+<em>00:06.400</em></p>
+<p>I gotcha, sure.
+<em>00:06.400</em></p>
+<p>Now you can actually look at it throughout your entire library.
+<em>00:06.400</em></p>
+<p>Like, you know, you&#x27;re getting like these these you&#x27;re getting these people that are not just programmers, they&#x27;re not just
+<em>00:06.400</em></p>
+<p>Well, that&#x27;s going to happen then very soon now.
+<em>00:06.400</em></p>
+<p>So anyway, check out PremiumBeat.
+<em>00:06.480</em></p>
+<p>1 at the 10.
+<em>00:06.480</em></p>
+<p>Yeah.
+<em>00:06.480</em></p>
+<p>Sure.
+<em>00:06.480</em></p>
+<p>But maybe I&#x27;ll name the episode that.
+<em>00:06.480</em></p>
+<p>I mean, if you go to Denver Riddle&#x27;s website, the primary focus of his site is Resolve.
+<em>00:06.480</em></p>
+<p>Okay.
+<em>00:06.480</em></p>
+<p>Well, the presentation-wise, I actually had that&#x27;s the only you know what&#x27;s funny?
+<em>00:06.480</em></p>
+<p>And in doing so, we&#x27;ll add the color corrector filter to that clip.
+<em>00:06.480</em></p>
+<p>You still got to name the color boards, which would be nice.
+<em>00:06.480</em></p>
+<p>And I will tell you right now.
+<em>00:06.480</em></p>
+<p>They had like the biggest spot.
+<em>00:06.480</em></p>
+<p>We did.
+<em>00:06.560</em></p>
+<p>Oh, by the way, anyone that&#x27;s listening to this, I watched this.
+<em>00:06.560</em></p>
+<p>And I even said to him, I said,
+<em>00:06.560</em></p>
+<p>Sure.
+<em>00:06.560</em></p>
+<p>Oh, yeah.
+<em>00:06.560</em></p>
+<p>And it&#x27;s funny that that wasn&#x27;t really that advertised of a feature.
+<em>00:06.560</em></p>
+<p>But for now, if you&#x27;re looking for me, it&#x27;s one edit a day.
+<em>00:06.560</em></p>
+<p>And then
+<em>00:06.640</em></p>
+<p>And Todd&#x27;s from Santa Cruz, and he was like a stalker.
+<em>00:06.640</em></p>
+<p>And I said, Can I take a picture of the icon?
+<em>00:06.640</em></p>
+<p>Now, there&#x27;s other stuff that I want to mention.
+<em>00:06.640</em></p>
+<p>And I&#x27;ll only say this.
+<em>00:06.640</em></p>
+<p>Oh, yeah.
+<em>00:06.640</em></p>
+<p>And so in a weird way, they kind of just said
+<em>00:06.640</em></p>
+<p>Anyway, I&#x27;m going to get all four of these guys, and we&#x27;re going to have a music video.
+<em>00:06.640</em></p>
+<p>And it&#x27;d be 2015.
+<em>00:06.640</em></p>
+<p>Because obviously he was sitting there, he was taking notes, he was participating in the conversations.
+<em>00:06.720</em></p>
+<p>And I think thanks to me, PremiumBeats.
+<em>00:06.720</em></p>
+<p>Yeah, he literally means in his face.
+<em>00:06.720</em></p>
+<p>I said, you know, dude, those emails are awesome.
+<em>00:06.720</em></p>
+<p>Yeah.
+<em>00:06.720</em></p>
+<p>Where&#x27;s my keyboard?
+<em>00:06.720</em></p>
+<p>And do you do you send a compressor what is that called when you do the share menu?
+<em>00:06.720</em></p>
+<p>And I don&#x27;t know if it&#x27;s so strong, so I think it needs to change, actually.
+<em>00:06.720</em></p>
+<p>And we&#x27;re going to go to Daniel Ray Todd Villegas in Santa Cruz, California, and we&#x27;re going to hear his take on what.
+<em>00:06.800</em></p>
+<p>So Lumberjack is just one of many
+<em>00:06.800</em></p>
+<p>It&#x27;s a very difficult sell because it&#x27;s really intelligent.
+<em>00:06.800</em></p>
+<p>And I&#x27;m realizing
+<em>00:06.800</em></p>
+<p>I said, Okay, that&#x27;s kind of dumb, but that come to think of it, Mr.
+<em>00:06.800</em></p>
+<p>Just whatever kind of mask.
+<em>00:06.800</em></p>
+<p>Yeah, you can save the name.
+<em>00:06.800</em></p>
+<p>But do it with inside the final cut.
+<em>00:06.800</em></p>
+<p>So it it&#x27;s this little
+<em>00:06.800</em></p>
+<p>So, I don&#x27;t know, I like that vibe, I like this, like this energy of like we&#x27;re just gonna make a bunch of crap.
+<em>00:06.800</em></p>
+<p>And so, a friend of mine
+<em>00:06.880</em></p>
+<p>Sure.
+<em>00:06.880</em></p>
+<p>So genuinely, when we hit the download button at 901.
+<em>00:06.880</em></p>
+<p>Right.
+<em>00:06.880</em></p>
+<p>Sorry, my little dot.
+<em>00:06.880</em></p>
+<p>Is there any like
+<em>00:06.880</em></p>
+<p>Do you know what my favorite feature was for that thing?
+<em>00:06.880</em></p>
+<p>It&#x27;s a really loaded statement to say that that&#x27;s a big deal.
+<em>00:06.880</em></p>
+<p>Do you d do that?
+<em>00:06.880</em></p>
+<p>And he was just kind of telling me that, you know, this took a lot of his like passion and time to kind of create this product.
+<em>00:06.880</em></p>
+<p>Did you actually get out there to the South Hall or North Hall or wherever they were?
+<em>00:06.880</em></p>
+<p>So I think that&#x27;d be awesome.
+<em>00:06.880</em></p>
+<p>So you&#x27;ve been doing it from the
+<em>00:06.960</em></p>
+<p>I do.
+<em>00:06.960</em></p>
+<p>Yeah, no, not at all.
+<em>00:06.960</em></p>
+<p>He has been, yeah.
+<em>00:06.960</em></p>
+<p>Yeah.
+<em>00:06.960</em></p>
+<p>Just install it, and you&#x27;re going to get some new features in there.
+<em>00:06.960</em></p>
+<p>You&#x27;ll see me there too.
+<em>00:06.960</em></p>
+<p>So I like took a snap of it and I and I tweeted the thing.
+<em>00:07.040</em></p>
+<p>So, no, I I I didn&#x27;t want to show up with coffee all over me out from the cab.
+<em>00:07.040</em></p>
+<p>I am.
+<em>00:07.040</em></p>
+<p>Well, it was interesting.
+<em>00:07.040</em></p>
+<p>Although it is one of those things where you&#x27;re like, well, why wasn&#x27;t that in there before?
+<em>00:07.040</em></p>
+<p>You had like Dropbox.
+<em>00:07.040</em></p>
+<p>I was like, oh, yeah, it must be terrible.
+<em>00:07.120</em></p>
+<p>Yeah, I think what we&#x27;re what we&#x27;re looking at, and this is, you know, this is
+<em>00:07.120</em></p>
+<p>Yeah, I think it&#x27;s
+<em>00:07.120</em></p>
+<p>Yeah, I remember that.
+<em>00:07.120</em></p>
+<p>And so I think that our technical setup will offer some good
+<em>00:07.120</em></p>
+<p>Yes, a product.
+<em>00:07.120</em></p>
+<p>01 at the time.
+<em>00:07.200</em></p>
+<p>You know, maybe that&#x27;s going to be fine for him.
+<em>00:07.200</em></p>
+<p>Okay, it&#x27;s not all coming from one
+<em>00:07.200</em></p>
+<p>But it&#x27;s just the right level of
+<em>00:07.200</em></p>
+<p>Giant.
+<em>00:07.200</em></p>
+<p>And if you don&#x27;t know that, you really want to go to the Core Melt page and download it.
+<em>00:07.200</em></p>
+<p>I mean, it was kind of understood.
+<em>00:07.280</em></p>
+<p>And we were both, I was actually sequestered in the FCTX work.
+<em>00:07.280</em></p>
+<p>There&#x27;s a gentleman I have right now.
+<em>00:07.280</em></p>
+<p>And at that at the event
+<em>00:07.280</em></p>
+<p>I do.
+<em>00:07.280</em></p>
+<p>And so I think that there is a disconnect there.
+<em>00:07.280</em></p>
+<p>Two, by the way, as far as features are concerned.
+<em>00:07.280</em></p>
+<p>And then they&#x27;ve also added GPU accelerated red code raw processing.
+<em>00:07.280</em></p>
+<p>Yeah, exactly.
+<em>00:07.280</em></p>
+<p>So, anyway, that&#x27;s, I think, I think that&#x27;s.
+<em>00:07.280</em></p>
+<p>I&#x27;m like, oh no, this is not gonna
+<em>00:07.280</em></p>
+<p>Do you remember the Wonders?
+<em>00:07.280</em></p>
+<p>So, when it comes to the actual work that comes out of the actual Santa Cruz area, I like to always joke that we deal in the
+<em>00:07.360</em></p>
+<p>Same here, just to be the remove attributes, like you said before.
+<em>00:07.360</em></p>
+<p>Now there&#x27;s another thing that I want to say and this this
+<em>00:07.360</em></p>
+<p>And so, like, so like there was a shot where
+<em>00:07.360</em></p>
+<p>Sure.
+<em>00:07.360</em></p>
+<p>Yeah, I think and and my theory about black magic
+<em>00:07.360</em></p>
+<p>It was really an honor to be one of the voices of FCP Works.
+<em>00:07.440</em></p>
+<p>And I had talked about this beforehand.
+<em>00:07.440</em></p>
+<p>And recently, I had to cut a couple of pieces for a client, and I got to be the one to cut them to choose the music.
+<em>00:07.440</em></p>
+<p>I don&#x27;t even know how many vice presidents they have.
+<em>00:07.440</em></p>
+<p>Yeah.
+<em>00:07.440</em></p>
+<p>It&#x27;s not like a full.
+<em>00:07.440</em></p>
+<p>Yeah.
+<em>00:07.440</em></p>
+<p>So much stuff to learn.
+<em>00:07.440</em></p>
+<p>Have you seen the did you get to have a chance to go on the floor?
+<em>00:07.520</em></p>
+<p>And so here&#x27;s a guy I know who I highly admire as an editor.
+<em>00:07.520</em></p>
+<p>And I don&#x27;t as much as I can edit
+<em>00:07.520</em></p>
+<p>So I&#x27;m pretty particular about audio.
+<em>00:07.520</em></p>
+<p>Sure.
+<em>00:07.520</em></p>
+<p>I am.
+<em>00:07.520</em></p>
+<p>You should always do it from inside Final Cut.
+<em>00:07.520</em></p>
+<p>They&#x27;re basically they&#x27;re kind of taking over trying to go after the GoPro market, but with the better but with a better sensor.
+<em>00:07.520</em></p>
+<p>The puddings in the pie.
+<em>00:07.520</em></p>
+<p>Sorry, this episode is long, but
+<em>00:07.520</em></p>
+<p>And this is
+<em>00:07.600</em></p>
+<p>You don&#x27;t know what the hell you&#x27;re talking about.
+<em>00:07.600</em></p>
+<p>It was the worst experience as far as from an editing point of view ever.
+<em>00:07.600</em></p>
+<p>I should look into something else.
+<em>00:07.600</em></p>
+<p>Oh, really?
+<em>00:07.600</em></p>
+<p>So, what did you think in general of because you were there
+<em>00:07.600</em></p>
+<p>You know, and it&#x27;s like you guys should.
+<em>00:07.600</em></p>
+<p>Sam Mespin is speaking, and he&#x27;s going to debut a new product.
+<em>00:07.600</em></p>
+<p>Yeah.
+<em>00:07.680</em></p>
+<p>So if you think about like what you can do with like um
+<em>00:07.680</em></p>
+<p>But I will say that watching it
+<em>00:07.680</em></p>
+<p>You know what it&#x27;s like they do?
+<em>00:07.680</em></p>
+<p>Or do you
+<em>00:07.680</em></p>
+<p>And it&#x27;s going to be really interesting because
+<em>00:07.680</em></p>
+<p>She says it&#x27;s a Chinese air, right?
+<em>00:07.760</em></p>
+<p>So if you think about it, there&#x27;s a lot of rhythm and whatnot in cutting.
+<em>00:07.760</em></p>
+<p>Anyway, the next morning I sent this letter to the two of them, the two Apple employees, asking them
+<em>00:07.760</em></p>
+<p>And then people some some devices they actually had the um is a wooden blackberry still was kind of big.
+<em>00:07.760</em></p>
+<p>You know, oddly enough, every
+<em>00:07.840</em></p>
+<p>So you&#x27;ve gotten the Denver Riddle emails.
+<em>00:07.840</em></p>
+<p>I had not thought of that
+<em>00:07.840</em></p>
+<p>By the time you press the button, it got up to your ear fast enough, you&#x27;d missed a few seconds of conversation.
+<em>00:07.840</em></p>
+<p>Because it would it would move as it would update as you move from clip to clip.
+<em>00:07.840</em></p>
+<p>So we&#x27;re taking it back now.
+<em>00:07.840</em></p>
+<p>I&#x27;m sitting here with the Meerkat running and it&#x27;s making me nervous.
+<em>00:07.920</em></p>
+<p>You made it to the DCC
+<em>00:07.920</em></p>
+<p>I hadn&#x27;t thought of that, Todd.
+<em>00:07.920</em></p>
+<p>Yeah.
+<em>00:07.920</em></p>
+<p>That was Apple in the background barking.
+<em>00:07.920</em></p>
+<p>I don&#x27;t know how to edit.
+<em>00:07.920</em></p>
+<p>I&#x27;m from LA originally.
+<em>00:08.000</em></p>
+<p>Give me this whip some more out there, Chris.
+<em>00:08.000</em></p>
+<p>I mean.
+<em>00:08.000</em></p>
+<p>And this is such a little small this is in a sense a smaller update.
+<em>00:08.000</em></p>
+<p>I mean
+<em>00:08.000</em></p>
+<p>So and so it&#x27;s interesting.
+<em>00:08.000</em></p>
+<p>So you need a web version, you need something to send your client.
+<em>00:08.000</em></p>
+<p>And we&#x27;re going to do it on Google Hangout.
+<em>00:08.000</em></p>
+<p>And I think that the 3D title thing is kind of like that.
+<em>00:08.080</em></p>
+<p>So, if you&#x27;re looking for a specific clip, that&#x27;s both you keyworded it with the word close-up.
+<em>00:08.080</em></p>
+<p>I did not know that.
+<em>00:08.080</em></p>
+<p>Just like I I okay, so I I&#x27;ve been in SAPX for quite a while, since ten point one.
+<em>00:08.160</em></p>
+<p>Large collection of textiles.
+<em>00:08.160</em></p>
+<p>Well, just fast forward a little bit, pretty soon we should be able to do the same thing with actual real-life objects.
+<em>00:08.160</em></p>
+<p>Because a lot of times
+<em>00:08.160</em></p>
+<p>In essence, like if that makes sense, like, we&#x27;re going to just try to take over the market.
+<em>00:08.160</em></p>
+<p>Anyway, we&#x27;ll be back next time with another episode of the Grill.
+<em>00:08.160</em></p>
+<p>Okay.
+<em>00:08.240</em></p>
+<p>But but still, I realize that he had his reasons and that&#x27;s okay that he had those reasons.
+<em>00:08.240</em></p>
+<p>Yes.
+<em>00:08.240</em></p>
+<p>And you know what?
+<em>00:08.240</em></p>
+<p>And so you have this tool.
+<em>00:08.240</em></p>
+<p>I am honestly.
+<em>00:08.240</em></p>
+<p>I&#x27;m just going to say that I was screwing around with 3D text on my laptop.
+<em>00:08.240</em></p>
+<p>Okay.
+<em>00:08.240</em></p>
+<p>I will tell you mine while you think of yours.
+<em>00:08.240</em></p>
+<p>Todd, thanks for taking the time.
+<em>00:08.240</em></p>
+<p>And you I was telling you the story about Onmeerkat earlier, but I uh
+<em>00:08.320</em></p>
+<p>You&#x27;d be very proud of them.
+<em>00:08.320</em></p>
+<p>And I wrote
+<em>00:08.320</em></p>
+<p>Sure.
+<em>00:08.320</em></p>
+<p>And so
+<em>00:08.320</em></p>
+<p>So
+<em>00:08.320</em></p>
+<p>Somebody showed a a pie graph.
+<em>00:08.320</em></p>
+<p>And I said to him, I said
+<em>00:08.320</em></p>
+<p>We&#x27;re also going to do
+<em>00:08.320</em></p>
+<p>So
+<em>00:08.400</em></p>
+<p>All of them had these big aspirations for creating a production company.
+<em>00:08.400</em></p>
+<p>Don&#x27;t bring it to the office.
+<em>00:08.400</em></p>
+<p>So if he goes to look at the show, he&#x27;ll go, oh, maybe I should listen to this one.
+<em>00:08.400</em></p>
+<p>And the bottom line is that.
+<em>00:08.400</em></p>
+<p>I don&#x27;t really, I don&#x27;t do that.
+<em>00:08.400</em></p>
+<p>Like, I was with a professional company and we got a film with Will Smith.
+<em>00:08.480</em></p>
+<p>So if you&#x27;re working on a larger project.
+<em>00:08.480</em></p>
+<p>I&#x27;m also going to get Sam Mespin on again.
+<em>00:08.480</em></p>
+<p>You know, I think one of the things that you need to look at in any sort of a
+<em>00:08.560</em></p>
+<p>And if it works like it did in the old colorboard, you can have multiple shape masks.
+<em>00:08.560</em></p>
+<p>com.
+<em>00:08.640</em></p>
+<p>His name is Lee Holden.
+<em>00:08.640</em></p>
+<p>Let me see.
+<em>00:08.640</em></p>
+<p>It&#x27;s like they write this really great bit of code.
+<em>00:08.640</em></p>
+<p>It&#x27;s pretty impressive.
+<em>00:08.640</em></p>
+<p>I&#x27;ll just say that right now.
+<em>00:08.640</em></p>
+<p>Yes.
+<em>00:08.640</em></p>
+<p>1.
+<em>00:08.720</em></p>
+<p>In that title demo, there was
+<em>00:08.720</em></p>
+<p>Yep.
+<em>00:08.720</em></p>
+<p>And I was talking to him on the floor over at NAB.
+<em>00:08.720</em></p>
+<p>And I still, you know, Sam Messman and I have both been saying that
+<em>00:08.720</em></p>
+<p>If you&#x27;re going to come up and approach me at an event, tell me what your Twitter handle is because.
+<em>00:08.800</em></p>
+<p>And he his decision would affect
+<em>00:08.800</em></p>
+<p>I know exactly what I&#x27;m doing.
+<em>00:08.800</em></p>
+<p>0 yeah yeah there you go that&#x27;s probably worse actually all your all your copies of final cut just go back to 10.
+<em>00:08.800</em></p>
+<p>Oh, and here&#x27;s another thing I just want to say to all the Final Cut 10 editors out there.
+<em>00:08.880</em></p>
+<p>I was afraid to change it.
+<em>00:08.880</em></p>
+<p>And I told him, I said, you know, you don&#x27;t.
+<em>00:08.960</em></p>
+<p>And he&#x27;s like, What?
+<em>00:08.960</em></p>
+<p>And I can say this stuff because Apple doesn&#x27;t give me a penny.
+<em>00:08.960</em></p>
+<p>Oh, here we go.
+<em>00:08.960</em></p>
+<p>I mean, it just was a big mess.
+<em>00:08.960</em></p>
+<p>Our whole thing was that we want to show Final Cut 10 as the
+<em>00:09.040</em></p>
+<p>The prices are reasonable.
+<em>00:09.040</em></p>
+<p>He took a few classes.
+<em>00:09.040</em></p>
+<p>2 on, in my opinion, Final Cut 10 is awesome.
+<em>00:09.040</em></p>
+<p>And I will say, hold on.
+<em>00:09.040</em></p>
+<p>Do you think that was an experiment?
+<em>00:09.040</em></p>
+<p>Or I&#x27;m sorry, in a few weeks now.
+<em>00:09.120</em></p>
+<p>Right, right, right, right.
+<em>00:09.120</em></p>
+<p>I was like, nah, dude, it&#x27;s not going to be 10-2.
+<em>00:09.120</em></p>
+<p>And I think that&#x27;s the thing that is, it&#x27;s really hard to
+<em>00:09.120</em></p>
+<p>The curved edges?
+<em>00:09.120</em></p>
+<p>And I&#x27;m going to call it
+<em>00:09.120</em></p>
+<p>That&#x27;s really a good point.
+<em>00:09.200</em></p>
+<p>And maybe Chris&#x27;s level sounds like it&#x27;s peaking.
+<em>00:09.200</em></p>
+<p>And so I used to have asthma.
+<em>00:09.280</em></p>
+<p>And so I&#x27;m just trying to kind of recollect a lot of these
+<em>00:09.280</em></p>
+<p>They use Premiere on several of their machines and they pay for that license and they&#x27;re like, okay, we have this thing.
+<em>00:09.280</em></p>
+<p>Right.
+<em>00:09.280</em></p>
+<p>And I think
+<em>00:09.280</em></p>
+<p>My business would have died.
+<em>00:09.360</em></p>
+<p>Okay.
+<em>00:09.360</em></p>
+<p>So that&#x27;s not so that&#x27;s not
+<em>00:09.440</em></p>
+<p>Although he did say, I did listen to a couple of episodes, and yeah, it&#x27;s not for me.
+<em>00:09.520</em></p>
+<p>And the vast majority of people just aren&#x27;t.
+<em>00:09.520</em></p>
+<p>And I got to say that my favorite feature was the effects presets.
+<em>00:09.520</em></p>
+<p>I didn&#x27;t actually see that, but I had
+<em>00:09.520</em></p>
+<p>com, I think they had to add the second URL because I kept saying it wrong.
+<em>00:09.600</em></p>
+<p>And I&#x27;m.
+<em>00:09.600</em></p>
+<p>The tone of them is perfect.
+<em>00:09.600</em></p>
+<p>I&#x27;m like, yes, yes, yes, it&#x27;s Chinese air.
+<em>00:09.680</em></p>
+<p>And here&#x27;s the thing.
+<em>00:09.680</em></p>
+<p>I&#x27;ve been listening to Grow for a while.
+<em>00:09.760</em></p>
+<p>Boom.
+<em>00:09.760</em></p>
+<p>Never once did I leave.
+<em>00:09.760</em></p>
+<p>I appreciate it.
+<em>00:09.760</em></p>
+<p>It was like drones everywhere.
+<em>00:09.840</em></p>
+<p>They stood there, they listened, and they kept their mouths shut.
+<em>00:09.840</em></p>
+<p>More.
+<em>00:09.840</em></p>
+<p>And he works for Apple.
+<em>00:09.840</em></p>
+<p>And so this idea of smart collections has been around for a little bit.
+<em>00:09.840</em></p>
+<p>But for now, for now.
+<em>00:09.840</em></p>
+<p>He was on the PBS for a while, I believe.
+<em>00:09.920</em></p>
+<p>He came from the music industry.
+<em>00:09.920</em></p>
+<p>I go, I want to tweet it.
+<em>00:09.920</em></p>
+<p>But in their infinite wisdom, they do not want to
+<em>00:09.920</em></p>
+<p>And I also claim that there&#x27;s a lot of much better performance with the FX plugins.
+<em>00:10.000</em></p>
+<p>So I wrote this to a couple of
+<em>00:10.080</em></p>
+<p>That&#x27;s the one I did not see until I watched it.
+<em>00:10.080</em></p>
+<p>I&#x27;m pretty sure you can do that.
+<em>00:10.080</em></p>
+<p>What caused you to move to Santa Cruz?
+<em>00:10.160</em></p>
+<p>Play with it.
+<em>00:10.160</em></p>
+<p>So if you have you have an issue with a piece of hardware, they will come and they&#x27;ll take care of that kind of thing.
+<em>00:10.160</em></p>
+<p>And some of the stuff that I, some of the things that I do,
+<em>00:10.160</em></p>
+<p>Yeah, yeah.
+<em>00:10.160</em></p>
+<p>Yeah, same here.
+<em>00:10.240</em></p>
+<p>Boom, done.
+<em>00:10.240</em></p>
+<p>It was pretty weak.
+<em>00:10.240</em></p>
+<p>And this is my third take.
+<em>00:10.320</em></p>
+<p>Ah, release notes.
+<em>00:10.320</em></p>
+<p>He&#x27;s like, you know what?
+<em>00:10.320</em></p>
+<p>And a lot of times when I&#x27;m doing music searches,
+<em>00:10.400</em></p>
+<p>And I said, like, you know, for a show about editing, boy, this this show sure could use some edits.
+<em>00:10.400</em></p>
+<p>But I believe you can name the masks.
+<em>00:10.400</em></p>
+<p>Oh, Thomas Grove Carter.
+<em>00:10.400</em></p>
+<p>It it was uh he heard it next to the actual editor.
+<em>00:10.480</em></p>
+<p>Exactly.
+<em>00:10.480</em></p>
+<p>And I think he&#x27;s going to
+<em>00:10.480</em></p>
+<p>5 at the time, or 64.
+<em>00:10.560</em></p>
+<p>So, anyway.
+<em>00:10.560</em></p>
+<p>You get a shape mask and a color mask.
+<em>00:10.560</em></p>
+<p>And so when you have a lot of these elements that aren&#x27;t.
+<em>00:10.640</em></p>
+<p>And I don&#x27;t know if it has anything to do with this whole thing, you talking to someone who&#x27;s an engineer.
+<em>00:10.640</em></p>
+<p>Sure.
+<em>00:10.640</em></p>
+<p>They got to go 10-1-5.
+<em>00:10.720</em></p>
+<p>I will say that I think the 3D stuff.
+<em>00:10.720</em></p>
+<p>That was a great feature.
+<em>00:10.720</em></p>
+<p>Two of them that you&#x27;re going to get is a trackable lens flare.
+<em>00:10.720</em></p>
+<p>I really do.
+<em>00:10.720</em></p>
+<p>There&#x27;s Scott Simmons and also
+<em>00:10.720</em></p>
+<p>I don&#x27;t remember having it out here.
+<em>00:10.800</em></p>
+<p>And then
+<em>00:10.880</em></p>
+<p>Just give me the damn remove attributes.
+<em>00:10.880</em></p>
+<p>I mean, it&#x27;s a big update, but it&#x27;s
+<em>00:10.880</em></p>
+<p>Instantly convert any 2D titles.
+<em>00:10.880</em></p>
+<p>You can live wherever you want.
+<em>00:10.960</em></p>
+<p>He realized he was good at this.
+<em>00:10.960</em></p>
+<p>The minute you make one single tiny adjustment,
+<em>00:10.960</em></p>
+<p>Because I&#x27;ve edited in Avid, I&#x27;ve edited in Premiere.
+<em>00:11.040</em></p>
+<p>She&#x27;s a.
+<em>00:11.040</em></p>
+<p>And so, yeah, I have a ton of energy just because I.
+<em>00:11.040</em></p>
+<p>Right now, it&#x27;s just with titles.
+<em>00:11.040</em></p>
+<p>Sure.
+<em>00:11.040</em></p>
+<p>Experiment.
+<em>00:11.120</em></p>
+<p>Sure.
+<em>00:11.120</em></p>
+<p>Wonka.
+<em>00:11.120</em></p>
+<p>I mean, this guy was there every single day.
+<em>00:11.200</em></p>
+<p>And the lighting was pretty low, but right.
+<em>00:11.200</em></p>
+<p>I want to be the first one to tweet it.
+<em>00:11.280</em></p>
+<p>So
+<em>00:11.280</em></p>
+<p>Now you have Final Cut that has uh it&#x27;s introduces titling.
+<em>00:11.360</em></p>
+<p>I don&#x27;t think we&#x27;ve really seen
+<em>00:11.360</em></p>
+<p>Yeah, you might want to look into that before you start deleting stuff.
+<em>00:11.360</em></p>
+<p>I usually only do this in one take.
+<em>00:11.440</em></p>
+<p>So
+<em>00:11.440</em></p>
+<p>We&#x27;re going to see with Apple Watch, like how if that&#x27;ll even last an entire day.
+<em>00:11.440</em></p>
+<p>Later, later.
+<em>00:11.440</em></p>
+<p>None of them affect me.
+<em>00:11.520</em></p>
+<p>He&#x27;s like, you know what?
+<em>00:11.520</em></p>
+<p>Exactly.
+<em>00:11.520</em></p>
+<p>So he&#x27;s making a tool set.
+<em>00:11.520</em></p>
+<p>No, no, no, internally.
+<em>00:11.760</em></p>
+<p>Listen to a few episodes of this show.
+<em>00:11.920</em></p>
+<p>That&#x27;s really, really strong.
+<em>00:11.920</em></p>
+<p>Do you remember do you remember that uh
+<em>00:11.920</em></p>
+<p>If you&#x27;re an editor
+<em>00:12.000</em></p>
+<p>But anyway, so that&#x27;s my current project.
+<em>00:12.000</em></p>
+<p>You got to go 1
+<em>00:12.000</em></p>
+<p>So, Thomas Vid.
+<em>00:12.000</em></p>
+<p>So.
+<em>00:12.080</em></p>
+<p>And I think
+<em>00:12.080</em></p>
+<p>At the end of the half hour he finally agreed
+<em>00:12.080</em></p>
+<p>Hmm.
+<em>00:12.080</em></p>
+<p>Sure.
+<em>00:12.160</em></p>
+<p>Yeah, I did not see that directly.
+<em>00:12.160</em></p>
+<p>5 HD, or one of those darn edits.
+<em>00:12.240</em></p>
+<p>It&#x27;s named after me.
+<em>00:12.240</em></p>
+<p>Let&#x27;s type.
+<em>00:12.240</em></p>
+<p>It&#x27;s uh we yeah, we&#x27;re by the beach basically.
+<em>00:12.320</em></p>
+<p>So that&#x27;s.
+<em>00:12.320</em></p>
+<p>What a pain in the ass!
+<em>00:12.320</em></p>
+<p>Okay.
+<em>00:12.400</em></p>
+<p>And you know why he made it?
+<em>00:12.400</em></p>
+<p>So if you&#x27;re on a clip now,
+<em>00:12.480</em></p>
+<p>So when they introduced it into Final Cut,
+<em>00:12.480</em></p>
+<p>So
+<em>00:12.560</em></p>
+<p>So now I&#x27;m typing into your friend.
+<em>00:12.720</em></p>
+<p>Oh, let&#x27;s talk about the masking.
+<em>00:12.720</em></p>
+<p>One six
+<em>00:12.800</em></p>
+<p>And I feel you on that.
+<em>00:12.800</em></p>
+<p>He learned
+<em>00:12.960</em></p>
+<p>Maybe they had it beforehand.
+<em>00:13.040</em></p>
+<p>He has one desk.
+<em>00:13.040</em></p>
+<p>And I said,
+<em>00:13.200</em></p>
+<p>And what what ends up happening?
+<em>00:13.280</em></p>
+<p>But.
+<em>00:13.440</em></p>
+<p>There&#x27;s so many projects I&#x27;ve got to work on.
+<em>00:13.600</em></p>
+<p>And they&#x27;re not
+<em>00:13.840</em></p>
+<p>Yep.
+<em>00:13.840</em></p>
+<p>And so
+<em>00:13.920</em></p>
+<p>0
+<em>00:14.000</em></p>
+
+                
+                <!-- Required only on API pages -->
+                <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
+            </div>
+            <footer id="retype-content-footer" class="clear-both">
+            
+                <nav id="retype-nextprev" class="print:hidden flex mt-14">
+                    <div class="w-1/2">
+                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../../episodes/111-120/episode-116/">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                            <span>
+                                <span class="block text-xs font-normal text-base-text-muted">Previous</span>
+                                <span class="block mt-1">Episode 116</span>
+                            </span>
+                        </a>
+                    </div>
+            
+                    <div class="w-1/2">
+                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../../episodes/111-120/episode-118/">
+                            <span>
+                                <span class="block text-xs font-normal text-right text-base-text-muted">Next</span>
+                                <span class="block mt-1">Episode 118</span>
+                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                        </a>
+                    </div>
+                </nav>
+            </footer>
+        </main>
+
+        <div id="retype-page-footer" class="print:border-none border-t border-base-border pt-6 mb-8">
+            <footer class="flex flex-wrap items-center justify-between print:justify-center">
+                <div id="retype-footer-links" class="print:hidden">
+                    <ul class="flex flex-wrap items-center text-sm">
+                    </ul>
+                </div>
+                <div id="retype-copyright" class="print:justify-center py-2 text-footer-text font-footer-link text-sm leading-relaxed"><p>© Copyright 2026 LateNite Films Pty Ltd. All rights reserved.</p></div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Rendered if sidebar right is enabled -->
+    <!-- Sidebar right skeleton-->
+    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-sidebar-right-bg border-sidebar-right-border lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:translate-x-0 sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton">
+        <div class="pl-5">
+            <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+            <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+            <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+        </div>
+    </div>
+
+    <!-- User should be able to hide sidebar right -->
+    <doc-sidebar-right v-cloak></doc-sidebar-right>
+</div>
+
+        </div>
+    </div>
+
+    <doc-search-mobile></doc-search-mobile>
+    <doc-back-to-top></doc-back-to-top>
+</div>
+
+
+    <div id="retype-overlay-target"></div>
+
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Episode 117", level: 3, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+</body>
+</html>
