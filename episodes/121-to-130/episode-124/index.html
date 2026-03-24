@@ -1,0 +1,2243 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.827667088581">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 4.4.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Episode 124</title>
+    <meta name="title" content="Episode 124">
+    <meta name="description" content="FCG124 - Frame.io for FCPX (feat. Emery Wells)">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://grill.fcp.cafe/episodes/121-to-130/episode-124/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://grill.fcp.cafe/episodes/121-to-130/episode-124/">
+    <meta property="og:title" content="Episode 124">
+    <meta property="og:description" content="FCG124 - Frame.io for FCPX (feat. Emery Wells)">
+    <meta property="og:site_name" content="Final Cut Grill">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://grill.fcp.cafe/episodes/121-to-130/episode-124/">
+    <meta name="twitter:title" content="Episode 124">
+    <meta name="twitter:description" content="FCG124 - Frame.io for FCPX (feat. Emery Wells)">
+
+    <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
+
+    <link id="retype-favicon" rel="icon" href="../../../static/favicon.ico" />
+    <link href="../../../resources/css/retype.css?v=4.4.0.827667088581" rel="stylesheet">
+
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=4.4.0.827667088581" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=4.4.0.827667088581" data-turbo-eval="false" defer></script>
+</head>
+<body>
+    <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
+    <div class="absolute bottom-0 left-0" style="top: 5rem; right: 50%"></div>
+
+    <header id="retype-header" class="sticky top-0 z-30 flex w-full h-16 bg-header-bg border-b border-header-border md:h-20">
+        <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
+            <!-- Mobile menu button skeleton -->
+            <button v-cloak class="skeleton retype-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-hidden rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+            <div v-cloak id="retype-sidebar-left-toggle-button"></div>
+    
+            <!-- Logo -->
+            <div class="flex items-center justify-between h-full py-2 md:w-75">
+                <div class="flex items-center px-2 md:px-6">
+                    <a id="retype-branding-logo" href="https://grill.fcp.cafe/" class="flex items-center leading-snug text-xl">
+                        <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
+                            <img class="max-h-10 md:inline-block" src="../../../static/fcp-grill.jpg" alt="" width="40" height="40">
+                        </span>
+                        <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">Final Cut Grill</span>
+                    </a>
+                </div>
+    
+                <span class="hidden h-8 border-r md:inline-block border-base-border"></span>
+            </div>
+    
+            <div class="flex justify-between md:grow">
+                <!-- Top Nav -->
+                <nav id="retype-header-nav" class="hidden md:flex">
+                    <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://github.com/latenitefilms/grill/issues" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Zm9.5 2a2 2 0 1 1-.001-3.999A2 2 0 0 1 12 14Z"/>
+                                </svg>
+                                <span>Issues</span>
+                            </a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://github.com/latenitefilms/grill/discussions" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                </svg>
+                                <span>Discussions</span>
+                            </a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://discord.gg/b2r27UtPJw" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                </svg>
+                                <span>Discord</span>
+                            </a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://fcp.cafe" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M15 4.75a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM2.5 19.25a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0Zm0-14.5a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM5.75 6.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 5.75 6.5Zm0 14.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 5.75 21Zm12.5-14.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 18.25 6.5Z"/><path d="M5.75 16.75A.75.75 0 0 1 5 16V8a.75.75 0 0 1 1.5 0v8a.75.75 0 0 1-.75.75Z"/><path d="M17.5 8.75v-1H19v1a3.75 3.75 0 0 1-3.75 3.75h-7a1.75 1.75 0 0 0-1.75 1.75H5A3.25 3.25 0 0 1 8.25 11h7a2.25 2.25 0 0 0 2.25-2.25Z"/>
+                                </svg>
+                                <span>FCP Cafe</span>
+                            </a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://fcp.cafe/latenite/" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
+                                </svg>
+                                <span>LateNite</span>
+                            </a>
+                        </li>
+    
+                    </ul>
+                </nav>
+    
+                <div v-cloak class="flex justify-end grow">
+                    <div id="retype-mobile-search-button"></div>
+                    <doc-search-desktop></doc-search-desktop>
+    
+                    <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                    <doc-history></doc-history>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div id="retype-container" class="container relative flex bg-white">
+        <!-- Sidebar Skeleton -->
+        <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-sidebar-left-bg border-sidebar-left-border sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton">
+        
+            <div class="flex items-center h-16 px-6">
+                <input id="retype-filter-input-mock" class="w-full h-10 pl-8 px-3 py-2 transition-colors duration-200 ease-linear bg-filter-bg border border-filter-border rounded-lg shadow-none md:text-sm hover:border-filter-border-hover focus:outline-hidden focus:border-filter-border-focus placeholder-filter-placeholder" type="text">
+            </div>
+        
+            <div class="pl-6 mt-1 mb-4">
+                <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+            </div>
+        
+        </div>
+        
+        <!-- Sidebar component -->
+        <doc-sidebar v-cloak>
+            <template #sidebar-footer>
+                <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-base-border">
+        
+                    <div class="py-3 px-6 md:hidden border-b dark:border-base-border">
+                        <nav>
+                            <ul class="flex flex-wrap justify-center items-center">
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://github.com/latenitefilms/grill/issues" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Zm9.5 2a2 2 0 1 1-.001-3.999A2 2 0 0 1 12 14Z"/>
+                                        </svg>
+                                        <span>Issues</span>
+                                    </a>
+                                </li>
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://github.com/latenitefilms/grill/discussions" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                        </svg>
+                                        <span>Discussions</span>
+                                    </a>
+                                </li>
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://discord.gg/b2r27UtPJw" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                        </svg>
+                                        <span>Discord</span>
+                                    </a>
+                                </li>
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://fcp.cafe" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M15 4.75a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM2.5 19.25a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0Zm0-14.5a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM5.75 6.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 5.75 6.5Zm0 14.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 5.75 21Zm12.5-14.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 18.25 6.5Z"/><path d="M5.75 16.75A.75.75 0 0 1 5 16V8a.75.75 0 0 1 1.5 0v8a.75.75 0 0 1-.75.75Z"/><path d="M17.5 8.75v-1H19v1a3.75 3.75 0 0 1-3.75 3.75h-7a1.75 1.75 0 0 0-1.75 1.75H5A3.25 3.25 0 0 1 8.25 11h7a2.25 2.25 0 0 0 2.25-2.25Z"/>
+                                        </svg>
+                                        <span>FCP Cafe</span>
+                                    </a>
+                                </li>
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://fcp.cafe/latenite/" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
+                                        </svg>
+                                        <span>LateNite</span>
+                                    </a>
+                                </li>
+        
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </template>
+        </doc-sidebar>
+
+        <div class="grow min-w-0 bg-body-bg">
+            <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+<div class="flex">
+    <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
+        <main class="relative pb-12 lg:pt-2">
+            <div class="retype-markdown" id="retype-content">
+                <!-- Rendered if sidebar right is enabled -->
+                <div id="retype-sidebar-right-toggle"></div>
+                <nav id="retype-breadcrumb" class="breadcrumb" aria-label="Breadcrumb">
+                    <ol role="list">
+                        <li class="pr-4">
+                            <a href="../../../" class="pr-4">
+                                Welcome
+                            </a>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/>
+                            </svg>
+                        </li>
+                        <li class="pr-4">
+                            <span class="pr-4">
+                                Episodes
+                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/>
+                            </svg>
+                        </li>
+                        <li class="pr-4">
+                            <span class="pr-4">
+                                121 to 130
+                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/>
+                            </svg>
+                        </li>
+                        <li class="pr-4">
+                            <a href="../../../episodes/121-to-130/episode-124/" class="pr-4">
+                                Episode 124
+                            </a>
+                        </li>
+                    </ol>
+                </nav>
+
+                <!-- Page content  -->
+<h1 id="episode-124">Episode 124</h1>
+<p><strong>FCG124 - Frame.io for FCPX (feat. Emery Wells)</strong></p>
+<p>Getting your work approved and bought off on can be cumbersome. Frame.io is an amazing way to share your work with clients and then get feedback in a way that is fast, powerful, and unique. Just last week they released their FCPX companion app that extends the capability and functionality of FCPX in ways that are very interesting. In this interview Emery Wells and I go in depth on some of the features and I EVEN give Emery a slice of time at the end to share with us some features of the app that he is really proud of that no one is really noticing or using. Make sure you listen to the end. Thorough vrs. Efficient where are you on this spectrum? timebased comments - when you start typing it pauses, when you submit it plays again. batch import clips into a timeline 2 clicks publishes each clip from a timeline</p>
+<hr>
+<h2 id="download">Download</h2>
+<ul>
+<li><a href="https://cdn.fcp.cafe/grill/FCG124-Emery-Wells.mp3" class="outbound" target="_blank"><span>MP3</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></li>
+</ul>
+<hr>
+<h2 id="featuring">Featuring</h2>
+<ul>
+<li>Chris Fenwick - chrisfenwick.com - @chrisfenwick</li>
+<li>Emery Wells - @emerywells</li>
+<li>Guest Name - @twitter</li>
+</ul>
+<hr>
+<h2 id="transcription">Transcription</h2>
+<p><strong>Speaker 1</strong>: All right, good morning and well, or evening, whatever.
+<em>00:00.880</em></p>
+<p><strong>Speaker 1</strong>: You know, that&#x27;s the thing about the podcast.
+<em>00:04.000</em></p>
+<p><strong>Speaker 1</strong>: You never know.
+<em>00:05.360</em></p>
+<p><strong>Speaker 1</strong>: Anyway, thanks for tuning in.
+<em>00:05.840</em></p>
+<p><strong>Speaker 1</strong>: This is Final Cut Grill.
+<em>00:07.360</em></p>
+<p><strong>Speaker 1</strong>: My name is Chris Final Cut, and this is episode one.
+<em>00:08.880</em></p>
+<p><strong>Speaker 1</strong>: 24 with Emery Wells.
+<em>00:11.620</em></p>
+<p><strong>Speaker 1</strong>: Now, if you go back in DCC timeline, Digital Cinema Cafe, our other show, Emery was on the show with me and Alice McLean on episode 53, I believe.
+<em>00:13.460</em></p>
+<p><strong>Speaker 1</strong>: And Emery Wells has a product called Frame.
+<em>00:23.680</em></p>
+<p><strong>Speaker 1</strong>: io.
+<em>00:26.560</em></p>
+<p><strong>Speaker 1</strong>: Now, if you&#x27;re in the Final Cut 10 community, and you probably are if you&#x27;re listening to this show, you&#x27;ve probably noticed in the last couple of days, this is July 3rd,
+2015.
+<em>00:26.960</em></p>
+<p><strong>Speaker 1</strong>: that there is a banner running on the App Store for a Frame IO companion app that runs alongside of Final Cut ten.
+<em>00:36.440</em></p>
+<p><strong>Speaker 1</strong>: I saw that and I was like, whoa, got to talk to Emery and get the lowdown.
+<em>00:43.400</em></p>
+<p><strong>Speaker 1</strong>: So that&#x27;s what this whole hour is about.
+<em>00:48.120</em></p>
+<p><strong>Speaker 1</strong>: I give Emory the opportunity to talk about FrameIO in general, which is a agnostic application.
+<em>00:51.280</em></p>
+<p><strong>Speaker 1</strong>: Upload an approval site.
+<em>01:01.540</em></p>
+<p><strong>Speaker 1</strong>: It&#x27;s not Dropbox.
+<em>01:03.140</em></p>
+<p><strong>Speaker 1</strong>: It&#x27;s not Vimeo.
+<em>01:04.339</em></p>
+<p><strong>Speaker 1</strong>: It&#x27;s not unique and you need to hear about it.
+<em>01:05.620</em></p>
+<p><strong>Speaker 1</strong>: But then we also talk about in depth
+<em>01:09.860</em></p>
+<p><strong>Speaker 1</strong>: The Frame.
+<em>01:12.140</em></p>
+<p><strong>Speaker 1</strong>: io Final Cut 10 companion app.
+<em>01:12.940</em></p>
+<p><strong>Speaker 1</strong>: So that&#x27;s what this episode is about.
+<em>01:16.060</em></p>
+<p><strong>Speaker 1</strong>: Before we get going, I want to talk about Premium Beat.
+<em>01:18.060</em></p>
+<p><strong>Speaker 1</strong>: I want to ask you, I&#x27;m not going to tell you anything.
+<em>01:20.300</em></p>
+<p><strong>Speaker 1</strong>: I&#x27;m going to ask you to go take a look at it.
+<em>01:23.580</em></p>
+<p><strong>Speaker 1</strong>: It actually comes up quite a bit in the interview because Emery talked a lot about some of the keyboard shortcuts that they&#x27;ve implemented in the Frame.
+<em>01:25.880</em></p>
+<p><strong>Speaker 1</strong>: io web app.
+<em>01:33.880</em></p>
+<p><strong>Speaker 1</strong>: And I said, Oh, yeah, Premium Beat has great keyboard shortcuts.
+<em>01:36.040</em></p>
+<p><strong>Speaker 1</strong>: So definitely learn those.
+<em>01:39.240</em></p>
+<p><strong>Speaker 1</strong>: The keyboard shortcuts are somewhere on the
+<em>01:41.560</em></p>
+<p><strong>Speaker 1</strong>: The premium beat site.
+<em>01:45.020</em></p>
+<p><strong>Speaker 1</strong>: I can&#x27;t remember exactly where it is.
+<em>01:46.539</em></p>
+<p><strong>Speaker 1</strong>: It&#x27;s pretty easy to find.
+<em>01:47.659</em></p>
+<p><strong>Speaker 1</strong>: Learn them.
+<em>01:49.020</em></p>
+<p><strong>Speaker 1</strong>: They&#x27;re huge.
+<em>01:49.659</em></p>
+<p><strong>Speaker 1</strong>: They&#x27;re powerful.
+<em>01:50.219</em></p>
+<p><strong>Speaker 1</strong>: Just the ability to
+<em>01:51.340</em></p>
+<p><strong>Speaker 1</strong>: Step forward in a song by hitting the arrow key and then step down to the next song that you&#x27;re auditioning.
+<em>01:53.479</em></p>
+<p><strong>Speaker 1</strong>: So definitely take a look at that.
+<em>01:59.880</em></p>
+<p><strong>Speaker 1</strong>: And I thank them for believing in what we&#x27;re doing here and supporting
+<em>02:01.799</em></p>
+<p><strong>Speaker 1</strong>: This little show.
+<em>02:06.659</em></p>
+<p><strong>Speaker 1</strong>: So it took a little time to get Emory in front of a microphone.
+<em>02:08.259</em></p>
+<p><strong>Speaker 1</strong>: He&#x27;s traveling around.
+<em>02:12.340</em></p>
+<p><strong>Speaker 1</strong>: I caught up with him in LA.
+<em>02:14.019</em></p>
+<p><strong>Speaker 1</strong>: So let&#x27;s go now to Emory Wells from Frame.
+<em>02:15.860</em></p>
+<p><strong>Speaker 1</strong>: io, currently in.
+<em>02:18.980</em></p>
+<p><strong>Speaker 1</strong>: Los Angeles.
+<em>02:20.940</em></p>
+<p><strong>Speaker 1</strong>: All right.
+<em>02:22.459</em></p>
+<p><strong>Speaker 1</strong>: I think I have Emery Wells on the line.
+<em>02:23.099</em></p>
+<p><strong>Speaker 1</strong>: Yes, you do.
+<em>02:25.099</em></p>
+<p><strong>Speaker 1</strong>: Awesome.
+<em>02:25.900</em></p>
+<p><strong>Speaker 1</strong>: Very cool.
+<em>02:26.540</em></p>
+<p><strong>Speaker 1</strong>: All right.
+<em>02:27.260</em></p>
+<p><strong>Speaker 1</strong>: That was a frustrating morning.
+<em>02:27.660</em></p>
+<p><strong>Speaker 1</strong>: So, Emery, how are you doing, man?
+<em>02:30.220</em></p>
+<p>I&#x27;m doing good.
+<em>02:32.780</em></p>
+<p>I&#x27;m currently in LA at an Airbnb, so let&#x27;s hope that this Wi-Fi is going to hold out for this interview.
+<em>02:34.460</em></p>
+<p><strong>Speaker 1</strong>: I thought you were in
+<em>02:40.940</em></p>
+<p><strong>Speaker 1</strong>: Okay, so you&#x27;re in LA now.
+<em>02:42.160</em></p>
+<p><strong>Speaker 1</strong>: Excuse me, next week you&#x27;re in the Bay Area.
+<em>02:43.840</em></p>
+<p><strong>Speaker 1</strong>: That&#x27;s right.
+<em>02:48.400</em></p>
+<p><strong>Speaker 1</strong>: Yeah, I live in New York.
+<em>02:48.960</em></p>
+<p>That&#x27;s where FrameIO is based out of, but I&#x27;m currently in LA, and then I will be in San Francisco next week.
+<em>02:50.080</em></p>
+<p><strong>Speaker 1</strong>: I think you&#x27;re about 24 hours or 48 hours behind Alex because he&#x27;s living in New York.
+<em>02:56.300</em></p>
+<p><strong>Speaker 1</strong>: He was just in LA.
+<em>03:03.180</em></p>
+<p><strong>Speaker 1</strong>: I think he&#x27;s in the Bay Area now.
+<em>03:04.140</em></p>
+<p><strong>Speaker 1</strong>: You guys are chasing each other around the country.
+<em>03:06.360</em></p>
+<p>Yeah, we&#x27;re just chasing each other, exactly.
+<em>03:08.280</em></p>
+<p><strong>Speaker 1</strong>: So I&#x27;m totally excited to talk about this.
+<em>03:10.840</em></p>
+<p><strong>Speaker 1</strong>: I know that back on episode 53 of the Digital Cinema Cafe, Alex and I chatted with you about FrameIO.
+<em>03:13.400</em></p>
+<p><strong>Speaker 1</strong>: Before we launched.
+<em>03:21.480</em></p>
+<p><strong>Speaker 1</strong>: That was before the project.
+<em>03:22.280</em></p>
+<p><strong>Speaker 1</strong>: It was before the launch.
+<em>03:23.320</em></p>
+<p><strong>Speaker 1</strong>: It was before everything was real, and it was exciting to kind of hear some of the stuff.
+<em>03:24.520</em></p>
+<p><strong>Speaker 1</strong>: And frankly,
+<em>03:28.600</em></p>
+<p><strong>Speaker 1</strong>: I think one of the things that people are not talking about just because I think it plays very well to the what I would call the sort of brilliance of the programming
+<em>03:30.220</em></p>
+<p><strong>Speaker 1</strong>: You talked a lot about in that episode, you talked a lot about how, I believe it was in the episode, and correct me if I&#x27;m wrong, about how you guys were kind of
+<em>03:41.520</em></p>
+<p><strong>Speaker 1</strong>: Tricking the web in order to really accelerate your upload speeds.
+<em>03:52.260</em></p>
+<p><strong>Speaker 1</strong>: And I don&#x27;t want to go into all the nerdiness of that because you can always go back and listen to that.
+<em>03:57.780</em></p>
+<p><strong>Speaker 1</strong>: But it&#x27;s great that like people aren&#x27;t talking about all that hyper programmer nerdiness.
+<em>04:03.620</em></p>
+<p><strong>Speaker 1</strong>: They&#x27;re just saying, yeah, we like frame.
+<em>04:11.300</em></p>
+<p><strong>Speaker 1</strong>: io.
+<em>04:12.900</em></p>
+<p>Yes, no, I mean, there&#x27;s a lot of work behind the scenes to get the kind of performance that we&#x27;re getting with the uploads.
+<em>04:15.019</em></p>
+<p>I mean, but essentially, to the end user, all it means is stuff uploads faster and you can upload big files.
+<em>04:20.940</em></p>
+<p>So there&#x27;s limitations with doing web-based uploads where you can&#x27;t upload files larger than five gigabytes.
+<em>04:28.039</em></p>
+<p>It&#x27;s a limitation of the HTTP protocol.
+<em>04:34.919</em></p>
+<p>But we&#x27;ve
+<em>04:38.440</em></p>
+<p>Figured out a workaround to that.
+<em>04:40.880</em></p>
+<p>So you can upload files up to 50 gigabytes, an individual file.
+<em>04:42.639</em></p>
+<p>And they upload five times faster than Dropbox under most network conditions in the United States.
+<em>04:47.120</em></p>
+<p><strong>Speaker 1</strong>: That&#x27;s cool.
+<em>04:53.320</em></p>
+<p><strong>Speaker 1</strong>: All right.
+<em>04:54.600</em></p>
+<p><strong>Speaker 1</strong>: So then I launched the the app store the other day and it basically says, Ha ha, Emery Wells is on the front page.
+<em>04:55.320</em></p>
+<p><strong>Speaker 1</strong>: Almost.
+<em>05:04.920</em></p>
+<p><strong>Speaker 1</strong>: Well, frame IO is front.
+<em>05:05.640</em></p>
+<p><strong>Speaker 1</strong>: I&#x27;m kidding.
+<em>05:07.080</em></p>
+<p><strong>Speaker 1</strong>: I&#x27;m kidding.
+<em>05:07.640</em></p>
+<p><strong>Speaker 1</strong>: So tell me about this new Final Cut 10 integration.
+<em>05:09.720</em></p>
+<p><strong>Speaker 1</strong>: How can you explain it to me?
+<em>05:14.680</em></p>
+<p>Sure.
+<em>05:17.740</em></p>
+<p>So yeah, that&#x27;s the big news is we&#x27;ve we&#x27;ve just launched and maybe I&#x27;ll just real briefly give people a
+<em>05:18.300</em></p>
+<p>A little bit of background on Frame.
+<em>05:25.180</em></p>
+<p>io, just in case there are some listeners that hadn&#x27;t heard that.
+<em>05:26.620</em></p>
+<p>That&#x27;s a great idea.
+<em>05:29.099</em></p>
+<p>I apologize.
+<em>05:29.900</em></p>
+<p>Yeah, let&#x27;s talk about what FrameIO is.
+<em>05:30.539</em></p>
+<p>Give you the high level.
+<em>05:33.220</em></p>
+<p>So, on March 30th, we launched Frame.
+<em>05:34.419</em></p>
+<p>io, which is a web-based media collaboration platform.
+<em>05:36.660</em></p>
+<p>It&#x27;s a place where you can upload all of your source files, work in progress, any kind of asset, video, photo.
+<em>05:39.380</em></p>
+<p>documents, audio, whatever, into a secure cloud storage environment where you can invite your team and clients to collaborate.
+<em>05:46.139</em></p>
+<p>And the way that it&#x27;s different from something like Dropbox or Vimeo
+<em>05:52.699</em></p>
+<p>is we&#x27;re kind of combining that file sharing aspect of Dropbox with the better viewing experience and media handling of Vimeo.
+<em>05:56.760</em></p>
+<p>But we just do it all much more tailored to people that are working with and creating
+<em>06:04.200</em></p>
+<p>Creating media.
+<em>06:09.480</em></p>
+<p>So you can do things like manage versions and do time-based comments and annotations, manage permissions and different people that have different access to
+different stuff.
+<em>06:10.280</em></p>
+<p>things like that.
+<em>06:21.740</em></p>
+<p>So we launched on March 30th and since then we&#x27;ve had really phenomenal success.
+<em>06:22.700</em></p>
+<p>I&#x27;m announcing on your show now that we&#x27;ve had
+<em>06:28.700</em></p>
+<p>Over thirty thousand people sign up since March thirtieth to use Frame.
+<em>06:32.820</em></p>
+<p><strong>Speaker 1</strong>: io.
+<em>06:36.340</em></p>
+<p>And just last week, just this past week, we released
+<em>06:37.620</em></p>
+<p>our first new product announcement since the launch of the company, which is a companion desktop app for Final Cut Pro.
+<em>06:41.780</em></p>
+<p>And it allows you to so it&#x27;s an app you can download on the App Store, the Mac App Store, and it allows you to upload media from your Final Cut time line into Frame.
+<em>06:49.620</em></p>
+<p>io, which sounds simple, but we&#x27;ve built some really great
+<em>07:00.020</em></p>
+<p>Features.
+<em>07:03.920</em></p>
+<p>So the first and probably one of the coolest features of this app is we allow you to batch export individual clips from a timeline
+<em>07:04.560</em></p>
+<p>into Frame.
+<em>07:13.820</em></p>
+<p>io in whatever format you&#x27;d like.
+<em>07:14.540</em></p>
+<p>So for a dailies workflow, you can drag and drop all your media into a timeline, just all the individual clips, red clips, Alexa clips, whatever you have.
+<em>07:16.620</em></p>
+<p>And in two clicks, you can publish each individual clip into Frame.
+<em>07:25.240</em></p>
+<p>io as H.
+<em>07:30.040</em></p>
+<p>264, or if you wanted to do higher res, ProRes, you could, if you have the bandwidth.
+<em>07:32.280</em></p>
+<p>So a dead simple but very powerful and professional cloud dailies workflow with Final Cut and FrameIO, which really hasn&#x27;t been possible before to do that previous
+<em>07:37.860</em></p>
+<p><strong>Speaker 1</strong>: To this integration, well, you really wouldn&#x27;t have done it in Final Plus at all because okay, so I&#x27;m going to pause you because you just unloaded about a half hour of
+discussion there.
+<em>07:48.440</em></p>
+<p><strong>Speaker 1</strong>: And I want to back up and I want to hit some of these bullet points because we don&#x27;t have to do high-level, we can get in depth here.
+<em>08:00.960</em></p>
+<p><strong>Speaker 1</strong>: So first of all, 30,000 signups, that&#x27;s insane.
+<em>08:08.820</em></p>
+<p><strong>Speaker 1</strong>: And congratulations.
+<em>08:12.580</em></p>
+<p><strong>Speaker 1</strong>: I hope that&#x27;s cause for celebration around the office.
+<em>08:14.180</em></p>
+<p><strong>Speaker 1</strong>: Second of all,
+<em>08:18.820</em></p>
+<p><strong>Speaker 1</strong>: So backing up prior to the Final Cut 10 integration and the companion app, let&#x27;s talk about some of the main features, just a little bit more depth, of FrameIO.
+<em>08:20.780</em></p>
+<p><strong>Speaker 1</strong>: Not only do you have a good viewing experience, like Vimeo, like you said, not only do you have sharing capability, like you mentioned, I think, with Dropbox.
+<em>08:31.920</em></p>
+<p><strong>Speaker 1</strong>: But you mentioned versioning and time-based comments.
+<em>08:41.560</em></p>
+<p><strong>Speaker 1</strong>: And those two are the to me, kind of the two sort of coolest things that can easily get
+<em>08:44.920</em></p>
+<p><strong>Speaker 1</strong>: Glossed over in a quick description.
+<em>08:51.120</em></p>
+<p><strong>Speaker 1</strong>: So first of all, versioning.
+<em>08:53.760</em></p>
+<p><strong>Speaker 1</strong>: In video production, as we all know, we upload a thing, we get comments back from somebody, we upload another thing.
+<em>08:56.959</em></p>
+<p><strong>Speaker 1</strong>: So how do you handle versioning in Frame.
+<em>09:03.520</em></p>
+<p><strong>Speaker 1</strong>: io first?
+<em>09:07.200</em></p>
+<p>We make it, again, super simple.
+<em>09:10.080</em></p>
+<p>So
+<em>09:12.240</em></p>
+<p>The idea of versioning is, in our minds, like you just don&#x27;t want to have a so let&#x27;s talk about the old way of doing things.
+<em>09:13.300</em></p>
+<p>Because the old way of doing things is you upload something to Vimeo, put a password on it, send a link to a client.
+<em>09:20.180</em></p>
+<p>Okay.
+<em>09:27.759</em></p>
+<p>Then you get notes back via email and you repeat this process and send a new link.
+<em>09:28.319</em></p>
+<p><strong>Speaker 1</strong>: Right.
+<em>09:33.040</em></p>
+<p>And it goes back and forth, back and forth.
+<em>09:33.440</em></p>
+<p>Of course, you know, the comments are always pretty unclear because they&#x27;re written in static email and video is moving.
+<em>09:35.740</em></p>
+<p>So you&#x27;re referencing their referencing incorrect time code.
+<em>09:41.500</em></p>
+<p>I don&#x27;t they seem to always reference the wrong point in time.
+<em>09:45.420</em></p>
+<p><strong>Speaker 1</strong>: It&#x27;s like.
+<em>09:48.060</em></p>
+<p><strong>Speaker 1</strong>: Or they reference nothing.
+<em>09:48.740</em></p>
+<p><strong>Speaker 1</strong>: Take out all the shots with the woman in yellow.
+<em>09:50.340</em></p>
+<p><strong>Speaker 1</strong>: It&#x27;s like, okay.
+<em>09:53.780</em></p>
+<p>So it&#x27;s always unclear and difficult.
+<em>09:55.380</em></p>
+<p>But really, you&#x27;re just managing these links in your inbox.
+<em>09:58.140</em></p>
+<p>So FrameIO changes that idea.
+<em>10:02.380</em></p>
+<p>So we don&#x27;t send links at all.
+<em>10:05.340</em></p>
+<p>We don&#x27;t deal with links at all.
+<em>10:07.260</em></p>
+<p>You just upload something to FrameIO, and then you invite somebody to a project.
+<em>10:08.940</em></p>
+<p>And anything you add to that project or change in that project is going to be accessible to that person by just going back to that same link.
+<em>10:12.640</em></p>
+<p>So you&#x27;re not having to manage links.
+<em>10:19.600</em></p>
+<p>We think managing links is cumbersome and a bad idea.
+<em>10:21.840</em></p>
+<p>So the way that versions work into this is
+<em>10:25.040</em></p>
+<p>If you have a video or a clip in a project, when you want to add a new version, you just, you know, you upload it like normal, and then you drag and drop one version on top of
+the other, and it creates what we call a version stack.
+<em>10:27.540</em></p>
+<p>So now those versions are all kind of combined together in one neat stack instead of having 15 thumbnails of all the different versions.
+<em>10:41.040</em></p>
+<p>They&#x27;re in a stack, and then you can access and view the different versions in that stack when you&#x27;re in the viewer.
+<em>10:50.060</em></p>
+<p><strong>Speaker 1</strong>: So, to borrow a little Final Cut 10 terminology, it&#x27;s almost like a Final Cut 10 audition.
+<em>10:56.140</em></p>
+<p>Exactly.
+<em>11:01.779</em></p>
+<p><strong>Speaker 1</strong>: And that you have multiple clips stacked on top of each other that you can cycle through.
+<em>11:02.500</em></p>
+<p><strong>Speaker 1</strong>: However, there&#x27;s also a I remember from the other episode, you also have a great feature where you can side by side compare two things, right?
+<em>11:08.740</em></p>
+<p>That&#x27;s right.
+<em>11:16.640</em></p>
+<p>Yeah.
+<em>11:17.360</em></p>
+<p>So you can do them side by side in sync.
+<em>11:17.600</em></p>
+<p>And whether you&#x27;re comparing edits or color grades or VFX shots or whatever, and that just happens right in a browser.
+<em>11:20.720</em></p>
+<p>You don&#x27;t need any plugins or anything.
+<em>11:27.520</em></p>
+<p><strong>Speaker 1</strong>: Okay, so then that&#x27;s huge.
+<em>11:30.760</em></p>
+<p><strong>Speaker 1</strong>: Now you also mentioned in the old way, sending a bunch of emails back and forth with static comments.
+<em>11:33.320</em></p>
+<p><strong>Speaker 1</strong>: the time-based comments, you actually can put notes and annotations that pop up right when something is happening as you&#x27;re viewing, correct?
+<em>11:39.320</em></p>
+<p>Yes, and we have a really slick workflow where you can be viewing a video, and we have a comment box that&#x27;s right underneath.
+<em>11:50.060</em></p>
+<p>And when you start typing, the video will automatically pause.
+<em>11:56.620</em></p>
+<p>So you can get a thought out.
+<em>11:59.980</em></p>
+<p>And when you submit or you enter the comment, it will resume.
+<em>12:01.820</em></p>
+<p>So you can just be hands free and watch and say, oh, there&#x27;s something here.
+<em>12:05.100</em></p>
+<p>Comment, comment, comment.
+<em>12:08.700</em></p>
+<p>Hit submit, it resumes.
+<em>12:09.980</em></p>
+<p>And each comment is being stamped with the time code.
+<em>12:11.100</em></p>
+<p>But if sometimes a comment is not enough and you need to frame there can be a lot going on in a single frame.
+<em>12:14.480</em></p>
+<p>So we have annotations where you can draw on the video frame and we have different shapes and colors.
+<em>12:20.560</em></p>
+<p>arrows and rounded rectangles, circles, things like that.
+<em>12:25.740</em></p>
+<p>And again, that&#x27;s just saved with the comment.
+<em>12:30.380</em></p>
+<p>So now we have this running list of comments that can be clicked on.
+<em>12:32.380</em></p>
+<p>It&#x27;ll take you to that specific frame as well as any associated annotation if there was one.
+<em>12:35.660</em></p>
+<p>And now our comments list will also act as a task management system.
+<em>12:40.960</em></p>
+<p>So each comment can be marked off as a completed task.
+<em>12:47.040</em></p>
+<p>Not every comment is a task, but if they are written as tasks, you can just say, oh, yep, did that one, did that one, did that one.
+<em>12:50.960</em></p>
+<p>And the client or whoever is watching can kind of follow along and see what&#x27;s been completed.
+<em>12:57.680</em></p>
+<p><strong>Speaker 1</strong>: Oh, so that&#x27;s a good point.
+<em>13:02.440</em></p>
+<p><strong>Speaker 1</strong>: So this is a shared viewer.
+<em>13:04.040</em></p>
+<p><strong>Speaker 1</strong>: So the client could be can the client be commenting while you&#x27;re watching their comments pop up?
+<em>13:06.840</em></p>
+<p>Yeah, that&#x27;s real time.
+<em>13:14.579</em></p>
+<p>So you can multiple people can be watching and commenting at the same time, and the comments all just kind of pop up as you&#x27;re watching.
+<em>13:16.019</em></p>
+<p>That&#x27;s brilliant.
+<em>13:22.660</em></p>
+<p><strong>Speaker 1</strong>: Okay.
+<em>13:23.540</em></p>
+<p><strong>Speaker 1</strong>: So those are some big things about FrameIO.
+<em>13:24.019</em></p>
+<p><strong>Speaker 1</strong>: the I&#x27;ll call it the universal service.
+<em>13:28.220</em></p>
+<p><strong>Speaker 1</strong>: So now let&#x27;s get into the Final Cut 10 thing.
+<em>13:32.300</em></p>
+<p><strong>Speaker 1</strong>: So you you say you have a a separate app, like a companion app that runs concurrent with Final Cut 10?
+<em>13:34.780</em></p>
+<p>Yes, it&#x27;s a desktop app that you download separately from the App Store, and it allows you to send a
+<em>13:41.100</em></p>
+<p>Final cut timeline to Frame.
+<em>13:50.240</em></p>
+<p>i.
+<em>13:52.640</em></p>
+<p>O.
+<em>13:52.880</em></p>
+<p>So the way it works is when you download, when you install the app, we install
+<em>13:53.280</em></p>
+<p>share destination presets within Final Cut.
+<em>13:57.900</em></p>
+<p>There&#x27;s a little share icon where you would share to Vimeo or YouTube.
+<em>14:00.300</em></p>
+<p>So now you have two FrameIO presets.
+<em>14:04.060</em></p>
+<p>These are just presets that we made.
+<em>14:07.300</em></p>
+<p>We made an H.
+<em>14:09.220</em></p>
+<p>264 preset and the same as source preset, but you can change that if you wanted to upload something to Frame.
+<em>14:09.860</em></p>
+<p>io in a different codec.
+<em>14:15.700</em></p>
+<p>And so now you hit send to frame.
+<em>14:18.899</em></p>
+<p>io as H.
+<em>14:21.220</em></p>
+<p>264, for example.
+<em>14:21.860</em></p>
+<p>It pops open the companion app
+<em>14:23.220</em></p>
+<p>You can choose a location, a project within Frame.
+<em>14:25.440</em></p>
+<p>io.
+<em>14:28.000</em></p>
+<p>And we have a couple of great features.
+<em>14:28.800</em></p>
+<p>So, the first is you can choose to either publish a flattened timeline or individual clips.
+<em>14:30.160</em></p>
+<p>If you do individual clips,
+<em>14:35.280</em></p>
+<p>It&#x27;ll batch export each clip from the timeline without needing to deconstruct it.
+<em>14:37.180</em></p>
+<p>But then within the clips option, we have two additional features which are super useful.
+<em>14:41.740</em></p>
+<p>upload only the clips that are marked in the time line with markers or to exclude disabled clips.
+<em>14:49.700</em></p>
+<p><strong>Speaker 1</strong>: Now, is that just a normal marker or a chapter?
+<em>14:56.540</em></p>
+<p>It&#x27;s just the normal marker.
+<em>14:59.100</em></p>
+<p><strong>Speaker 1</strong>: Yeah, okay.
+<em>15:01.420</em></p>
+<p><strong>Speaker 1</strong>: Just the normal marker.
+<em>15:02.060</em></p>
+<p>So this is.
+<em>15:03.019</em></p>
+<p>super, super useful for I mean, I a lot of different workflows, but the one that comes to mind is for VFX, for example.
+<em>15:05.020</em></p>
+<p>So, you have a complicated edit in your timeline, as timelines often are complicated, and you have six shots that need to be sent out for VFX.
+<em>15:13.060</em></p>
+<p>Well, in the old way of doing things, you&#x27;d have to pull those shots out of the timeline.
+<em>15:21.700</em></p>
+<p>Export them each individually, upload them to some file sharing service, copy those links, send it to a person in an email.
+<em>15:26.100</em></p>
+<p>So with Frame.
+<em>15:35.640</em></p>
+<p>io, you don&#x27;t have to deconstruct anything in the timeline.
+<em>15:36.360</em></p>
+<p>Just say, mark, mark, mark, these are the five clips I want to upload.
+<em>15:39.320</em></p>
+<p>Mark only the clips, you know, it&#x27;s a send to FrameIO and upload only clips with markers.
+<em>15:42.680</em></p>
+<p>And with just a couple of clicks, you&#x27;ve uploaded those into a cloud storage environment.
+<em>15:47.640</em></p>
+<p>Now in this case, let&#x27;s say it&#x27;s for VFX.
+<em>15:53.480</em></p>
+<p>we&#x27;ve uploaded ProRes files.
+<em>15:56.140</em></p>
+<p>In most other cloud storage environments, you wouldn&#x27;t be able to view those ProRes files.
+<em>15:58.300</em></p>
+<p>You&#x27;d have to download them to view them.
+<em>16:01.900</em></p>
+<p>In FrameIO, anything that goes into FrameIO is converted on our server
+<em>16:03.820</em></p>
+<p>To H.
+<em>16:10.240</em></p>
+<p>264 for viewing.
+<em>16:10.720</em></p>
+<p>We saved that original file.
+<em>16:12.160</em></p>
+<p>So if somebody&#x27;s going to download the file, it&#x27;s going to be that original ProRes file.
+<em>16:13.440</em></p>
+<p>But if you just need to pop into that project and look at this stuff before you download it,
+<em>16:17.360</em></p>
+<p>You can view it and it&#x27;ll be an H.
+<em>16:21.440</em></p>
+<p>264 viewable file just on the web.
+<em>16:23.120</em></p>
+<p><strong>Speaker 1</strong>: Let me ask you one question here.
+<em>16:27.840</em></p>
+<p><strong>Speaker 1</strong>: You mentioned that you change that you do convert stuff.
+<em>16:29.660</em></p>
+<p><strong>Speaker 1</strong>: Now if I&#x27;m already uploading H.
+<em>16:32.380</em></p>
+<p><strong>Speaker 1</strong>: 264, you don&#x27;t re-encode it, correct?
+<em>16:34.220</em></p>
+<p>We do right now, just because we&#x27;re not as smart about it as we would like to be.
+<em>16:37.260</em></p>
+<p>But in the future, we&#x27;ll likely have an option where
+<em>16:41.500</em></p>
+<p>things are not reconvert are not converted again.
+<em>16:44.540</em></p>
+<p>But importantly, we don&#x27;t count the converted versions against your storage.
+<em>16:48.220</em></p>
+<p>So we have different storage buckets depending on what plan you&#x27;re on.
+<em>16:54.459</em></p>
+<p>So every all the conversions that we make, those aren&#x27;t counted.
+<em>16:57.740</em></p>
+<p>It&#x27;s just the original file that you upload.
+<em>17:00.940</em></p>
+<p>So if you upload a ProRes file and then we create H.
+<em>17:03.160</em></p>
+<p>264 from it, we&#x27;re not counting that H.
+<em>17:05.240</em></p>
+<p>264 against your storage.
+<em>17:07.400</em></p>
+<p><strong>Speaker 1</strong>: Yeah.
+<em>17:10.120</em></p>
+<p><strong>Speaker 1</strong>: So one of the questions that came in from I was
+<em>17:10.520</em></p>
+<p><strong>Speaker 1</strong>: kind of polling the audience before we started recording here.
+<em>17:14.140</em></p>
+<p><strong>Speaker 1</strong>: And somebody wanted to know if the additional version or each version, does that count against my storage?
+<em>17:17.980</em></p>
+<p>It does count against our storage.
+<em>17:26.240</em></p>
+<p>Yeah, the original.
+<em>17:27.600</em></p>
+<p>The original file would, but again, not the converted files.
+<em>17:29.760</em></p>
+<p>Right, right.
+<em>17:32.799</em></p>
+<p><strong>Speaker 1</strong>: Okay.
+<em>17:33.900</em></p>
+<p>So And I think that that question is a question that is a comparison to some competitors who don&#x27;t charge for you can do as many versions as you&#x27;d like.
+<em>17:34.780</em></p>
+<p>And so there are some services, some of the competitors that will charge based on minutes, number of minutes they&#x27;re uploaded.
+<em>17:47.160</em></p>
+<p>And we don&#x27;t charge based on minutes.
+<em>17:55.720</em></p>
+<p>Our plans are based on storage and number of team members.
+<em>17:57.820</em></p>
+<p>Those are the really the primary the two primary things.
+<em>18:02.140</em></p>
+<p>Well, anyway, that&#x27;s just the distinction.
+<em>18:07.100</em></p>
+<p>No, that&#x27;s fine.
+<em>18:08.700</em></p>
+<p><strong>Speaker 1</strong>: And then another question that came up was, do I have to be a team member to just view the file?
+<em>18:09.580</em></p>
+<p>You don&#x27;t have to be a team member to view the file.
+<em>18:19.180</em></p>
+<p>So we have two types of users in FrameIO.
+<em>18:21.580</em></p>
+<p>We have team members, and we have collaborators.
+<em>18:23.820</em></p>
+<p>So a team is a group of users that share the same bucket of projects.
+<em>18:26.380</em></p>
+<p>These would be your
+<em>18:30.380</em></p>
+<p>Sorry, one second.
+<em>18:34.880</em></p>
+<p><strong>Speaker 1</strong>: No problem.
+<em>18:35.920</em></p>
+<p><strong>Speaker 1</strong>: No, no.
+<em>18:36.480</em></p>
+<p>Sorry, I had a brief interruption.
+<em>18:41.620</em></p>
+<p>So we have two different types of users, team and collaborators.
+<em>18:43.380</em></p>
+<p>A team is a group of users that share the same bucket of projects.
+<em>18:46.740</em></p>
+<p>They have
+<em>18:49.700</em></p>
+<p>They can create new projects.
+<em>18:51.040</em></p>
+<p>They can invite people to those projects.
+<em>18:52.320</em></p>
+<p>This is your internal team, the people that you work with at your office.
+<em>18:53.920</em></p>
+<p>And collaborators is the other type of user.
+<em>18:58.000</em></p>
+<p>This is somebody that you invite into a single project.
+<em>19:00.320</em></p>
+<p>they don&#x27;t have access to the other projects that is that are part of your team.
+<em>19:03.060</em></p>
+<p>They can&#x27;t delete stuff, they can&#x27;t create new projects, things like that.
+<em>19:07.780</em></p>
+<p>So to get somebody into a FrameIO project, they have to be either a team member or a collaborator.
+<em>19:11.900</em></p>
+<p>And we have
+<em>19:18.460</em></p>
+<p>If you don&#x27;t want to invite anybody into the project, which requires them creating an account, but it&#x27;s super simple to create an account and free for them.
+<em>19:19.340</em></p>
+<p>We have the ability to send view-only share links.
+<em>19:27.140</em></p>
+<p>So we call them presentation pages, and they&#x27;re brandable.
+<em>19:29.860</em></p>
+<p>You can set your brand color and your logo.
+<em>19:33.300</em></p>
+<p>and just send somebody.
+<em>19:35.640</em></p>
+<p>That&#x27;s kind of the Vimeo way of sharing.
+<em>19:36.600</em></p>
+<p>If you wanted to set a password and just a view link, you can do that in Frame.
+<em>19:38.760</em></p>
+<p>io as well.
+<em>19:43.080</em></p>
+<p><strong>Speaker 1</strong>: Okay.
+<em>19:45.559</em></p>
+<p><strong>Speaker 1</strong>: So now it&#x27;s interesting what you&#x27;ve done with the ability to export
+<em>19:46.919</em></p>
+<p><strong>Speaker 1</strong>: the clips from a timeline as individual clips.
+<em>19:54.679</em></p>
+<p><strong>Speaker 1</strong>: You&#x27;re obviously doing some some sort of magic with the XML there.
+<em>19:59.000</em></p>
+<p>Right.
+<em>20:03.419</em></p>
+<p>Yep.
+<em>20:04.860</em></p>
+<p>Yeah.
+<em>20:05.260</em></p>
+<p>So it&#x27;s it&#x27;s the we just take the XML from the from the
+<em>20:05.580</em></p>
+<p>from the time line and we and we cut up the time line automatically.
+<em>20:11.320</em></p>
+<p><strong>Speaker 1</strong>: Right.
+<em>20:14.840</em></p>
+<p><strong>Speaker 1</strong>: Okay, cool.
+<em>20:15.480</em></p>
+<p><strong>Speaker 1</strong>: And obviously, the fact that you guys made it to the front of the App Store, you&#x27;ve obviously caught caught Apple&#x27;s attention with this, yeah?
+<em>20:16.840</em></p>
+<p><strong>Speaker 1</strong>: It must be exciting.
+<em>20:26.140</em></p>
+<p>Yeah, we&#x27;ve had the opportunity to show them what we&#x27;ve been working on.
+<em>20:26.940</em></p>
+<p>We showed them what we are working on almost, I don&#x27;t know, maybe eight months ago before FrameIO launched.
+<em>20:32.780</em></p>
+<p>They&#x27;ve always been just very supportive.
+<em>20:39.720</em></p>
+<p>And you know, I think it&#x27;s a testament to the fact that the fact the fact that this app is on the front page of the App Store, the Final Cut companion app, I think it&#x27;s a
+testament to
+<em>20:41.640</em></p>
+<p>Apple really is very committed to Final Cut.
+<em>20:52.140</em></p>
+<p>I mean, they have proven it over the course of since releasing it and all the updates.
+<em>20:54.620</em></p>
+<p>I mean, it&#x27;s something they put a lot of energy into and
+<em>21:00.140</em></p>
+<p>and me promoting the FrameIO integration on the front page of the App Store, I think is further proof that they care.
+<em>21:05.620</em></p>
+<p>About the in the creative community.
+<em>21:13.679</em></p>
+<p><strong>Speaker 1</strong>: Yeah, when I heard that you were doing this app, I was like, all right, Emery, that&#x27;s cool.
+<em>21:15.760</em></p>
+<p><strong>Speaker 1</strong>: You know, I mean, it&#x27;s it&#x27;s
+<em>21:20.960</em></p>
+<p><strong>Speaker 1</strong>: it&#x27;s so easy to join the Final Content&#x27;s not real bandwagon.
+<em>21:22.720</em></p>
+<p><strong>Speaker 1</strong>: But I was thoroughly pleased when I heard that you were doing this, and seeing how well it&#x27;s being received is very cool.
+<em>21:28.960</em></p>
+<p><strong>Speaker 1</strong>: It&#x27;s exciting.
+<em>21:36.500</em></p>
+<p>You know, t it&#x27;s so weird to me, this, this anti-final cut thing.
+<em>21:38.020</em></p>
+<p>So I don&#x27;t I&#x27;m not I&#x27;m not really on either side of the camp.
+<em>21:41.620</em></p>
+<p>I think Premiere is great.
+<em>21:45.660</em></p>
+<p>I&#x27;m happy to use Premiere.
+<em>21:46.780</em></p>
+<p>Before launching Frame.
+<em>21:48.140</em></p>
+<p>io, I ran a post-production.
+<em>21:49.420</em></p>
+<p>I started and ran a post-production company for eight years.
+<em>21:51.100</em></p>
+<p>So I&#x27;ve lived in the trenches of
+<em>21:53.500</em></p>
+<p>doing all sorts of post-production.
+<em>21:55.820</em></p>
+<p>And it&#x27;s so this this battle with Final Cut is so odd to me.
+<em>21:57.660</em></p>
+<p>I you know
+<em>22:01.660</em></p>
+<p>I don&#x27;t know where it comes from.
+<em>22:04.480</em></p>
+<p>I can&#x27;t identify where it comes from, other than the fact of how Final Cut got off to a bad start.
+<em>22:05.520</em></p>
+<p>But now it&#x27;s come so far since that initial release.
+<em>22:11.120</em></p>
+<p>And it seems like there are so many more people that are using it, but nobody wants to admit that they&#x27;re using it.
+<em>22:16.160</em></p>
+<p>And it&#x27;s bizarre.
+<em>22:23.280</em></p>
+<p>It doesn&#x27;t make any sense.
+<em>22:25.919</em></p>
+<p>Like it is a
+<em>22:26.880</em></p>
+<p>It&#x27;s an amazing tool, and it&#x27;s capable of doing a thousand percent professional work.
+<em>22:27.940</em></p>
+<p>And I think what&#x27;s funny is most of the people that
+<em>22:34.019</em></p>
+<p>Are you complaining about FrameIO?
+<em>22:36.360</em></p>
+<p>I&#x27;m sorry, not FrameI.
+<em>22:38.360</em></p>
+<p><strong>Speaker 1</strong>: Nobody complains about FrameIO.
+<em>22:39.799</em></p>
+<p><strong>Speaker 1</strong>: What are you talking about?
+<em>22:41.240</em></p>
+<p>Nobody.
+<em>22:42.200</em></p>
+<p>Never.
+<em>22:43.000</em></p>
+<p>Most of the people that complain about Final Cut not being professional.
+<em>22:44.760</em></p>
+<p>I think they&#x27;re not even, you know, I don&#x27;t know.
+<em>22:49.240</em></p>
+<p>I mean, are they looking at it?
+<em>22:51.720</em></p>
+<p><strong>Speaker 1</strong>: They&#x27;re not looking at it.
+<em>22:53.400</em></p>
+<p><strong>Speaker 1</strong>: They&#x27;re holding on.
+<em>22:54.520</em></p>
+<p><strong>Speaker 1</strong>: I&#x27;ll give you a great example.
+<em>22:55.480</em></p>
+<p><strong>Speaker 1</strong>: And I&#x27;ve told this story, I think, since NAP.
+<em>22:56.520</em></p>
+<p><strong>Speaker 1</strong>: But Alex and I had a little get together at NAB with some of the listeners to the shows, and this one guy approached me and he&#x27;s like, Oh, yeah, you know, Final Cut&#x27;s n not
+pro and I&#x27;ve listened to your show and it&#x27;s just it&#x27;s not ready for prime time.
+<em>22:59.280</em></p>
+<p><strong>Speaker 1</strong>: And I just looked at him and I was like, What the hell are you talking about?
+<em>23:10.160</em></p>
+<p><strong>Speaker 1</strong>: And so I went through and over the course of about a half hour I explained to the guy that I go, look, Final Cut 10 in 2015 is nowhere near the app that it was in 2011.
+<em>23:13.340</em></p>
+<p><strong>Speaker 1</strong>: And you say in 2011 it would have killed your business.
+<em>23:23.320</em></p>
+<p><strong>Speaker 1</strong>: And you know what?
+<em>23:26.200</em></p>
+<p><strong>Speaker 1</strong>: It may have.
+<em>23:27.160</em></p>
+<p><strong>Speaker 1</strong>: But today, it&#x27;s immensely powerful.
+<em>23:28.280</em></p>
+<p><strong>Speaker 1</strong>: And then I went forward to go ahead and outline to him a way that he could, as a business owner,
+<em>23:30.280</em></p>
+<p><strong>Speaker 1</strong>: Experiment, decide whether or not it would be beneficial for him.
+<em>23:37.460</em></p>
+<p><strong>Speaker 1</strong>: It would.
+<em>23:40.740</em></p>
+<p><strong>Speaker 1</strong>: And then take one of his editors aside and say, Hey, look, I want you and I to play with this for a little bit.
+<em>23:42.020</em></p>
+<p><strong>Speaker 1</strong>: And then once you get an advocate on your side, a disciple on your side with your team, then you can present it to the rest of the people.
+<em>23:47.640</em></p>
+<p><strong>Speaker 1</strong>: But I agree, it&#x27;s amazing to me how many people I talk to.
+<em>23:54.600</em></p>
+<p><strong>Speaker 1</strong>: It&#x27;s sort of amazing.
+<em>24:00.040</em></p>
+<p><strong>Speaker 1</strong>: It&#x27;s encouraging to me how many people I talk to who say, Oh, yeah, I&#x27;ve been playing with it, I like it.
+<em>24:01.400</em></p>
+<p><strong>Speaker 1</strong>: But at work, I use Premiere.
+<em>24:06.040</em></p>
+<p><strong>Speaker 1</strong>: And frankly, this is all kind of a fractal of time.
+<em>24:08.040</em></p>
+<p><strong>Speaker 1</strong>: I mean, this is the same stuff you heard.
+<em>24:11.000</em></p>
+<p><strong>Speaker 1</strong>: In 2000, 2001, people talking about they were using Final Cuts 1 and 2 and 3, even, but they didn&#x27;t want to admit it because, oh, I&#x27;m an avid editor, I do real work.
+<em>24:13.540</em></p>
+<p><strong>Speaker 1</strong>: But at home, I play with Final Cut.
+<em>24:22.980</em></p>
+<p><strong>Speaker 1</strong>: You know?
+<em>24:25.040</em></p>
+<p><strong>Speaker 1</strong>: It&#x27;s the same old story over and over.
+<em>24:26.320</em></p>
+<p><strong>Speaker 1</strong>: But we are at the stage where we&#x27;re finding that more and more people are using it.
+<em>24:31.280</em></p>
+<p><strong>Speaker 1</strong>: They&#x27;re just not talking about it.
+<em>24:35.520</em></p>
+<p><strong>Speaker 1</strong>: And I think that basically it&#x27;s going to take a couple of prominent people, stories like The Focus movie that came out and Apple&#x27;s been talking about so much with Will
+Smith in it.
+<em>24:37.260</em></p>
+<p><strong>Speaker 1</strong>: You know, more stories like that.
+<em>24:50.320</em></p>
+<p><strong>Speaker 1</strong>: And again, that&#x27;s just like the whatever the movie was, the Walter Murch movie back in 2004, where he goes, Oh, yeah, I used Final Cut.
+<em>24:52.080</em></p>
+<p><strong>Speaker 1</strong>: And everybody went, Oh, yeah, yeah, I&#x27;ve been using it too.
+<em>24:59.920</em></p>
+<p><strong>Speaker 1</strong>: you know, and then people jump on the bandwagon, I think.
+<em>25:02.360</em></p>
+<p><strong>Speaker 1</strong>: So it&#x27;s it&#x27;s the same old story.
+<em>25:04.600</em></p>
+<p>Yeah, and you know, uh you know, our
+<em>25:07.880</em></p>
+<p>us, our decision to do our first integration with Final Cut Pro is it really has had a lot more to do with the fact that our engineers had more experience.
+<em>25:10.740</em></p>
+<p>Working with developing for Final Cut than Premiere.
+<em>25:21.440</em></p>
+<p>We are developing integrations with Premiere as well.
+<em>25:25.840</em></p>
+<p>So we&#x27;re not making some political statement about Final Cut or Premiere.
+<em>25:29.279</em></p>
+<p><strong>Speaker 1</strong>: You don&#x27;t have to say that on the show.
+<em>25:35.740</em></p>
+<p><strong>Speaker 1</strong>: No, I&#x27;m kidding.
+<em>25:37.260</em></p>
+<p><strong>Speaker 1</strong>: So let me think.
+<em>25:40.060</em></p>
+<p><strong>Speaker 1</strong>: You just said something.
+<em>25:41.900</em></p>
+<p><strong>Speaker 1</strong>: It made me think of something.
+<em>25:42.780</em></p>
+<p><strong>Speaker 1</strong>: So fun.
+<em>25:44.460</em></p>
+<p><strong>Speaker 1</strong>: Oh, I know what I was going to say.
+<em>25:45.260</em></p>
+<p><strong>Speaker 1</strong>: As a developer, do you have any sense?
+<em>25:46.300</em></p>
+<p><strong>Speaker 1</strong>: I&#x27;m not asking you obviously, you&#x27;re not employed by Adobe, you&#x27;re not employed by Apple.
+<em>25:49.160</em></p>
+<p><strong>Speaker 1</strong>: You want to remain friendly to both.
+<em>25:56.280</em></p>
+<p><strong>Speaker 1</strong>: I get that as a developer.
+<em>25:58.040</em></p>
+<p><strong>Speaker 1</strong>: But as a developer, do you have any sense
+<em>25:59.560</em></p>
+<p><strong>Speaker 1</strong>: as to how many people and I&#x27;m not talking about just in the upper crust broadcast, you know, you know, major film world, but
+<em>26:02.220</em></p>
+<p><strong>Speaker 1</strong>: Just in general, how many people are using Final Cut 10 versus how many people are using Premiere as their primary editor day to day?
+<em>26:10.900</em></p>
+<p>I don&#x27;t have any data on that.
+<em>26:20.539</em></p>
+<p><strong>Speaker 1</strong>: I wish I did.
+<em>26:22.780</em></p>
+<p><strong>Speaker 1</strong>: It would be fascinating.
+<em>26:24.299</em></p>
+<p>Yeah, I think the only data that Apple has put out publicly was sales.
+<em>26:26.299</em></p>
+<p>Number of sales.
+<em>26:32.919</em></p>
+<p>I think they said over a million sales in the past twelve months.
+<em>26:33.640</em></p>
+<p>That was, I don&#x27;t know when they said that a while ago.
+<em>26:36.840</em></p>
+<p><strong>Speaker 1</strong>: So
+<em>26:39.160</em></p>
+<p><strong>Speaker 1</strong>: Actually, you know what?
+<em>26:41.720</em></p>
+<p>It was at a year or two ago.
+<em>26:42.680</em></p>
+<p><strong>Speaker 1</strong>: It was at NAB twenty fourteen in the Alpha Trizo suite, and they said
+<em>26:44.360</em></p>
+<p><strong>Speaker 1</strong>: Ah, good grief, now I&#x27;m can&#x27;t remember if they said we&#x27;re not supposed to talk about this, but they&#x27;ve talked about it publicly, that they had it&#x27;s been written yeah,
+and it&#x27;s been published online.
+<em>26:51.860</em></p>
+<p><strong>Speaker 1</strong>: I mean, that was they had sold a million copies.
+<em>27:00.260</em></p>
+<p><strong>Speaker 1</strong>: Now, we all know that a lot of people bought it and went, Ah, I don&#x27;t like this.
+<em>27:02.500</em></p>
+<p><strong>Speaker 1</strong>: Bullshit.
+<em>27:06.240</em></p>
+<p><strong>Speaker 1</strong>: And then they just never launched it again.
+<em>27:06.880</em></p>
+<p><strong>Speaker 1</strong>: But, you know, in my travels and in my conversations, and of course, doing this show
+<em>27:09.360</em></p>
+<p><strong>Speaker 1</strong>: There are tons of people using it, and I think that there&#x27;s a lot of people that are getting into video editing, like photographers are a good example.
+<em>27:15.140</em></p>
+<p><strong>Speaker 1</strong>: who are doing it because it&#x27;s so much easier.
+<em>27:24.000</em></p>
+<p><strong>Speaker 1</strong>: And that&#x27;s again, that&#x27;s another old story being repeated over and over.
+<em>27:27.360</em></p>
+<p>You know, I actually have funny conversations with Alex about this because I think Alex McLean, McLean, yeah, yeah.
+<em>27:32.840</em></p>
+<p>From Jesus Cinema Cafe.
+<em>27:41.000</em></p>
+<p>Yes, yeah.
+<em>27:42.919</em></p>
+<p>I have conversations with Alex.
+<em>27:43.640</em></p>
+<p>It&#x27;s Alex.
+<em>27:45.160</em></p>
+<p>You know, Alex likes to make things complicated.
+<em>27:46.740</em></p>
+<p>And he does.
+<em>27:49.700</em></p>
+<p>I wish he was here.
+<em>27:52.420</em></p>
+<p><strong>Speaker 1</strong>: He&#x27;s actually on his way to my office right now.
+<em>27:53.300</em></p>
+<p><strong>Speaker 1</strong>: We&#x27;re going to record an episode of DCC Dex.
+<em>27:55.780</em></p>
+<p><strong>Speaker 1</strong>: I wish he was here to defend this.
+<em>27:58.180</em></p>
+<p>No, he likes Final Cut.
+<em>28:00.220</em></p>
+<p>I know he uses Final Cut and everything.
+<em>28:01.420</em></p>
+<p>But, you know, I think some people, and this is not a dig against Alex, but.
+<em>28:04.060</em></p>
+<p>I think that some people feel more professional when things are complicated and less understood by others.
+<em>28:08.000</em></p>
+<p>And that&#x27;s actually, you know, and Final Cut is easy.
+<em>28:16.320</em></p>
+<p>And I think when things are easy, you want to assume that it&#x27;s not professional.
+<em>28:20.240</em></p>
+<p>But those two are not
+<em>28:26.000</em></p>
+<p>Those two ideas don&#x27;t necessarily go together.
+<em>28:28.680</em></p>
+<p>Something can be easy and professional.
+<em>28:31.960</em></p>
+<p>With Frame.
+<em>28:34.440</em></p>
+<p>io, for example, we&#x27;ve tried to make it incredibly easy and incredibly streamlined, incredibly simple to understand.
+<em>28:34.920</em></p>
+<p>Yeah, exactly.
+<em>28:42.559</em></p>
+<p><strong>Speaker 1</strong>: You know, there&#x27;s two sides to the easy, difficult coin, too, because sometimes in an
+<em>28:44.480</em></p>
+<p><strong>Speaker 1</strong>: Sometimes it looks like we&#x27;re trying to make it difficult when, in fact, what we&#x27;re trying to do is make it thorough.
+<em>28:50.440</em></p>
+<p><strong>Speaker 1</strong>: I go through this a lot with some of my producers that I work with.
+<em>28:57.320</em></p>
+<p><strong>Speaker 1</strong>: Because one of the things, and I&#x27;ve talked about this on the show, one of the things that I&#x27;m doing with one of my producers is I&#x27;m essentially teaching him how to be an
+assistant editor.
+<em>29:01.640</em></p>
+<p><strong>Speaker 1</strong>: So on the fl like, for example, Peter is in South Africa right now.
+<em>29:09.160</em></p>
+<p><strong>Speaker 1</strong>: He&#x27;s going to be getting on a plane.
+<em>29:13.019</em></p>
+<p><strong>Speaker 1</strong>: Actually, he might be on a he might be in the air right now.
+<em>29:15.019</em></p>
+<p><strong>Speaker 1</strong>: He&#x27;s on his way back from South Africa, and he&#x27;s going to be sorting, keywording, you know.
+<em>29:17.340</em></p>
+<p><strong>Speaker 1</strong>: Bucketing, you know, whatever you want to call it.
+<em>29:24.480</em></p>
+<p><strong>Speaker 1</strong>: He&#x27;s going through his footage now on the plane so that when he walks into the office Monday morning
+<em>29:26.800</em></p>
+<p><strong>Speaker 1</strong>: He hands me a drive that&#x27;s with a library on it that&#x27;s ready to go.
+<em>29:33.300</em></p>
+<p><strong>Speaker 1</strong>: And so it you I want to
+<em>29:38.420</em></p>
+<p><strong>Speaker 1</strong>: I want to empower him with that, but there&#x27;s a lot of the steps that I need him to do.
+<em>29:42.919</em></p>
+<p><strong>Speaker 1</strong>: Like, for example, this was nearly impossible when we were still shooting with DSLRs that had to be separate audio that he had to sync.
+<em>29:48.760</em></p>
+<p><strong>Speaker 1</strong>: And he was like, I just knew that that horse is not going to ride.
+<em>29:56.960</em></p>
+<p><strong>Speaker 1</strong>: He&#x27;s not going to be able to do that.
+<em>30:00.560</em></p>
+<p><strong>Speaker 1</strong>: He&#x27;s not going to want to.
+<em>30:02.080</em></p>
+<p><strong>Speaker 1</strong>: It&#x27;s not that he can&#x27;t do it.
+<em>30:03.120</em></p>
+<p><strong>Speaker 1</strong>: He just doesn&#x27;t want to do it.
+<em>30:04.160</em></p>
+<p><strong>Speaker 1</strong>: Hassle with it.
+<em>30:05.320</em></p>
+<p><strong>Speaker 1</strong>: But I didn&#x27;t want him to pre-cut something if he was just using the wild camera audio because that&#x27;s a pain too.
+<em>30:06.280</em></p>
+<p><strong>Speaker 1</strong>: To like, now I got to sync 10 clips instead of one file, right?
+<em>30:12.520</em></p>
+<p><strong>Speaker 1</strong>: And so
+<em>30:17.880</em></p>
+<p><strong>Speaker 1</strong>: In an attempt to be thorough, sometimes we look like we&#x27;re just trying to make it complicated.
+<em>30:20.159</em></p>
+<p><strong>Speaker 1</strong>: And I think that, you know, and I know you agree with this.
+<em>30:25.600</em></p>
+<p><strong>Speaker 1</strong>: That&#x27;s what Alex does.
+<em>30:28.320</em></p>
+<p><strong>Speaker 1</strong>: He&#x27;s trying to be thorough.
+<em>30:29.440</em></p>
+<p>Yes, I have to defend Alex.
+<em>30:31.360</em></p>
+<p>He&#x27;s a workflow.
+<em>30:33.120</em></p>
+<p>Maven.
+<em>30:33.940</em></p>
+<p>He&#x27;s a workflow Maven.
+<em>30:34.419</em></p>
+<p>He&#x27;s really good at workflow.
+<em>30:35.380</em></p>
+<p>He understands a lot of different applications and he puts together a very, very thorough workflow.
+<em>30:38.179</em></p>
+<p>I think I.
+<em>30:44.340</em></p>
+<p>I&#x27;m opposite of Alex, where I look for the path of least resistance.
+<em>30:45.260</em></p>
+<p>As a business owner, that&#x27;s what I did for eight years.
+<em>30:49.820</em></p>
+<p>I don&#x27;t want to say in the absence of being thorough, but
+<em>30:54.460</em></p>
+<p>I wanted to cover my bases while finding the path of least resistance.
+<em>31:00.360</em></p>
+<p><strong>Speaker 1</strong>: Well, it actually makes perfect sense because.
+<em>31:04.280</em></p>
+<p><strong>Speaker 1</strong>: Again, there&#x27;s a difference between the business owner and the guy who&#x27;s doing the work.
+<em>31:07.300</em></p>
+<p><strong>Speaker 1</strong>: So the business owner is saying, okay, look,
+<em>31:11.860</em></p>
+<p><strong>Speaker 1</strong>: I&#x27;m going to make a hundred bucks off this.
+<em>31:14.740</em></p>
+<p><strong>Speaker 1</strong>: So if I can spend 50, I&#x27;m doing well.
+<em>31:17.060</em></p>
+<p><strong>Speaker 1</strong>: If I can spend 40, I&#x27;m doing better.
+<em>31:20.500</em></p>
+<p><strong>Speaker 1</strong>: And the guy who&#x27;s doing the work might be thinking, yeah, but this might happen, this might happen, this might happen.
+<em>31:22.820</em></p>
+<p><strong>Speaker 1</strong>: And so you&#x27;re trying to be efficient and he&#x27;s trying to be thorough.
+<em>31:31.860</em></p>
+<p><strong>Speaker 1</strong>: And so sometimes you&#x27;re looking at it going
+<em>31:38.420</em></p>
+<p><strong>Speaker 1</strong>: You know, Alex, I understand what you&#x27;re doing, that you know, there&#x27;s the possibility that all these shots might go out for, you know, this or this or this sort of
+special effects.
+<em>31:40.960</em></p>
+<p><strong>Speaker 1</strong>: But I happen to know that&#x27;s not in the budget.
+<em>31:50.000</em></p>
+<p><strong>Speaker 1</strong>: It&#x27;s not going to happen.
+<em>31:51.840</em></p>
+<p><strong>Speaker 1</strong>: So we don&#x27;t actually have to plan for that.
+<em>31:53.200</em></p>
+<p><strong>Speaker 1</strong>: You know, yeah, but what if no, it&#x27;s okay, Alex.
+<em>31:55.519</em></p>
+<p><strong>Speaker 1</strong>: It&#x27;s okay.
+<em>31:58.639</em></p>
+<p><strong>Speaker 1</strong>: So it&#x27;s it&#x27;s interesting.
+<em>32:00.159</em></p>
+<p><strong>Speaker 1</strong>: It&#x27;s two definitely two sides to the thorough versus efficient coin.
+<em>32:01.360</em></p>
+<p>Yeah.
+<em>32:06.140</em></p>
+<p>Yeah.
+<em>32:06.940</em></p>
+<p>And that&#x27;s I think I think in most people&#x27;s minds, Final Cut is on that on that efficient
+<em>32:07.260</em></p>
+<p>in that efficient bucket, maybe more so than the thorough bucket.
+<em>32:14.640</em></p>
+<p>I mean, when you&#x27;re designing a product, and we come across, we have conversations about this every single day with FrameIO.
+<em>32:18.320</em></p>
+<p>Is what not to include.
+<em>32:26.240</em></p>
+<p>There&#x27;s tons of things we would want to include, but making choices for people, making smart choices for people about things
+<em>32:27.600</em></p>
+<p>that either we&#x27;re not going to include or just instead of giving somebody the option of what to choose, we make the choice for them.
+<em>32:34.740</em></p>
+<p>That&#x27;s part of great software development, I think.
+<em>32:42.180</em></p>
+<p>Probably in my mind, one of the most important aspects of software development.
+<em>32:46.899</em></p>
+<p>And as we move into a world of
+<em>32:51.460</em></p>
+<p>iOS and we&#x27;ve really stripped down software to make it as efficient as possible.
+<em>32:55.140</em></p>
+<p>And that&#x27;s people&#x27;s experiences more and more.
+<em>33:03.620</em></p>
+<p>So, you know, Final Cut certainly follows that trend.
+<em>33:06.019</em></p>
+<p>I think that they&#x27;ve struck a great balance in my mind of
+<em>33:09.539</em></p>
+<p>simplicity of being able to understand it and making the right choices for the user so you don&#x27;t overwhelm them with options.
+<em>33:13.820</em></p>
+<p>You know, to me, that&#x27;s what Final Cut.
+<em>33:24.040</em></p>
+<p><strong>Speaker 1</strong>: Yeah, we&#x27;ve talked about this on the show a lot, how when you open up Final Cut, it&#x27;s very simplified.
+<em>33:26.680</em></p>
+<p><strong>Speaker 1</strong>: And I think that&#x27;s why it gets the iMovie Pro jab.
+<em>33:31.720</em></p>
+<p><strong>Speaker 1</strong>: But it the software is really designed on disclosure.
+<em>33:36.040</em></p>
+<p><strong>Speaker 1</strong>: Like what do I need to expose?
+<em>33:39.560</em></p>
+<p><strong>Speaker 1</strong>: Which panel do I need to open up in order to get at that feature?
+<em>33:42.040</em></p>
+<p><strong>Speaker 1</strong>: And when you look at Final Cut 10
+<em>33:46.040</em></p>
+<p><strong>Speaker 1</strong>: on the website.
+<em>33:48.220</em></p>
+<p><strong>Speaker 1</strong>: You have to dig really deep on the Apple website to even see like the inspector panel open.
+<em>33:49.260</em></p>
+<p><strong>Speaker 1</strong>: It&#x27;s not open on like 90% of the photos of the interface that are on the web.
+<em>33:56.820</em></p>
+<p><strong>Speaker 1</strong>: they&#x27;re really trying to make it look inviting and welcome and sort of increase that market share and not just cater to the pros.
+<em>34:05.120</em></p>
+<p><strong>Speaker 1</strong>: And I think the theory is that
+<em>34:16.400</em></p>
+<p><strong>Speaker 1</strong>: If you really are a pro and you really know what you need, you&#x27;re going to find you know it&#x27;s there, or you&#x27;re going to find it, and you&#x27;re willing to open up those panels.
+<em>34:19.060</em></p>
+<p><strong>Speaker 1</strong>: You know, I tend to fly with the thing with every panel open.
+<em>34:28.260</em></p>
+<p><strong>Speaker 1</strong>: Because I want access to that stuff.
+<em>34:32.240</em></p>
+<p>Yeah, and here&#x27;s the other part of this equation with the comparison of professional or calling it iMovie Pro.
+<em>34:35.600</em></p>
+<p>There was a time in
+<em>34:41.520</em></p>
+<p>in post production, where there was a difference between different applications, a difference in quality that those applications could achieve, right?
+<em>34:43.639</em></p>
+<p>It was resolution, it was bit depth, it was it was all these
+<em>34:52.760</em></p>
+<p>The bit depth of its processing, where you would argue, well, okay, I need a flame because I need to do HD and process in 10-bit and whatever.
+<em>34:57.559</em></p>
+<p>But that&#x27;s all gone away.
+<em>35:11.680</em></p>
+<p>So final, there&#x27;s no comp you know, iMovie or Final Cut.
+<em>35:13.359</em></p>
+<p>Well, let&#x27;s, I don&#x27;t, I don&#x27;t, I don&#x27;t really know what iMovie does.
+<em>35:17.359</em></p>
+<p>But Final Cut in comparison to any of the other professional applications out there, Premiere and going into just non-editing applications, After Effects, and
+they&#x27;re all processing everything
+<em>35:21.260</em></p>
+<p>everything&#x27;s happening at the same quality.
+<em>35:33.660</em></p>
+<p>Like that that part of the that part of the kind of argument equation discussion, it&#x27;s gone away.
+<em>35:35.340</em></p>
+<p>Everything is the best quality all the time.
+<em>35:41.820</em></p>
+<p>So from that perspective, it&#x27;s a moo point.
+<em>35:45.640</em></p>
+<p><strong>Speaker 1</strong>: Yeah, or to borrow the words of the infamous Joey Tribiani, a moo point.
+<em>35:49.960</em></p>
+<p><strong>Speaker 1</strong>: So, yeah, no, I totally agree.
+<em>35:56.740</em></p>
+<p><strong>Speaker 1</strong>: The quality is great all along.
+<em>35:58.180</em></p>
+<p><strong>Speaker 1</strong>: And we stopped having that discussion, I think, around, I don&#x27;t know, 2000, 2002, maybe.
+<em>36:00.660</em></p>
+<p><strong>Speaker 1</strong>: You know, I remember like I bought a Media 100 in the late 90s, and people were still, yeah, and look how great the video quality is.
+<em>36:07.040</em></p>
+<p><strong>Speaker 1</strong>: It&#x27;s like, you know, they all look good.
+<em>36:14.880</em></p>
+<p><strong>Speaker 1</strong>: Now we&#x27;re looking for.
+<em>36:16.480</em></p>
+<p><strong>Speaker 1</strong>: functionality and speed and flexibility and frankly, extensibility is a word that you don&#x27;t hear very often.
+<em>36:18.220</em></p>
+<p><strong>Speaker 1</strong>: Extensibility is the ability for a product to be extended.
+<em>36:27.920</em></p>
+<p><strong>Speaker 1</strong>: So for example, QuickTime
+<em>36:33.440</em></p>
+<p><strong>Speaker 1</strong>: as a playback medium is great, but QuickTime components back with QuickTime 7, and I&#x27;m not talking about QuickTime 10 yet.
+<em>36:36.140</em></p>
+<p><strong>Speaker 1</strong>: QuickTime components allowed me to have more codecs capable in my QuickTime player.
+<em>36:45.440</em></p>
+<p><strong>Speaker 1</strong>: QuickTime was considered to be extensible.
+<em>36:51.520</em></p>
+<p><strong>Speaker 1</strong>: And when you look at what
+<em>36:54.160</em></p>
+<p><strong>Speaker 1</strong>: People are doing, and with plugins for one, but also with what you&#x27;re doing here, you&#x27;re starting to see, and this is something that Alex McLean and I talked about maybe
+a year ago, is that
+<em>36:56.480</em></p>
+<p><strong>Speaker 1</strong>: Final Cut 10 is being designed as almost like a platform and an ecosystem.
+<em>37:08.780</em></p>
+<p><strong>Speaker 1</strong>: And so FrameIO and what you&#x27;re doing
+<em>37:15.100</em></p>
+<p><strong>Speaker 1</strong>: it&#x27;s you&#x27;re actually giving us capability that Final Up Cut doesn&#x27;t have.
+<em>37:18.099</em></p>
+<p><strong>Speaker 1</strong>: And you&#x27;re making it faster.
+<em>37:24.260</em></p>
+<p><strong>Speaker 1</strong>: I mean, this whole idea of kicking out the whole time line into a bunch of separate clips is brilliant.
+<em>37:26.420</em></p>
+<p><strong>Speaker 1</strong>: It&#x27;s really brilliant.
+<em>37:32.780</em></p>
+<p>Yeah, and even if you&#x27;re just even if you&#x27;re just sharing a flattened timeline, I mean, our whole philosophy with
+<em>37:35.180</em></p>
+<p>With Frame.
+<em>37:40.540</em></p>
+<p>io, we&#x27;re trying to be an extension of the creative tools you already use.
+<em>37:41.180</em></p>
+<p>Certainly not trying to replace Final Cut.
+<em>37:44.940</em></p>
+<p>And people make these, at least ask us questions and kind of make comparisons.
+<em>37:47.260</em></p>
+<p>We want to be an extension of the creative tools and make it as seamless as possible with the tools you&#x27;re already using.
+<em>37:52.220</em></p>
+<p>So, this first integration is an example of that.
+<em>37:57.900</em></p>
+<p>Whether you&#x27;re just needing to get a timeline up, I mean, even that, you&#x27;re just saving tons of time.
+<em>38:00.460</em></p>
+<p>I mean, I&#x27;m sure there are people.
+<em>38:04.940</em></p>
+<p>that we&#x27;re using the the YouTube and Vimeo integrations in Final Cut to easily publish up to those platforms.
+<em>38:06.359</em></p>
+<p>But now being able to have that same level of convenience with FrameIO, which is
+<em>38:13.960</em></p>
+<p>air quotes, professional, a more professional solution to working with your clients and managing file sharing and collaboration and things like that.
+<em>38:19.220</em></p>
+<p>Yeah, I mean, it&#x27;s
+<em>38:30.180</em></p>
+<p>You don&#x27;t want to be wasting your time with this kind of with that part of the workflow.
+<em>38:34.980</em></p>
+<p>You don&#x27;t need to be wasting your time with exporting and uploading and sending emails.
+<em>38:40.020</em></p>
+<p>You want to be spending your time editing.
+<em>38:44.260</em></p>
+<p><strong>Speaker 1</strong>: Yeah.
+<em>38:45.840</em></p>
+<p><strong>Speaker 1</strong>: And I think and I this is where I really think that like our industry really needs to be educated.
+<em>38:46.240</em></p>
+<p><strong>Speaker 1</strong>: And it&#x27;s so easy to and I am totally guilty of this, okay, completely guilty of this, in that
+<em>38:57.420</em></p>
+<p><strong>Speaker 1</strong>: I&#x27;ve been doing it long enough that I get the process.
+<em>39:05.640</em></p>
+<p><strong>Speaker 1</strong>: I got it worked out.
+<em>39:08.599</em></p>
+<p><strong>Speaker 1</strong>: I have a good workflow.
+<em>39:09.799</em></p>
+<p><strong>Speaker 1</strong>: I can keep track of my versions okay.
+<em>39:11.319</em></p>
+<p><strong>Speaker 1</strong>: But there are definitely times when you have to teach an old dog new tricks.
+<em>39:14.039</em></p>
+<p><strong>Speaker 1</strong>: And, you know, I think it was Alex even that showed me this one trick where
+<em>39:19.760</em></p>
+<p><strong>Speaker 1</strong>: In Final Cut X, you can take the there is a there&#x27;s a window in the export dialogue, in the second pane of the export dialogue, that says
+<em>39:27.400</em></p>
+<p><strong>Speaker 1</strong>: When you&#x27;re done, what do you want me to do?
+<em>39:41.240</em></p>
+<p><strong>Speaker 1</strong>: Okay?
+<em>39:44.280</em></p>
+<p><strong>Speaker 1</strong>: It&#x27;s the what do you want me to do next dialogue and
+<em>39:44.760</em></p>
+<p><strong>Speaker 1</strong>: What he showed me is like, oh, check this out.
+<em>39:50.880</em></p>
+<p><strong>Speaker 1</strong>: So you open it up, you tink on that thing and you say, when I&#x27;m done with it.
+<em>39:53.279</em></p>
+<p><strong>Speaker 1</strong>: Now again, this is a workflow, and that&#x27;s actually a workflow that I still use.
+<em>39:58.480</em></p>
+<p><strong>Speaker 1</strong>: And again, I&#x27;m saying old dog, new tricks.
+<em>40:02.400</em></p>
+<p><strong>Speaker 1</strong>: And this show, just doing this podcast, has totally changed a lot of my workflow things because of people I talk to and things that I learn from people.
+<em>40:05.240</em></p>
+<p><strong>Speaker 1</strong>: So on the what do you want me to do dialogue
+<em>40:13.320</em></p>
+<p><strong>Speaker 1</strong>: He said, check this out.
+<em>40:18.020</em></p>
+<p><strong>Speaker 1</strong>: And he switches it over to open open this file in Adobe Media Encoder.
+<em>40:19.220</em></p>
+<p><strong>Speaker 1</strong>: Now, yes, you can do many of these things with Compressor, but there are times when Adobe Media Encoder is the way you want to go.
+<em>40:27.559</em></p>
+<p><strong>Speaker 1</strong>: So it says open the file in Adobe Media Encoder.
+<em>40:33.400</em></p>
+<p><strong>Speaker 1</strong>: Now, when you do that,
+<em>40:36.680</em></p>
+<p><strong>Speaker 1</strong>: it automatically put just because of the nature of the way Adobe Media Encoder works is it puts it into the compression queue.
+<em>40:38.140</em></p>
+<p><strong>Speaker 1</strong>: So then
+<em>40:44.940</em></p>
+<p><strong>Speaker 1</strong>: If the last thing that you did is the then here&#x27;s the sort of the gotcha.
+<em>40:46.400</em></p>
+<p><strong>Speaker 1</strong>: If the last compression you made is the right type of compression,
+<em>40:50.800</em></p>
+<p><strong>Speaker 1</strong>: Then it will be sitting there with already ready to compress.
+<em>40:54.020</em></p>
+<p><strong>Speaker 1</strong>: And then there&#x27;s another preference in Adobe Media Encoder where you can say, after X number of seconds, just go ahead and start the queue.
+<em>40:59.780</em></p>
+<p><strong>Speaker 1</strong>: So, you can export your phone.
+<em>41:07.940</em></p>
+<p>Media Encoder as well has upload options also.
+<em>41:09.779</em></p>
+<p><strong>Speaker 1</strong>: Yeah, but Media Encoder doesn&#x27;t give the ability to upload, at least you might be 100% smarter than me, likely.
+<em>41:13.220</em></p>
+<p><strong>Speaker 1</strong>: But in MediaEncoder, I can&#x27;t upload to a secure FTP site, which is what we currently use at this moment.
+<em>41:20.200</em></p>
+<p>Oh, is it is it only a regular FTP, not secure FTP?
+<em>41:27.400</em></p>
+<p><strong>Speaker 1</strong>: Yeah, and it&#x27;s been that way for at least the last four years.
+<em>41:30.360</em></p>
+<p><strong>Speaker 1</strong>: Frustrating.
+<em>41:34.200</em></p>
+<p><strong>Speaker 1</strong>: Okay, you mentioned a couple of things I want to mention.
+<em>41:36.840</em></p>
+<p><strong>Speaker 1</strong>: Very subtly, you mentioned in this first integration, you said the phrase, I&#x27;m using your words, in this first integration.
+<em>41:40.600</em></p>
+<p><strong>Speaker 1</strong>: So it sounds like you might be subtly hinting that you see some other things you guys might be able to do with Final Cut 10.
+<em>41:47.760</em></p>
+<p><strong>Speaker 1</strong>: And I&#x27;m not going to ask you to confirm or deny, but I just think that&#x27;s exciting.
+<em>41:55.920</em></p>
+<p><strong>Speaker 1</strong>: And then the next question I want to ask you about is because you also mentioned this, where do you see the IOS being
+<em>41:59.640</em></p>
+<p><strong>Speaker 1</strong>: Adapted or adopted in pro workflows
+<em>42:12.160</em></p>
+<p><strong>Speaker 1</strong>: Well, I think and I&#x27;m not talking necessarily specifically about frame IO.
+<em>42:19.880</em></p>
+<p><strong>Speaker 1</strong>: It&#x27;s just sort of a bigger question.
+<em>42:25.480</em></p>
+<p><strong>Speaker 1</strong>: I get fascinated by this discussion.
+<em>42:27.320</em></p>
+<p><strong>Speaker 1</strong>: I just wanted to get your take on it.
+<em>42:29.320</em></p>
+<p>Well, I think you&#x27;re seeing a little bit of this from Adobe.
+<em>42:31.920</em></p>
+<p>I think Adobe has done a nice job with some of their mobile apps that integrate with the Creative Suite.
+<em>42:34.640</em></p>
+<p>They have that new color app, right, where you can take a picture and get your color palette derived from an image you take on your phone, and then that color palette is
+available in
+<em>42:40.820</em></p>
+<p>In Creative Sync to Creative Cloud, and you can use that to actually color an image.
+<em>42:54.780</em></p>
+<p>I mean, I think that&#x27;s, you can, you know, you can take a beautiful picture of a sunset and say, that&#x27;s the vibe I want, that&#x27;s the grade I want, and then that can be applied
+to your grade.
+<em>42:58.780</em></p>
+<p>So that&#x27;s you know, that&#x27;s I think I think those are really cool ways in which in which you can use an iOS app in a kind of professional way.
+<em>43:08.440</em></p>
+<p>And they also have their editing app.
+<em>43:16.760</em></p>
+<p>which you can kind of start and edit.
+<em>43:19.520</em></p>
+<p>I don&#x27;t know if anybody uses that professionally, but I forget what it&#x27;s called.
+<em>43:21.119</em></p>
+<p>What&#x27;s their iOS app for editing?
+<em>43:24.560</em></p>
+<p><strong>Speaker 1</strong>: I honestly, I don&#x27;t know.
+<em>43:27.119</em></p>
+<p>Well, they have so you can start you can start and edit in iOS and then open it as a Premiere project, and it&#x27;s just synced into Creative Cloud.
+<em>43:29.299</em></p>
+<p>So I think Adobe is doing some cool things with
+<em>43:37.220</em></p>
+<p>with that.
+<em>43:41.420</em></p>
+<p>And I think it&#x27;s the right approach.
+<em>43:41.980</em></p>
+<p>It&#x27;s like, okay, we&#x27;re not going to build Final Cut for IOS, right?
+<em>43:43.900</em></p>
+<p>Nobody wants Final Cut for IOS or nobody wants to have
+<em>43:47.340</em></p>
+<p>have do any kind of really serious core kind of work on their mobile devices.
+<em>43:50.720</em></p>
+<p>But I think also platforms like FrameIO open up
+<em>43:56.319</em></p>
+<p>Open up the possibility for opportunity.
+<em>44:02.299</em></p>
+<p>There are a number of things which
+<em>44:07.660</em></p>
+<p>You don&#x27;t necessarily need to do an in-final cut.
+<em>44:10.940</em></p>
+<p>Let&#x27;s say you&#x27;ve done an edit, right?
+<em>44:16.380</em></p>
+<p>You have something up.
+<em>44:18.300</em></p>
+<p>have something up in frame.
+<em>44:20.500</em></p>
+<p>io and inevitably there&#x27;s always these little things that pop up, right?
+<em>44:21.620</em></p>
+<p>Maybe you need to trim some frames of black at the end of a clip that you forgot to snip off or
+<em>44:26.980</em></p>
+<p>Maybe you want to swap an audio track or throw on a new slate, and it&#x27;s already in a cloud storage environment.
+<em>44:32.859</em></p>
+<p>And today, what you&#x27;d have to do is
+<em>44:40.380</em></p>
+<p>You know, be on your be at your desktop and do that work on the desktop and then re-upload something to wherever it&#x27;s going to ultimately wind up, whether that&#x27;s Frame.
+<em>44:43.240</em></p>
+<p>io or elsewhere.
+<em>44:50.920</em></p>
+<p>But I think there&#x27;s opportunity to start not replacing
+<em>44:52.360</em></p>
+<p>The core tool sets of applications like Final Cut, but being able to do little things on your phone with a professional project
+<em>44:56.240</em></p>
+<p>Without having to round trip through the desktop app.
+<em>45:06.340</em></p>
+<p>So maybe that&#x27;s things like trimming off a couple frames, or maybe that&#x27;s swapping out an audio track
+<em>45:09.460</em></p>
+<p>And that&#x27;s going to save you an immense amount of time, especially if you&#x27;re not at your computer, right?
+<em>45:16.059</em></p>
+<p>So if you&#x27;re on the go and it&#x27;s like, oh shit, I.
+<em>45:20.220</em></p>
+<p>Are we allowed to say shit on the show?
+<em>45:23.640</em></p>
+<p>You just forgot.
+<em>45:25.079</em></p>
+<p>I forgot there&#x27;s an extra frame of black at the end that needs to be cut off.
+<em>45:27.880</em></p>
+<p>Well
+<em>45:31.640</em></p>
+<p>being able to if you have that ProRes file sitting in FrameIO and you have a great mobile app that would allow you to just snip that off and render it in the cloud, those are
+ways in which I envision
+<em>45:32.920</em></p>
+<p>mobile being kind of adopted for kind of professional workflows.
+<em>45:45.039</em></p>
+<p><strong>Speaker 1</strong>: Can you do any of your commenting through like an iPhone?
+<em>45:53.320</em></p>
+<p><strong>Speaker 1</strong>: Or is it too much for the uh for the uh user interface?
+<em>45:56.840</em></p>
+<p>No, we have so it&#x27;s it&#x27;s supported on on mobile IOS and Chrome, uh the frame I.
+<em>46:00.840</em></p>
+<p>O.
+<em>46:07.080</em></p>
+<p>web app.
+<em>46:07.740</em></p>
+<p>That&#x27;s it&#x27;s it&#x27;s our first level of support for mobile.
+<em>46:09.260</em></p>
+<p>So the first level is to get that get it working in mobile browsers
+<em>46:13.340</em></p>
+<p>Next level would be native iOS apps, which we&#x27;ve told everybody publicly it&#x27;s on our roadmap.
+<em>46:17.420</em></p>
+<p>We want to do native apps, but we want to do it well, we want to do it right, and it takes time.
+<em>46:22.460</em></p>
+<p>And we&#x27;re still a relatively small development team.
+<em>46:27.660</em></p>
+<p>So
+<em>46:30.060</em></p>
+<p>We&#x27;re only three months into our life as a launched product.
+<em>46:31.079</em></p>
+<p><strong>Speaker 1</strong>: Yeah.
+<em>46:35.720</em></p>
+<p><strong>Speaker 1</strong>: Well, it&#x27;s been a great it seems like it&#x27;s been a really great three months.
+<em>46:36.040</em></p>
+<p><strong>Speaker 1</strong>: Yeah?
+<em>46:41.220</em></p>
+<p>Yeah, we&#x27;re really thrilled with the feedback and the uptake.
+<em>46:42.900</em></p>
+<p>Absolutely.
+<em>46:50.900</em></p>
+<p><strong>Speaker 1</strong>: Okay, I&#x27;m going to give you an opportunity to
+<em>46:51.860</em></p>
+<p><strong>Speaker 1</strong>: to do something, and this is one of my beefs when people are given an opportunity to talk about a product
+<em>46:55.460</em></p>
+<p><strong>Speaker 1</strong>: And they feel pressured, you know, like kind of like in the beginning when I said, hey, hey, it&#x27;s okay, let&#x27;s slow down.
+<em>47:03.880</em></p>
+<p><strong>Speaker 1</strong>: I want to talk about these things a little bit deeper.
+<em>47:08.599</em></p>
+<p><strong>Speaker 1</strong>: Are there any
+<em>47:11.960</em></p>
+<p><strong>Speaker 1</strong>: Features or tips or little like un
+<em>47:14.880</em></p>
+<p><strong>Speaker 1</strong>: unadvertised things in FrameIO that you&#x27;re particularly like kind of fond of, but just didn&#x27;t really make it into the marketing because you don&#x27;t want the marketing
+to be too deep or too complicated.
+<em>47:22.920</em></p>
+<p>Yeah, well there&#x27;s a lot of little features that we so we have logs where we can see what people are using.
+<em>47:37.700</em></p>
+<p>We can see like what features are being used.
+<em>47:42.980</em></p>
+<p>And there&#x27;s features that I love
+<em>47:44.820</em></p>
+<p>That don&#x27;t get used very much, and probably the first, and that&#x27;s our fault for not kind of educating people, and they&#x27;re a little bit hidden.
+<em>47:46.820</em></p>
+<p>So the one that
+<em>47:55.380</em></p>
+<p>that I use constantly that is not heavily used is QuickLook.
+<em>47:56.740</em></p>
+<p>We have QuickLook in Frame.
+<em>48:00.500</em></p>
+<p>io where if you&#x27;re in that thumbnail view, when you hover over a clip, you can press spacebar and it quick looks up.
+<em>48:01.780</em></p>
+<p>Very similar to how it would on the Mac OS desktop.
+<em>48:08.420</em></p>
+<p>So it&#x27;s an incredibly fast way to view something.
+<em>48:12.340</em></p>
+<p>And you can just kind of pop around, quick, look, quick, look, look, whatever you&#x27;re hovering on, and then use the arrow keys to cycle through.
+<em>48:15.860</em></p>
+<p>Different clips.
+<em>48:21.660</em></p>
+<p><strong>Speaker 1</strong>: So once you&#x27;ve opened one, you can arrow over to the next one.
+<em>48:22.700</em></p>
+<p>You can arrow over to the next one.
+<em>48:25.980</em></p>
+<p>And this is, I think, by far one of the
+<em>48:27.420</em></p>
+<p>just the sweetest time saving little kind of features that makes the app a real pleasure to use.
+<em>48:30.040</em></p>
+<p>It must drive you crazy that nobody uses it.
+<em>48:35.720</em></p>
+<p>Yeah, well, we have to do a better job informing people of it.
+<em>48:38.700</em></p>
+<p>You know, giving little pop-up tips and say, hey, you can spacebar while hovering over this clip to get it to pop up.
+<em>48:41.820</em></p>
+<p>So we&#x27;re definitely going to do that.
+<em>48:48.140</em></p>
+<p><strong>Speaker 1</strong>: I promise you it&#x27;s the next thing I&#x27;m going to do.
+<em>48:49.900</em></p>
+<p><strong>Speaker 1</strong>: Okay, anything else like that?
+<em>48:51.660</em></p>
+<p>You haven&#x27;t tried it yet?
+<em>48:54.040</em></p>
+<p><strong>Speaker 1</strong>: I haven&#x27;t tried the quick look, no.
+<em>48:55.000</em></p>
+<p>See, there you go.
+<em>48:56.760</em></p>
+<p>There you go.
+<em>48:57.800</em></p>
+<p>Yeah, I think I don&#x27;t know if everyone sort of realizes we have these
+<em>49:00.200</em></p>
+<p>Presentation pages because it&#x27;s just one little icon in the toolbar.
+<em>49:04.340</em></p>
+<p>It&#x27;s a little arrow, it&#x27;s a share, a little arrow pointing to the right, and it allows you to create the, it pops open this whole new module where you can create these
+branded presentations.
+<em>49:07.620</em></p>
+<p>Set a password.
+<em>49:18.720</em></p>
+<p>If you&#x27;d like and send that as a link.
+<em>49:19.920</em></p>
+<p>I don&#x27;t know that that has been heavily explored yet.
+<em>49:21.840</em></p>
+<p>Again, it&#x27;s just one little icon.
+<em>49:25.520</em></p>
+<p>We have a keyboard shortcut.
+<em>49:29.940</em></p>
+<p>This is totally hidden.
+<em>49:31.460</em></p>
+<p>This is a little gem.
+<em>49:32.099</em></p>
+<p>We need to add a button for this in the interface, but it&#x27;s not there yet.
+<em>49:33.140</em></p>
+<p>In the player, when you&#x27;re in the player, you can hit Command E on the keyboard to export the comments.
+<em>49:35.859</em></p>
+<p>And it&#x27;ll just save it as a text file.
+<em>49:42.240</em></p>
+<p><strong>Speaker 1</strong>: Oh, that&#x27;s pretty cool.
+<em>49:44.320</em></p>
+<p><strong>Speaker 1</strong>: So that you could actually publish it or put it in a text document or share it with the editors or whatever.
+<em>49:45.600</em></p>
+<p>Right, yeah.
+<em>49:52.220</em></p>
+<p>It&#x27;s just it&#x27;ll just give it to you.
+<em>49:52.859</em></p>
+<p>You can just download it as a text file.
+<em>49:54.059</em></p>
+<p>That&#x27;s actually something I wish Apple would do with the
+<em>49:57.339</em></p>
+<p><strong>Speaker 1</strong>: Like the current content.
+<em>50:01.599</em></p>
+<p><strong>Speaker 1</strong>: Here&#x27;s my comment to Apple people.
+<em>50:03.040</em></p>
+<p><strong>Speaker 1</strong>: When you use the timeline index and you set up whatever, you know, limited
+<em>50:05.839</em></p>
+<p><strong>Speaker 1</strong>: View that you want to have, like I just want to look at to-do markers, or you know, I just want to look at video clip names, you know, things like that.
+<em>50:11.420</em></p>
+<p><strong>Speaker 1</strong>: I should be able to export that as a text file.
+<em>50:20.540</em></p>
+<p><strong>Speaker 1</strong>: That would be very useful in many situations.
+<em>50:24.200</em></p>
+<p><strong>Speaker 1</strong>: There have been many times I wish I could do that.
+<em>50:27.720</em></p>
+<p><strong>Speaker 1</strong>: Actually, I was going to say, maybe I should just try Commandee and see what happens when that window is highlighted.
+<em>50:30.520</em></p>
+<p>Yeah, exactly.
+<em>50:37.680</em></p>
+<p>Let&#x27;s see, is there anything else?
+<em>50:39.440</em></p>
+<p>Other little hidden gems?
+<em>50:40.720</em></p>
+<p>I don&#x27;t oh, you know, we have this I don&#x27;t think anybody really explores it, but we have in the player in the again on the player page, there&#x27;s a little cogwheel icon.
+<em>50:47.200</em></p>
+<p>And in that menu, we have an option to view in grayscale.
+<em>50:57.240</em></p>
+<p>So the interface is colored.
+<em>51:03.880</em></p>
+<p>It has a tint, the back all the color, all the choice, the UI choices we&#x27;ve made are
+<em>51:05.560</em></p>
+<p>They have a tinted color, it&#x27;s not a neutral gray.
+<em>51:10.059</em></p>
+<p>And so, if you are evaluating color and you want to see it against the neutral gray background, we have a neutral gray mode that just turns the whole interface.
+<em>51:12.460</em></p>
+<p>Into a neutral gray.
+<em>51:23.300</em></p>
+<p>I think that&#x27;s kind of a nice little feature.
+<em>51:24.340</em></p>
+<p><strong>Speaker 1</strong>: Very clever.
+<em>51:25.940</em></p>
+<p><strong>Speaker 1</strong>: That&#x27;s awesome.
+<em>51:26.820</em></p>
+<p><strong>Speaker 1</strong>: So, yeah, and this is exactly what I mean.
+<em>51:28.020</em></p>
+<p><strong>Speaker 1</strong>: It&#x27;s like these little things that
+<em>51:30.180</em></p>
+<p><strong>Speaker 1</strong>: that are there.
+<em>51:32.220</em></p>
+<p><strong>Speaker 1</strong>: And I understand marketing, you know, because if you came out with like, okay, here&#x27;s my marketing video and I want to show you all the features of FrameIO and it was
+thirty minutes long, nobody&#x27;s going to watch it.
+<em>51:33.339</em></p>
+<p><strong>Speaker 1</strong>: So you know you and I both know that marketing video has to be two to three minutes long.
+<em>51:42.779</em></p>
+<p><strong>Speaker 1</strong>: So now what is the what is the first level read?
+<em>51:46.940</em></p>
+<p><strong>Speaker 1</strong>: What&#x27;s above the fold?
+<em>51:49.820</em></p>
+<p><strong>Speaker 1</strong>: What do I actually want to highlight and showcase here?
+<em>51:52.140</em></p>
+<p><strong>Speaker 1</strong>: And I&#x27;ll tell you.
+<em>51:56.200</em></p>
+<p>Oh, I just thought of one more thing.
+<em>51:57.960</em></p>
+<p>Yeah, yeah.
+<em>51:59.160</em></p>
+<p>This is silly, but it&#x27;s not something that you see in a web app.
+<em>52:00.440</em></p>
+<p>When you&#x27;re leaving annotations
+<em>52:03.720</em></p>
+<p>We support Command Z.
+<em>52:06.280</em></p>
+<p>So you can, if you leave an annotation and you mess up, you want to just do it over.
+<em>52:08.120</em></p>
+<p>Command Z works when drawing annotations.
+<em>52:13.320</em></p>
+<p><strong>Speaker 1</strong>: Oh, very cool.
+<em>52:15.880</em></p>
+<p><strong>Speaker 1</strong>: So you can undo something.
+<em>52:16.840</em></p>
+<p>You can undo something.
+<em>52:18.440</em></p>
+<p><strong>Speaker 1</strong>: Yeah.
+<em>52:19.320</em></p>
+<p>You generally don&#x27;t see undo support in a web, in a browser.
+<em>52:19.880</em></p>
+<p>I&#x27;ve never really seen it.
+<em>52:22.920</em></p>
+<p><strong>Speaker 1</strong>: Was that some tricky programming to pull that off?
+<em>52:24.839</em></p>
+<p>Oh, well, I mean, I wouldn&#x27;t say tricky, it&#x27;s just something you have to do.
+<em>52:27.599</em></p>
+<p>I don&#x27;t see people see people doing it.
+<em>52:31.440</em></p>
+<p>Right.
+<em>52:34.400</em></p>
+<p><strong>Speaker 1</strong>: No, I love that.
+<em>52:34.800</em></p>
+<p><strong>Speaker 1</strong>: When people are like, no, why can&#x27;t we do this?
+<em>52:36.079</em></p>
+<p><strong>Speaker 1</strong>: And then, you know, like
+<em>52:38.560</em></p>
+<p><strong>Speaker 1</strong>: It seems obvious, but like you said, you don&#x27;t normally see that in a web app.
+<em>52:39.859</em></p>
+<p>Yeah, now that I&#x27;m thinking about this, it&#x27;s just I think all the keyboard shortcuts are we have a number of keyboard shortcuts, and we have a keyboard shortcut guide on
+our support page, but
+<em>52:44.740</em></p>
+<p>You know, if you haven&#x27;t gone to the support page, look at the keyboard shortcut guide, you probably haven&#x27;t experienced most of them.
+<em>52:53.660</em></p>
+<p>So, we have a lot of keyboard shortcuts.
+<em>52:58.060</em></p>
+<p>Probably the most useful, aside from the quick look, which is spacebar when you&#x27;re on the thumbnail page, is
+<em>52:59.980</em></p>
+<p>When you&#x27;re leaving a comment and it pause you start typing and it pauses, you don&#x27;t have to hit the submit button, just have command enter to submit.
+<em>53:09.480</em></p>
+<p>So you can be totally hands free, just exclusively on the keyboard leaving comments.
+<em>53:17.400</em></p>
+<p>as the video plays.
+<em>53:21.780</em></p>
+<p>We also have a keyboard shortcut to go to split screen mode.
+<em>53:23.460</em></p>
+<p>You want to view side by side.
+<em>53:28.660</em></p>
+<p>It&#x27;s just S on the keyboard.
+<em>53:29.780</em></p>
+<p>You can reveal the info panel where we have a whole bunch of metadata about the original file by pressing I on the keyboard.
+<em>53:32.440</em></p>
+<p>That&#x27;s when you&#x27;re in the player page, so it drops down a metadata panel.
+<em>53:40.840</em></p>
+<p>Sounds like there&#x27;s a lot of keyboard shortcuts.
+<em>53:47.180</em></p>
+<p>Yeah, there is.
+<em>53:49.500</em></p>
+<p>There&#x27;s a lot of keyboard shortcuts.
+<em>53:50.220</em></p>
+<p><strong>Speaker 1</strong>: Yeah, I recently installed Tumblr on my phone and I was playing with it and
+<em>53:51.500</em></p>
+<p><strong>Speaker 1</strong>: And they had this really elegant way of like sliding the image across and coming up with like a little, hey, did you know?
+<em>53:58.080</em></p>
+<p><strong>Speaker 1</strong>: Hey, if you want to, you know, and it was like, it was like, it was really nice for about three or four of them.
+<em>54:05.600</em></p>
+<p><strong>Speaker 1</strong>: And then I noticed, oh, here&#x27;s the don&#x27;t bug me, I got this.
+<em>54:11.240</em></p>
+<p><strong>Speaker 1</strong>: I mean, Tumblr only has about five controls, and they were starting to recycle already.
+<em>54:14.360</em></p>
+<p><strong>Speaker 1</strong>: So I was like, I got this.
+<em>54:18.520</em></p>
+<p><strong>Speaker 1</strong>: I don&#x27;t need to see these anymore.
+<em>54:19.640</em></p>
+<p><strong>Speaker 1</strong>: But yeah, I think
+<em>54:21.160</em></p>
+<p><strong>Speaker 1</strong>: I think that you&#x27;re seeing that more and more.
+<em>54:23.040</em></p>
+<p><strong>Speaker 1</strong>: Premium Beat, who sponsors this show, their website, when they redid their website last year
+<em>54:25.360</em></p>
+<p><strong>Speaker 1</strong>: they added tons of keyboard shortcuts.
+<em>54:30.920</em></p>
+<p><strong>Speaker 1</strong>: You know, JKNL and the ability to automatically put something into a playlist and the favorite things and
+<em>54:33.080</em></p>
+<p><strong>Speaker 1</strong>: And even being able to speed things up and jump ahead five seconds or ten seconds, I can&#x27;t remember what it is now, in a song while you&#x27;re listening to it.
+<em>54:41.020</em></p>
+<p>So, yeah, and that&#x27;s, you know, also forgot.
+<em>54:49.400</em></p>
+<p>We have JKL playback as well.
+<em>54:53.400</em></p>
+<p>I would imagine you do.
+<em>54:55.560</em></p>
+<p>All right.
+<em>54:57.040</em></p>
+<p>I mean, and I&#x27;m just my mind I&#x27;m thinking on them.
+<em>54:57.440</em></p>
+<p>They keep popping up.
+<em>54:59.920</em></p>
+<p>This is one more.
+<em>55:00.640</em></p>
+<p>This is a good one.
+<em>55:01.200</em></p>
+<p>This is a good one.
+<em>55:01.680</em></p>
+<p><strong>Speaker 1</strong>: This is kind of a it&#x27;s a fun thing to do with a piece of software, isn&#x27;t it?
+<em>55:02.640</em></p>
+<p>It is.
+<em>55:06.760</em></p>
+<p>When you&#x27;re on the project page with all the thumbnails, you can hover over a clip and press one through five on the keyboard to assign a star rating.
+<em>55:08.680</em></p>
+<p>Like you, you know, we have the hover scrub.
+<em>55:16.960</em></p>
+<p>So when you&#x27;re hovering over a clip with the mouse, you get the preview of the video.
+<em>55:18.319</em></p>
+<p>So you can very quickly like scrub through it and say, oh, yeah, that&#x27;s great, and just hit five.
+<em>55:21.680</em></p>
+<p>and it you&#x27;ll get a little five stars flashing it flashes up for a minute and then fades away.
+<em>55:25.559</em></p>
+<p>And you can just very quickly rate stuff and get you know, just kind of surface the good late.
+<em>55:30.440</em></p>
+<p>So I kind of see this working in
+<em>55:35.799</em></p>
+<p>Either stills workflow or daily&#x27;s workflow.
+<em>55:37.760</em></p>
+<p>You can cycle through your stuff and say, yes, it&#x27;s five stars, five stars.
+<em>55:40.720</em></p>
+<p>Oh, this one sucks.
+<em>55:43.680</em></p>
+<p>It&#x27;s one star.
+<em>55:44.400</em></p>
+<p>And then sort by stars, and then all your good stuff&#x27;s at the top.
+<em>55:45.840</em></p>
+<p><strong>Speaker 1</strong>: So here&#x27;s a feature request.
+<em>55:49.120</em></p>
+<p><strong>Speaker 1</strong>: So, give me a way that I and again, so here&#x27;s my workflow.
+<em>55:51.620</em></p>
+<p><strong>Speaker 1</strong>: Producer sends me, you know, media.
+<em>55:56.580</em></p>
+<p><strong>Speaker 1</strong>: I use the clip export trick, and I take all the B-roll and I just slap it into a timeline, export it for him to
+<em>55:59.620</em></p>
+<p><strong>Speaker 1</strong>: Maybe watch on his iPad while he&#x27;s sitting on the plane coming back from South Africa.
+<em>56:08.799</em></p>
+<p><strong>Speaker 1</strong>: Right.
+<em>56:13.599</em></p>
+<p><strong>Speaker 1</strong>: And he can then
+<em>56:14.640</em></p>
+<p><strong>Speaker 1</strong>: Maybe favorite Eclipse or better yet, range-based favorite.
+<em>56:18.320</em></p>
+<p><strong>Speaker 1</strong>: I don&#x27;t know how that would work in your user interface.
+<em>56:23.360</em></p>
+<p><strong>Speaker 1</strong>: And then send me
+<em>56:26.240</em></p>
+<p><strong>Speaker 1</strong>: A new XML that I can import.
+<em>56:29.120</em></p>
+<p><strong>Speaker 1</strong>: And now I have all of his comments and favorites in a new XML that I can integrate into my library.
+<em>56:31.680</em></p>
+<p><strong>Speaker 1</strong>: Mind blown.
+<em>56:40.080</em></p>
+<p><strong>Speaker 1</strong>: Mind-blown.
+<em>56:41.360</em></p>
+<p>Yeah.
+<em>56:42.880</em></p>
+<p>Yeah.
+<em>56:43.359</em></p>
+<p>So this first version of our integration with Final Cut is about getting media from Final Cut into Frame.
+<em>56:43.680</em></p>
+<p>io.
+<em>56:49.760</em></p>
+<p>So you might think that the next logical step would be to go the other way around.
+<em>56:50.559</em></p>
+<p><strong>Speaker 1</strong>: Or and obviously not the media, but just the info, just the intel.
+<em>56:54.300</em></p>
+<p><strong>Speaker 1</strong>: No, not yet, just the intel, yes.
+<em>56:57.820</em></p>
+<p><strong>Speaker 1</strong>: Exactly.
+<em>56:59.660</em></p>
+<p><strong>Speaker 1</strong>: Yeah, that might be a good way to go.
+<em>57:00.380</em></p>
+<p><strong>Speaker 1</strong>: I like it.
+<em>57:02.300</em></p>
+<p><strong>Speaker 1</strong>: Hey, Emery, thanks so much for doing this.
+<em>57:03.040</em></p>
+<p><strong>Speaker 1</strong>: I really appreciate it.
+<em>57:05.840</em></p>
+<p><strong>Speaker 1</strong>: I&#x27;m very excited for you.
+<em>57:07.280</em></p>
+<p><strong>Speaker 1</strong>: And good luck next week in Northern California.
+<em>57:08.960</em></p>
+<p><strong>Speaker 1</strong>: That&#x27;s all I&#x27;ll say.
+<em>57:13.360</em></p>
+<p><strong>Speaker 1</strong>: Thank you very much.
+<em>57:15.300</em></p>
+<p><strong>Speaker 1</strong>: How do people follow you and where do they find frame.
+<em>57:17.140</em></p>
+<p><strong>Speaker 1</strong>: io?
+<em>57:21.060</em></p>
+<p><strong>Speaker 1</strong>: There&#x27;s a hint.
+<em>57:21.540</em></p>
+<p>Yep, it&#x27;s just frame.
+<em>57:23.339</em></p>
+<p>io, and you can find all the information about the final cut integration at frame.
+<em>57:24.940</em></p>
+<p>io forward slash fcpx.
+<em>57:30.619</em></p>
+<p>And you can follow us on Twitter at frame underscore IO and me at EmeryWells.
+<em>57:33.340</em></p>
+<p>It&#x27;s E-M-E-R-Y-W-E-L-L-S.
+<em>57:39.500</em></p>
+<p><strong>Speaker 1</strong>: Very cool.
+<em>57:43.100</em></p>
+<p><strong>Speaker 1</strong>: Thanks again, Emery.
+<em>57:43.820</em></p>
+<p><strong>Speaker 1</strong>: And I&#x27;m sure we&#x27;ll be talking.
+<em>57:45.260</em></p>
+<p><strong>Speaker 1</strong>: All right.
+<em>57:47.340</em></p>
+<p>Thanks, Alex, Chris.
+<em>57:48.280</em></p>
+<p>That&#x27;s no problem at all.
+<em>57:50.440</em></p>
+<p><strong>Speaker 1</strong>: All right, so that&#x27;s Frame.
+<em>57:53.080</em></p>
+<p><strong>Speaker 1</strong>: io.
+<em>57:54.440</em></p>
+<p><strong>Speaker 1</strong>: I would recommend that you go take a look at it.
+<em>57:55.080</em></p>
+<p><strong>Speaker 1</strong>: If you log on to the frame.
+<em>57:57.320</em></p>
+<p><strong>Speaker 1</strong>: io website.
+<em>57:59.240</em></p>
+<p><strong>Speaker 1</strong>: Scroll down and click once.
+<em>58:00.640</em></p>
+<p><strong>Speaker 1</strong>: It doesn&#x27;t look like a player, but there&#x27;s actually a little video presentation.
+<em>58:02.000</em></p>
+<p><strong>Speaker 1</strong>: There&#x27;s no dialogue, it&#x27;s just music.
+<em>58:05.200</em></p>
+<p><strong>Speaker 1</strong>: But watch it carefully.
+<em>58:06.559</em></p>
+<p><strong>Speaker 1</strong>: You can get an idea of some of the stuff that it does.
+<em>58:07.680</em></p>
+<p><strong>Speaker 1</strong>: I&#x27;m sure there are other videos, and I will find those.
+<em>58:10.840</em></p>
+<p><strong>Speaker 1</strong>: There&#x27;s actually one at the slash fcpx site that goes into some details about what the how the Funnel Cut 10 companion app works.
+<em>58:14.200</em></p>
+<p><strong>Speaker 1</strong>: So you might want to take a look at that as well.
+<em>58:22.040</em></p>
+<p><strong>Speaker 1</strong>: So I want to thank Emery for taking the time out of his busy day to do this a day before a holiday, and I know he&#x27;s busy traveling and catching up with friends and stuff.
+<em>58:23.900</em></p>
+<p><strong>Speaker 1</strong>: So, thanks for listening.
+<em>58:32.580</em></p>
+<p><strong>Speaker 1</strong>: Tune in next week.
+<em>58:34.340</em></p>
+<p><strong>Speaker 1</strong>: I&#x27;m good.
+<em>58:35.860</em></p>
+<p><strong>Speaker 1</strong>: I&#x27;m back.
+<em>58:36.580</em></p>
+<p><strong>Speaker 1</strong>: I&#x27;m back.
+<em>58:37.380</em></p>
+<p><strong>Speaker 1</strong>: I&#x27;m going to try and keep these more consistent.
+<em>58:37.860</em></p>
+<p><strong>Speaker 1</strong>: I know I took a bunch of time off, but I don&#x27;t know what we&#x27;re doing next week, but I&#x27;ll find us a great interview.
+<em>58:40.180</em></p>
+<p><strong>Speaker 1</strong>: So thanks for listening.
+<em>58:47.859</em></p>
+<p><strong>Speaker 1</strong>: We&#x27;ll be back, and catch you next time.
+<em>58:48.820</em></p>
+<p><strong>Speaker 3</strong>: Later, later.
+<em>58:52.980</em></p>
+<p><strong>Speaker 3</strong>: You
+<em>58:59.240</em></p>
+
+                
+                <!-- Required only on API pages -->
+                <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
+            </div>
+            <footer id="retype-content-footer" class="clear-both">
+            
+                <nav id="retype-nextprev" class="print:hidden flex mt-14">
+                    <div class="w-1/2">
+                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../../episodes/121-to-130/episode-123/">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                            <span>
+                                <span class="block text-xs font-normal text-base-text-muted">Previous</span>
+                                <span class="block mt-1">Episode 123</span>
+                            </span>
+                        </a>
+                    </div>
+            
+                    <div class="w-1/2">
+                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../../episodes/121-to-130/episode-125/">
+                            <span>
+                                <span class="block text-xs font-normal text-right text-base-text-muted">Next</span>
+                                <span class="block mt-1">Episode 125</span>
+                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                        </a>
+                    </div>
+                </nav>
+            </footer>
+        </main>
+
+        <div id="retype-page-footer" class="print:border-none border-t border-base-border pt-6 mb-8">
+            <footer class="flex flex-wrap items-center justify-between print:justify-center">
+                <div id="retype-footer-links" class="print:hidden">
+                    <ul class="flex flex-wrap items-center text-sm">
+                    </ul>
+                </div>
+                <div id="retype-copyright" class="print:justify-center py-2 text-footer-text font-footer-link text-sm leading-relaxed"><p>© Copyright 2026 LateNite Films Pty Ltd. All rights reserved.</p></div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Rendered if sidebar right is enabled -->
+    <!-- Sidebar right skeleton-->
+    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-sidebar-right-bg border-sidebar-right-border lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:translate-x-0 sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton">
+        <div class="pl-5">
+            <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+            <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+            <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+        </div>
+    </div>
+
+    <!-- User should be able to hide sidebar right -->
+    <doc-sidebar-right v-cloak></doc-sidebar-right>
+</div>
+
+        </div>
+    </div>
+
+    <doc-search-mobile></doc-search-mobile>
+    <doc-back-to-top></doc-back-to-top>
+</div>
+
+
+    <div id="retype-overlay-target"></div>
+
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Episode 124", level: 3, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+</body>
+</html>

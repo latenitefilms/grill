@@ -1,0 +1,2159 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.827667088581">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 4.4.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Episode 103</title>
+    <meta name="title" content="Episode 103">
+    <meta name="description" content="FCG103 - Proxy Problems? (feat. Ron Dawson)">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://grill.fcp.cafe/episodes/101-to-110/episode-103/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://grill.fcp.cafe/episodes/101-to-110/episode-103/">
+    <meta property="og:title" content="Episode 103">
+    <meta property="og:description" content="FCG103 - Proxy Problems? (feat. Ron Dawson)">
+    <meta property="og:site_name" content="Final Cut Grill">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://grill.fcp.cafe/episodes/101-to-110/episode-103/">
+    <meta name="twitter:title" content="Episode 103">
+    <meta name="twitter:description" content="FCG103 - Proxy Problems? (feat. Ron Dawson)">
+
+    <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
+
+    <link id="retype-favicon" rel="icon" href="../../../static/favicon.ico" />
+    <link href="../../../resources/css/retype.css?v=4.4.0.827667088581" rel="stylesheet">
+
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=4.4.0.827667088581" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=4.4.0.827667088581" data-turbo-eval="false" defer></script>
+</head>
+<body>
+    <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
+    <div class="absolute bottom-0 left-0" style="top: 5rem; right: 50%"></div>
+
+    <header id="retype-header" class="sticky top-0 z-30 flex w-full h-16 bg-header-bg border-b border-header-border md:h-20">
+        <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
+            <!-- Mobile menu button skeleton -->
+            <button v-cloak class="skeleton retype-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-hidden rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+            <div v-cloak id="retype-sidebar-left-toggle-button"></div>
+    
+            <!-- Logo -->
+            <div class="flex items-center justify-between h-full py-2 md:w-75">
+                <div class="flex items-center px-2 md:px-6">
+                    <a id="retype-branding-logo" href="https://grill.fcp.cafe/" class="flex items-center leading-snug text-xl">
+                        <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
+                            <img class="max-h-10 md:inline-block" src="../../../static/fcp-grill.jpg" alt="" width="40" height="40">
+                        </span>
+                        <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">Final Cut Grill</span>
+                    </a>
+                </div>
+    
+                <span class="hidden h-8 border-r md:inline-block border-base-border"></span>
+            </div>
+    
+            <div class="flex justify-between md:grow">
+                <!-- Top Nav -->
+                <nav id="retype-header-nav" class="hidden md:flex">
+                    <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://github.com/latenitefilms/grill/issues" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Zm9.5 2a2 2 0 1 1-.001-3.999A2 2 0 0 1 12 14Z"/>
+                                </svg>
+                                <span>Issues</span>
+                            </a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://github.com/latenitefilms/grill/discussions" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                </svg>
+                                <span>Discussions</span>
+                            </a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://discord.gg/b2r27UtPJw" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                </svg>
+                                <span>Discord</span>
+                            </a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://fcp.cafe" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M15 4.75a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM2.5 19.25a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0Zm0-14.5a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM5.75 6.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 5.75 6.5Zm0 14.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 5.75 21Zm12.5-14.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 18.25 6.5Z"/><path d="M5.75 16.75A.75.75 0 0 1 5 16V8a.75.75 0 0 1 1.5 0v8a.75.75 0 0 1-.75.75Z"/><path d="M17.5 8.75v-1H19v1a3.75 3.75 0 0 1-3.75 3.75h-7a1.75 1.75 0 0 0-1.75 1.75H5A3.25 3.25 0 0 1 8.25 11h7a2.25 2.25 0 0 0 2.25-2.25Z"/>
+                                </svg>
+                                <span>FCP Cafe</span>
+                            </a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://fcp.cafe/latenite/" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
+                                </svg>
+                                <span>LateNite</span>
+                            </a>
+                        </li>
+    
+                    </ul>
+                </nav>
+    
+                <div v-cloak class="flex justify-end grow">
+                    <div id="retype-mobile-search-button"></div>
+                    <doc-search-desktop></doc-search-desktop>
+    
+                    <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                    <doc-history></doc-history>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div id="retype-container" class="container relative flex bg-white">
+        <!-- Sidebar Skeleton -->
+        <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-sidebar-left-bg border-sidebar-left-border sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton">
+        
+            <div class="flex items-center h-16 px-6">
+                <input id="retype-filter-input-mock" class="w-full h-10 pl-8 px-3 py-2 transition-colors duration-200 ease-linear bg-filter-bg border border-filter-border rounded-lg shadow-none md:text-sm hover:border-filter-border-hover focus:outline-hidden focus:border-filter-border-focus placeholder-filter-placeholder" type="text">
+            </div>
+        
+            <div class="pl-6 mt-1 mb-4">
+                <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+            </div>
+        
+        </div>
+        
+        <!-- Sidebar component -->
+        <doc-sidebar v-cloak>
+            <template #sidebar-footer>
+                <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-base-border">
+        
+                    <div class="py-3 px-6 md:hidden border-b dark:border-base-border">
+                        <nav>
+                            <ul class="flex flex-wrap justify-center items-center">
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://github.com/latenitefilms/grill/issues" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Zm9.5 2a2 2 0 1 1-.001-3.999A2 2 0 0 1 12 14Z"/>
+                                        </svg>
+                                        <span>Issues</span>
+                                    </a>
+                                </li>
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://github.com/latenitefilms/grill/discussions" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                        </svg>
+                                        <span>Discussions</span>
+                                    </a>
+                                </li>
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://discord.gg/b2r27UtPJw" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                        </svg>
+                                        <span>Discord</span>
+                                    </a>
+                                </li>
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://fcp.cafe" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M15 4.75a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM2.5 19.25a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0Zm0-14.5a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM5.75 6.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 5.75 6.5Zm0 14.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 5.75 21Zm12.5-14.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 18.25 6.5Z"/><path d="M5.75 16.75A.75.75 0 0 1 5 16V8a.75.75 0 0 1 1.5 0v8a.75.75 0 0 1-.75.75Z"/><path d="M17.5 8.75v-1H19v1a3.75 3.75 0 0 1-3.75 3.75h-7a1.75 1.75 0 0 0-1.75 1.75H5A3.25 3.25 0 0 1 8.25 11h7a2.25 2.25 0 0 0 2.25-2.25Z"/>
+                                        </svg>
+                                        <span>FCP Cafe</span>
+                                    </a>
+                                </li>
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://fcp.cafe/latenite/" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
+                                        </svg>
+                                        <span>LateNite</span>
+                                    </a>
+                                </li>
+        
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </template>
+        </doc-sidebar>
+
+        <div class="grow min-w-0 bg-body-bg">
+            <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+<div class="flex">
+    <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
+        <main class="relative pb-12 lg:pt-2">
+            <div class="retype-markdown" id="retype-content">
+                <!-- Rendered if sidebar right is enabled -->
+                <div id="retype-sidebar-right-toggle"></div>
+                <nav id="retype-breadcrumb" class="breadcrumb" aria-label="Breadcrumb">
+                    <ol role="list">
+                        <li class="pr-4">
+                            <a href="../../../" class="pr-4">
+                                Welcome
+                            </a>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/>
+                            </svg>
+                        </li>
+                        <li class="pr-4">
+                            <span class="pr-4">
+                                Episodes
+                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/>
+                            </svg>
+                        </li>
+                        <li class="pr-4">
+                            <span class="pr-4">
+                                101 to 110
+                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/>
+                            </svg>
+                        </li>
+                        <li class="pr-4">
+                            <a href="../../../episodes/101-to-110/episode-103/" class="pr-4">
+                                Episode 103
+                            </a>
+                        </li>
+                    </ol>
+                </nav>
+
+                <!-- Page content  -->
+<h1 id="episode-103">Episode 103</h1>
+<p><strong>FCG103 - Proxy Problems?  (feat. Ron Dawson)</strong></p>
+<p>The Proxy workflow in FCPX is pretty amazing. If you don’t use it, you may want to look into it. If you do use the Proxy workflow I promise you’ll learn something about it in this episode that you didn’t realize. Ron Dawson of daydreamermag.com and an alum of this show (FCG011) comes back to explain a very interesting problem that he came across in the Proxy workflow that is a part of FCPX and offers up a bit of a work around that he came across. daredreamermag.com - the art and business of filmmaking within the library &gt;transcoded media&gt;proxie media&gt; symlinks to original media</p>
+<hr>
+<h2 id="download">Download</h2>
+<ul>
+<li><a href="https://cdn.fcp.cafe/grill/FCG103-Ron-Dawson.mp3" class="outbound" target="_blank"><span>MP3</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></li>
+</ul>
+<hr>
+<h2 id="featuring">Featuring</h2>
+<ul>
+<li>Chris Fenwick - chrisfenwick.com - @chrisfenwick</li>
+<li>Ron Dawson - @daredreamermag</li>
+<li>Guest Name - @twitter</li>
+</ul>
+<hr>
+<h2 id="transcription">Transcription</h2>
+<p><strong>Speaker 1</strong>: Hey, good morning and welcome to another episode of Final Cut Grill, episode 103 with Ron Dawson.
+<em>00:00.080</em></p>
+<p><strong>Speaker 1</strong>: Now Ron Dawson was on episode 11, way back in the stone ages of this uh of this little podcast.
+<em>00:05.440</em></p>
+<p><strong>Speaker 1</strong>: And back then, what did we talk about?
+<em>00:11.820</em></p>
+<p><strong>Speaker 1</strong>: We talked about oh, the episode title was Affordable, Desirable, and Admirable.
+<em>00:13.500</em></p>
+<p><strong>Speaker 1</strong>: Anyway, that was very much in the early part of the show.
+<em>00:19.100</em></p>
+<p><strong>Speaker 1</strong>: Ron, who&#x27;s a good friend, he called me up earlier this week and he&#x27;s like, oh, dude, I can&#x27;t find my proxy files.
+<em>00:22.880</em></p>
+<p><strong>Speaker 1</strong>: And we spent, I don&#x27;t know, maybe a half hour on the phone and we could not
+<em>00:29.920</em></p>
+<p><strong>Speaker 1</strong>: Find the proxy file.
+<em>00:34.120</em></p>
+<p><strong>Speaker 1</strong>: So we&#x27;re going to dig deep into the proxy workflow and not so much the proxy workflow because the proxy workflow in Final Cloud 10 is actually quite simple when it works.
+<em>00:35.640</em></p>
+<p><strong>Speaker 1</strong>: But what Ron had a very specific problem when he was moving his project from drive A to drive B and all of his proxy media, although he could see it in the finder
+<em>00:47.640</em></p>
+<p><strong>Speaker 1</strong>: He could not make Final Cut 10 recognize that it was there.
+<em>00:59.640</em></p>
+<p><strong>Speaker 1</strong>: And so we went through in this episode, we&#x27;re going to go through the many steps of troubleshooting that he went through.
+<em>01:04.120</em></p>
+<p><strong>Speaker 1</strong>: and finally get to the solution in the end.
+<em>01:11.580</em></p>
+<p><strong>Speaker 1</strong>: But I think that the troubleshooting is part of the learning process
+<em>01:15.740</em></p>
+<p><strong>Speaker 1</strong>: So I could just say, I mean, this could be a two-minute blog post, you know, like this is how you solve it.
+<em>01:20.780</em></p>
+<p><strong>Speaker 1</strong>: But I think that this discussion
+<em>01:26.940</em></p>
+<p><strong>Speaker 1</strong>: It&#x27;s important at many levels, so bear with it.
+<em>01:30.240</em></p>
+<p><strong>Speaker 1</strong>: And if you&#x27;re never ever going to use the proxy workflow,
+<em>01:33.360</em></p>
+<p><strong>Speaker 1</strong>: I promise you, you&#x27;re still going to learn some particulars about the way Final Cut deals with media management.
+<em>01:36.840</em></p>
+<p><strong>Speaker 1</strong>: So I&#x27;m going to highly recommend that you listen to this anyway.
+<em>01:43.880</em></p>
+<p><strong>Speaker 1</strong>: And you know, frankly, I wouldn&#x27;t make the show if I didn&#x27;t think it was worth listening to.
+<em>01:47.360</em></p>
+<p><strong>Speaker 1</strong>: So there you go.
+<em>01:50.560</em></p>
+<p><strong>Speaker 1</strong>: Before we get going, I want to thank the people at PremiumBeat.
+<em>01:51.840</em></p>
+<p><strong>Speaker 1</strong>: com for
+<em>01:54.719</em></p>
+<p><strong>Speaker 1</strong>: They&#x27;re great music.
+<em>01:56.320</em></p>
+<p><strong>Speaker 1</strong>: You know, I have people talking to me all the time, and they&#x27;re like, Oh, yeah, you&#x27;re right.
+<em>01:58.480</em></p>
+<p><strong>Speaker 1</strong>: I&#x27;ve been using it.
+<em>02:03.200</em></p>
+<p><strong>Speaker 1</strong>: It&#x27;s great.
+<em>02:04.000</em></p>
+<p><strong>Speaker 1</strong>: That&#x27;s very encouraging to hear, mainly because I think it&#x27;s nice when I realize that a decision that I personally have made is actually a good one that other people
+agree with.
+<em>02:04.860</em></p>
+<p><strong>Speaker 1</strong>: So if you haven&#x27;t, if you&#x27;re one of those people that haven&#x27;t looked at PremiumBeat.
+<em>02:16.120</em></p>
+<p><strong>Speaker 1</strong>: com, go check them out.
+<em>02:20.440</em></p>
+<p><strong>Speaker 1</strong>: Premiumbeat.
+<em>02:24.500</em></p>
+<p><strong>Speaker 1</strong>: com.
+<em>02:25.460</em></p>
+<p><strong>Speaker 1</strong>: And you know, the other thing I just want to say once again thanks to Dan Phillipson, who is my current favorite composer.
+<em>02:26.260</em></p>
+<p><strong>Speaker 1</strong>: And it&#x27;s been it was really cool.
+<em>02:34.000</em></p>
+<p><strong>Speaker 1</strong>: I was going through Twitter the other night.
+<em>02:36.400</em></p>
+<p><strong>Speaker 1</strong>: It&#x27;s like, oh, look, Dan Phillipson retweeted something from me.
+<em>02:37.600</em></p>
+<p><strong>Speaker 1</strong>: So yeah, I love his music.
+<em>02:40.720</em></p>
+<p><strong>Speaker 1</strong>: And I&#x27;m currently cutting a project, which I&#x27;ll be working on for a few weeks now.
+<em>02:43.280</em></p>
+<p><strong>Speaker 1</strong>: to one of his cuts, and it&#x27;s great.
+<em>02:48.020</em></p>
+<p><strong>Speaker 1</strong>: So check out Premium Beat.
+<em>02:50.900</em></p>
+<p><strong>Speaker 1</strong>: So this episode is a little long, not super long.
+<em>02:53.060</em></p>
+<p><strong>Speaker 1</strong>: But go um uh enjoy this with Ron Dawson, who is not in San Jose anymore, and he&#x27;s not in Atlanta anymore.
+<em>02:56.040</em></p>
+<p><strong>Speaker 1</strong>: He&#x27;s now living up in Seattle.
+<em>03:04.680</em></p>
+<p><strong>Speaker 1</strong>: Uh but um let&#x27;s let&#x27;s hear about his proxy problems.
+<em>03:06.600</em></p>
+<p><strong>Speaker 1</strong>: Hello, hello.
+<em>03:12.240</em></p>
+<p><strong>Speaker 1</strong>: There we go.
+<em>03:13.440</em></p>
+<p><strong>Speaker 1</strong>: Hello.
+<em>03:14.720</em></p>
+<p><strong>Speaker 1</strong>: Hey, good morning, Rod Dawson.
+<em>03:15.920</em></p>
+<p><strong>Speaker 1</strong>: It&#x27;s early.
+<em>03:18.000</em></p>
+<p><strong>Speaker 1</strong>: You outearlied me with this request.
+<em>03:19.680</em></p>
+<p><strong>Speaker 1</strong>: How are you?
+<em>03:22.720</em></p>
+<p><strong>Speaker 1</strong>: Good.
+<em>03:23.680</em></p>
+<p><strong>Speaker 2</strong>: Don&#x27;t you love that feeling when you stay up late into the evening working and calibrating on a project and you send it to export because you have to send it in the morning?
+<em>03:25.300</em></p>
+<p><strong>Speaker 2</strong>: And you expect in the morning when you get up and you&#x27;re going to look at the project and the expirated video is going to be perfect and ready to go and you find out that
+<em>03:38.099</em></p>
+<p><strong>Speaker 2</strong>: A credit is coming in over a person&#x27;s face.
+<em>03:47.299</em></p>
+<p><strong>Speaker 2</strong>: And then five minutes before a podcast, you have to try to fix it because you know you
+<em>03:54.659</em></p>
+<p><strong>Speaker 2</strong>: It&#x27;s going to take a heck of a long time for it to export again.
+<em>03:58.160</em></p>
+<p><strong>Speaker 2</strong>: How long is your piece?
+<em>04:01.040</em></p>
+<p><strong>Speaker 2</strong>: How long is it taking to export?
+<em>04:02.160</em></p>
+<p><strong>Speaker 2</strong>: Oh, it&#x27;s well, it&#x27;s three and a half minutes, but most of the footage is
+<em>04:04.400</em></p>
+<p><strong>Speaker 2</strong>: 4K downscale to ten eighty P.
+<em>04:09.240</em></p>
+<p><strong>Speaker 2</strong>: So it takes a while to X it should be finished before this podcast is over, but I have to say like after a call.
+<em>04:12.280</em></p>
+<p><strong>Speaker 2</strong>: But
+<em>04:20.120</em></p>
+<p><strong>Speaker 2</strong>: That&#x27;s why I&#x27;m a little bit that&#x27;s why I&#x27;m five minutes late, because I was fixing and even now I don&#x27;t even know because I don&#x27;t render before I export, so it could still be
+<em>04:22.000</em></p>
+<p><strong>Speaker 2</strong>: broken by the time this is all said and done.
+<em>04:31.539</em></p>
+<p><strong>Speaker 1</strong>: Actually, that&#x27;s a very interesting thing.
+<em>04:33.620</em></p>
+<p><strong>Speaker 1</strong>: You know, I I have quite often recently been turning off the render thing just for
+<em>04:35.220</em></p>
+<p><strong>Speaker 1</strong>: fluidity as I&#x27;m working on stuff.
+<em>04:43.120</em></p>
+<p><strong>Speaker 1</strong>: But I find that what I usually do is at when I&#x27;m done with sort of you know, every edit has different phases, okay?
+<em>04:46.560</em></p>
+<p><strong>Speaker 1</strong>: First you have your organizational phase, you&#x27;re bringing in stuff and
+<em>04:54.319</em></p>
+<p><strong>Speaker 1</strong>: you know, client keeps handing you things and you&#x27;re, you know, putting it into your keywords, et cetera, et cetera.
+<em>04:57.760</em></p>
+<p><strong>Speaker 1</strong>: Then you have your editorial phase where you s where you&#x27;re actually s seeking and finding and whatever.
+<em>05:02.880</em></p>
+<p><strong>Speaker 1</strong>: And then you&#x27;re going through like color, audio, maybe you know, maybe it&#x27;s a heavy graphics piece.
+<em>05:09.320</em></p>
+<p><strong>Speaker 1</strong>: There&#x27;s going to be a whole graphics phase.
+<em>05:17.240</em></p>
+<p><strong>Speaker 1</strong>: But at some point
+<em>05:19.240</em></p>
+<p><strong>Speaker 1</strong>: I do turn on the go-ahead and render in background thing.
+<em>05:21.220</em></p>
+<p><strong>Speaker 1</strong>: And I do it maybe, you know, 70%, 80% through the piece.
+<em>05:26.020</em></p>
+<p><strong>Speaker 1</strong>: And it does and at that point, w if you&#x27;re just coloring, you know, it it doesn&#x27;t affect you as much because you&#x27;re spending more time like staring at A-frame.
+<em>05:31.199</em></p>
+<p><strong>Speaker 1</strong>: Instead of shuttling through thousands and thousands of frames.
+<em>05:40.300</em></p>
+<p><strong>Speaker 1</strong>: Anyway, that&#x27;s an interesting discussion to have someday.
+<em>05:45.979</em></p>
+<p><strong>Speaker 1</strong>: Maybe we&#x27;ll do that at another time.
+<em>05:48.940</em></p>
+<p><strong>Speaker 1</strong>: Today,
+<em>05:50.780</em></p>
+<p><strong>Speaker 1</strong>: You called me a few days ago, and you&#x27;re like, What the hell&#x27;s going on with Proxy?
+<em>05:52.260</em></p>
+<p><strong>Speaker 2</strong>: Well, I know.
+<em>05:57.700</em></p>
+<p><strong>Speaker 2</strong>: And because this project that actually was for a different project, I think, but
+<em>05:58.820</em></p>
+<p><strong>Speaker 2</strong>: I was um I had needed to move the project I was working on from one hard drive to another, and I had already started on hard drive A.
+<em>06:06.360</em></p>
+<p><strong>Speaker 2</strong>: And so I moved everything.
+<em>06:17.620</em></p>
+<p><strong>Speaker 2</strong>: And you would think, you know, just a click I mean, a simple click and drag, because I keep everything in the job folder.
+<em>06:19.139</em></p>
+<p><strong>Speaker 2</strong>: And I kind of set up my
+<em>06:25.220</em></p>
+<p><strong>Speaker 2</strong>: Media similar to a Eudycaris, where I store, I have the what do you call it, the slim library
+<em>06:29.980</em></p>
+<p><strong>Speaker 1</strong>: Yeah, I started calling it the the slim library and then uh and then somebody el or trim library and then somebody else said lean library and I go, Oh, that&#x27;s better.
+<em>06:37.260</em></p>
+<p><strong>Speaker 2</strong>: I&#x27;m going to use that.
+<em>06:45.420</em></p>
+<p><strong>Speaker 2</strong>: Yeah, so I&#x27;ve been I use the lean library and then I save everything
+<em>06:46.860</em></p>
+<p><strong>Speaker 2</strong>: I set as my storage locations for library settings a folder called FCP Expedia.
+<em>06:51.360</em></p>
+<p><strong>Speaker 2</strong>: But everything&#x27;s in one job folder, so you know you would think I&#x27;ll just click and drag that job folder from drive A to drive B, boom, bah, you&#x27;re good to go.
+<em>06:58.560</em></p>
+<p><strong>Speaker 2</strong>: Bada bing, bada boom.
+<em>07:08.820</em></p>
+<p><strong>Speaker 2</strong>: No, it&#x27;s not that easy.
+<em>07:10.740</em></p>
+<p><strong>Speaker 2</strong>: So I did that.
+<em>07:12.420</em></p>
+<p><strong>Speaker 1</strong>: I love it when a black man from Atlanta tries to come across like an Italian mobster from New York.
+<em>07:13.380</em></p>
+<p><strong>Speaker 1</strong>: Go ahead.
+<em>07:18.900</em></p>
+<p><strong>Speaker 2</strong>: First, I know I&#x27;m not from Atlanta.
+<em>07:21.660</em></p>
+<p><strong>Speaker 2</strong>: I know, I know.
+<em>07:23.260</em></p>
+<p><strong>Speaker 2</strong>: I&#x27;m sorry.
+<em>07:23.820</em></p>
+<p><strong>Speaker 2</strong>: And actually, I don&#x27;t even live in Atlanta anymore.
+<em>07:24.780</em></p>
+<p><strong>Speaker 2</strong>: We live in Seattle.
+<em>07:26.540</em></p>
+<p><strong>Speaker 2</strong>: I know, I know.
+<em>07:27.500</em></p>
+<p><strong>Speaker 2</strong>: Yeah, anyway.
+<em>07:28.460</em></p>
+<p><strong>Speaker 2</strong>: So it didn&#x27;t work.
+<em>07:30.220</em></p>
+<p><strong>Speaker 2</strong>: Well.
+<em>07:32.300</em></p>
+<p><strong>Speaker 2</strong>: I thought it was working, so I go back into the project, the one that&#x27;s now in drive B.
+<em>07:33.120</em></p>
+<p><strong>Speaker 2</strong>: I opened it up, and I naturally expected things to be
+<em>07:38.080</em></p>
+<p><strong>Speaker 2</strong>: off, because whenever you move anything in Final Cut, even if you move a whole job folder, since they are absolute references, as you&#x27;ve pointed out.
+<em>07:42.820</em></p>
+<p><strong>Speaker 2</strong>: even though everything is relative to one another the way they were before, since you&#x27;ve moved it from drive A to drive B, you need to reconnect it.
+<em>07:53.419</em></p>
+<p><strong>Speaker 2</strong>: Right.
+<em>08:01.419</em></p>
+<p><strong>Speaker 2</strong>: So one of the things I love about the new final cut is
+<em>08:01.979</em></p>
+<p><strong>Speaker 2</strong>: when you go to relink a file, you can pretty much just select the top level drive or the top level location, and it&#x27;ll find everything, right?
+<em>08:05.540</em></p>
+<p><strong>Speaker 1</strong>: Let me ask you about that.
+<em>08:14.600</em></p>
+<p><strong>Speaker 1</strong>: Do you uh and actually, b before we go too much deeper, I want to back up and talk about uh uh some of the background about what you&#x27;re doing and and kind of clarify a few
+things.
+<em>08:15.480</em></p>
+<p><strong>Speaker 1</strong>: So, um
+<em>08:25.800</em></p>
+<p><strong>Speaker 1</strong>: I think that in any software development, there is a lot of testing and planning that happens in sort of the ideal scenario.
+<em>08:27.500</em></p>
+<p><strong>Speaker 1</strong>: And then there is hopefully, there is robust beta testing.
+<em>08:39.880</em></p>
+<p><strong>Speaker 1</strong>: And that&#x27;s where end users are doing things that the engineers didn&#x27;t think of doing.
+<em>08:46.120</em></p>
+<p><strong>Speaker 1</strong>: Okay.
+<em>08:53.700</em></p>
+<p><strong>Speaker 1</strong>: And then s somewhere along the way, there&#x27;s the final release, and then there&#x27;s the period of time.
+<em>08:55.140</em></p>
+<p><strong>Speaker 1</strong>: Where the actual users are doing things that the beta testers didn&#x27;t think anybody would do.
+<em>09:04.780</em></p>
+<p><strong>Speaker 1</strong>: And I think that and I&#x27;m not going to point any fingers and I&#x27;m not going to speculate as to the
+<em>09:09.820</em></p>
+<p><strong>Speaker 1</strong>: the vastness or the robustness of the Apple&#x27;s beta testing or alpha testing or whatever phase.
+<em>09:18.380</em></p>
+<p><strong>Speaker 1</strong>: But clearly, we are coming across
+<em>09:27.819</em></p>
+<p><strong>Speaker 1</strong>: issues that are they&#x27;re interesting because they&#x27;re quite possibly issues that would not have come up in a ten point zero era.
+<em>09:32.019</em></p>
+<p><strong>Speaker 1</strong>: before we had the ability to make the lean library.
+<em>09:43.520</em></p>
+<p><strong>Speaker 1</strong>: Now we really wanted the lean library potential.
+<em>09:46.640</em></p>
+<p><strong>Speaker 1</strong>: Apple gave it to us.
+<em>09:50.000</em></p>
+<p><strong>Speaker 1</strong>: And I think that almost like a teenager, once, you know, we want it, we want it, we want it, and then we realize, oh, this is really hard, you know?
+<em>09:51.839</em></p>
+<p><strong>Speaker 1</strong>: And I think we might be experiencing a little bit of that with this issue that you have come across.
+<em>10:01.459</em></p>
+<p><strong>Speaker 1</strong>: And again, we&#x27;re going to get deeper into that.
+<em>10:08.339</em></p>
+<p><strong>Speaker 1</strong>: Oh, by the way, I&#x27;m calling this episode Proxy Problems.
+<em>10:11.120</em></p>
+<p><strong>Speaker 1</strong>: So one thing that happens quite often in a in a real life production environment, not a test environment,
+<em>10:15.600</em></p>
+<p><strong>Speaker 1</strong>: Is for whatever reason, we&#x27;re moving a project from one drive to another.
+<em>10:24.720</em></p>
+<p><strong>Speaker 1</strong>: So we might have started the project on a drive on a portable drive when we were in the field.
+<em>10:30.880</em></p>
+<p><strong>Speaker 1</strong>: And then we get back to the studio and we&#x27;re like, oh, I want to put this on my raid, so you pick up, you know, the whole the whole thing, the whole pro you know, you and I work
+with a project folder where we have all of the um associated assets in that folder.
+<em>10:37.339</em></p>
+<p><strong>Speaker 1</strong>: I think that, you know, in an ideal and I refer to this as the soccer dad mode.
+<em>10:53.260</em></p>
+<p><strong>Speaker 1</strong>: That you could actually almost, and I do know people that work this way, where everything they need for their video edit.
+<em>11:01.520</em></p>
+<p><strong>Speaker 1</strong>: Now, granted, it&#x27;s a bit simpler than what you&#x27;re doing or what I&#x27;m doing.
+<em>11:09.840</em></p>
+<p><strong>Speaker 1</strong>: everything they need for that video edit can live within the library file.
+<em>11:14.240</em></p>
+<p><strong>Speaker 1</strong>: And so in their world, it&#x27;s much easier to move something from A to B, from drive A to drive B.
+<em>11:19.600</em></p>
+<p><strong>Speaker 1</strong>: But what you and I are running into is the problem of now we have more flexibility that we have requested as the petulant teenagers from Apple.
+<em>11:25.339</em></p>
+<p><strong>Speaker 1</strong>: We have that more flexibility and because of that flexibility, we&#x27;re also running into problems.
+<em>11:35.140</em></p>
+<p><strong>Speaker 1</strong>: So I&#x27;ve been dealing this with this a lot, and I I think I&#x27;ve referenced this on one show, but we had a problem with one of our Pegasus raids.
+<em>11:40.020</em></p>
+<p><strong>Speaker 1</strong>: I don&#x27;t know if I&#x27;ve told if I&#x27;ve talked about this, but
+<em>11:47.380</em></p>
+<p><strong>Speaker 1</strong>: It&#x27;s probably a whole episode to have, you know.
+<em>11:50.020</em></p>
+<p><strong>Speaker 1</strong>: Maybe I&#x27;ll get Topher Martini, my hard drive expert.
+<em>11:54.740</em></p>
+<p><strong>Speaker 1</strong>: To come and discuss what happened, what I did, what I should have done, how I should have prepared, whatever.
+<em>11:57.920</em></p>
+<p><strong>Speaker 2</strong>: Yeah, I like to interview with him about that.
+<em>12:04.399</em></p>
+<p><strong>Speaker 1</strong>: Yeah, Topher&#x27;s a great guy.
+<em>12:06.560</em></p>
+<p><strong>Speaker 1</strong>: And so.
+<em>12:09.040</em></p>
+<p><strong>Speaker 1</strong>: When you move a project from drive A to drive B, working the way you and I do, now your library storage location, you&#x27;re calling it FCPX
+<em>12:10.600</em></p>
+<p><strong>Speaker 1</strong>: Media, I call mine FCPX Created because I still keep a lot of media outside of that folder.
+<em>12:22.020</em></p>
+<p><strong>Speaker 1</strong>: So
+<em>12:30.180</em></p>
+<p><strong>Speaker 1</strong>: So when you move a job, there&#x27;s two things you&#x27;re going to have to do.
+<em>12:31.400</em></p>
+<p><strong>Speaker 1</strong>: A job folder.
+<em>12:34.760</em></p>
+<p><strong>Speaker 1</strong>: First thing you&#x27;re going to have to do is you&#x27;re going to open it up and it&#x27;s going to go, uh, I can&#x27;t find the FCPX media folder.
+<em>12:35.880</em></p>
+<p><strong>Speaker 1</strong>: So, you&#x27;re going to have to reaim that before you do anything.
+<em>12:42.320</em></p>
+<p><strong>Speaker 1</strong>: And it&#x27;s good, you know.
+<em>12:46.480</em></p>
+<p><strong>Speaker 1</strong>: I will say this: I don&#x27;t know if you&#x27;ve noticed this, Final Cut makes you do that before you can do anything.
+<em>12:48.240</em></p>
+<p><strong>Speaker 1</strong>: Now in an older Funnel Cut 7 world, you could continue to work with your scratch disk pointed to the wrong place.
+<em>12:55.320</em></p>
+<p><strong>Speaker 2</strong>: And then remember that?
+<em>13:03.640</em></p>
+<p><strong>Speaker 2</strong>: Everything being saved in a row.
+<em>13:05.080</em></p>
+<p><strong>Speaker 1</strong>: And then you&#x27;d capture another tape, or you&#x27;d, you know, it&#x27;s like, uh, and then you have this stuff splattered across various job folders, which was a pain.
+<em>13:06.680</em></p>
+<p><strong>Speaker 1</strong>: So I do like the fact that you&#x27;re forced.
+<em>13:14.120</em></p>
+<p><strong>Speaker 1</strong>: To retarget your storage location, which could be which very much is like the old scratch disk.
+<em>13:16.900</em></p>
+<p><strong>Speaker 1</strong>: You&#x27;re forced to retarget your storage location for your media and your cache files.
+<em>13:24.660</em></p>
+<p><strong>Speaker 1</strong>: Before you do anything else.
+<em>13:30.260</em></p>
+<p><strong>Speaker 1</strong>: So that&#x27;s the first thing you have to do.
+<em>13:31.540</em></p>
+<p><strong>Speaker 1</strong>: And then you&#x27;re going to have to relink all your media.
+<em>13:33.140</em></p>
+<p><strong>Speaker 1</strong>: And like you said, it is much better.
+<em>13:36.660</em></p>
+<p><strong>Speaker 1</strong>: You can do it at the top level.
+<em>13:38.740</em></p>
+<p><strong>Speaker 1</strong>: And I was going to ask, do you top when you say top level, do you mean
+<em>13:40.420</em></p>
+<p><strong>Speaker 1</strong>: you just point the relink media command to the drive or to the job folder?
+<em>13:43.720</em></p>
+<p><strong>Speaker 2</strong>: To the drive.
+<em>13:49.320</em></p>
+<p><strong>Speaker 2</strong>: Yeah, try to
+<em>13:50.680</em></p>
+<p><strong>Speaker 2</strong>: Trying one works, I think.
+<em>13:52.080</em></p>
+<p><strong>Speaker 2</strong>: I usually do it to the job folder, but yesterday I tried it to the drive and it worked fine.
+<em>13:53.760</em></p>
+<p><strong>Speaker 1</strong>: Yeah, if you don&#x27;t if you don&#x27;t have a lot of stuff on the drive, it doesn&#x27;t make that big a difference.
+<em>13:58.400</em></p>
+<p><strong>Speaker 1</strong>: But what I have found is if you go into the job folder, it&#x27;s a bit faster.
+<em>14:03.920</em></p>
+<p><strong>Speaker 1</strong>: And if you&#x27;re really in a hurry, you might want to
+<em>14:10.319</em></p>
+<p><strong>Speaker 1</strong>: do individual folders in the job folder.
+<em>14:13.440</em></p>
+<p><strong>Speaker 1</strong>: And the more you target your relink command, the quicker it will be.
+<em>14:15.920</em></p>
+<p><strong>Speaker 1</strong>: But yes, going into the job folder works great.
+<em>14:20.640</em></p>
+<p><strong>Speaker 2</strong>: Yeah, and actually I wanted to address your point about where you say you&#x27;re forced to repoint your media folder
+<em>14:23.620</em></p>
+<p><strong>Speaker 2</strong>: destination.
+<em>14:32.640</em></p>
+<p><strong>Speaker 1</strong>: Let&#x27;s call that the storage location.
+<em>14:33.680</em></p>
+<p><strong>Speaker 1</strong>: Yes.
+<em>14:36.320</em></p>
+<p><strong>Speaker 1</strong>: Because that&#x27;s what Fonocut&#x27;s calling it.
+<em>14:36.560</em></p>
+<p><strong>Speaker 2</strong>: Yes, storage location.
+<em>14:38.320</em></p>
+<p><strong>Speaker 2</strong>: When you here&#x27;s the interesting point about that, when you first start a project and there&#x27;s nothing in there,
+<em>14:40.960</em></p>
+<p><strong>Speaker 2</strong>: you&#x27;re not forced to do anything because there&#x27;s nothing there to force you.
+<em>14:46.660</em></p>
+<p><strong>Speaker 2</strong>: So I&#x27;ve had to get in the habit of remembering that when I first create a library
+<em>14:50.900</em></p>
+<p><strong>Speaker 2</strong>: to repoint everything because everything defaults to library location.
+<em>14:55.940</em></p>
+<p><strong>Speaker 2</strong>: The the yeah, the wherever SPS.
+<em>15:00.900</em></p>
+<p><strong>Speaker 2</strong>: I call it in library.
+<em>15:04.900</em></p>
+<p><strong>Speaker 2</strong>: Yeah, in library, exactly.
+<em>15:06.720</em></p>
+<p><strong>Speaker 2</strong>: Everything defaults to in library.
+<em>15:08.880</em></p>
+<p><strong>Speaker 2</strong>: So if you do want to use the lean library method, you really have to remember
+<em>15:10.560</em></p>
+<p><strong>Speaker 2</strong>: That when you first create a library, the first thing you do is repoint.
+<em>15:14.860</em></p>
+<p><strong>Speaker 2</strong>: Exactly.
+<em>15:19.580</em></p>
+<p><strong>Speaker 2</strong>: Yep.
+<em>15:20.140</em></p>
+<p><strong>Speaker 2</strong>: And then on top of that, since I name each folder FCPX Media, and that&#x27;s just all I name it.
+<em>15:20.780</em></p>
+<p><strong>Speaker 2</strong>: If I start a new library, I have to remember what Final Cut will do sometimes.
+<em>15:27.240</em></p>
+<p><strong>Speaker 2</strong>: It&#x27;ll remember, like if you haven&#x27;t quit out, it&#x27;ll remember
+<em>15:34.040</em></p>
+<p><strong>Speaker 2</strong>: The previous lean location.
+<em>15:37.900</em></p>
+<p><strong>Speaker 2</strong>: You&#x27;re right.
+<em>15:41.980</em></p>
+<p><strong>Speaker 2</strong>: So if I go in, say like I go in to relink it, and I click on the Finder or the Locate folder.
+<em>15:42.380</em></p>
+<p><strong>Speaker 2</strong>: And oftentimes, you know, in Apple&#x27;s, you know, in uh in Apple programs where the locate finder will will uh
+<em>15:49.920</em></p>
+<p><strong>Speaker 2</strong>: Remember the last location that you selected.
+<em>15:59.000</em></p>
+<p><strong>Speaker 2</strong>: And then so sometimes they&#x27;ll say, oh, FCPX Media, I remembered it.
+<em>16:03.800</em></p>
+<p><strong>Speaker 2</strong>: But it&#x27;s the FCPX media of the last
+<em>16:07.240</em></p>
+<p><strong>Speaker 2</strong>: Job folder I created.
+<em>16:10.420</em></p>
+<p><strong>Speaker 1</strong>: Does that make sense?
+<em>16:12.019</em></p>
+<p><strong>Speaker 1</strong>: Yep, it makes perfect sense.
+<em>16:12.980</em></p>
+<p><strong>Speaker 1</strong>: And I think that in an ideal world, our software could read our minds and it&#x27;s not quite that smart yet.
+<em>16:14.180</em></p>
+<p><strong>Speaker 2</strong>: Right, right.
+<em>16:19.860</em></p>
+<p><strong>Speaker 2</strong>: Anyway, so I went creating a library, you have to remember to
+<em>16:20.420</em></p>
+<p><strong>Speaker 2</strong>: One, relink it, and two, make sure that if the locate folder folder that it&#x27;s selecting is the correct SPX media.
+<em>16:24.339</em></p>
+<p><strong>Speaker 2</strong>: Anyway, so
+<em>16:35.220</em></p>
+<p><strong>Speaker 2</strong>: So back to my predicament.
+<em>16:37.360</em></p>
+<p><strong>Speaker 1</strong>: So now you&#x27;ve moved your project.
+<em>16:40.160</em></p>
+<p><strong>Speaker 1</strong>: You&#x27;ve retargeted your FCPX media folder, as you call it.
+<em>16:42.959</em></p>
+<p><strong>Speaker 1</strong>: You&#x27;ve relinked your media.
+<em>16:47.360</em></p>
+<p><strong>Speaker 1</strong>: But something else is missing.
+<em>16:49.339</em></p>
+<p><strong>Speaker 2</strong>: Yes.
+<em>16:51.180</em></p>
+<p><strong>Speaker 2</strong>: So all the original media and the optimized optimized media, but I didn&#x27;t create any optimized media for this project.
+<em>16:51.660</em></p>
+<p><strong>Speaker 2</strong>: But all the original media are really fine.
+<em>16:59.819</em></p>
+<p><strong>Speaker 2</strong>: But the proxy media didn&#x27;t.
+<em>17:03.320</em></p>
+<p><strong>Speaker 2</strong>: Although, like if I were to one thing that&#x27;s interesting with proxy media, if you select on a file
+<em>17:06.120</em></p>
+<p><strong>Speaker 2</strong>: within Final Cut and go to Reveal and Finder, it takes you to the original meter from which the proxy was created.
+<em>17:13.339</em></p>
+<p><strong>Speaker 1</strong>: Even if you&#x27;re in proxy mode?
+<em>17:20.620</em></p>
+<p><strong>Speaker 2</strong>: Even if you&#x27;re in proxy mode.
+<em>17:22.539</em></p>
+<p><strong>Speaker 1</strong>: Hmm, interesting.
+<em>17:24.140</em></p>
+<p><strong>Speaker 1</strong>: So I&#x27;m going to say that prior to the proxy media workflow that has been made available to me,
+<em>17:25.820</em></p>
+<p><strong>Speaker 1</strong>: In Final Cut 10, that I&#x27;m going to make a grotesque admission here.
+<em>17:39.300</em></p>
+<p><strong>Speaker 1</strong>: I didn&#x27;t really get what proxy meant.
+<em>17:45.780</em></p>
+<p><strong>Speaker 1</strong>: And I don&#x27;t know, maybe I shouldn&#x27;t be admitting that publicly, quite so publicly, but I just you know, I realized, oh yeah, proxy, it&#x27;s like a replacement and I don&#x27;t
+really get it.
+<em>17:49.720</em></p>
+<p><strong>Speaker 1</strong>: And I think that
+<em>18:01.800</em></p>
+<p><strong>Speaker 1</strong>: you know, to be honest, you know, we for quite some time have lived in a world where we didn&#x27;t really have to worry about
+<em>18:03.740</em></p>
+<p><strong>Speaker 1</strong>: If we wanted to, if we didn&#x27;t have a giant project, we really didn&#x27;t have to worry about just working with the actual media.
+<em>18:16.019</em></p>
+<p><strong>Speaker 1</strong>: I mean, if we look at like the last 15 years
+<em>18:22.899</em></p>
+<p><strong>Speaker 1</strong>: uh so much of which was, you know, like standard F D V or um you know uh v you know very light codex
+<em>18:25.919</em></p>
+<p><strong>Speaker 1</strong>: Yeah, I just work with the real media.
+<em>18:33.720</em></p>
+<p><strong>Speaker 1</strong>: Now, in the avid world, they were still doing their AVR 77 or AVR whatever.
+<em>18:36.680</em></p>
+<p><strong>Speaker 1</strong>: A lot of times people would digitize at a low res, do their cut and then redig at a higher resolution.
+<em>18:44.940</em></p>
+<p><strong>Speaker 1</strong>: Or not resolution necessarily, although maybe, but bit rate.
+<em>18:54.140</em></p>
+<p><strong>Speaker 1</strong>: So the proxy workflow allows you to take large or small quantities of full quality media.
+<em>18:58.960</em></p>
+<p><strong>Speaker 1</strong>: You select that media in your library.
+<em>19:08.900</em></p>
+<p><strong>Speaker 1</strong>: I believe there&#x27;s a command under the file menu, create proxy media.
+<em>19:12.580</em></p>
+<p><strong>Speaker 1</strong>: And actually, you can do it automatically when you&#x27;re importing.
+<em>19:16.340</em></p>
+<p><strong>Speaker 1</strong>: And basically, you&#x27;re just making another copy of your media that I believe and correct me if I&#x27;m wrong if you know that by default Apple makes
+<em>19:19.620</em></p>
+<p><strong>Speaker 1</strong>: Final cut makes the proxy media one half the width and height, so quarter the number of pixels.
+<em>19:31.200</em></p>
+<p><strong>Speaker 1</strong>: And I believe they&#x27;re making it in I want to say like ProRes LT?
+<em>19:39.179</em></p>
+<p><strong>Speaker 1</strong>: Prorex no, ProRes Proxy.
+<em>19:43.260</em></p>
+<p><strong>Speaker 1</strong>: Oh, there&#x27;s yet another version.
+<em>19:45.740</em></p>
+<p><strong>Speaker 1</strong>: Great, yeah.
+<em>19:47.260</em></p>
+<p><strong>Speaker 1</strong>: Oh, yeah, yeah.
+<em>19:47.820</em></p>
+<p><strong>Speaker 2</strong>: So here&#x27;s what&#x27;s interesting about that.
+<em>19:48.700</em></p>
+<p><strong>Speaker 2</strong>: &#x27;Cause I when I in Final Cut Classic, I would oftentimes, for smaller projects, use ProRes Proxy
+<em>19:50.700</em></p>
+<p><strong>Speaker 2</strong>: as the codec of choice when editing in my um when editing or creating programs because
+<em>20:02.580</em></p>
+<p><strong>Speaker 2</strong>: I would do a test and like the the the bit rate of the the compression bit rate of a Proreus proxy file
+<em>20:11.940</em></p>
+<p><strong>Speaker 2</strong>: was about on par of like the old MIDI DV files in terms of like around twenty four megabits per second or something like that.
+<em>20:19.940</em></p>
+<p><strong>Speaker 2</strong>: And so
+<em>20:27.940</em></p>
+<p><strong>Speaker 2</strong>: I actually, for smaller projects, would edit and even finish projects in ProRes Proxy.
+<em>20:29.340</em></p>
+<p><strong>Speaker 2</strong>: And deliver online.
+<em>20:37.400</em></p>
+<p><strong>Speaker 2</strong>: Crazy town.
+<em>20:38.840</em></p>
+<p><strong>Speaker 2</strong>: Are you kidding?
+<em>20:39.640</em></p>
+<p><strong>Speaker 2</strong>: No, I&#x27;m serious.
+<em>20:40.600</em></p>
+<p><strong>Speaker 2</strong>: Yeah.
+<em>20:41.480</em></p>
+<p><strong>Speaker 2</strong>: I mean, if if there wasn&#x27;t a lot of color grading that was needed, and if it wasn&#x27;t if it was like a small, short project,
+<em>20:41.800</em></p>
+<p><strong>Speaker 2</strong>: it would it work worked fine for me.
+<em>20:50.860</em></p>
+<p><strong>Speaker 2</strong>: So when Final Cap um 10 came out and I saw a proxy and I knew that it was
+<em>20:53.340</em></p>
+<p><strong>Speaker 2</strong>: converting these files to ProS proxy.
+<em>20:59.519</em></p>
+<p><strong>Speaker 2</strong>: I assumed it was it was ProS Proxy, but I didn&#x27;t know about it cutting it in half.
+<em>21:01.840</em></p>
+<p><strong>Speaker 2</strong>: So I had I think I had like exported a project in pro when it was in proxy mode.
+<em>21:08.159</em></p>
+<p><strong>Speaker 2</strong>: And it was tiny.
+<em>21:14.559</em></p>
+<p><strong>Speaker 2</strong>: It was like half the size it was supposed to be.
+<em>21:15.840</em></p>
+<p><strong>Speaker 2</strong>: Right.
+<em>21:18.320</em></p>
+<p><strong>Speaker 2</strong>: Then I realize, oh, Final Cut is actually also cutting in half.
+<em>21:18.760</em></p>
+<p><strong>Speaker 2</strong>: Yeah, so hold on.
+<em>21:23.640</em></p>
+<p><strong>Speaker 1</strong>: Now, let&#x27;s be clear.
+<em>21:24.919</em></p>
+<p><strong>Speaker 1</strong>: That was a revelation that you had with Final Cut Classic.
+<em>21:26.360</em></p>
+<p><strong>Speaker 2</strong>: What revelation are you referring to?
+<em>21:31.340</em></p>
+<p><strong>Speaker 1</strong>: About it being quarter resolution.
+<em>21:33.020</em></p>
+<p><strong>Speaker 2</strong>: No, no, no, no, no, no.
+<em>21:34.940</em></p>
+<p><strong>Speaker 2</strong>: In Flander Kid 10.
+<em>21:36.140</em></p>
+<p><strong>Speaker 2</strong>: So in Flancade Classic, I would use MPEG stream clip.
+<em>21:37.660</em></p>
+<p><strong>Speaker 2</strong>: To convert.
+<em>21:41.500</em></p>
+<p><strong>Speaker 2</strong>: mov files from a DSLR into ProRes proxy to conserve drive space
+<em>21:43.340</em></p>
+<p><strong>Speaker 1</strong>: Okay, now you&#x27;re touching on something very interesting.
+<em>21:49.120</em></p>
+<p><strong>Speaker 1</strong>: So in olden times, you could take your media and you could process it
+<em>21:52.400</em></p>
+<p><strong>Speaker 1</strong>: two ways.
+<em>22:02.019</em></p>
+<p><strong>Speaker 1</strong>: You could process a proxy version and you could and i in a DSLR workflow, you could take your H.
+<em>22:02.740</em></p>
+<p><strong>Speaker 1</strong>: 264s and make it into a ProRes HQ or ProRes422, whatever.
+<em>22:10.100</em></p>
+<p><strong>Speaker 1</strong>: You could do it two ways.
+<em>22:15.740</em></p>
+<p><strong>Speaker 1</strong>: And then there was this very laborious or, you know, kind of sketchy workflow where you&#x27;d have to reaim, you&#x27;d have to tell your
+<em>22:17.180</em></p>
+<p><strong>Speaker 1</strong>: your software.
+<em>22:27.240</em></p>
+<p><strong>Speaker 1</strong>: No, no, no.
+<em>22:28.520</em></p>
+<p><strong>Speaker 1</strong>: When I want you to look for this media, I want you to look over here.
+<em>22:29.640</em></p>
+<p><strong>Speaker 1</strong>: And then it would go, Oh, yeah, there&#x27;s all those file names.
+<em>22:34.200</em></p>
+<p><strong>Speaker 1</strong>: Okay, I got it.
+<em>22:37.160</em></p>
+<p><strong>Speaker 1</strong>: And then at some point in the workflow, you&#x27;d have to say, okay, now let&#x27;s relink the media over to here
+<em>22:38.640</em></p>
+<p><strong>Speaker 1</strong>: And Final Cut 10 makes that much easier by in its implementation of the proxy workflow when it works.
+<em>22:46.740</em></p>
+<p><strong>Speaker 2</strong>: When it works, yeah.
+<em>22:55.620</em></p>
+<p><strong>Speaker 2</strong>: So in this case.
+<em>22:56.900</em></p>
+<p><strong>Speaker 2</strong>: When I move the job folder over, the ridge, like I said, the original media connected fine
+<em>22:59.140</em></p>
+<p><strong>Speaker 2</strong>: but the proxy media didn&#x27;t even after I went through and I re relinked everything and um confirmed that
+<em>23:06.260</em></p>
+<p><strong>Speaker 2</strong>: The original files that it was accessing.
+<em>23:14.640</em></p>
+<p><strong>Speaker 2</strong>: And to do this, you know, after I copied everything in drive B, I dismounted drive A just to make sure that FileKit was not accessing
+<em>23:17.440</em></p>
+<p><strong>Speaker 2</strong>: any of the original files on Drive A because everything obviously is identical.
+<em>23:27.640</em></p>
+<p><strong>Speaker 2</strong>: So I thought.
+<em>23:33.080</em></p>
+<p><strong>Speaker 1</strong>: That&#x27;s actually a really important point.
+<em>23:33.880</em></p>
+<p><strong>Speaker 1</strong>: So if you are in the process of moving jobs
+<em>23:35.640</em></p>
+<p><strong>Speaker 1</strong>: Because Final Cut is using you mentioned it earlier, an absolute file path, and you would launch the library that&#x27;s on Drive B, if you still have Drive A mounted,
+<em>23:38.880</em></p>
+<p><strong>Speaker 1</strong>: Even though you&#x27;ve launched the library on Drive B, it is going to link to the files that are on Drive A.
+<em>23:50.919</em></p>
+<p><strong>Speaker 1</strong>: Right.
+<em>24:00.200</em></p>
+<p><strong>Speaker 1</strong>: So it&#x27;s very important to be able to, you know
+<em>24:00.600</em></p>
+<p><strong>Speaker 1</strong>: Excuse me, toggle drives on and off, or you know, either unmount them or power them down.
+<em>24:03.419</em></p>
+<p><strong>Speaker 1</strong>: Well, unmount them and power them down.
+<em>24:08.059</em></p>
+<p><strong>Speaker 1</strong>: I had an interesting problem that happened recently.
+<em>24:10.299</em></p>
+<p><strong>Speaker 1</strong>: with somebody where they had started their project on their internal drive, and then we had to copy it off to an external drive, and there&#x27;s no way to unmount the
+internal drive.
+<em>24:14.500</em></p>
+<p><strong>Speaker 1</strong>: So that was a bit of a you know, we had to be careful about that.
+<em>24:23.940</em></p>
+<p><strong>Speaker 2</strong>: Oh, yeah, I guess that you could have, just to be safe, copied it to a second drive and deleted the internal drive and the internal project line, right?
+<em>24:27.940</em></p>
+<p><strong>Speaker 1</strong>: You know what we ended up doing is, I think what we did is we
+<em>24:35.779</em></p>
+<p><strong>Speaker 1</strong>: pushed those files to the trash can and then launched the other library, and then we crossed our fingers and then we deleted the original.
+<em>24:41.260</em></p>
+<p><strong>Speaker 1</strong>: I got it.
+<em>24:52.500</em></p>
+<p><strong>Speaker 1</strong>: Yeah.
+<em>24:53.059</em></p>
+<p><strong>Speaker 1</strong>: It&#x27;s a bit dicey there for a moment.
+<em>24:53.220</em></p>
+<p><strong>Speaker 2</strong>: Yeah.
+<em>24:55.780</em></p>
+<p><strong>Speaker 1</strong>: So your proxy media doesn&#x27;t relink?
+<em>24:58.100</em></p>
+<p><strong>Speaker 2</strong>: It didn&#x27;t re-link.
+<em>25:02.880</em></p>
+<p><strong>Speaker 2</strong>: And so started doing a lot of research on this.
+<em>25:04.400</em></p>
+<p><strong>Speaker 2</strong>: Try to figure out, okay, how to get this to work.
+<em>25:07.280</em></p>
+<p><strong>Speaker 2</strong>: So
+<em>25:09.440</em></p>
+<p><strong>Speaker 2</strong>: I discovered an interesting thing on the way to a solution.
+<em>25:10.820</em></p>
+<p><strong>Speaker 2</strong>: So when you create proxy media
+<em>25:15.140</em></p>
+<p><strong>Speaker 2</strong>: Final Cut within the library now, Final Cut will create a folder called Transcoded Media.
+<em>25:19.460</em></p>
+<p><strong>Speaker 2</strong>: And then within the Transcoded Media folder, it will create
+<em>25:28.660</em></p>
+<p><strong>Speaker 2</strong>: the a proxy media folder.
+<em>25:32.640</em></p>
+<p><strong>Speaker 2</strong>: And this is all going to be within the storage location that you&#x27;ve selected.
+<em>25:35.120</em></p>
+<p><strong>Speaker 2</strong>: So like for me, it&#x27;s FCPX Media, then Transcoded Media, then Proxy Media.
+<em>25:39.680</em></p>
+<p><strong>Speaker 2</strong>: Within that proxy media folder will be symlinks.
+<em>25:44.940</em></p>
+<p><strong>Speaker 2</strong>: In Locker and Drive A there will be symlinks that link to
+<em>25:48.299</em></p>
+<p><strong>Speaker 2</strong>: the original media.
+<em>25:53.060</em></p>
+<p><strong>Speaker 2</strong>: And now for those of you who are in the know, SimLinks are wherever you look in the finder and you see
+<em>25:56.980</em></p>
+<p><strong>Speaker 2</strong>: like a link to something else or like it&#x27;s and it&#x27;s not a duplicate, but like a proxy link.
+<em>26:03.380</em></p>
+<p><strong>Speaker 2</strong>: And there&#x27;s a little arrow in the bottom left hand corner of the icon.
+<em>26:09.780</em></p>
+<p><strong>Speaker 2</strong>: That&#x27;s a simlink.
+<em>26:13.160</em></p>
+<p><strong>Speaker 2</strong>: That&#x27;s where you&#x27;re basically Apple is saying or the Mac OS is saying, this little simulated file, if you will, is pointing to another file
+<em>26:14.120</em></p>
+<p><strong>Speaker 2</strong>: on some other location.
+<em>26:26.280</em></p>
+<p><strong>Speaker 2</strong>: Right.
+<em>26:27.880</em></p>
+<p><strong>Speaker 2</strong>: So like if you were to right click on one of those sim links and go to like go to original location or reveal and find or whatever.
+<em>26:28.360</em></p>
+<p><strong>Speaker 2</strong>: it would jump you to wherever that media is.
+<em>26:35.460</em></p>
+<p><strong>Speaker 2</strong>: So FinalKit creates these simlinks within the proxy folder, which is located in my storage location of choice, which is SCPX Media.
+<em>26:38.180</em></p>
+<p><strong>Speaker 2</strong>: I discovered that when I copied the job folder over, the semlinks from drive A did not copy over.
+<em>26:49.420</em></p>
+<p><strong>Speaker 2</strong>: So even though I just dragged everything from drive A to drive B, on drive B when I drilled down through FCPX media to transcribe media to proxy media, the symlinks
+weren&#x27;t there.
+<em>26:58.880</em></p>
+<p><strong>Speaker 2</strong>: Interesting.
+<em>27:12.940</em></p>
+<p><strong>Speaker 2</strong>: So I thought, oh, maybe that&#x27;s the situation.
+<em>27:13.820</em></p>
+<p><strong>Speaker 2</strong>: And so, you know, everyone was saying, you know, whenever we do research and this, everyone says, don&#x27;t
+<em>27:16.860</em></p>
+<p><strong>Speaker 2</strong>: use the finder to media manage your final code library, use the move or copy command.
+<em>27:22.700</em></p>
+<p><strong>Speaker 2</strong>: So I said, okay, fine, I&#x27;ll do that.
+<em>27:28.300</em></p>
+<p><strong>Speaker 2</strong>: So
+<em>27:30.060</em></p>
+<p><strong>Speaker 2</strong>: I went in to find her.
+<em>27:30.820</em></p>
+<p><strong>Speaker 2</strong>: This was the first solution I tried that did not work.
+<em>27:32.340</em></p>
+<p><strong>Speaker 2</strong>: So, what I&#x27;m about to tell you does not work.
+<em>27:34.340</em></p>
+<p><strong>Speaker 1</strong>: Thank you for the heads up.
+<em>27:37.540</em></p>
+<p><strong>Speaker 2</strong>: I went into the finder.
+<em>27:39.380</em></p>
+<p><strong>Speaker 2</strong>: I don&#x27;t have to find it.
+<em>27:41.060</em></p>
+<p><strong>Speaker 2</strong>: In Filecut, I went to File, and then I went to, I clicked on the event, because I only had one event in this library, and that&#x27;s the one I was working on.
+<em>27:41.860</em></p>
+<p><strong>Speaker 2</strong>: what I did was I created a new library with nothing in it on Drive B and then I did the the copy ev copy event.
+<em>27:49.340</em></p>
+<p><strong>Speaker 2</strong>: Command copying the event from the library on drive A to the library in drive B.
+<em>28:00.000</em></p>
+<p><strong>Speaker 2</strong>: Did the same thing, dismounted drive A.
+<em>28:05.440</em></p>
+<p><strong>Speaker 2</strong>: Relaunch Drive the library and Drive B, still no go.
+<em>28:10.120</em></p>
+<p><strong>Speaker 2</strong>: Now, in doing it, let me ask you this though.
+<em>28:15.080</em></p>
+<p><strong>Speaker 1</strong>: Did everything else work?
+<em>28:17.960</em></p>
+<p><strong>Speaker 2</strong>: Yeah, all the original media, everything else.
+<em>28:20.000</em></p>
+<p><strong>Speaker 1</strong>: Without needing to relink.
+<em>28:23.120</em></p>
+<p><strong>Speaker 2</strong>: I don&#x27;t remember that part.
+<em>28:27.360</em></p>
+<p><strong>Speaker 1</strong>: I mean, it would make sense.
+<em>28:29.120</em></p>
+<p><strong>Speaker 1</strong>: If you&#x27;re doing the copy within.
+<em>28:30.320</em></p>
+<p><strong>Speaker 1</strong>: Here&#x27;s an interesting observation that I&#x27;ve been having, and you&#x27;re right.
+<em>28:34.240</em></p>
+<p><strong>Speaker 1</strong>: There are I&#x27;m just going to launch Final Fit here for a second.
+<em>28:38.080</em></p>
+<p><strong>Speaker 1</strong>: There&#x27;s a lot of commands that are contextual.
+<em>28:41.200</em></p>
+<p><strong>Speaker 1</strong>: Underneath the file menu in Final Cut, that are quite that are quite interesting.
+<em>28:45.960</em></p>
+<p><strong>Speaker 1</strong>: Let me launch, I&#x27;ll launch this project.
+<em>28:53.320</em></p>
+<p><strong>Speaker 1</strong>: That&#x27;s weird that that came up.
+<em>28:56.120</em></p>
+<p><strong>Speaker 1</strong>: So like for example, there&#x27;s the copy to library, move to library, merge events.
+<em>28:58.740</em></p>
+<p><strong>Speaker 1</strong>: Some of those commands now if I select the library
+<em>29:07.940</em></p>
+<p><strong>Speaker 1</strong>: Okay, and that.
+<em>29:15.340</em></p>
+<p><strong>Speaker 1</strong>: Yeah, so those those are like databased
+<em>29:18.700</em></p>
+<p><strong>Speaker 1</strong>: driven commands because what you&#x27;re dealing with is you&#x27;re directly talking to files that the Final Cut database is managing.
+<em>29:23.120</em></p>
+<p><strong>Speaker 1</strong>: And so it makes sense that if we go rogue and we leave Final Cut and then we start hacking around with our Finder files
+<em>29:32.320</em></p>
+<p><strong>Speaker 1</strong>: Which ultimately, you know, I think Apple wants us to stop using the Finder in general for everything.
+<em>29:41.519</em></p>
+<p><strong>Speaker 1</strong>: And you&#x27;ve probably heard me talk about some of these
+<em>29:46.720</em></p>
+<p><strong>Speaker 1</strong>: observations that I&#x27;ve had where the Mac OS is beginning a very slow, maybe even like a ten year migration away from being folder-based to being something more like the
+iPad and the iOS.
+<em>29:49.940</em></p>
+<p><strong>Speaker 1</strong>: But that&#x27;s a whole nother discussion.
+<em>30:03.220</em></p>
+<p><strong>Speaker 1</strong>: So when we go rogue and we put on our big brain hats and we go out to the Finder and start pushing files around, that&#x27;s when things get broken.
+<em>30:06.980</em></p>
+<p><strong>Speaker 1</strong>: They can very easily get broken down.
+<em>30:15.220</em></p>
+<p><strong>Speaker 1</strong>: We still have our relink command, so we can fix those things.
+<em>30:17.060</em></p>
+<p><strong>Speaker 1</strong>: But basically, the relink command is just a big database management tool.
+<em>30:21.460</em></p>
+<p><strong>Speaker 1</strong>: Hello, I know you have some broken links.
+<em>30:26.100</em></p>
+<p><strong>Speaker 1</strong>: Let me show you where they are.
+<em>30:28.179</em></p>
+<p><strong>Speaker 1</strong>: You know?
+<em>30:30.340</em></p>
+<p><strong>Speaker 2</strong>: Yeah.
+<em>30:31.380</em></p>
+<p><strong>Speaker 2</strong>: Yeah.
+<em>30:32.019</em></p>
+<p><strong>Speaker 1</strong>: So so at any rate, you what your attempt was there was to say, okay, I&#x27;m going to play by your rules.
+<em>30:32.580</em></p>
+<p><strong>Speaker 1</strong>: I&#x27;m going to copy my event to this other library, which is on another drive, and that event
+<em>30:40.440</em></p>
+<p><strong>Speaker 1</strong>: Had proxy media in it.
+<em>30:49.559</em></p>
+<p><strong>Speaker 1</strong>: And you know what I just done to me, Ron?
+<em>30:53.000</em></p>
+<p><strong>Speaker 2</strong>: What?
+<em>30:56.120</em></p>
+<p><strong>Speaker 1</strong>: That a ten-point
+<em>30:57.240</em></p>
+<p><strong>Speaker 1</strong>: 1.
+<em>30:59.120</em></p>
+<p><strong>Speaker 1</strong>: 5 updates going to come out later this week.
+<em>30:59.840</em></p>
+<p><strong>Speaker 1</strong>: And this whole and this whole episode&#x27;s going to have to get just thrown out.
+<em>31:02.560</em></p>
+<p><strong>Speaker 1</strong>: Because we&#x27;re basically we&#x27;re troubleshooting what was what is more than likely a bug.
+<em>31:07.920</em></p>
+<p><strong>Speaker 2</strong>: Well, I can&#x27;t necessarily, &#x27;cause lots of people don&#x27;t take the time to update to the latest version of &#x27;cause I don&#x27;t.
+<em>31:13.740</em></p>
+<p><strong>Speaker 2</strong>: I take a while before I update.
+<em>31:21.179</em></p>
+<p><strong>Speaker 2</strong>: A lot of people don&#x27;t update to the latest version of Funnikit as soon as it comes out.
+<em>31:22.539</em></p>
+<p><strong>Speaker 1</strong>: Really?
+<em>31:26.500</em></p>
+<p><strong>Speaker 2</strong>: Yeah, I never do.
+<em>31:27.700</em></p>
+<p><strong>Speaker 2</strong>: I always wait.
+<em>31:29.140</em></p>
+<p><strong>Speaker 2</strong>: I wait to listen to everyone else&#x27;s horror stories.
+<em>31:30.500</em></p>
+<p><strong>Speaker 2</strong>: Actually, I think you and I have talked about this before, about my whole philosophy about like not upgrading software as soon as it comes out.
+<em>31:34.620</em></p>
+<p><strong>Speaker 1</strong>: Yeah, yeah.
+<em>31:42.460</em></p>
+<p><strong>Speaker 1</strong>: And then there&#x27;s uh do have you heard um
+<em>31:44.460</em></p>
+<p><strong>Speaker 1</strong>: Alex Golner&#x27;s approach to final cut upgrades?
+<em>31:47.640</em></p>
+<p><strong>Speaker 2</strong>: I think I have a reminder.
+<em>31:52.760</em></p>
+<p><strong>Speaker 1</strong>: If he starts a project in ten point X, whatever.
+<em>31:56.600</em></p>
+<p><strong>Speaker 1</strong>: He will never open that project in anything but that version of Final Cut.
+<em>32:01.419</em></p>
+<p><strong>Speaker 1</strong>: So he has like all these disk images of old versions of the software.
+<em>32:07.660</em></p>
+<p><strong>Speaker 1</strong>: Stored.
+<em>32:14.100</em></p>
+<p><strong>Speaker 1</strong>: So he&#x27;s like, oh, I have to open that old project.
+<em>32:14.660</em></p>
+<p><strong>Speaker 1</strong>: So he jockeys around in his finder and he reverts back to whatever version of Final Cut that job was opened in.
+<em>32:16.980</em></p>
+<p><strong>Speaker 1</strong>: And then he opens it up again and does the fixes.
+<em>32:24.340</em></p>
+<p><strong>Speaker 2</strong>: Wow, that seems incredibly painful.
+<em>32:26.840</em></p>
+<p><strong>Speaker 1</strong>: Yeah, it sure does, Alex.
+<em>32:32.440</em></p>
+<p><strong>Speaker 1</strong>: At any rate, he goes, Well, I never have problems.
+<em>32:35.440</em></p>
+<p><strong>Speaker 1</strong>: I&#x27;m like, Okay, good for you.
+<em>32:37.679</em></p>
+<p><strong>Speaker 1</strong>: So, um, so you did the move library or copy li event to a new library.
+<em>32:40.399</em></p>
+<p><strong>Speaker 1</strong>: And your proxy media still didn&#x27;t show up.
+<em>32:47.620</em></p>
+<p><strong>Speaker 1</strong>: Still didn&#x27;t show up.
+<em>32:50.820</em></p>
+<p><strong>Speaker 1</strong>: Did you get ever get to the point where you just said, I&#x27;m just going to pick up these symlinks and drag them over?
+<em>32:51.540</em></p>
+<p><strong>Speaker 2</strong>: Yes, actually I did.
+<em>32:57.680</em></p>
+<p><strong>Speaker 2</strong>: So that was actually I tried that first, where when I you know drove down and discovered that the symlinks weren&#x27;t there, I tried that.
+<em>32:58.960</em></p>
+<p><strong>Speaker 2</strong>: That didn&#x27;t work.
+<em>33:05.680</em></p>
+<p><strong>Speaker 2</strong>: Then I did the copy
+<em>33:06.640</em></p>
+<p><strong>Speaker 2</strong>: event from one library to the from library A to library B and so when I did that you know it generated new symlinks
+<em>33:08.800</em></p>
+<p><strong>Speaker 2</strong>: or copied the old Simlinks windows, and everything was there.
+<em>33:18.220</em></p>
+<p><strong>Speaker 2</strong>: And so I thought, okay, cool, this is going to work.
+<em>33:23.820</em></p>
+<p><strong>Speaker 2</strong>: It still did not work.
+<em>33:25.820</em></p>
+<p><strong>Speaker 2</strong>: So um so I went to uh our um good buddies over at the Ripple in
+<em>33:28.480</em></p>
+<p><strong>Speaker 2</strong>: No, at the NSYNC F SPX Final Cut Forum.
+<em>33:36.300</em></p>
+<p><strong>Speaker 2</strong>: What what do you call it?
+<em>33:40.060</em></p>
+<p><strong>Speaker 1</strong>: The um the secret final cut ten Illuminati.
+<em>33:41.020</em></p>
+<p><strong>Speaker 1</strong>: Right.
+<em>33:44.460</em></p>
+<p><strong>Speaker 2</strong>: Um so I went to the Illuminati uh because uh
+<em>33:46.220</em></p>
+<p><strong>Speaker 2</strong>: It&#x27;s a small group, but really smart people.
+<em>33:51.220</em></p>
+<p><strong>Speaker 2</strong>: Yeah.
+<em>33:54.820</em></p>
+<p><strong>Speaker 2</strong>: You know, and I think that group is a perfect example of quantity over quality.
+<em>33:55.540</em></p>
+<p><strong>Speaker 2</strong>: I know.
+<em>34:00.180</em></p>
+<p><strong>Speaker 2</strong>: I&#x27;m sorry.
+<em>34:00.740</em></p>
+<p><strong>Speaker 1</strong>: Yeah, you know, I mean, quality over quantity.
+<em>34:04.799</em></p>
+<p><strong>Speaker 1</strong>: I think everybody at one point or another, and I know I&#x27;m going to piss off some people here, and I&#x27;m sorry, what else is new?
+<em>34:07.840</em></p>
+<p><strong>Speaker 1</strong>: Everybody has had their creative cow moment where they try and enter into a discussion on the creative cow, and all of a sudden, you know, it&#x27;s like
+<em>34:15.220</em></p>
+<p><strong>Speaker 1</strong>: It&#x27;s like a bunch of people with ADD that can&#x27;t have a conversation without spinning out of control and talking about something totally different.
+<em>34:26.740</em></p>
+<p><strong>Speaker 1</strong>: You know, I mean, it&#x27;s like I would like to talk about this red circle.
+<em>34:37.899</em></p>
+<p><strong>Speaker 1</strong>: My red circle is not exactly the right color, red that I want.
+<em>34:42.620</em></p>
+<p><strong>Speaker 1</strong>: And the first response you&#x27;ll get is, who would want to use a circle?
+<em>34:46.740</em></p>
+<p><strong>Speaker 1</strong>: Squares are much better.
+<em>34:49.940</em></p>
+<p><strong>Speaker 1</strong>: And then all of a sudden, somebody else chimes in, I prefer the rectangle.
+<em>34:51.300</em></p>
+<p><strong>Speaker 1</strong>: The rectangle is more flexible.
+<em>34:54.340</em></p>
+<p><strong>Speaker 1</strong>: It&#x27;s like, no, I&#x27;m talking about my red circle, and I&#x27;m talking about the color of the red circle.
+<em>34:55.500</em></p>
+<p><strong>Speaker 1</strong>: Nope, triangles are way better.
+<em>34:59.500</em></p>
+<p><strong>Speaker 1</strong>: It&#x27;s like, oh, good grief.
+<em>35:00.860</em></p>
+<p><strong>Speaker 1</strong>: This conversation is completely lost already.
+<em>35:02.380</em></p>
+<p><strong>Speaker 2</strong>: Well, actually, it&#x27;s funny you say that because I was actually just going to make the comment that That you got your problem solved on the cow?
+<em>35:05.220</em></p>
+<p><strong>Speaker 2</strong>: Well, no no, I didn&#x27;t actually get it solved in sync.
+<em>35:13.619</em></p>
+<p><strong>Speaker 2</strong>: Creative Cow used to be my go to house.
+<em>35:17.359</em></p>
+<p><strong>Speaker 2</strong>: Yes.
+<em>35:21.359</em></p>
+<p><strong>Speaker 2</strong>: For and by house, I&#x27;m making I&#x27;m referencing the popular T V show House.
+<em>35:21.839</em></p>
+<p><strong>Speaker 2</strong>: You know the T V show House?
+<em>35:27.680</em></p>
+<p><strong>Speaker 2</strong>: Yeah.
+<em>35:29.119</em></p>
+<p><strong>Speaker 2</strong>: Yeah.
+<em>35:29.620</em></p>
+<p><strong>Speaker 2</strong>: Remember how he was the doctor?
+<em>35:30.020</em></p>
+<p><strong>Speaker 2</strong>: He could figure out everything.
+<em>35:31.220</em></p>
+<p><strong>Speaker 2</strong>: He was like, This is the first time.
+<em>35:32.180</em></p>
+<p><strong>Speaker 1</strong>: Eventually.
+<em>35:32.980</em></p>
+<p><strong>Speaker 1</strong>: After he tried to at some point in every episode, it was sarcoids or whatever, but eventually he would get to the diagnosis.
+<em>35:34.340</em></p>
+<p><strong>Speaker 2</strong>: Yeah.
+<em>35:43.140</em></p>
+<p><strong>Speaker 2</strong>: So house was sort of like my house.
+<em>35:43.539</em></p>
+<p><strong>Speaker 2</strong>: FCP Editors in Sync was sort of like my go I&#x27;m really getting messed up.
+<em>35:46.500</em></p>
+<p><strong>Speaker 2</strong>: Creative Cow.
+<em>35:50.740</em></p>
+<p><strong>Speaker 2</strong>: Yeah.
+<em>35:52.020</em></p>
+<p><strong>Speaker 2</strong>: used to be my go-to.
+<em>35:52.620</em></p>
+<p><strong>Speaker 2</strong>: Like whenever I had an issue that was like unsolvable, like every forum I would ever go on could not find an answer.
+<em>35:53.740</em></p>
+<p><strong>Speaker 2</strong>: I&#x27;d go to Creative Cow.
+<em>36:01.820</em></p>
+<p><strong>Speaker 2</strong>: and I&#x27;d be able to find one.
+<em>36:04.020</em></p>
+<p><strong>Speaker 2</strong>: Like here&#x27;s an example.
+<em>36:05.940</em></p>
+<p><strong>Speaker 2</strong>: And eventually we will get to the solution of the proxy problem.
+<em>36:07.220</em></p>
+<p><strong>Speaker 2</strong>: But we need to take another tangent.
+<em>36:10.260</em></p>
+<p><strong>Speaker 2</strong>: So this is where Creative Cow here&#x27;s a problem I had in Final Cut Classic that was extremely hard to find, very unique, where
+<em>36:13.220</em></p>
+<p><strong>Speaker 2</strong>: I was bringing in QuickTime files that I had transcoded in MPEG Streamclip and the audio was becoming unsynced from itself.
+<em>36:21.560</em></p>
+<p><strong>Speaker 2</strong>: So, like, where let&#x27;s say I had a QuickTime file, and I&#x27;m in, let&#x27;s say, if it&#x27;s a long 40-minute clip, as I got to the end of the clip, the audio for that file itself would
+drift.
+<em>36:35.640</em></p>
+<p><strong>Speaker 2</strong>: And people thought like I was syncing it wrong and like, you know, because you know, this is back when you were syncing DSLR to audio footage from like a digital recorder.
+<em>36:46.620</em></p>
+<p><strong>Speaker 2</strong>: And I&#x27;m like, no, I&#x27;m not talking about the sync media.
+<em>36:55.940</em></p>
+<p><strong>Speaker 2</strong>: I&#x27;m talking about the actual original DSLR audio.
+<em>36:58.420</em></p>
+<p><strong>Speaker 2</strong>: The data audio is like when you play it in the Finder, it&#x27;s fine, but in Final Cut, it was messing up.
+<em>37:02.339</em></p>
+<p><strong>Speaker 2</strong>: No one could figure out.
+<em>37:10.200</em></p>
+<p><strong>Speaker 2</strong>: I got the answer in the cow.
+<em>37:11.559</em></p>
+<p><strong>Speaker 2</strong>: Here&#x27;s what the answer.
+<em>37:13.799</em></p>
+<p><strong>Speaker 2</strong>: So I shoot everything in 24P, which as you all know is really 23.
+<em>37:15.160</em></p>
+<p><strong>Speaker 2</strong>: 98.
+<em>37:19.480</em></p>
+<p><strong>Speaker 2</strong>: which, as we all know, is actually twenty three point nine seven six.
+<em>37:20.599</em></p>
+<p><strong>Speaker 1</strong>: So and of course we all know those numbers.
+<em>37:26.440</em></p>
+<p><strong>Speaker 2</strong>: Yes.
+<em>37:29.480</em></p>
+<p><strong>Speaker 2</strong>: An MPIC stream clip I was selecting exactly 23.
+<em>37:29.960</em></p>
+<p><strong>Speaker 2</strong>: 98 as my frame rate.
+<em>37:35.160</em></p>
+<p><strong>Speaker 2</strong>: Within Final Cut Classic, you know, everything is marked as 23.
+<em>37:38.099</em></p>
+<p><strong>Speaker 2</strong>: 98.
+<em>37:41.780</em></p>
+<p><strong>Speaker 2</strong>: But Final Cut is really looking at it as 23.
+<em>37:42.820</em></p>
+<p><strong>Speaker 2</strong>: 976.
+<em>37:46.579</em></p>
+<p><strong>Speaker 2</strong>: So since I had transcoded it exactly to 23.
+<em>37:48.360</em></p>
+<p><strong>Speaker 2</strong>: 98, that is what was causing the audio drift.
+<em>37:52.200</em></p>
+<p><strong>Speaker 1</strong>: So it wasn&#x27;t that it was drifting, it&#x27;s just that it was progressively getting more and more out of sync.
+<em>37:55.960</em></p>
+<p><strong>Speaker 2</strong>: Exactly.
+<em>38:02.099</em></p>
+<p><strong>Speaker 1</strong>: And the cow solved that problem for you.
+<em>38:03.460</em></p>
+<p><strong>Speaker 2</strong>: Yeah, I went to Crito Cow, someone, and with only a few posts, someone figured it out.
+<em>38:06.579</em></p>
+<p><strong>Speaker 2</strong>: and said, just leave the target frame rate blank and it&#x27;ll default to whatever the file is.
+<em>38:12.339</em></p>
+<p><strong>Speaker 2</strong>: I did that and that worked.
+<em>38:19.220</em></p>
+<p><strong>Speaker 2</strong>: So
+<em>38:20.740</em></p>
+<p><strong>Speaker 2</strong>: So CreatorCal has always been a great resource for me, and every now and then still continues to do so.
+<em>38:22.380</em></p>
+<p><strong>Speaker 1</strong>: Well, as I said, I would probably be pissing somebody off, and no doubt I have.
+<em>38:27.900</em></p>
+<p><strong>Speaker 2</strong>: Well, lately, f you know, FCPX Editors in Sync has been has been the solution for me.
+<em>38:32.240</em></p>
+<p><strong>Speaker 2</strong>: So I ended up going there and I ended up getting the solution I needed.
+<em>38:37.840</em></p>
+<p><strong>Speaker 2</strong>: Finally, from I want to give a shout out to Ronnie, I think his last name is pronounced Courtins or Curtins.
+<em>38:41.620</em></p>
+<p><strong>Speaker 2</strong>: Right.
+<em>38:48.260</em></p>
+<p><strong>Speaker 2</strong>: Yeah, C-O-U-R-T-N-S.
+<em>38:48.900</em></p>
+<p><strong>Speaker 2</strong>: So the solution ended up being in order to get this thing to work, because you know.
+<em>38:51.320</em></p>
+<p><strong>Speaker 1</strong>: I feel like we need a drum roll here.
+<em>38:56.840</em></p>
+<p><strong>Speaker 2</strong>: Yeah, blah, blah, blah.
+<em>38:58.360</em></p>
+<p><strong>Speaker 2</strong>: Yeah, you can add that a post because you do so much post-production work on your I&#x27;ve been called out.
+<em>38:59.660</em></p>
+<p><strong>Speaker 2</strong>: So the solution ended up being where
+<em>39:08.860</em></p>
+<p><strong>Speaker 2</strong>: Since the compy event feature did not work, excuse me, what he suggested to do was to, all right, let me make sure I get this right.
+<em>39:12.760</em></p>
+<p><strong>Speaker 2</strong>: you create your new job folder, right?
+<em>39:25.820</em></p>
+<p><strong>Speaker 2</strong>: So I have job folder A, which is on drive A.
+<em>39:30.220</em></p>
+<p><strong>Speaker 2</strong>: I have job folder B, which is on drive B, which I drive B.
+<em>39:33.940</em></p>
+<p><strong>Speaker 2</strong>: I don&#x27;t create a new library.
+<em>39:37.859</em></p>
+<p><strong>Speaker 2</strong>: Right.
+<em>39:39.540</em></p>
+<p><strong>Speaker 2</strong>: I don&#x27;t do that yet.
+<em>39:39.859</em></p>
+<p><strong>Speaker 2</strong>: What I do then
+<em>39:41.619</em></p>
+<p><strong>Speaker 2</strong>: I open up the project on drive A and then within the I change the storage location on drive A
+<em>39:43.599</em></p>
+<p><strong>Speaker 2</strong>: To SCPX media on drive B.
+<em>39:55.080</em></p>
+<p><strong>Speaker 2</strong>: You got that?
+<em>39:59.240</em></p>
+<p><strong>Speaker 2</strong>: Yeah, yeah.
+<em>39:59.960</em></p>
+<p><strong>Speaker 2</strong>: Because you know, before it&#x27;s pointing to the SCPX media on drive A and now pointing to drive B.
+<em>40:00.760</em></p>
+<p><strong>Speaker 2</strong>: After I do that, I consolidate the library.
+<em>40:06.860</em></p>
+<p><strong>Speaker 2</strong>: Clever.
+<em>40:11.580</em></p>
+<p><strong>Speaker 1</strong>: Again, so now going back to what we were saying earlier is that, excuse me.
+<em>40:12.300</em></p>
+<p><strong>Speaker 1</strong>: There are ways to solve problems in the Finder, and some of them work quite well.
+<em>40:17.940</em></p>
+<p><strong>Speaker 1</strong>: You are actually so far solving this project problem rather in Final Cut using the database management tools.
+<em>40:22.820</em></p>
+<p><strong>Speaker 2</strong>: Exactly.
+<em>40:31.340</em></p>
+<p><strong>Speaker 1</strong>: Okay, keep going.
+<em>40:32.060</em></p>
+<p><strong>Speaker 2</strong>: And so now and as people know or they should know, when you consolidate a library, Final Kit will take all their optimized rendered media that&#x27;s actually used.
+<em>40:33.500</em></p>
+<p><strong>Speaker 2</strong>: and put it into whatever your storage location is, which could be the library or in my case, it&#x27;s FCPX Media.
+<em>40:45.640</em></p>
+<p><strong>Speaker 1</strong>: And you&#x27;re consolidating to an external
+<em>40:53.319</em></p>
+<p><strong>Speaker 1</strong>: FCPX Media.
+<em>40:57.440</em></p>
+<p><strong>Speaker 1</strong>: And again, FCPX Media is the Ron Dawson blessed naming convention that he uses for his
+<em>40:58.720</em></p>
+<p><strong>Speaker 1</strong>: Library storage location.
+<em>41:06.320</em></p>
+<p><strong>Speaker 1</strong>: I use the the term FCPX created.
+<em>41:08.000</em></p>
+<p><strong>Speaker 1</strong>: You can call it anything you want.
+<em>41:11.920</em></p>
+<p><strong>Speaker 1</strong>: It&#x27;s essentially, once again,
+<em>41:13.360</em></p>
+<p><strong>Speaker 1</strong>: Very much very similar to our old scratch disk that we used to have.
+<em>41:16.160</em></p>
+<p><strong>Speaker 2</strong>: Exactly.
+<em>41:19.920</em></p>
+<p><strong>Speaker 1</strong>: So consolidate, you&#x27;ve consolidated out of your current job folder
+<em>41:20.400</em></p>
+<p><strong>Speaker 1</strong>: Structure on drive A, and now you&#x27;re saying, no, no, no, put all this stuff over on drive B.
+<em>41:26.099</em></p>
+<p><strong>Speaker 2</strong>: Exactly.
+<em>41:32.260</em></p>
+<p><strong>Speaker 1</strong>: Okay, keep going.
+<em>41:32.980</em></p>
+<p><strong>Speaker 2</strong>: So then I&#x27;ll go through the process of make copying all those files.
+<em>41:34.579</em></p>
+<p><strong>Speaker 2</strong>: You&#x27;ll see the little
+<em>41:38.180</em></p>
+<p><strong>Speaker 2</strong>: You know, the little progress circle and final get going.
+<em>41:40.279</em></p>
+<p><strong>Speaker 2</strong>: So once that&#x27;s 100% complete, you quit out of the program.
+<em>41:43.720</em></p>
+<p><strong>Speaker 2</strong>: And now you can copy in the finder the library from drive A.
+<em>41:48.500</em></p>
+<p><strong>Speaker 2</strong>: To the job folder on drive B, dismount drive A, relaunch final cut from drive B, you know, the library on drive B, right.
+<em>41:57.060</em></p>
+<p><strong>Speaker 2</strong>: Bada bing, bada boom, it worked.
+<em>42:07.460</em></p>
+<p><strong>Speaker 1</strong>: Now
+<em>42:09.700</em></p>
+<p><strong>Speaker 1</strong>: Excuse me.
+<em>42:11.599</em></p>
+<p><strong>Speaker 1</strong>: There&#x27;s something else I won&#x27;t post out of the show.
+<em>42:12.880</em></p>
+<p><strong>Speaker 1</strong>: And because
+<em>42:17.119</em></p>
+<p><strong>Speaker 1</strong>: Final Cuts absolute file linking structure has told itself that everything is on Drive B.
+<em>42:19.360</em></p>
+<p><strong>Speaker 1</strong>: You don&#x27;t even need to relink.
+<em>42:29.200</em></p>
+<p><strong>Speaker 1</strong>: Exactly.
+<em>42:31.120</em></p>
+<p><strong>Speaker 1</strong>: And the proxy media made the journey.
+<em>42:32.220</em></p>
+<p><strong>Speaker 2</strong>: Yeah.
+<em>42:35.420</em></p>
+<p><strong>Speaker 2</strong>: Now, here&#x27;s the one downside to this solution.
+<em>42:35.900</em></p>
+<p><strong>Speaker 2</strong>: So the good news, bad news.
+<em>42:41.380</em></p>
+<p><strong>Speaker 2</strong>: The good news is everything worked.
+<em>42:43.700</em></p>
+<p><strong>Speaker 2</strong>: The bad news is, since you consolidate it, it also moves the original media into
+<em>42:46.020</em></p>
+<p><strong>Speaker 2</strong>: Your source location.
+<em>42:53.820</em></p>
+<p><strong>Speaker 2</strong>: Yes.
+<em>42:55.260</em></p>
+<p><strong>Speaker 2</strong>: So I already had all the original media on Drive B.
+<em>42:55.900</em></p>
+<p><strong>Speaker 2</strong>: So now it&#x27;s duplicated on Drive B, right?
+<em>43:00.300</em></p>
+<p><strong>Speaker 2</strong>: Right.
+<em>43:03.020</em></p>
+<p><strong>Speaker 2</strong>: It&#x27;s in my
+<em>43:03.660</em></p>
+<p><strong>Speaker 2</strong>: I create a raw footage folder.
+<em>43:04.559</em></p>
+<p><strong>Speaker 2</strong>: So all my original media is in my raw footage folder in Drive B, and it&#x27;s also in the storage location in Drive B from the consolidation that I did.
+<em>43:06.000</em></p>
+<p><strong>Speaker 2</strong>: So from there, you can do one of two things.
+<em>43:17.240</em></p>
+<p><strong>Speaker 2</strong>: Obviously, you can either just delete the original raw footage that was already there since it&#x27;s in the source location
+<em>43:19.240</em></p>
+<p><strong>Speaker 2</strong>: But I want it to maintain the same exact structure from the original one.
+<em>43:25.540</em></p>
+<p><strong>Speaker 1</strong>: And there&#x27;s a lot of reasons for that.
+<em>43:30.500</em></p>
+<p><strong>Speaker 1</strong>: We&#x27;ve talked about those.
+<em>43:31.860</em></p>
+<p><strong>Speaker 1</strong>: So it does make sense.
+<em>43:34.420</em></p>
+<p><strong>Speaker 1</strong>: You know, this is the balance.
+<em>43:35.700</em></p>
+<p><strong>Speaker 1</strong>: There&#x27;s a very delicate balance between a lean library, leave in place, import into library.
+<em>43:38.740</em></p>
+<p><strong>Speaker 1</strong>: There&#x27;s a lot of pros and cons to each of these.
+<em>43:47.700</em></p>
+<p><strong>Speaker 1</strong>: And again,
+<em>43:50.660</em></p>
+<p><strong>Speaker 1</strong>: Now that we have been given all of this flexibility, there is additional responsibility that lands on our shoulders to keep track of our stuff.
+<em>43:52.120</em></p>
+<p><strong>Speaker 2</strong>: Yeah.
+<em>44:01.740</em></p>
+<p><strong>Speaker 2</strong>: Well, in this case, I still have a lean library because all of the media is in my FCPX media.
+<em>44:02.460</em></p>
+<p><strong>Speaker 1</strong>: Your job folder is double the size it needs to be because you have two copies of all your raw footage.
+<em>44:15.160</em></p>
+<p><strong>Speaker 2</strong>: Exactly, exactly.
+<em>44:19.240</em></p>
+<p><strong>Speaker 2</strong>: So you can either, like I said, either delete the original raw footage, or in my case, I deleted the
+<em>44:19.960</em></p>
+<p><strong>Speaker 2</strong>: Cop the raw footage that was in the storage location.
+<em>44:27.620</em></p>
+<p><strong>Speaker 2</strong>: Right.
+<em>44:31.780</em></p>
+<p><strong>Speaker 2</strong>: But then, of course, you have to relink.
+<em>44:32.900</em></p>
+<p><strong>Speaker 2</strong>: I had to relink it because this new copy library is pointing to the raw footage that was in the storage location.
+<em>44:34.660</em></p>
+<p><strong>Speaker 2</strong>: But relinking to original media works, whereas relinking to proxy doesn&#x27;t.
+<em>44:41.140</em></p>
+<p><strong>Speaker 2</strong>: So I relinked to the original media and my raw footage folder, and then we were back in business.
+<em>44:45.779</em></p>
+<p><strong>Speaker 1</strong>: So now the one question that I&#x27;d failed to ask you earlier in the week when we discussed this, and I haven&#x27;t, and we&#x27;re now 42 minutes into this.
+<em>44:51.580</em></p>
+<p><strong>Speaker 1</strong>: How much media were you really talking about that you had made proxy media out of?
+<em>45:01.220</em></p>
+<p><strong>Speaker 1</strong>: How many minutes, hours, whatever of footage did you have?
+<em>45:07.700</em></p>
+<p><strong>Speaker 2</strong>: Oh, that&#x27;s a good question.
+<em>45:11.380</em></p>
+<p><strong>Speaker 2</strong>: Minutes-wise, it wasn&#x27;t a lot.
+<em>45:15.640</em></p>
+<p><strong>Speaker 2</strong>: I mean, it was, I would say, like, you know, it&#x27;s probably, I would guess.
+<em>45:17.560</em></p>
+<p><strong>Speaker 2</strong>: somewhere in the neighborhood of I think it was less than a hundred gigabytes.
+<em>45:23.580</em></p>
+<p><strong>Speaker 2</strong>: So I&#x27;m going to say I think it was around ninety gigabytes.
+<em>45:29.340</em></p>
+<p><strong>Speaker 2</strong>: Okay.
+<em>45:32.300</em></p>
+<p><strong>Speaker 2</strong>: of stuff.
+<em>45:32.760</em></p>
+<p><strong>Speaker 1</strong>: And how long would it have taken you to just say, you know what, forget it.
+<em>45:33.640</em></p>
+<p><strong>Speaker 1</strong>: You lost my original proxies.
+<em>45:37.000</em></p>
+<p><strong>Speaker 1</strong>: Please make me new ones?
+<em>45:39.320</em></p>
+<p><strong>Speaker 2</strong>: Oh, I don&#x27;t know.
+<em>45:42.000</em></p>
+<p><strong>Speaker 2</strong>: I don&#x27;t &#x27;cause I never timed it.
+<em>45:43.040</em></p>
+<p><strong>Speaker 2</strong>: I mean, I probably I&#x27;ve never timed it.
+<em>45:44.400</em></p>
+<p><strong>Speaker 2</strong>: So, however long it takes, finally, and so I was editing this on a MacBook 13 inch MacBook Pro.
+<em>45:47.119</em></p>
+<p><strong>Speaker 2</strong>: Retina, so however long one of those would take.
+<em>45:55.360</em></p>
+<p><strong>Speaker 2</strong>: But I knew the thing is, I needed to finish that project then.
+<em>45:59.760</em></p>
+<p><strong>Speaker 2</strong>: And then so I didn&#x27;t have time to wait for it to do that.
+<em>46:04.240</em></p>
+<p><strong>Speaker 2</strong>: Although apparently I did have time to spend all the time.
+<em>46:08.260</em></p>
+<p><strong>Speaker 1</strong>: Well, that&#x27;s kind of what I was getting at.
+<em>46:13.060</em></p>
+<p><strong>Speaker 1</strong>: It&#x27;s like I know that this troubleshooting took did not take twenty minutes.
+<em>46:14.980</em></p>
+<p><strong>Speaker 1</strong>: &#x27;Cause I know that you and I spent almost that much on the phone and I didn&#x27;t have an answer for you.
+<em>46:20.900</em></p>
+<p><strong>Speaker 1</strong>: And I was just wondering, you know, I mean, &#x27;cause th that was one of the things that you and I discussed on the phone earlier this week is that in every troubleshooting
+<em>46:25.380</em></p>
+<p><strong>Speaker 1</strong>: Scenario, you the first thing you do is you, what I like to do is take a giant step back and say
+<em>46:35.360</em></p>
+<p><strong>Speaker 1</strong>: Worst case scenario, do I have a workaround?
+<em>46:44.700</em></p>
+<p><strong>Speaker 1</strong>: And your workaround would have been to say, you know what, dude, just regenerate your proxies and you&#x27;ll
+<em>46:47.900</em></p>
+<p><strong>Speaker 1</strong>: You know, you can, you know, take a nap or, you know, go to bed tonight, and in the morning you&#x27;ll be able to keep going.
+<em>46:54.040</em></p>
+<p><strong>Speaker 1</strong>: So w you knew that was a a solution, but I think that the your persistence and Rodney&#x27;s help helped us find another way to deal with media.
+<em>47:02.120</em></p>
+<p><strong>Speaker 1</strong>: That is a very clever workaround as using the consolidate event files.
+<em>47:17.039</em></p>
+<p><strong>Speaker 1</strong>: Now I want to say his name is Ronnie, not Rodney.
+<em>47:24.079</em></p>
+<p><strong>Speaker 1</strong>: I&#x27;m sorry, yes, Ronnie.
+<em>47:27.279</em></p>
+<p><strong>Speaker 1</strong>: I want to say that I have used Consolidate to in other instances okay
+<em>47:30.200</em></p>
+<p><strong>Speaker 1</strong>: This is an interesting problem that Consolidate fixed and broke.
+<em>47:41.020</em></p>
+<p><strong>Speaker 1</strong>: I think I mentioned this a couple of episodes ago, that I was doing a lot of projects
+<em>47:48.460</em></p>
+<p><strong>Speaker 1</strong>: For whatever reason, it was total coincidence.
+<em>47:52.559</em></p>
+<p><strong>Speaker 1</strong>: Multiple producers, multiple production companies, but I was doing multiple projects where I was drawing upon our vast library of archived files.
+<em>47:54.480</em></p>
+<p><strong>Speaker 1</strong>: Okay.
+<em>48:05.200</em></p>
+<p><strong>Speaker 1</strong>: I think we now are up to I think I just created drive number archive drive number one hundred and forty
+<em>48:06.520</em></p>
+<p><strong>Speaker 1</strong>: And this is now a four terabyte drive.
+<em>48:13.940</em></p>
+<p><strong>Speaker 1</strong>: Most of them are many of them are threes.
+<em>48:16.339</em></p>
+<p><strong>Speaker 1</strong>: Some of the oldest ones are five hundred gigabyte drives.
+<em>48:18.820</em></p>
+<p><strong>Speaker 1</strong>: So we have many, many terabytes of archived media, and we were drawing upon a bunch of old projects.
+<em>48:22.500</em></p>
+<p><strong>Speaker 1</strong>: So one really cool trick that you can do in Final Cut is
+<em>48:28.820</em></p>
+<p><strong>Speaker 1</strong>: First, you have to find the shot that you need.
+<em>48:36.700</em></p>
+<p><strong>Speaker 1</strong>: And I&#x27;m using my disk tracker software to reference old projects and say, oh, yeah, that shot&#x27;s going to be in
+<em>48:38.780</em></p>
+<p><strong>Speaker 1</strong>: This project called that, and that&#x27;s on archive number 79.
+<em>48:46.040</em></p>
+<p><strong>Speaker 1</strong>: So I go drag out drive 79.
+<em>48:49.720</em></p>
+<p><strong>Speaker 1</strong>: I open up that project.
+<em>48:53.080</em></p>
+<p><strong>Speaker 1</strong>: Nice final cut.
+<em>48:54.980</em></p>
+<p><strong>Speaker 1</strong>: I can have two projects open side by side.
+<em>48:56.100</em></p>
+<p><strong>Speaker 1</strong>: So I just I&#x27;m skimming through the other project.
+<em>48:58.740</em></p>
+<p><strong>Speaker 1</strong>: I go, yep, yep, there&#x27;s the shot I need.
+<em>49:01.780</em></p>
+<p><strong>Speaker 1</strong>: I drag it from
+<em>49:03.940</em></p>
+<p><strong>Speaker 1</strong>: The library of old project into the timeline of new project
+<em>49:07.039</em></p>
+<p><strong>Speaker 1</strong>: And Final Cut says, Oh, hey, dude, you&#x27;re copying that between libraries.
+<em>49:16.160</em></p>
+<p><strong>Speaker 1</strong>: You know that, right?
+<em>49:20.320</em></p>
+<p><strong>Speaker 1</strong>: And I say, Yes, I do.
+<em>49:21.599</em></p>
+<p><strong>Speaker 1</strong>: And then Final Cut says, I&#x27;m going to have to copy that over.
+<em>49:23.200</em></p>
+<p><strong>Speaker 1</strong>: And you&#x27;re like, Yeah, that&#x27;s cool.
+<em>49:26.000</em></p>
+<p><strong>Speaker 1</strong>: Do that.
+<em>49:28.000</em></p>
+<p><strong>Speaker 1</strong>: But what it doesn&#x27;t do, and I hope I&#x27;m saying this right, because now that I&#x27;m saying it out loud, it sounds like I&#x27;m saying it wrong.
+<em>49:31.280</em></p>
+<p><strong>Speaker 1</strong>: Um you&#x27;re go before you unmount that drive, I believe
+<em>49:39.039</em></p>
+<p><strong>Speaker 1</strong>: I found that I needed to consolidate that that project.
+<em>49:48.680</em></p>
+<p><strong>Speaker 2</strong>: So you had copied it from
+<em>49:54.359</em></p>
+<p><strong>Speaker 1</strong>: the timeline in one no no, I copied it from the library, like in the you know, the the keyword collection, the browser, yes, from old project, but to to force it into the
+new project I had to drag it into the library.
+<em>49:56.440</em></p>
+<p><strong>Speaker 1</strong>: Now I&#x27;m thinking, you know what?
+<em>50:11.539</em></p>
+<p><strong>Speaker 1</strong>: I&#x27;m going to do a quick experiment here.
+<em>50:13.059</em></p>
+<p><strong>Speaker 1</strong>: Let me make a new library, and I&#x27;m going to call this new library Trash Me.
+<em>50:14.500</em></p>
+<p><strong>Speaker 1</strong>: It&#x27;s my little trick that I do.
+<em>50:20.740</em></p>
+<p><strong>Speaker 1</strong>: And I&#x27;m going to make a new project in that library.
+<em>50:23.140</em></p>
+<p><strong>Speaker 1</strong>: I&#x27;m going to call that Trash Me.
+<em>50:25.940</em></p>
+<p><strong>Speaker 1</strong>: And now I have another project open here.
+<em>50:28.660</em></p>
+<p><strong>Speaker 1</strong>: So I&#x27;m going to go into my media folder and I&#x27;m going to drag a clip down like this.
+<em>50:31.840</em></p>
+<p><strong>Speaker 1</strong>: Hey, Chris, I have a suggestion for your show.
+<em>50:36.640</em></p>
+<p><strong>Speaker 2</strong>: What&#x27;s that?
+<em>50:39.520</em></p>
+<p><strong>Speaker 2</strong>: I know Premium Beats.
+<em>50:41.020</em></p>
+<p><strong>Speaker 1</strong>: Make it a video show.
+<em>50:42.220</em></p>
+<p><strong>Speaker 2</strong>: No, I know Premium Beats when you&#x27;re sponsors.
+<em>50:46.060</em></p>
+<p><strong>Speaker 2</strong>: You need to pick a
+<em>50:48.220</em></p>
+<p><strong>Speaker 2</strong>: A bolsa nova sounding soundtrack, like something that sounds like girl from Ibanimba.
+<em>50:49.859</em></p>
+<p><strong>Speaker 2</strong>: Okay, so when you do all these little things that you normally would edit out, you can play that in the background.
+<em>50:54.420</em></p>
+<p><strong>Speaker 1</strong>: Yeah, but I&#x27;d still have to go do that.
+<em>50:59.780</em></p>
+<p><strong>Speaker 1</strong>: Okay, so so I wanted I wanted to read the the actual dialogue box that pops up.
+<em>51:03.360</em></p>
+<p><strong>Speaker 1</strong>: What what font when you drag
+<em>51:09.760</em></p>
+<p><strong>Speaker 1</strong>: From the library, the old library, into the new
+<em>51:12.299</em></p>
+<p><strong>Speaker 1</strong>: Timeline, okay, because you can&#x27;t drag between two keyword collections.
+<em>51:20.280</em></p>
+<p><strong>Speaker 1</strong>: What Feynman says is this.
+<em>51:25.480</em></p>
+<p><strong>Speaker 1</strong>: You are editing clips between libraries.
+<em>51:28.120</em></p>
+<p><strong>Speaker 1</strong>: Stop.
+<em>51:30.920</em></p>
+<p><strong>Speaker 1</strong>: Clips and media will be copied to the library.
+<em>51:32.920</em></p>
+<p><strong>Speaker 1</strong>: Clips and media will be copied to the library trash me.
+<em>51:36.799</em></p>
+<p><strong>Speaker 1</strong>: Media stored in external folders will be left in place.
+<em>51:42.880</em></p>
+<p><strong>Speaker 1</strong>: That&#x27;s the key phrase.
+<em>51:47.520</em></p>
+<p><strong>Speaker 1</strong>: So media stored in external folders.
+<em>51:49.040</em></p>
+<p><strong>Speaker 1</strong>: Now because we use a lean library and we keep our media leave in place in an external folder, it leaves it in the folder
+<em>51:51.360</em></p>
+<p><strong>Speaker 1</strong>: The media folder of the old project.
+<em>52:03.480</em></p>
+<p><strong>Speaker 1</strong>: See what I&#x27;m saying?
+<em>52:06.680</em></p>
+<p><strong>Speaker 1</strong>: So a link to it is created.
+<em>52:09.640</em></p>
+<p><strong>Speaker 1</strong>: And again, this is the plus and minus of having the ability to leave things in place.
+<em>52:12.599</em></p>
+<p><strong>Speaker 1</strong>: So Final Cut will not copy it into the new library storage location.
+<em>52:22.660</em></p>
+<p><strong>Speaker 1</strong>: It&#x27;s going to leave it on that other drive, okay?
+<em>52:29.940</em></p>
+<p><strong>Speaker 1</strong>: Now stay with me here because this is it&#x27;s a little bit confusing where the problem arises.
+<em>52:33.480</em></p>
+<p><strong>Speaker 1</strong>: So you say, okay, that&#x27;s fine, and now I have a reference to another job on another drive.
+<em>52:39.240</em></p>
+<p><strong>Speaker 1</strong>: for one piece of media.
+<em>52:46.640</em></p>
+<p><strong>Speaker 1</strong>: The problem is the minute I unmount that drive, this piece of media gets the link to this piece of media gets broken.
+<em>52:49.279</em></p>
+<p><strong>Speaker 1</strong>: So before you unmount that drive, what I got very habitual about doing is just saying, okay, now consolidate it.
+<em>52:56.240</em></p>
+<p><strong>Speaker 1</strong>: And it will take that piece of media which was in the old project, let&#x27;s say old library
+<em>53:06.920</em></p>
+<p><strong>Speaker 1</strong>: and it would copy it would make a copy of it into the storage location of the current library.
+<em>53:14.820</em></p>
+<p><strong>Speaker 1</strong>: All is good.
+<em>53:22.100</em></p>
+<p><strong>Speaker 1</strong>: Now I can unmount the other drive and all is good to go.
+<em>53:22.980</em></p>
+<p><strong>Speaker 1</strong>: Except for one thing.
+<em>53:27.980</em></p>
+<p><strong>Speaker 1</strong>: As you know, because you&#x27;ve heard me talk about this before, I am an avid, no pun intended, user of
+<em>53:30.859</em></p>
+<p><strong>Speaker 1</strong>: Some of the production techniques that I&#x27;ve talked about and some of the tutorials I&#x27;ve done where I am referencing, say, an After Effects render.
+<em>53:41.680</em></p>
+<p><strong>Speaker 1</strong>: That I might want to update.
+<em>53:53.160</em></p>
+<p><strong>Speaker 1</strong>: And by replacing the current one in the finder, it will automatically update into my timeline.
+<em>53:56.120</em></p>
+<p><strong>Speaker 1</strong>: Or, for example, there is the generate asset trick that I use in Photoshop, and I&#x27;ll have links to these in the show notes.
+<em>54:05.220</em></p>
+<p><strong>Speaker 1</strong>: where I&#x27;m referencing a PNG that is in the finder in a specific folder, and Final Cut is referencing that in a leave in place manner because when I change it, it updates in
+my timeline.
+<em>54:15.120</em></p>
+<p><strong>Speaker 1</strong>: But once I hit consolidate media, it consolidates all media.
+<em>54:29.839</em></p>
+<p><strong>Speaker 1</strong>: Right.
+<em>54:35.920</em></p>
+<p><strong>Speaker 1</strong>: In class.
+<em>54:36.400</em></p>
+<p><strong>Speaker 1</strong>: It&#x27;s no longer looking at those finder bits, correct.
+<em>54:38.320</em></p>
+<p><strong>Speaker 1</strong>: Okay, those things that are in those finder folders, and now it&#x27;s looking at the massive library storage location that Final Cut is managing.
+<em>54:43.420</em></p>
+<p><strong>Speaker 1</strong>: And it&#x27;s actually made copies of all of those files.
+<em>54:52.860</em></p>
+<p><strong>Speaker 1</strong>: and put them in there.
+<em>54:55.740</em></p>
+<p><strong>Speaker 1</strong>: Okay?
+<em>54:58.060</em></p>
+<p><strong>Speaker 1</strong>: And so what I want to do is I want to give you one last and I know that this is
+<em>54:59.580</em></p>
+<p><strong>Speaker 1</strong>: This is a really deep episode.
+<em>55:05.020</em></p>
+<p><strong>Speaker 1</strong>: I understand that.
+<em>55:07.340</em></p>
+<p><strong>Speaker 1</strong>: And it really would be great if this was a video podcast.
+<em>55:08.540</em></p>
+<p><strong>Speaker 1</strong>: But
+<em>55:13.260</em></p>
+<p><strong>Speaker 1</strong>: I&#x27;m going to make reference to one more very powerful tool that we have available to us in Final Cut.
+<em>55:15.180</em></p>
+<p><strong>Speaker 1</strong>: And that is in the relink files command, there is a radio button that I think a lot of people probably overlook.
+<em>55:22.920</em></p>
+<p><strong>Speaker 1</strong>: I know that I overlooked it for
+<em>55:33.480</em></p>
+<p><strong>Speaker 1</strong>: probably a year and a half.
+<em>55:37.060</em></p>
+<p><strong>Speaker 1</strong>: It&#x27;s the radio it&#x27;s the radio button where it says relink missing
+<em>55:40.900</em></p>
+<p><strong>Speaker 1</strong>: Or relink all.
+<em>55:45.420</em></p>
+<p><strong>Speaker 2</strong>: Relink all, right.
+<em>55:47.020</em></p>
+<p><strong>Speaker 1</strong>: And so it&#x27;s very important.
+<em>55:48.700</em></p>
+<p><strong>Speaker 1</strong>: And this actually gives you some of the capability of what that old-timey
+<em>55:51.260</em></p>
+<p><strong>Speaker 1</strong>: proxy workflow would have had to have been like.
+<em>55:56.740</em></p>
+<p><strong>Speaker 1</strong>: Because you could, in theory, generate your own proxy files.
+<em>56:00.900</em></p>
+<p><strong>Speaker 1</strong>: And you could use this relink all command where you would say, I want to relink all of these files and then manually point those.
+<em>56:05.620</em></p>
+<p><strong>Speaker 1</strong>: using the locate selected file uh button to a different folder.
+<em>56:16.220</em></p>
+<p><strong>Speaker 1</strong>: And so one of my way of solving the fact that I have now mistakenly made generated media
+<em>56:22.700</em></p>
+<p><strong>Speaker 1</strong>: some of those After Effects and PNG files that are now buried in my storage location, is I just relink them back out
+<em>56:31.020</em></p>
+<p><strong>Speaker 1</strong>: To the versions that are outside of the storage location that I am continually updating.
+<em>56:41.720</em></p>
+<p><strong>Speaker 1</strong>: And that&#x27;s very deep.
+<em>56:47.560</em></p>
+<p><strong>Speaker 1</strong>: And I understand that if I was listening to myself say that, I would probably rewind it a couple of times to figure it out.
+<em>56:49.160</em></p>
+<p><strong>Speaker 1</strong>: The fact of the matter is, the point of this whole episode is that letting the
+<em>56:59.360</em></p>
+<p><strong>Speaker 1</strong>: Final cut library database do more work and letting and sort of
+<em>57:06.860</em></p>
+<p><strong>Speaker 1</strong>: realizing that we quite often are breaking things when we&#x27;re managing files in the Finder.
+<em>57:16.520</em></p>
+<p><strong>Speaker 1</strong>: It&#x27;s a really good lesson to be had and to be learned.
+<em>57:23.160</em></p>
+<p><strong>Speaker 1</strong>: And I think you and
+<em>57:27.240</em></p>
+<p><strong>Speaker 1</strong>: Ronnie, you know, Ronnie pointed that out quite well.
+<em>57:29.740</em></p>
+<p><strong>Speaker 2</strong>: Yeah, yeah.
+<em>57:33.740</em></p>
+<p><strong>Speaker 2</strong>: So very good.
+<em>57:35.420</em></p>
+<p><strong>Speaker 1</strong>: Yeah, quite a journey, huh?
+<em>57:37.100</em></p>
+<p><strong>Speaker 2</strong>: Well, I think this is also like just a great lesson on the power of like one of the things I&#x27;ve really been learning lately is
+<em>57:39.520</em></p>
+<p><strong>Speaker 2</strong>: Choosing your resources for education and problem solving.
+<em>57:48.900</em></p>
+<p><strong>Speaker 2</strong>: Right.
+<em>57:57.300</em></p>
+<p><strong>Speaker 2</strong>: Because there&#x27;s so many videos and forms and
+<em>57:57.620</em></p>
+<p><strong>Speaker 2</strong>: And I think it&#x27;s really wise to find the one to three locations that you can go to online that you know
+<em>58:01.620</em></p>
+<p><strong>Speaker 2</strong>: have the experts that you need to get the questions answered because you could spend time.
+<em>58:11.440</em></p>
+<p><strong>Speaker 2</strong>: If you&#x27;re good friends with Chris Fenwick, just shoot him a direct message.
+<em>58:18.900</em></p>
+<p><strong>Speaker 2</strong>: And actually, that still didn&#x27;t help me either because you didn&#x27;t have squat.
+<em>58:21.859</em></p>
+<p><strong>Speaker 1</strong>: I didn&#x27;t have squat, did I?
+<em>58:25.059</em></p>
+<p><strong>Speaker 2</strong>: So forget that, forget asking Chris.
+<em>58:26.900</em></p>
+<p><strong>Speaker 2</strong>: If you just finding that forum or that really has the experts that can answer the questions you need is so vital.
+<em>58:30.420</em></p>
+<p><strong>Speaker 2</strong>: Building being part of a community, I guess, is the
+<em>58:38.580</em></p>
+<p><strong>Speaker 2</strong>: Is the moral of the story.
+<em>58:42.440</em></p>
+<p><strong>Speaker 2</strong>: Absolutely.
+<em>58:43.880</em></p>
+<p><strong>Speaker 1</strong>: And what I want to add to what you&#x27;re saying there, like you said, being part of a community, you know, a community is a two-way street.
+<em>58:44.280</em></p>
+<p><strong>Speaker 1</strong>: It&#x27;s not just.
+<em>58:52.280</em></p>
+<p><strong>Speaker 1</strong>: And you know what?
+<em>58:54.160</em></p>
+<p><strong>Speaker 1</strong>: It&#x27;s funny, if you don&#x27;t participate in various discussion groups or communities, and you&#x27;re that guy who just gets online and he says
+<em>58:54.800</em></p>
+<p><strong>Speaker 1</strong>: Urgent.
+<em>59:04.140</em></p>
+<p><strong>Speaker 1</strong>: I can&#x27;t find my proxy files.
+<em>59:04.700</em></p>
+<p><strong>Speaker 1</strong>: I need help now.
+<em>59:06.059</em></p>
+<p><strong>Speaker 1</strong>: It&#x27;s like, dude, that&#x27;s not and and then you look at that person&#x27;s like like history and you realize he&#x27;s never once given a single bit of advice to anybody else.
+<em>59:07.260</em></p>
+<p><strong>Speaker 1</strong>: You know, or the other thing that really annoys me is the people who come on and they&#x27;ll say, Hey, I can&#x27;t figure this out.
+<em>59:18.200</em></p>
+<p><strong>Speaker 1</strong>: And then ten people throw out potential fixes, and there&#x27;s never a
+<em>59:28.800</em></p>
+<p><strong>Speaker 1</strong>: Thank you, Ronnie.
+<em>59:36.640</em></p>
+<p><strong>Speaker 1</strong>: This solved my problem.
+<em>59:38.160</em></p>
+<p><strong>Speaker 1</strong>: I really appreciate your help.
+<em>59:40.240</em></p>
+<p><strong>Speaker 1</strong>: Because now the people reading the forum, they don&#x27;t know which one of these things all they know is you had a problem and then you evaporated off the face of the Internet.
+<em>59:42.079</em></p>
+<p><strong>Speaker 2</strong>: Right.
+<em>59:50.660</em></p>
+<p><strong>Speaker 1</strong>: Because you got your itch scratched and then you were done.
+<em>59:51.220</em></p>
+<p><strong>Speaker 1</strong>: You just disappeared.
+<em>59:55.860</em></p>
+<p><strong>Speaker 1</strong>: So you need to participate in those things.
+<em>59:57.220</em></p>
+<p><strong>Speaker 1</strong>: And at the very least, just say thank you.
+<em>01:00:00.780</em></p>
+<p><strong>Speaker 2</strong>: Yeah.
+<em>01:00:04.780</em></p>
+<p><strong>Speaker 2</strong>: Yeah, I think it&#x27;s always important to go back.
+<em>01:00:06.380</em></p>
+<p><strong>Speaker 2</strong>: In fact,
+<em>01:00:08.700</em></p>
+<p><strong>Speaker 2</strong>: when I was referencing that problem I had earlier, the one where the audio was coming out of sync and I found the solution in Creative Cal.
+<em>01:00:10.440</em></p>
+<p><strong>Speaker 2</strong>: I think I actually went back to the other forums where I posted the question and put the solution.
+<em>01:00:20.440</em></p>
+<p><strong>Speaker 2</strong>: Right.
+<em>01:00:25.640</em></p>
+<p><strong>Speaker 2</strong>: Just so that when people came to those forums, you&#x27;re a good online citizen, Ron.
+<em>01:00:25.960</em></p>
+<p><strong>Speaker 2</strong>: Yes, I try to be.
+<em>01:00:30.559</em></p>
+<p><strong>Speaker 1</strong>: Okay, you had told me earlier you needed to go, so I&#x27;m going to let you go.
+<em>01:00:32.799</em></p>
+<p><strong>Speaker 1</strong>: Thank you so much for doing this.
+<em>01:00:36.799</em></p>
+<p><strong>Speaker 1</strong>: I think that this was a
+<em>01:00:38.319</em></p>
+<p><strong>Speaker 1</strong>: Very deep and of this could have been here&#x27;s how you do it.
+<em>01:00:40.339</em></p>
+<p><strong>Speaker 1</strong>: But I think it was very interesting to look at all the steps that you had gone through, the lousy ones, the lousy steps that I had recommended.
+<em>01:00:43.859</em></p>
+<p><strong>Speaker 1</strong>: It&#x27;s very interesting to tear apart these little problems once in a while.
+<em>01:00:53.040</em></p>
+<p><strong>Speaker 1</strong>: And I think that I think, honestly, I think we have found a bug.
+<em>01:00:56.960</em></p>
+<p><strong>Speaker 1</strong>: And hopefully, Apple is listening.
+<em>01:01:02.160</em></p>
+<p><strong>Speaker 1</strong>: Hey, guys.
+<em>01:01:04.720</em></p>
+<p><strong>Speaker 1</strong>: and could probably fix this.
+<em>01:01:05.620</em></p>
+<p><strong>Speaker 1</strong>: But also thank you, Ronnie, for the solution.
+<em>01:01:08.900</em></p>
+<p><strong>Speaker 1</strong>: Sure.
+<em>01:01:11.140</em></p>
+<p><strong>Speaker 2</strong>: Hey, I wanted to say one quick thing before I go.
+<em>01:01:11.780</em></p>
+<p><strong>Speaker 2</strong>: It&#x27;s a plug for
+<em>01:01:15.300</em></p>
+<p><strong>Speaker 2</strong>: A series that I&#x27;m doing related to the shoot that I did, and it would probably be good to come to your other show and talk about it, but
+<em>01:01:17.460</em></p>
+<p><strong>Speaker 2</strong>: We did like this nine camera shoot, and I&#x27;m gonna obviously edit in Final Cut Pro, so it&#x27;ll be a good Final Cut Pro editing thing.
+<em>01:01:25.520</em></p>
+<p><strong>Speaker 2</strong>: Nothing like the crazy multi-16, 20-camera shoots that our good friend Scott does.
+<em>01:01:33.280</em></p>
+<p><strong>Speaker 2</strong>: But it was a unique project.
+<em>01:01:38.840</em></p>
+<p><strong>Speaker 2</strong>: It was like an improvised jam session between a rock guitarist
+<em>01:01:40.360</em></p>
+<p><strong>Speaker 2</strong>: and a hip-hop rapper and a jazz trio.
+<em>01:01:46.540</em></p>
+<p><strong>Speaker 1</strong>: Oh, yeah.
+<em>01:01:49.500</em></p>
+<p><strong>Speaker 2</strong>: And we&#x27;re making like a performance film out of it.
+<em>01:01:49.980</em></p>
+<p><strong>Speaker 2</strong>: And so we&#x27;re going to be doing like a behind the scenes
+<em>01:01:52.060</em></p>
+<p><strong>Speaker 2</strong>: blog post and behind the scenes show about like how we did it and making it and that thing.
+<em>01:01:54.720</em></p>
+<p><strong>Speaker 2</strong>: So I think it&#x27;ll be it&#x27;ll be on my website, DaredreamerMag.
+<em>01:01:59.599</em></p>
+<p><strong>Speaker 2</strong>: com in the upcoming weeks or so.
+<em>01:02:03.279</em></p>
+<p><strong>Speaker 1</strong>: So isn&#x27;t it Daredreamer.
+<em>01:02:05.839</em></p>
+<p><strong>Speaker 1</strong>: net?
+<em>01:02:08.559</em></p>
+<p><strong>Speaker 2</strong>: Daredreamer.
+<em>01:02:09.320</em></p>
+<p><strong>Speaker 2</strong>: net is the name of my comp is that&#x27;s my company&#x27;s website, but my blog where I blog about the art and business of filmmaking and photography is Daredreamer Mag.
+<em>01:02:10.440</em></p>
+<p><strong>Speaker 2</strong>: As in Deja Rim magazine.
+<em>01:02:19.640</em></p>
+<p><strong>Speaker 1</strong>: Yeah, got it.
+<em>01:02:21.080</em></p>
+<p><strong>Speaker 1</strong>: Got it.
+<em>01:02:21.720</em></p>
+<p><strong>Speaker 1</strong>: Hey, open invitation.
+<em>01:02:22.760</em></p>
+<p><strong>Speaker 1</strong>: If you ever want to come on Digital Cinema Cafe and talk about your project, just let me know.
+<em>01:02:23.960</em></p>
+<p><strong>Speaker 1</strong>: When you&#x27;re ready to do it, let me know, okay?
+<em>01:02:28.040</em></p>
+<p><strong>Speaker 1</strong>: Well, I do appreciate it, man.
+<em>01:02:29.880</em></p>
+<p><strong>Speaker 1</strong>: All right, Ron, thanks for the time.
+<em>01:02:31.359</em></p>
+<p><strong>Speaker 1</strong>: Oh, and how do people follow you, like on Twitter?
+<em>01:02:32.560</em></p>
+<p><strong>Speaker 2</strong>: What are you?
+<em>01:02:34.880</em></p>
+<p><strong>Speaker 2</strong>: Twitter at DaredreamerMag, M-A-G, Daredreamer Mag.
+<em>01:02:36.960</em></p>
+<p><strong>Speaker 2</strong>: Perfect.
+<em>01:02:41.640</em></p>
+<p><strong>Speaker 1</strong>: All right, dude.
+<em>01:02:42.200</em></p>
+<p><strong>Speaker 1</strong>: Take care and have a good day today.
+<em>01:02:42.839</em></p>
+<p><strong>Speaker 1</strong>: All right, you too, Chris.
+<em>01:02:44.359</em></p>
+<p><strong>Speaker 1</strong>: Bye.
+<em>01:02:45.079</em></p>
+<p><strong>Speaker 1</strong>: Later.
+<em>01:02:45.480</em></p>
+<p><strong>Speaker 1</strong>: So there you have it.
+<em>01:02:46.760</em></p>
+<p><strong>Speaker 1</strong>: Quite a little journey that Ron and I had to get to his solution.
+<em>01:02:48.200</em></p>
+<p><strong>Speaker 1</strong>: And as it turns out, it it came from Ronnie Cortens from the FCPX InSync Facebook group.
+<em>01:02:53.820</em></p>
+<p><strong>Speaker 1</strong>: If you want to be a part of that Facebook group,
+<em>01:03:01.500</em></p>
+<p><strong>Speaker 1</strong>: To be honest with you, I don&#x27;t know how to um how to uh become a member.
+<em>01:03:05.940</em></p>
+<p><strong>Speaker 1</strong>: I I was invited by Ron Priest.
+<em>01:03:12.020</em></p>
+<p><strong>Speaker 1</strong>: And I think if you if you seek out Ron Priest, he&#x27;s the he he&#x27;s let me think here.
+<em>01:03:15.020</em></p>
+<p><strong>Speaker 1</strong>: He created the group and he&#x27;s a self-employed
+<em>01:03:22.700</em></p>
+<p><strong>Speaker 1</strong>: Wedding video editor in, I don&#x27;t actually, Ron, I don&#x27;t know where you live.
+<em>01:03:28.520</em></p>
+<p><strong>Speaker 1</strong>: But if you contact him on Facebook, I&#x27;m sure he can let you in.
+<em>01:03:33.400</em></p>
+<p><strong>Speaker 1</strong>: And it&#x27;s it is invitation only.
+<em>01:03:37.320</em></p>
+<p><strong>Speaker 1</strong>: And I will tell you, he even had a a culling of the herd, if you will, a while back where he decided that there was a bunch of people that just weren&#x27;t participating and they
+weren&#x27;t getting involved.
+<em>01:03:39.359</em></p>
+<p><strong>Speaker 1</strong>: And I think he booted a bunch of people out.
+<em>01:03:49.200</em></p>
+<p><strong>Speaker 1</strong>: So anyway, don&#x27;t you know, make sure you get involved.
+<em>01:03:52.040</em></p>
+<p><strong>Speaker 1</strong>: But it&#x27;s a great group of really smart people, and I appreciate everything that Ron has done to keep that group going.
+<em>01:03:54.600</em></p>
+<p><strong>Speaker 1</strong>: So once again, that&#x27;s another episode.
+<em>01:04:03.120</em></p>
+<p><strong>Speaker 1</strong>: Thanks again for listening.
+<em>01:04:06.960</em></p>
+<p><strong>Speaker 1</strong>: Thank you so much for subscribing.
+<em>01:04:08.960</em></p>
+<p><strong>Speaker 1</strong>: Tell your friends.
+<em>01:04:10.960</em></p>
+<p><strong>Speaker 1</strong>: I keep hearing from people.
+<em>01:04:12.320</em></p>
+<p><strong>Speaker 1</strong>: That are just like, oh, yeah, I didn&#x27;t know you had a podcast.
+<em>01:04:14.160</em></p>
+<p><strong>Speaker 1</strong>: It&#x27;s like, really?
+<em>01:04:17.280</em></p>
+<p><strong>Speaker 1</strong>: How many episodes do I have to do for people to take notice?
+<em>01:04:18.320</em></p>
+<p><strong>Speaker 1</strong>: But tell your friends about the group, this podcast.
+<em>01:04:21.280</em></p>
+<p><strong>Speaker 1</strong>: I&#x27;m doing everything I can to make sure that the content is always relevant and informative.
+<em>01:04:26.060</em></p>
+<p><strong>Speaker 1</strong>: Thanks for listening.
+<em>01:04:33.980</em></p>
+<p><strong>Speaker 1</strong>: Go to iTunes, subscribe, and thank you for supporting our good friends at Premium Beat.
+<em>01:04:35.100</em></p>
+<p><strong>Speaker 1</strong>: We&#x27;ll be back next week with another episode of The Grill.
+<em>01:04:40.860</em></p>
+<p><strong>Speaker 1</strong>: Later, later.
+<em>01:04:43.900</em></p>
+
+                
+                <!-- Required only on API pages -->
+                <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
+            </div>
+            <footer id="retype-content-footer" class="clear-both">
+            
+                <nav id="retype-nextprev" class="print:hidden flex mt-14">
+                    <div class="w-1/2">
+                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../../episodes/101-to-110/episode-102/">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                            <span>
+                                <span class="block text-xs font-normal text-base-text-muted">Previous</span>
+                                <span class="block mt-1">Episode 102</span>
+                            </span>
+                        </a>
+                    </div>
+            
+                    <div class="w-1/2">
+                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../../episodes/101-to-110/episode-104/">
+                            <span>
+                                <span class="block text-xs font-normal text-right text-base-text-muted">Next</span>
+                                <span class="block mt-1">Episode 104</span>
+                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                        </a>
+                    </div>
+                </nav>
+            </footer>
+        </main>
+
+        <div id="retype-page-footer" class="print:border-none border-t border-base-border pt-6 mb-8">
+            <footer class="flex flex-wrap items-center justify-between print:justify-center">
+                <div id="retype-footer-links" class="print:hidden">
+                    <ul class="flex flex-wrap items-center text-sm">
+                    </ul>
+                </div>
+                <div id="retype-copyright" class="print:justify-center py-2 text-footer-text font-footer-link text-sm leading-relaxed"><p>© Copyright 2026 LateNite Films Pty Ltd. All rights reserved.</p></div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Rendered if sidebar right is enabled -->
+    <!-- Sidebar right skeleton-->
+    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-sidebar-right-bg border-sidebar-right-border lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:translate-x-0 sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton">
+        <div class="pl-5">
+            <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+            <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+            <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+        </div>
+    </div>
+
+    <!-- User should be able to hide sidebar right -->
+    <doc-sidebar-right v-cloak></doc-sidebar-right>
+</div>
+
+        </div>
+    </div>
+
+    <doc-search-mobile></doc-search-mobile>
+    <doc-back-to-top></doc-back-to-top>
+</div>
+
+
+    <div id="retype-overlay-target"></div>
+
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Episode 103", level: 3, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+</body>
+</html>
