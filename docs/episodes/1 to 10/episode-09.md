@@ -18,7 +18,7 @@ Compound Clips as Sequences and Shared Storage in a workgroup environment, thatâ
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - John Davidson - @MagicFeatherInc
 
 ---

@@ -18,7 +18,7 @@ Internal video departments have their own very interesting problems. Adam Pearis
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Adam Peariso - lifecapture.ca - @adamski
 - Adam Peariso - @adamski
 

@@ -18,7 +18,7 @@ Many people change from FCP 7 to FCPX but very few do it in the middle of a proj
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Sam Russell - @Samm_The_Human
 
 ---

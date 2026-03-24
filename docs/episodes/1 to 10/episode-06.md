@@ -18,7 +18,7 @@ Changing our mindset and taking a slightly different look at things can totally 
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Anthony Moreschi - @WrenchTYF
 
 ---

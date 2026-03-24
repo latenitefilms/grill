@@ -18,7 +18,7 @@ Ever leave a week of production with 60TB of data?? Yea… me neither. Marc Bach
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Marc Bach -  theinterfacelab.net - @marcplanb
 
 ---

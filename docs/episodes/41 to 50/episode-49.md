@@ -18,7 +18,7 @@ Adobe blackout? What is your plan if you can’t launch your CC license? Coincid
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 
 ---
 

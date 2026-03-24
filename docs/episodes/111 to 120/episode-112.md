@@ -18,7 +18,7 @@ Brand new editor to FCPX, San Diego based Eric Naso is just getting started usin
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Erik Naso - @eriknaso
 
 ---

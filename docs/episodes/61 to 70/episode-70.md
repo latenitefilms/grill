@@ -18,7 +18,7 @@ FCPX can be used in a myriad of ways. Chad Kukahiko of We Make Movies tells us h
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Chad Kukahiko - @ckukahiko
 
 ---

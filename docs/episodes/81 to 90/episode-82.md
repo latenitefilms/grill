@@ -18,7 +18,7 @@ TED Conferences’ Motto is “Ideas Worth Spreading” and now they are spreadi
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 
 ---
 

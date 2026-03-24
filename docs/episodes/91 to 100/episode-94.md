@@ -18,7 +18,7 @@ Many outlets for video production exit. Today more then ever it is important to 
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Andrew Coons - @twitter
 
 ---

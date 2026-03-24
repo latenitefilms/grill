@@ -18,7 +18,7 @@ Amazing performance and incredible price, that’s what Sam Mestman, (yea, he’
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Sam Mestman - fcpworks.com - @sammestman
 - Guest Name - @twitter
 

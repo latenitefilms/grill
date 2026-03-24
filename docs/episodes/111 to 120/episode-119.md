@@ -18,7 +18,7 @@ Trying to figure out Apple Marketing is tough. Alex Gollner and I try to deciphe
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Alex Gollner - alex4d.com - @alex4d
 
 ---

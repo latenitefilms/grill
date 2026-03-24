@@ -18,7 +18,7 @@ What is a proxie? How can I actually use it? In this conversation, returning gue
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Guest Name - @twitter
 - Thomas Grove Carter - trimediting.com - @thomasgcarter
 

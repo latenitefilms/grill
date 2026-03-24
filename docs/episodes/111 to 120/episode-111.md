@@ -18,7 +18,7 @@ If you’re not careful and you spend too much time hanging out with me you may 
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Alex MacLean - @alexm13
 
 ---

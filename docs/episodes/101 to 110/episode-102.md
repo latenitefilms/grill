@@ -18,7 +18,7 @@ Instagram and 4K don’t often get mentioned in the same breath so when Joseph L
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Joseph Linaschke - @thephotosexpert
 
 ---

@@ -18,7 +18,7 @@ Eric Wise Cuts in Avid, Premiere FCP7 and FCPX, but now, his preferred edit plat
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Eric Wise - @splice_eric
 
 ---

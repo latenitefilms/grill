@@ -18,7 +18,7 @@ The “App Store for Plugins”, that’s what I’ve always called FxFactory. T
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Niclas Bahn - @niclasbahn or @fxfactory
 - Niclas Bahn - @twitter
 

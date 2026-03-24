@@ -18,7 +18,7 @@ Besides sharing some “Timeline KungFu” Richard and I also go off on a discus
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Richard Taylor - @RichardTaylorTV
 
 ---

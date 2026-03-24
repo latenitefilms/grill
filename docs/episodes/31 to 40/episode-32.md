@@ -18,7 +18,7 @@ We discuss After Effects, Cinema 4D and Motion and Alan Brazzell goes into great
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Alan Brazzell - @brazzellvideo
 
 ---

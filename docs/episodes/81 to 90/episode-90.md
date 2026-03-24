@@ -18,7 +18,7 @@ From VHS cuts only edits to FCPX, Zeb Chadfield has done it all over the years. 
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Zeb Chadfield - @PanoptikTV
 
 ---

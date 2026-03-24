@@ -18,8 +18,8 @@ Well, Apple surprised us all with a midnight release and I headed into the studi
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
-- Alex Gollner - @Alex4d
+- [Chris Fenwick](http://chrisfenwick.com)
+- [Alex Gollner](https://alex4d.com)
 
 ---
 

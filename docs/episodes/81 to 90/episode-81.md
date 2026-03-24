@@ -18,7 +18,7 @@ Noam likes to shake things ups and try something new once in a while, which fran
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Noam Kroll - @noamkroll
 
 ---

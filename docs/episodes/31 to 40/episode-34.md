@@ -4,9 +4,9 @@ label: Episode 34
 
 # Episode 34
 
-**FCG034 - Like a Little Child (feat. Christopher Hocking)**
+**FCG034 - Like a Little Child (feat. Chris Hocking)**
 
-Three weeks in the making, it took forever for Chris Hocking and I to find a sliver of time where we could chat. Chris is the post supervisor at Late Nite Films and he and I go in to great depths discussing his first edit in FCPX and what he liked and didn’t like about the software. We also spend a bit of time near the end going over some things Chris would like to see changed. Unreliable undo function. Move timeline and playhead to the Undo location.
+Three weeks in the making, it took forever for Chris Hocking and I to find a sliver of time where we could chat. Chris is a Co-Founder at [LateNite](https://latenitefilms.com) and he and I go in to great depths discussing his first edit in FCPX and what he liked and didn’t like about the software. We also spend a bit of time near the end going over some things Chris would like to see changed. Unreliable undo function. Move timeline and playhead to the Undo location.
 
 ---
 
@@ -18,8 +18,8 @@ Three weeks in the making, it took forever for Chris Hocking and I to find a sli
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
-- Christopher Hocking - @latenitefilms
+- [Chris Fenwick](http://chrisfenwick.com)
+- [Chris Hocking](https://fcp.cafe/latenite/#chris-hocking)
 
 ---
 

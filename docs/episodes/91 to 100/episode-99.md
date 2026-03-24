@@ -18,7 +18,7 @@ There are so many aspects of FCPX to discuss and you can’t talk about it witho
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Charles Silverman - @csilverman
 
 ---

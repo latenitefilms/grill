@@ -18,7 +18,7 @@ How do the clients see FCPX? Today I sit down with a long time client of mine an
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Gordon Fleming - @gordonfleming
 
 ---

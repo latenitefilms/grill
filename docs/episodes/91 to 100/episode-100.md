@@ -18,13 +18,13 @@ What a pleasure it has been. 100 Episodes with some amazing guests. A year ago I
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
-- Alex Gollner - @alex4d - FCG003
-- Alex MacLean - @alexm13 - FCG076
-- Bill Davis - @DVInfo - FCG092
-- John Davidson - @MagicFeatherInc - FCG009
-- Sam Mestman - @wemakemovies - FCG002
-- Scott Simmons - http://www.scottsimmons.tv - @scottsimmons FCG014
+- [Chris Fenwick](http://chrisfenwick.com)
+- [Alex Gollner](https://alex4d.com) - [FCG003](https://grill.fcp.cafe/episodes/1-to-10/episode-03/)
+- Alex MacLean - @alexm13 - [FCG076](https://grill.fcp.cafe/episodes/71-to-80/episode-76/)
+- Bill Davis - @DVInfo - [FCG092](https://grill.fcp.cafe/episodes/91-to-100/episode-92/)
+- John Davidson - @MagicFeatherInc - [FCG009](https://grill.fcp.cafe/episodes/1-to-10/episode-09/)
+- Sam Mestman - @wemakemovies - [FCG002](https://grill.fcp.cafe/episodes/1-to-10/episode-02/)
+- [Scott Simmons](http://www.scottsimmons.tv) - @scottsimmons [FCG014](https://grill.fcp.cafe/episodes/11-to-20/episode-14/)
 
 ---
 

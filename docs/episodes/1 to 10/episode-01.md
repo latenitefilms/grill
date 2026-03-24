@@ -18,7 +18,7 @@ For the inaugural episode of FCPX Grill I sit down with my old friend Carl Olson
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Carl Olson - @thecarlolson
 
 ---

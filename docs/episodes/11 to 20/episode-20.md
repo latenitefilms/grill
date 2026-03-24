@@ -18,7 +18,7 @@ Spacial Conform, Multicam and Editorial Peer Pressure, just part of what we disc
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Kes Akalaonu - @NLE_Ninja
 
 ---

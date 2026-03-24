@@ -18,7 +18,7 @@ What happens when Apple takes your pro app, kills it and replaces it with a seem
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Joseph Linaschke - @apertureexpert
 
 ---

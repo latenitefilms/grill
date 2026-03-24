@@ -18,7 +18,7 @@ A gifted trainer and prolific producer, Jem Schofield has been a power user of t
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Jem Schofield - @theC47
 
 ---

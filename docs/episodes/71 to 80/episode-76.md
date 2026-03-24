@@ -18,7 +18,7 @@ Color grading for dummies? Not really. On this special episode of The Grill, Ale
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Alex MacLean - @alexm13
 
 ---

@@ -18,7 +18,7 @@ FCPX in a shared environment is a real thing, a VERY real thing. If you don’t 
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Alexander Snelling - @slackalicefilms
 
 ---

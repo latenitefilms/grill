@@ -18,7 +18,7 @@ Confessing you are cutting in FCPX may be a career limiting move, but for Kenny 
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Kenny Park - thefinalcutbro.com - @thefcbro
 
 ---

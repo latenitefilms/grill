@@ -18,7 +18,7 @@ label: Episode 88
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Danny Rubio - @drbe4t
 - Danny’s new user group - @nufcpx User Group
 

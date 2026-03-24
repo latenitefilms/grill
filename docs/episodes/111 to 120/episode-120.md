@@ -18,7 +18,7 @@ label: Episode 120
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Steve Sasman - milliondollarteslatrip.com - @stevesasman
 
 ---

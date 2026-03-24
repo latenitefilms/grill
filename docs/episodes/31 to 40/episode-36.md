@@ -18,7 +18,7 @@ NAB2014 recap of FCPX news. In this episode we met with Michael Garber and Sam M
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Sam Mestman - @sammestman
 - Michael Garber - @garbershop
 

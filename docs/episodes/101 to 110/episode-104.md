@@ -18,7 +18,7 @@ label: Episode 104
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Ben Brodbeck - @benyzboy
 
 ---

@@ -18,7 +18,7 @@ What if 24 hours after wrap of principal photography you could have a rough “e
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 
 ---
 

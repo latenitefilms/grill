@@ -18,7 +18,7 @@ You don’t need to feel bad if you “just do corporate”. Rob Terry and I, be
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Rob Terry - @robterry
 
 ---

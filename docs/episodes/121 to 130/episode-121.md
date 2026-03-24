@@ -18,7 +18,7 @@ Just when I thought I MAY be able to get my buddy Dave to try FCPX it turns out 
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Dave Dugdale - learningvideo.com - @dugdale
 
 ---

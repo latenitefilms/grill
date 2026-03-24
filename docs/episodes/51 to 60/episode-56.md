@@ -18,7 +18,7 @@ It is with great sadness that I bring you this reprise episode of The Grill. If 
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 
 ---
 

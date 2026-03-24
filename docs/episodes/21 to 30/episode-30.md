@@ -18,7 +18,7 @@ This interview was without a doubt the most fun I’ve ever had on The Grill. Yo
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - James Miller - @thecrankyeditor
 
 ---

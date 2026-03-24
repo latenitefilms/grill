@@ -18,7 +18,7 @@ The Library Model, XML, Resolve 10.1 & FCPX 10.1, Timeline Index, Markers, Pelic
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Sam Mestman - @fcpworks
 
 ---

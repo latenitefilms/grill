@@ -18,7 +18,7 @@ A product of UCLA Film School, Noah worked in behind the scenes and VFX world be
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Noah Kadner - @fcpworks
 
 ---

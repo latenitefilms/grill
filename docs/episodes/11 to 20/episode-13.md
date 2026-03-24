@@ -18,7 +18,7 @@ Range Based Keywords, Rolls, Digital Signage and Same Day Edits in FCPX. Author 
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Alban Egger - http://www.eggermedia.com - @eggermedia
 
 ---

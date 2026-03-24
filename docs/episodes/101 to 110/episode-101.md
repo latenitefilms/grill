@@ -18,7 +18,7 @@ Even Photographers are trying to figure out what video editing program they want
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Frederick Van Johnson - @frederickvan
 
 ---

@@ -18,7 +18,7 @@ Every Friday Thomas Leroux spends every friday sitting at a table in Patty Bolen
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Thomas Leroux - @WTL
 
 ---

@@ -18,7 +18,7 @@ Looking back on 2014 Ben Consoli and I touch on many topics. Hard drive tech and
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Ben Consoli - @benconsoli
 
 ---

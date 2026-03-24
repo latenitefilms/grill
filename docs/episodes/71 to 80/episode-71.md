@@ -18,7 +18,7 @@ A great log will make your edit smoother. The problem is, no one ever bothers lo
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Philip Hodgetts - @ PhilipHodgetts
 - Philip Hodgetts - @twitter
 

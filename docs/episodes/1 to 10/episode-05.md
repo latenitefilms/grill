@@ -18,7 +18,7 @@ Final Cut Pro X on a long form documentary. David Fabelo sits down to discuss th
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - David Fabelo - @David_Fabelo
 
 ---

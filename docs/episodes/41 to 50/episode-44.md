@@ -18,7 +18,7 @@ Brand new editor Julian Faras, shares his views on FCPX and why its a powerful t
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 
 ---
 

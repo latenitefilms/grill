@@ -18,7 +18,7 @@ Social media is everywhere, if you don’t believe me then I’d be shocked you�
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Sam Woodhall - @swdoctor
 
 ---

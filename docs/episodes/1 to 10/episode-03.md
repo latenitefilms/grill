@@ -18,8 +18,8 @@ Many people know Alex as a plugin writer for FCPX but his real background is as 
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
-- Alex Gollner - @Alex4d
+- [Chris Fenwick](http://chrisfenwick.com)
+- [Alex Gollner](https://alex4d.com)
 
 ---
 

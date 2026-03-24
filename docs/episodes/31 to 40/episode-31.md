@@ -18,7 +18,7 @@ As we wrapped a multi day edit on Kona, The Big Island, Steven Luksic and I deci
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 
 ---
 

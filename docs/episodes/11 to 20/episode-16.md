@@ -18,7 +18,7 @@ Metadata has been a huge topic of discussion since day one of Final Cut Pro. Wha
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Jon Chappell - @digitalreb
 
 ---

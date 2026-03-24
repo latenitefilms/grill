@@ -18,7 +18,7 @@ Reality TV may be a natural fit for FCPX with its vast shooting ratios and the n
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Scott Markowitz - @scottmarkdaddy
 
 ---

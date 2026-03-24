@@ -18,7 +18,7 @@ Triple threat, veteran editor, Scott Simmons joins us on The Grill and we go thr
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Scott Simmons - http://www.scottsimmons.tv - @scottsimmons
 
 ---

@@ -18,7 +18,7 @@ Timing, trimming, adjusting… that’s editorial, but its also comedy. James Br
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Guest Name - @jbranch
 
 ---

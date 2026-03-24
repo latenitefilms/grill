@@ -18,7 +18,7 @@ FCG093 - Resolution Independence (feat. Stuart Moore) Resolution Independence is
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Stuart Moore - sundog.co.uk - @sundogme
 
 ---

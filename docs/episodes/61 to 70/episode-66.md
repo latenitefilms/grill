@@ -18,7 +18,7 @@ Rolls, X2Pro, ProTools and FCPX. Eventually we get to all that. This is a great 
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 
 ---
 

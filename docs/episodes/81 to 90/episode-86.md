@@ -18,7 +18,7 @@ label: Episode 86
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Scott Simmons - @editblog
 
 ---

@@ -18,7 +18,7 @@ Cold Mountain for FCPX? Maybe. In early 2014 news started to leak that a major H
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Michael Matzdorff - @FCPXFeatures
 
 ---

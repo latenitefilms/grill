@@ -18,7 +18,7 @@ label: Episode 59
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Thomas Grove Carter - @thomasgcarter
 - Alban Eggers - @eggermedia
 

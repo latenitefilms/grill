@@ -18,7 +18,7 @@ Not sure how to set up YOUR system. Wondering how to fine tune your workflow? Do
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 
 ---
 

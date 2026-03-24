@@ -18,7 +18,7 @@ Aspiring to be a novice. The one man band. Writer, Director, Shooter, Audio, Tal
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 
 ---
 

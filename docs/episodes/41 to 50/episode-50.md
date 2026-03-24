@@ -18,7 +18,7 @@ Mid-Life Crisis? Maybe. A web designer needs a video in his website and the proj
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Gregory Bradley - @od9video
 
 ---

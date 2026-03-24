@@ -18,7 +18,7 @@ I offered to answer some questions to brand new FCPX user Maciek Kaliski. We dis
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Maciek Kaliski - @MaciekKaliski
 
 ---

@@ -18,7 +18,7 @@ Software Sleuth Alex Gollner returns to The Grill to fill us in on his observati
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Alex Gollner - alex4d.com - @alex4d
 
 ---

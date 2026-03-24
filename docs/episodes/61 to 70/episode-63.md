@@ -18,7 +18,7 @@ Big thinkers are my favorite guests. John Davidson is doing amazing things with 
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - John Davidson - @MagicFeatherInc
 
 ---

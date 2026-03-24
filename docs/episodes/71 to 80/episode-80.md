@@ -18,7 +18,7 @@ Big thinkers are VERY entertaining to me. People that don’t just think “outs
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Peter Wiggins - @FCPdotCO
 
 ---

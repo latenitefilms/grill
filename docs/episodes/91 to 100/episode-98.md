@@ -18,7 +18,7 @@ Running a multi seat facility running FCPX is a completely different problem tha
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Paul Koblik - @sliceeditorial
 
 ---

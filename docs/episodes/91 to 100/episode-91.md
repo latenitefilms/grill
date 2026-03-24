@@ -18,7 +18,7 @@ The TiVo Effect revisited, audio for post, audio workflow and plug ins. I always
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Micha Schmidt - @michaschmidt
 
 ---

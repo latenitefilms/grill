@@ -18,7 +18,7 @@ I wanted to call this episode, "Audio Comes After the Video" because I usually p
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 
 ---
 

@@ -18,7 +18,7 @@ Preparing for NAB 2015 I sat down and talked with my new boss, Sam Mestman of FC
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Sam Mestman - fcpworks.com - @sammestman
 
 ---

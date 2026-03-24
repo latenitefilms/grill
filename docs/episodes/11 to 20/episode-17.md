@@ -18,7 +18,7 @@ A brand new user of FCPX, Brian Russell is the first guest we’ve had that neve
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Brian Russell - @redshoefilm
 
 ---

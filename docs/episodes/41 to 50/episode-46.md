@@ -18,7 +18,7 @@ Happy Mothers Day! I decided that instead of NOT having a show this week because
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Terry Fenwick - terryfenwick.blogspot.com - @tfenwick
 
 ---

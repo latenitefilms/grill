@@ -18,7 +18,7 @@ The Proxy workflow in FCPX is pretty amazing. If you don’t use it, you may wan
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Ron Dawson - @daredreamermag
 - Guest Name - @twitter
 

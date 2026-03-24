@@ -18,7 +18,7 @@ When you take a good look at the new website that Premium Beat just recently rel
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Danny Greer - @premiumbeat
 
 ---

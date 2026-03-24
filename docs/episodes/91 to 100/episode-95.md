@@ -18,7 +18,7 @@ label: Episode 95
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Alex Gollner - alex4d.com - @alex4d
 - Guest Name - @twitter
 

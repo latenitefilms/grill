@@ -18,7 +18,7 @@ How do you work with remote audio and assistant editors? Listen in on my chat wi
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Dustin Hoye - @thenextbitetv
 
 ---

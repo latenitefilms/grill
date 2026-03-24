@@ -18,7 +18,7 @@ If you’re trying to fund your movie you have to have an idea that connects wit
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Jason Aron - @twitter
 
 ---

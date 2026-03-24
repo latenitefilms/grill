@@ -18,7 +18,7 @@ Working solo or in a workgroup, it doesn’t matter but Ray Brown still has foun
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Ray Brown - @raybrown_me
 - Sam Brown - @raybrown_me
 

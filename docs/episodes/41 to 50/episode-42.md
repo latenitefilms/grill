@@ -18,7 +18,7 @@ Learning new software in a process. I’ve been wanting to talk with my friend S
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 
 ---
 

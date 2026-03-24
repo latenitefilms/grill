@@ -18,7 +18,7 @@ You can’t get time back, it is the one resource that we can’t buy. Efficienc
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Darren Roark -  darren@fcpworks.com
 - Darren Roark - @twitter
 

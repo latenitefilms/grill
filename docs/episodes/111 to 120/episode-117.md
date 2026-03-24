@@ -18,7 +18,7 @@ Hey MOM!!! I’m on a podcast! I don’t think that Daniel Ray Todd Villegas tho
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Daniel Ray Todd Villegas - @oneeditaday
 - lehans@gmail.com - a final cut editor from south america
 

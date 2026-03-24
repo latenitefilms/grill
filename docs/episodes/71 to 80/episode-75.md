@@ -18,7 +18,7 @@ On this “special” episode of The Grill, Richard Taylor of FCPX.tv takes over
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Guest Name - @twitter
 
 ---

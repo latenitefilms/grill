@@ -18,7 +18,7 @@ The Good, the Bad, and the Ugly of FCPX. Tony Gallardo of JEH Productions walks 
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Tony Gallardo - jehproductions.com - @tomiga2
 - Guest Name - @twitter
 

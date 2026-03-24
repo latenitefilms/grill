@@ -18,7 +18,7 @@ Jesse’s got mad chops and a LONG history in this business. He is known in the 
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 
 ---
 

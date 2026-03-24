@@ -18,7 +18,7 @@ Is Premiere letting you down? You aren’t alone. When I heard that Paul Joy had
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Paul Joy - pauljoy.com - @pjoy
 
 ---

@@ -18,7 +18,7 @@ Music Videos are a unique genre that have their own needs and demands from an ed
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Vid Price - www.vidprice.com @vidprice
 - Vid Price - vidprice.com - @vidprice
 

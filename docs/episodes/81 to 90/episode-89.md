@@ -18,7 +18,7 @@ Automatic Duck was a staple in the FCP7 decade, the definitive tool for moving s
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Wes Plate - @wplate
 
 ---

@@ -18,7 +18,7 @@ Workflow logic is crucial and in FCPX there are so many ways to solve a problem.
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - David Fabelo - @David_Fabelo
 
 ---

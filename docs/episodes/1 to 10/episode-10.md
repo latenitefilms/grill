@@ -18,7 +18,7 @@ Never say we’re biased on FCPX Grill. Art found the show on the iTunes and has
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Art Guglielmo - @artgug
 
 ---

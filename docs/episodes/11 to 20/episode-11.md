@@ -18,7 +18,7 @@ The origin of FCPX Grill can be traced back to a discussion that Ron Dawson of D
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Ron Dawson - @daredreamermag
 
 ---

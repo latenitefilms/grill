@@ -18,7 +18,7 @@ With a looming deadline and unending blue render bars, Charles knew he needed to
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Charles Silverman - @csilverman
 
 ---

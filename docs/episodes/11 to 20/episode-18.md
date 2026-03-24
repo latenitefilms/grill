@@ -18,7 +18,7 @@ So you think the “Share Menu” is amateur? Haven’t taken a close look at Au
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Michael Garber - michaelgarber.com - @michael Garber
 
 ---

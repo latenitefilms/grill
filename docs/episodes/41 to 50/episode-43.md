@@ -18,7 +18,7 @@ Do you remember when we used to discuss the picture quality of an NLE? Believe i
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Sean Lander - rednail.com.au @rednail
 
 ---

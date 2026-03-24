@@ -18,7 +18,7 @@ label: Episode 48
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Anthony Baird - @gorillaprod
 
 ---

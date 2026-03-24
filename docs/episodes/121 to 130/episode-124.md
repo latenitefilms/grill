@@ -18,7 +18,7 @@ Getting your work approved and bought off on can be cumbersome. Frame.io is an a
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Emery Wells - @emerywells
 - Guest Name - @twitter
 

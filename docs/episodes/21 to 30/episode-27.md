@@ -18,7 +18,7 @@ The lack of “a recognition of prior learning” is one of the disadvantages of
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Alister Robbie - @alisterrobbie - @thepostproject
 - Alister Robbie - @alisterrobbie
 

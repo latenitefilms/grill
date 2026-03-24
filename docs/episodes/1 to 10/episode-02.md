@@ -18,7 +18,7 @@ Sam and Chris go into a very detailed step by step workflow of how to get Red fo
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Sam Mestman - @wemakemovies
 
 ---

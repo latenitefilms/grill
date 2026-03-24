@@ -18,7 +18,7 @@ How do you streamline and focus on your core competency when we are inundated wi
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Carl Olson - @theCarlOlson
 
 ---

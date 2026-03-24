@@ -18,7 +18,7 @@ Traveling on the road with FCPX can be a lot of fun. Dean Sherwood is the newly 
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Dean Sherwood - @deansherwood
 
 ---

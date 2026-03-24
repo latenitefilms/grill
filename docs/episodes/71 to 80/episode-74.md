@@ -18,7 +18,7 @@ Why is Avid entrenched in reality television? In the interest of  being fair and
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Austin Flack - telegramfilm.com - @austinflack
 - Austin Flack - @austinflack
 

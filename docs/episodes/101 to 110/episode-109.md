@@ -18,7 +18,7 @@ Dynamic Trimming redux. Sort of. Michael Towe is an old school editor with ties 
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Michael Towe - m2digitalpost.com - @michael_towe
 - Michael Towe - m2digitalpost.com - @michael_towe - facebook/michael.towe
 

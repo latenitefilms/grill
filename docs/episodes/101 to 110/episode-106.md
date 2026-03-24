@@ -18,7 +18,7 @@ Pirates Passages is a feature length animated film that was completed by PIP Ani
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Paul Newmann - http://www.pipanimation.com - @ferdewyn
 
 ---

@@ -18,7 +18,7 @@ Another Radio Man turned video editor, Bill Davis tells us about finding his dre
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Bill Davis - @DVInfo
 
 ---

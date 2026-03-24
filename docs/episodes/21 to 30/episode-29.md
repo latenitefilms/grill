@@ -18,7 +18,7 @@ Trim Editing is where Thomas Grove Carter works in East London. In the past year
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Thomas Grove Carter - trimediting.com - @thomasgcarter
 
 ---

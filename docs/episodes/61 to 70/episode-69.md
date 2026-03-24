@@ -18,7 +18,7 @@ I’m just getting started here! Yea, that’s Al Pachino from Scent of a Woman 
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Guest Name - @twitter
 
 ---

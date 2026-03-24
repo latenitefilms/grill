@@ -18,7 +18,7 @@ Motion is a powerful gfx creation tool for FCPX but some of the real power is av
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Szymon Masiak - @motionVFX
 - Szymon Masiak - @motionVF
 

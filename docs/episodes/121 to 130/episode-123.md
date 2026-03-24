@@ -18,7 +18,7 @@ The FPCX Creative Summit in San Jose was amazing. On June 26 - 28 the FCPX epice
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Jeff Greenberg - @filmgeek
 
 ---

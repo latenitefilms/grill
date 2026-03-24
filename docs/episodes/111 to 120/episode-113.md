@@ -18,7 +18,7 @@ Timeline based color grading has been a dream of mine for years. Recently I stum
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Denver Riddle - @colorgrading
 
 ---

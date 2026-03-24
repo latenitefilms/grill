@@ -18,7 +18,7 @@ Logic X seems to potentially be a great tool for audio sweetening in FCPX and au
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Sam Mestman - fcpworks.com - @sammestman
 
 ---

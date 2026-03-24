@@ -18,7 +18,7 @@ label: Episode 125
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Geoffrey Orthwein - bokehthemovie.com - @geoffreyo
 
 ---

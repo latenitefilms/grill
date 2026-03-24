@@ -18,7 +18,7 @@ Too old to learn FCPX? Never! Mike Savino and Chris got together a couple days a
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Mike Savino - @mikesavinofilm
 
 ---

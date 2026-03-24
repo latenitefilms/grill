@@ -18,7 +18,7 @@ Joe Gill understands Hollywood. In his years in the business at various position
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Joe Gill - @joegill
 
 ---

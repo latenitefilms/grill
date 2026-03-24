@@ -18,7 +18,7 @@ label: Episode 60
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Sam Mestman - fcpworks.com - @sammestman
 
 ---

@@ -18,7 +18,7 @@ FCPX is more similar to FCP7 than you think. That is the message that Scott Hart
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Scott Hartman - @hartmanscott
 
 ---

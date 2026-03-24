@@ -18,7 +18,7 @@ label: Episode 19
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Tony Gallardo - jehproductions.com - @tomiga2
 
 ---

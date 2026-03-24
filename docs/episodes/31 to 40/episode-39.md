@@ -18,7 +18,7 @@ Our new sponsor is… you’ll have to listen. What happens when two podcasters 
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Guest Name - @twitter
 - Ben Consoli - @benconsoli
 

@@ -18,7 +18,7 @@ Teaching FCPX to up and coming editors is an important aspect of understanding h
 
 ## Featuring
 
-- Chris Fenwick - chrisfenwick.com - @chrisfenwick
+- [Chris Fenwick](http://chrisfenwick.com)
 - Chip Dizard - @chipdisard
 
 ---
