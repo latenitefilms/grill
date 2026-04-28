@@ -1,0 +1,174 @@
+﻿# Final Cut Grill
+
+> Final Cut Grill is a podcast by Chris Fenwick.
+
+- [Final Cut Grill](https://grill.fcp.cafe/readme.md): Final Cut Grill
+- [New Episodes](https://grill.fcp.cafe/new-episodes.md): You can find the latest episodes on YouTube.
+- [Credits](https://grill.fcp.cafe/credits.md): Final Cut Grill has been created by Chris Fenwick.
+- [Privacy Policy](https://grill.fcp.cafe/privacy.md): This is the privacy policy for the Final Cut Grill podcast and related online services (such as our website and support channels).
+
+## Podcast Episodes
+
+### 1 to 10
+
+- [Episode 1](https://grill.fcp.cafe/episodes/1-to-10/episode-01.md): FCG001 - Welcome to the Grill (feat. Carl Olson)
+- [Episode 2](https://grill.fcp.cafe/episodes/1-to-10/episode-02.md): FCG002 - FCPX 4K Workflow (feat. Sam Mestman)
+- [Episode 3](https://grill.fcp.cafe/episodes/1-to-10/episode-03.md): FCG003 - Reading the FCPX Tea Leaves (feat. Alex Gollner)
+- [Episode 4](https://grill.fcp.cafe/episodes/1-to-10/episode-04.md): FCG004 - Episode 4 (feat. Ben Consoli)
+- [Episode 5](https://grill.fcp.cafe/episodes/1-to-10/episode-05.md): FCG005 - Long Format Documentary (feat. David Fabelo)
+- [Episode 6](https://grill.fcp.cafe/episodes/1-to-10/episode-06.md): FCG006 - Transcoding, Roll, and Stems (feat. Anthony Moreschi)
+- [Episode 7](https://grill.fcp.cafe/episodes/1-to-10/episode-07.md): FCG007 - Teaching the Kids (feat. Chip Dizard)
+- [Episode 8](https://grill.fcp.cafe/episodes/1-to-10/episode-08.md): FCG003 - FCPX 10.1 Mini Intro (feat. Alex Gollner)
+- [Episode 9](https://grill.fcp.cafe/episodes/1-to-10/episode-09.md): FCG009 - FCPX Workgroup Workflow (feat. John Davidson)
+- [Episode 10](https://grill.fcp.cafe/episodes/1-to-10/episode-10.md): FCG010 - FCPX Not for Everyone? (feat. Art Guglielmo)
+
+### 11 to 20
+
+- [Episode 11](https://grill.fcp.cafe/episodes/11-to-20/episode-11.md): FCG011 - Affordable, Desirable, Admirable (feat. Ron Dawson)
+- [Episode 12](https://grill.fcp.cafe/episodes/11-to-20/episode-12.md): FCG012 - Old Guys and FCPX (feat. Mike Savino)
+- [Episode 13](https://grill.fcp.cafe/episodes/11-to-20/episode-13.md): FCG013 - Same Day Edits (feat. Alban Egger)
+- [Episode 14](https://grill.fcp.cafe/episodes/11-to-20/episode-14.md): FCG014 - 10.1 Break Down (feat. Scott Simmons)
+- [Episode 15](https://grill.fcp.cafe/episodes/11-to-20/episode-15.md): FCG015 - Episode 15 (feat. Scott Simmons)
+- [Episode 16](https://grill.fcp.cafe/episodes/11-to-20/episode-16.md): FCG016 - Exploring Metadata (feat. Jon Chappell)
+- [Episode 17](https://grill.fcp.cafe/episodes/11-to-20/episode-17.md): FCG017 - Exploring Metadata (feat. Brian Russell)
+- [Episode 18](https://grill.fcp.cafe/episodes/11-to-20/episode-18.md): FCG018 - Welcome to the Garber Shop (feat. Michael Garber)
+- [Episode 19](https://grill.fcp.cafe/episodes/11-to-20/episode-19.md): FCG019 - All New MacPro’s and FCPX (feat. Tony Gallardo)
+- [Episode 20](https://grill.fcp.cafe/episodes/11-to-20/episode-20.md): FCG020 - I Can Let It Go (feat. Kes Akalaonu)
+
+### 21 to 30
+
+- [Episode 21](https://grill.fcp.cafe/episodes/21-to-30/episode-21.md): FCG021 - Premiere Pro to FCPX (feat. Paul Joy)
+- [Episode 22](https://grill.fcp.cafe/episodes/21-to-30/episode-22.md): FCG022 - Homegrown Plugins (feat. Alex Gollner)
+- [Episode 23](https://grill.fcp.cafe/episodes/21-to-30/episode-23.md): FCG023 - More Similar Than You Think (feat. Scott Hartman)
+- [Episode 24](https://grill.fcp.cafe/episodes/21-to-30/episode-24.md): FCG024 - The FCPX.tv Guru (feat. Richard Taylor)
+- [Episode 25](https://grill.fcp.cafe/episodes/21-to-30/episode-25.md): FCG025 - The Library Model (feat. Sam Mestman)
+- [Episode 26](https://grill.fcp.cafe/episodes/21-to-30/episode-26.md): FCG026 - Distant Sharing (feat. Dustin Hoye)
+- [Episode 27](https://grill.fcp.cafe/episodes/21-to-30/episode-27.md): FCG027 - A Qualified Opinion (feat. Alister Robbie)
+- [Episode 28](https://grill.fcp.cafe/episodes/21-to-30/episode-28.md): FCG028 - Leaving the Big Stupid Agency (feat. Charles Silverman)
+- [Episode 29](https://grill.fcp.cafe/episodes/21-to-30/episode-29.md): FCG029 - Timeline Kung Fu (feat. Thomas Grove Carter)
+- [Episode 30](https://grill.fcp.cafe/episodes/21-to-30/episode-30.md): FCG030 - The Cranky Editor (feat. James Miller)
+
+### 31 to 40
+
+- [Episode 31](https://grill.fcp.cafe/episodes/31-to-40/episode-31.md): FCG031 - Shared Responsibility (feat. Stephen Luksic)
+- [Episode 32](https://grill.fcp.cafe/episodes/31-to-40/episode-32.md): FCG033 - The Organically Grown Career (feat. Alan Brazzell)
+- [Episode 33](https://grill.fcp.cafe/episodes/31-to-40/episode-33.md): FCG033 - Episode 33 (feat. Alan Brazzell)
+- [Episode 34](https://grill.fcp.cafe/episodes/31-to-40/episode-34.md): FCG034 - Like a Little Child (feat. Chris Hocking)
+- [Episode 35](https://grill.fcp.cafe/episodes/31-to-40/episode-35.md): FCG035 - A Premiere User Gets Grilled (feat. Steve Miller)
+- [Episode 36](https://grill.fcp.cafe/episodes/31-to-40/episode-36.md): FCG036 - NAB with FCPX (feat. Sam Mestman and Michael Garber)
+- [Episode 37](https://grill.fcp.cafe/episodes/31-to-40/episode-37.md): FCG037 - Reality TV and FCPX (feat. Scott Markowitz)
+- [Episode 38](https://grill.fcp.cafe/episodes/31-to-40/episode-38.md): FCG038 - Reflecting with The C47 (feat. Jem Schofield)
+- [Episode 39](https://grill.fcp.cafe/episodes/31-to-40/episode-39.md): FCG039 - Welcome our New Sponsor (feat. Ben Consoli)
+- [Episode 40](https://grill.fcp.cafe/episodes/31-to-40/episode-40.md): FCG040 - You’re Using What? (feat. Marc Bach)
+
+### 41 to 50
+
+- [Episode 41](https://grill.fcp.cafe/episodes/41-to-50/episode-41.md): FCG041 - Oasis of Sanity (feat. Darren Roark)
+- [Episode 42](https://grill.fcp.cafe/episodes/41-to-50/episode-42.md): FCG042 - Ripple Delete (feat. Steve Navrat)
+- [Episode 43](https://grill.fcp.cafe/episodes/41-to-50/episode-43.md): FCG043 - The iPhone of Editors? (feat. Sean Lander)
+- [Episode 44](https://grill.fcp.cafe/episodes/41-to-50/episode-44.md): FCG044 - The Corner of the Ham (feat. Julian Faras)
+- [Episode 45](https://grill.fcp.cafe/episodes/41-to-50/episode-45.md): FCG045 - The Lazy Camelion (feat. Gordon Fleming)
+- [Episode 46](https://grill.fcp.cafe/episodes/41-to-50/episode-46.md): FCG046 - Grace Kelly & Charles Eames (feat. Terry Fenwick)
+- [Episode 47](https://grill.fcp.cafe/episodes/41-to-50/episode-47.md): FCG047 - Wind Breaks or Wind Mills (feat. Joe Gill)
+- [Episode 48](https://grill.fcp.cafe/episodes/41-to-50/episode-48.md): FCG048 - It’s Cancer On Your Toast (feat. Anthony Baird)
+- [Episode 49](https://grill.fcp.cafe/episodes/41-to-50/episode-49.md): FCG049 - Final Cut Studio 2014? (feat. Oliver Peters)
+- [Episode 50](https://grill.fcp.cafe/episodes/41-to-50/episode-50.md): FCG050 - Ignorance on Fire (feat. Gregory Bradley)
+
+### 51 to 60
+
+- [Episode 51](https://grill.fcp.cafe/episodes/51-to-60/episode-51.md): FCG051 - Paint the B-Roll, Donesies (feat. Jesse Spencer)
+- [Episode 52](https://grill.fcp.cafe/episodes/51-to-60/episode-52.md): FCG052 - Workflow Brain Storming (feat. David Fabelo)
+- [Episode 53](https://grill.fcp.cafe/episodes/51-to-60/episode-53.md): FCG053 - Back in Time (feat. Jason Aron)
+- [Episode 54](https://grill.fcp.cafe/episodes/51-to-60/episode-54.md): FCG054 - Clarity Brevity Simplicity (feat. Carl Olson)
+- [Episode 55](https://grill.fcp.cafe/episodes/51-to-60/episode-55.md): FCG055 - All Things Proxy (feat. Thomas Grove Carter)
+- [Episode 56](https://grill.fcp.cafe/episodes/51-to-60/episode-56.md): FCG056 - The Honored Chameleon
+- [Episode 57](https://grill.fcp.cafe/episodes/51-to-60/episode-57.md): FCG057 - Friday Office in the Pub (feat. Thomas Leroux)
+- [Episode 58](https://grill.fcp.cafe/episodes/51-to-60/episode-58.md): FCG058 - An Informed Ramble (feat. Eric Wise)
+- [Episode 59](https://grill.fcp.cafe/episodes/51-to-60/episode-59.md): FCG059 - Show Business (feat. Chris Fenwick)
+- [Episode 60](https://grill.fcp.cafe/episodes/51-to-60/episode-60.md): FCG060 - Portable DIT & 10.1.2 (feat. Sam Mestman)
+
+### 61 to 70
+
+- [Episode 61](https://grill.fcp.cafe/episodes/61-to-70/episode-61.md): FCG061 - Episode 61 (feat. Alex Gollner)
+- [Episode 62](https://grill.fcp.cafe/episodes/61-to-70/episode-62.md): FCG062 - Obvious Speculation (feat. Joseph Linaschke)
+- [Episode 63](https://grill.fcp.cafe/episodes/61-to-70/episode-63.md): FCG063 - Folder Aliasing Terminal Thing (feat. John Davidson)
+- [Episode 64](https://grill.fcp.cafe/episodes/61-to-70/episode-64.md): FCG064 - Corporate is OK! (feat. Rob Terry)
+- [Episode 65](https://grill.fcp.cafe/episodes/61-to-70/episode-65.md): FCG065 - FxFactory (feat. Niclas Bahn)
+- [Episode 66](https://grill.fcp.cafe/episodes/61-to-70/episode-66.md): FCG066 - FCPX and Pro Audio (feat. Jeff Dykhouse)
+- [Episode 67](https://grill.fcp.cafe/episodes/61-to-70/episode-67.md): FCG067 - Thunderbolt Networking (feat. Tony Gallardo)
+- [Episode 68](https://grill.fcp.cafe/episodes/61-to-70/episode-68.md): FCG068 - FCPX Hangout (feat. Sam Woodhall)
+- [Episode 69](https://grill.fcp.cafe/episodes/61-to-70/episode-69.md): FCG069 - So you wanna learn FCPX (feat. Chris Fenwick)
+- [Episode 70](https://grill.fcp.cafe/episodes/61-to-70/episode-70.md): FCG070 - An Editor I Trust (feat. Chad Kukahiko)
+
+### 71 to 80
+
+- [Episode 71](https://grill.fcp.cafe/episodes/71-to-80/episode-71.md): FCG071 - The King of Metadata (feat. Philip Hodgetts)
+- [Episode 72](https://grill.fcp.cafe/episodes/71-to-80/episode-72.md): FCG072 - Aviation Weekly (feat. Adam Peariso)
+- [Episode 73](https://grill.fcp.cafe/episodes/71-to-80/episode-73.md): FCG073 - FCPX in Features? (feat. Gergana Angelova)
+- [Episode 74](https://grill.fcp.cafe/episodes/71-to-80/episode-74.md): FCG074 - Avid in TV (feat. Austin Flack)
+- [Episode 75](https://grill.fcp.cafe/episodes/71-to-80/episode-75.md): FCG075 - Bizarro World (feat. Richard Taylor)
+- [Episode 76](https://grill.fcp.cafe/episodes/71-to-80/episode-76.md): FCG076 - The Cross Over Show (feat. Alex MacLean)
+- [Episode 77](https://grill.fcp.cafe/episodes/71-to-80/episode-77.md): FCG077 - Baby Steps to the Elevator (feat. Doug Orr)
+- [Episode 78](https://grill.fcp.cafe/episodes/71-to-80/episode-78.md): FCG078 - 7 to X Midstream (feat. Sam Russell)
+- [Episode 79](https://grill.fcp.cafe/episodes/71-to-80/episode-79.md): FCG079 - From Point A to X (feat. Bill Rolland)
+- [Episode 80](https://grill.fcp.cafe/episodes/71-to-80/episode-80.md): FCG080 - Tour de FCPX (feat. Peter Wiggins)
+
+### 81 to 90
+
+- [Episode 81](https://grill.fcp.cafe/episodes/81-to-90/episode-81.md): FCG032 - Making Power Simpler (feat. Noam Kroll)
+- [Episode 82](https://grill.fcp.cafe/episodes/81-to-90/episode-82.md): FCG082 - TED Cuts in FCPX? (feat. Michael Glass)
+- [Episode 83](https://grill.fcp.cafe/episodes/81-to-90/episode-83.md): FCG083 - FCP Features (feat. Michael Matzdorff)
+- [Episode 84](https://grill.fcp.cafe/episodes/81-to-90/episode-84.md): FCG084 - Its just a joke. (feat. James Branch)
+- [Episode 85](https://grill.fcp.cafe/episodes/81-to-90/episode-85.md): FCG085 - FCPX on the Road (feat. Dean Sherwood)
+- [Episode 86](https://grill.fcp.cafe/episodes/81-to-90/episode-86.md): FCG086 - What I Did Last Summer (feat. Scott Simmons)
+- [Episode 87](https://grill.fcp.cafe/episodes/81-to-90/episode-87.md): FCG087 - Who Needs a Consultant (feat. Noah Kadner)
+- [Episode 88](https://grill.fcp.cafe/episodes/81-to-90/episode-88.md): FCG088 - 48 Hours in Utah (feat. Danny Rubio)
+- [Episode 89](https://grill.fcp.cafe/episodes/81-to-90/episode-89.md): FCG089 - Automatic FCPX (feat. Wes Plate)
+- [Episode 90](https://grill.fcp.cafe/episodes/81-to-90/episode-90.md): FCG090 - Color Grading and FCPX (feat. Zeb Chadfield)
+
+### 91 to 100
+
+- [Episode 91](https://grill.fcp.cafe/episodes/91-to-100/episode-91.md): FCG091 - From Audio to Picture (feat. Micha Schmidt)
+- [Episode 92](https://grill.fcp.cafe/episodes/91-to-100/episode-92.md): FCG092 - New Muscle Memory (feat. Bill Davis)
+- [Episode 93](https://grill.fcp.cafe/episodes/91-to-100/episode-93.md): Stuart had 309 Twitter Followers
+- [Episode 94](https://grill.fcp.cafe/episodes/91-to-100/episode-94.md): FCG094 - Small Business - Big Money (feat. Andrew Coons)
+- [Episode 95](https://grill.fcp.cafe/episodes/91-to-100/episode-95.md): FCG095 - Lets Talk Motion (feat. Alex Gollner)
+- [Episode 96](https://grill.fcp.cafe/episodes/91-to-100/episode-96.md): FCG096 - The New Premium Beat (feat. Danny Greer)
+- [Episode 97](https://grill.fcp.cafe/episodes/91-to-100/episode-97.md): FCG097 - Allowing Mistakes to Happen (feat. Vid Price)
+- [Episode 98](https://grill.fcp.cafe/episodes/91-to-100/episode-98.md): FCG098 - The Last 2% (feat. Paul Koblik)
+- [Episode 99](https://grill.fcp.cafe/episodes/91-to-100/episode-99.md): FCG098 - Speakign Persuasively!!! (feat. Charles Silverman)
+- [Episode 100](https://grill.fcp.cafe/episodes/91-to-100/episode-100.md): FCG100 - An Incredible Year (feat. Cast of Regulars)
+
+### 101 to 110
+
+- [Episode 101](https://grill.fcp.cafe/episodes/101-to-110/episode-101.md): FCG101 - Photographers & FCPX (feat. Frederick Van Johnson)
+- [Episode 102](https://grill.fcp.cafe/episodes/101-to-110/episode-102.md): FCG102 - 4K for Instagram (feat. Joseph Linaschke)
+- [Episode 103](https://grill.fcp.cafe/episodes/101-to-110/episode-103.md): FCG103 - Proxy Problems? (feat. Ron Dawson)
+- [Episode 104](https://grill.fcp.cafe/episodes/101-to-110/episode-104.md): FCG104 - FCPX Change Agent (feat. Ben Brodbeck)
+- [Episode 105](https://grill.fcp.cafe/episodes/101-to-110/episode-105.md): FCG105 - Shop Talk (feat. Ben Console)
+- [Episode 106](https://grill.fcp.cafe/episodes/101-to-110/episode-106.md): FCG106 - Cutting Animation (feat. Paul Newmann)
+- [Episode 107](https://grill.fcp.cafe/episodes/101-to-110/episode-107.md): FCG107 - FCPX and Logic X (feat. Sam Westman)
+- [Episode 108](https://grill.fcp.cafe/episodes/101-to-110/episode-108.md): FCG108 - Motion Templates in FCPX (feat. Szymon Masiak)
+- [Episode 109](https://grill.fcp.cafe/episodes/101-to-110/episode-109.md): FCG109 - Experience or Baggage (feat. Michael Towe)
+- [Episode 110](https://grill.fcp.cafe/episodes/101-to-110/episode-110.md): FCG110 - FCPX gets Big Boy Pants (feat. Alexander Snelling)
+
+### 111 to 120
+
+- [Episode 111](https://grill.fcp.cafe/episodes/111-to-120/episode-111.md): FCG111 - A New User (feat. Alex MacLean)
+- [Episode 112](https://grill.fcp.cafe/episodes/111-to-120/episode-112.md): FCG112 - Brand New to FCPX (feat. Erik Naso)
+- [Episode 113](https://grill.fcp.cafe/episodes/111-to-120/episode-113.md): FCG113 - Timeline Based Color Grading (feat. Denver Riddle)
+- [Episode 114](https://grill.fcp.cafe/episodes/111-to-120/episode-114.md): FCG114 - Prepping for NAB2015 (feat. Sam Mestman)
+- [Episode 115](https://grill.fcp.cafe/episodes/111-to-120/episode-115.md): FCG115 - I Have a Confession (feat. Kenny Park)
+- [Episode 116](https://grill.fcp.cafe/episodes/111-to-120/episode-116.md): FCG116 - The Cisco Kid? (feat. Ray Brown)
+- [Episode 117](https://grill.fcp.cafe/episodes/111-to-120/episode-117.md): FCG117 - NAB/10.2 Meltdown - Sort of… (feat. Daniel Ray Todd Villegas)
+- [Episode 118](https://grill.fcp.cafe/episodes/111-to-120/episode-118.md): FCG118 - NAB2015 & LumaSHARE (feat. Sam Mestman)
+- [Episode 119](https://grill.fcp.cafe/episodes/111-to-120/episode-119.md): FCG119 - Video Literacy & 3D Text (feat. Alex Gollner)
+- [Episode 120](https://grill.fcp.cafe/episodes/111-to-120/episode-120.md): FCG120 - Million Dollar Tesla Trip (feat. Steve Sasman)
+
+### 121 to 130
+
+- [Episode 121](https://grill.fcp.cafe/episodes/121-to-130/episode-121.md): FCG121 - Out with the Toilets!! (feat. Dave Dugdale)
+- [Episode 122](https://grill.fcp.cafe/episodes/121-to-130/episode-122.md): FCG122 - Subtleties of User Interface (feat. Maciek Kaliski)
+- [Episode 123](https://grill.fcp.cafe/episodes/121-to-130/episode-123.md): FCG123 - FCPX Creative Summit (feat. Jeff Greenberg)
+- [Episode 124](https://grill.fcp.cafe/episodes/121-to-130/episode-124.md): FCG124 - Frame.io for FCPX (feat. Emery Wells)
+- [Episode 125](https://grill.fcp.cafe/episodes/121-to-130/episode-125.md): FCG125 - Find Your Success (feat. Geoffrey Orthwein)
