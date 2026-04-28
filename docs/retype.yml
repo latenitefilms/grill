@@ -11,16 +11,6 @@ branding:
 
 links:
 
-- text: Issues
-  link: https://github.com/latenitefilms/grill/issues
-  icon: issue-opened
-  target: blank
-
-- text: Discussions
-  link: https://github.com/latenitefilms/grill/discussions
-  icon: comment-discussion
-  target: blank
-
 - text: Discord
   link: https://discord.gg/b2r27UtPJw
   icon: comment-discussion
