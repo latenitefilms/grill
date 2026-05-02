@@ -2,6 +2,14 @@
 
 You can find the latest episodes on YouTube.
 
+## FCG-202: The Final Cut Grill is Back!!!!
+
+**Description:**
+
+> It’s been way too long since I sat with my friend Alex Gollner and discussed the state of our industry, the world of Apple Computer and our favorite editorial application, Final Cut Pro. We discuss a bunch of fun stuff including the “Open Letter to Apple” and what it means now that Tim Cook is stepping down and John Ternus will take the CEO chair at Apple. Surprisingly we don’t pan Premiere all that much. Don’t worry, we got Alex’s mic distortion sorted about 5 minutes in, but then, he went out of sync. Whatever… its color, it moves and its on the internet. Sorry about that.
+
+https://www.youtube.com/watch?v=zGNBWtY_a_o
+
 ---
 
 ## FCG-201: John Ternus, Don’t forget to Change the World
