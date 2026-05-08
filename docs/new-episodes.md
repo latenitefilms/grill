@@ -1,6 +1,30 @@
 # New Episodes
 
-You can find the latest episodes on YouTube.
+You can find the latest episodes on [YouTube](https://www.youtube.com/@finalcutgrill).
+
+---
+
+## FCG-203: This is so Fixable!
+
+**Description:**
+
+> Sam and I get pretty deep here and things get kind of philosophical. Sam asks “do you want to be 1984 or Star Trek”?
+>
+> Meeting Sam is one of my favorite NAB stories of all time and I’m so glad you get to meet him and hear from this inspirational guy. Sam is kind of famous for not so much thinking outside the box but ACTUALLY thinking ABOUT the box!
+
+https://www.youtube.com/watch?v=C_XZueqITio
+
+---
+
+## FCG-203: Social Media Tutorial
+
+**Description:**
+
+> I wanted to show Jeff Greenberg how I made these social media clips and I thought I'd share with you too. I wonder if ‪@JennJagerPro‬ and ‪@rippleguys‬ will be impressed?
+
+https://www.youtube.com/watch?v=QZ9xCgDJI30
+
+---
 
 ## FCG-202: The Final Cut Grill is Back!!!!
 
